@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SVG Scaling in Firefox</title>
+	<style>
+		body { padding: 1em 2em; margin: 0; }
+		.star {
+			background-color: #eee;
+			padding: 1em;
+			width: 8em;
+			height: 8em;
+			background-repeat: no-repeat;
+			background-size: 10em 10em;
+			background-position: 1em 1em;
+			border-radius: 50%;
+		}
+		#star-10 { background-image: url('star-10x10.svg'); }
+		#star-1000 { background-image: url('star-1000x1000.svg'); }
+		#star-10s { background-image: url('star-10x10s.svg'); }
+	</style>
+</head>
+<body>
+	<h1>SVG Scaling in Firefox</h1>
+	<p>All background images are SVG with: <code>background-size: 10em 10em;</code></p>
+	<p>The <a href="svg-firefox.png">screenshot</a> below demostrates the issue in Firefox.</p>
+	<a href="svg-firefox.png"><img src="svg-firefox.png" style="width:100px; border:2px solid #246bb3;"></a>
+	<p>The follow three background images should all be crisp, not blurry or pixelated.</p>
+	<h2>SVG created at 10×10px</h2>
+	<div id="star-10" class="star"></div>
+	<br>
+	<p>The solution: create the SVG canvas at a larger resolution.</p>
+	<h2>SVG created at 1000×1000px</h2>
+	<div id="star-1000" class="star"></div>
+	<br>
+	<h3>Created at 1000x1000px with 10x10px polygon scaled</h3>
+	<div id="star-10s" class="star"></div>
+	<p>The canvas is 1000×1000 but the polygon points are 10×10 with a transform: <code>scale(100,100)</code> applied to the group.</p>
+	<p>This potentially reduces file size because points are like <code>5,8.292</code> instead of <code>500,829.199</code>.</p>
+</body>
+</html>

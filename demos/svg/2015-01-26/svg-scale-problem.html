@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVG</title>
+    <style>
+
+body {
+    padding: 1.5em;
+    font-family: sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+        clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.media {
+    /* @extend clearfix; */
+    margin-bottom: 2em;
+}
+
+.media__body {
+    overflow: hidden;
+}
+
+.media__image {
+    display: block;
+    float: left;
+    margin-right: 1em;
+}
+
+p {
+    margin: 0 0 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.smile {
+    width: 100%;
+}
+
+.smile .media__image {
+    max-width: 20%;
+}
+
+    </style>
+</head>
+<body>
+
+<h1>SVG IE Scaling (Problem)</h1>
+
+<p><a href="http://dbushell.com/2015/01/26/use-svg-part-1/">See my blog article for more information.</a></p>
+
+<article class="clearfix media smile">
+    <img class="media__image" src="smile.svg">
+    <div class="media__body">
+        <p><strong>Media object with SVG image.</strong> <em>SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.</em></p>
+    </div>
+</article>
+
+<article class="clearfix media smile">
+    <img class="media__image" src="smile.png">
+    <div class="media__body">
+        <p><strong>Media object with PNG image.</strong> <em>PNG is a raster graphics file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format (GIF), and is the most used lossless image compression format on the Internet.</em></p>
+    </div>
+</article>
+
+<small><a href="http://commons.wikimedia.org/wiki/File:Face-smile.svg">Face-smile.svg</a> and <a href="http://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> / <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> text from Wikipedia</small>
+
+</body>
+</html>

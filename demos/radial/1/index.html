@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+<!--
+
+/*!
+ * Radial Menu Demo 1
+ * Copyright © 2012 David Bushell | http://dbushell.com/
+ */
+
+-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.5, minimum-scale=1.5, maximum-scale=1.5">
+    <title>Radial Menu Demo 1</title>
+    <meta name="author" content="David Bushell">
+    <style>
+    html { margin: 0; padding: 0; }
+    body { font-size: 100%; margin: 0; padding: 1.75em; font-family: 'Helvetica Neue', Arial, sans-serif; overflow-y: scroll; }
+
+    h1 { font-size: 1.75em; margin: 0 0 0.6em 0; }
+    h2 { font-size: 1.25em; margin: 0 0 0.6em 0; }
+
+    a { color: #2996cc; }
+    a:hover { text-decoration: none; }
+
+    p { line-height: 1.5em; }
+    .small { color: #666; font-size: 0.875em; }
+    .large { font-size: 1.25em; }
+
+    .circular {
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 180px;
+        height: 180px;
+        /*border: 2px solid #f5f5f5;*/
+        border-radius: 999em;
+        list-style: none;
+        z-index: 10000;
+        background: #fefefe;
+    }
+
+    .circular:after {
+        z-index: 9999;
+        position: absolute;
+        top: 64px;
+        left: 64px;
+        display: block;
+        content: 'Link';
+        width: 52px;
+        height: 52px;
+        text-align: center;
+        color: #666;
+        font-size: 12px;
+        line-height: 52px;
+        font-weight: bold;
+        background: #e5e5e5;
+        border-radius: 99em;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+        opacity: 1;
+    }
+    .circular:hover:after {
+        opacity: .5;
+    }
+
+    .hardware,
+    .hardware li {
+        /*-webkit-transform: translate3d(0,0,0);*/
+        /*transform: translate3d(0,0,0);*/
+    }
+
+    .circular li {
+        display: block;
+        position: absolute;
+        top: 90px;
+        left: 90px;
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+        margin-left: -30px;
+        z-index: 10001;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+        opacity: 0 !important;
+    }
+    .circular.hover li {
+        opacity: 1 !important;
+    }
+
+    .circular a {
+        color: #fff;
+        position: relative;
+        display: block;
+        margin: 2px 0 0 2px;
+        padding: 20px 0;
+        width: 56px;
+        height: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+        border-radius: 99em;
+        background-color: #f5f5f5;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 99em;
+    }
+
+    </style>
+</head>
+
+<!--
+    <menu id="editmenu">
+        <button type="button" data-action="strong">Strong</button>
+        <button type="button" data-action="em">Emphasis</button>
+    </menu>
+
+    <div id="editme">
+
+        <h1>Browser London</h1>
+        <p><strong>It’s simple,</strong> we’re passionate about producing digital that people love. <em>How do we do that?</em> Well, we’ve assembled our unique team, each member distinguished in their craft but brought together by our vision to be innovative and challenging in everything we do. Meet some of the people from Browser… or take a look at what we do.</p>
+
+    </div>
+-->
+<!--
+        <ul class="circular">
+            <li><a href="#">1</a></li>
+        </ul>
+
+        <ul class="circular">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+        </ul>
+
+        <ul class="circular">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+        </ul>
+
+        <ul class="circular">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ul>
+
+        <ul class="circular">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+        </ul>
+-->
+
+        <ul class="circular hardware">
+            <li><a href="#" style="background-color:#00aaeb;">Tweet</a></li>
+            <li><a href="#" style="background-color:#3a5996;">Like</a></li>
+            <li><a href="#" style="background-color:#cb283e;">YouTube</a></li>
+            <li><a href="#" style="background-color:#f18417;">RSS</a></li>
+            <li><a href="#" style="background-color:#7acb52;">Maps</a></li>
+            <li><a href="#" style="background-color:#999999;">Email</a></li>
+        </ul>
+
+    <script src="5kedit.js"></script>
+    <script>
+
+function log(obj)
+{
+    if (typeof console === 'object' && typeof console.log === 'function') {
+        console.log(obj);
+    }
+}
+
+/*!
+ * Radial Menu Demo 1
+ * Copyright © 2012 David Bushell | http://dbushell.com/
+ */
+
+var
+
+trim = function(str)
+{
+    return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g,'');
+},
+
+hasClass = function(el, cn)
+{
+    return (' ' + el.className + ' ').indexOf(' ' + cn + ' ') !== -1;
+},
+
+addClass = function(el, cn)
+{
+    if (!hasClass(el, cn)) {
+        el.className = (el.className === '') ? cn : el.className + ' ' + cn;
+    }
+},
+
+removeClass = function(el, cn)
+{
+    el.className = trim((' ' + el.className + ' ').replace(' ' + cn + ' ', ' '));
+},
+
+getParent = function(el, cn)
+{
+    while (el = el.parentNode)
+    {
+        if (hasClass(el, cn)) {
+            return el;
+        }
+    }
+    return null;
+};
+
+
+
+(function()
+{
+    var hasTouch = 'ontouchstart' in window;
+
+    var circular = document.getElementsByClassName('circular');
+
+
+    var onMouseOver = function(e, nav)
+    {
+        var nav = nav || e.target;
+
+        if (hasClass(nav, 'hover')) {
+            //return;
+        }
+
+        addClass(nav, 'hover');
+
+        var items    = nav.getElementsByTagName('li'),
+
+            // http://en.wikipedia.org/wiki/Unit_circle
+            //http://www2.stetson.edu/~efriedma/cirincir/
+            //http://mathworld.wolfram.com/CirclePacking.html
+            sizes    = [1, 2, 2.1547, 2.4142, 2.7013, 3, 3, 3.3047],
+
+            width    = 60,
+            length   = width * sizes[items.length - 1],
+            radius   = (length/2) - (width/2),
+            diameter = radius * 2;
+
+        var step  = (Math.PI * 2) / items.length,
+            angle = step * items.length / 2;
+
+        for (var i = 0; i < items.length; i++)
+        {
+            var x = Math.round( (length / 2) + (radius * Math.cos(angle)) );// - width/2),
+                y = Math.round( (length / 2) + (radius * Math.sin(angle)) );// - width/2);
+            //items[i].style.cssText = 'left:' + x + 'px;top:' + y + 'px;';
+            items[i].style.left = x + 'px';
+            items[i].style.top  = y + 'px';
+            angle += step;
+        }
+
+        e.preventDefault();
+    };
+
+    var onMouseOut = function(e, nav)
+    {
+        var el = e.relatedTarget;
+
+        if (!nav && (hasClass(el, 'circular') || getParent(el, 'circular'))) {
+            return;
+        }
+
+        el = nav || e.target;
+
+        var nav = hasClass(el, 'circular') ? el : getParent(el, 'circular');
+
+        removeClass(nav, 'hover');
+
+        var items = nav.getElementsByTagName('li');
+
+        for (var i = 0; i < items.length; i++)
+        {
+            items[i].style.left = '';
+            items[i].style.top  = '';
+        }
+
+        e.preventDefault();
+    };
+
+    var initCircular = function(nav)
+    {
+        var items = nav.getElementsByTagName('li'),
+
+        // http://en.wikipedia.org/wiki/Unit_circle
+        //http://www2.stetson.edu/~efriedma/cirincir/
+        //http://mathworld.wolfram.com/CirclePacking.html
+        sizes    = [1, 2, 2.1547, 2.4142, 2.7013, 3, 3, 3.3047],
+
+        width    = 60,
+        length   = width * sizes[items.length - 1];
+
+        nav.style.width  = Math.round(length) + 'px';
+        nav.style.height = Math.round(length) + 'px';
+
+        if (!hasTouch) {
+            nav.addEventListener('mouseover', onMouseOver, false);
+            nav.addEventListener('mouseout', onMouseOut, false);
+        } else {
+            document.body.addEventListener('touchstart', function(e) {
+                onMouseOver(e, nav);
+            }, false);
+            /*
+            document.body.addEventListener('touchcancel', function(e) {
+                onMouseOut(e, nav);
+            }, false);
+            */
+            document.body.addEventListener('touchend', function(e) {
+                onMouseOut(e, nav);
+            }, false);
+            document.body.addEventListener('touchcancel', function(e) {
+                onMouseOut(e, nav);
+            }, false);
+            //nav.addEventListener('touchstart', onMouseOver, false);
+            //nav.addEventListener('touchcancel', onMouseOut, false);
+            //nav.addEventListener('touchend', onMouseOut, false);
+        }
+
+    };
+
+    for (var i = 0; i < circular.length; i++)
+    {
+        var nav = circular[i];
+        initCircular(nav);
+    };
+
+})();
+
+    </script>
+</body>
+</html>

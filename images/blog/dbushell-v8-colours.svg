@@ -1,0 +1,11 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="620" height="140" viewBox="0 0 620 140">
+    <style>
+        .st0{fill:#FFF}.st1{fill:#fffbcc}.st2{fill:#a1e5cf}.st3{fill:#1d97bf}.st4{fill:#494b4d}.st5{fill:#ff6680}
+    </style>
+    <path class="st0" d="M0 0h620v140H0z"/>
+    <path class="st1" d="M20.2 20.3h100v100h-100z"/>
+    <path class="st2" d="M140.2 20.3h100v100h-100z"/>
+    <path class="st3" d="M260.2 20.3h100v100h-100z"/>
+    <path class="st4" d="M500.2 20.3h100v100h-100z"/>
+    <path class="st5" d="M380.2 20.3h100v100h-100z"/>
+</svg>

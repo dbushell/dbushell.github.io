@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="lt-ie10 no-js"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--
+
+    Copyright © David Bushell | http://dbushell.com/
+
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+    <title>A Responsive Off-Canvas Menu</title>
+
+    <script src="js/modernizr.js"></script>
+
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+
+<div id="wrap">
+
+    <header id="header" role="banner">
+        <div class="block">
+            <h1 class="block-title">Page Title</h1>
+            <a id="menu-link" href="#menu"><span>Site Navigation</span></a>
+        </div>
+    </header>
+
+    <nav id="menu" role="navigation">
+        <div class="block">
+            <h2 class="block-title">Navigation</h2>
+            <ul>
+                <li>
+                    <a href="#">Menu Option 1</a>
+                </li><!--
+             --><li class="is-active">
+                    <a href="#">Menu Option 2</a>
+                </li><!--
+             --><li>
+                    <a href="#">Menu Option 3</a>
+                </li><!--
+             --><li>
+                    <a href="#">Menu Option 4</a>
+                </li><!--
+             --><li>
+                    <a href="#">Menu Option 5</a>
+                </li>
+            </ul>
+            <button type="button" class="close">Close Navigation</button>
+        </div>
+    </nav>
+
+    <div id="main" role="main">
+        <article class="block prose">
+
+            <p class="medium"><span class="highlight">This is a responsive off-canvas menu demo using <strong>CSS transforms and transitions</strong>. Give it a try on your mobile device! Check back soon for a more accessible version.</span></p>
+
+            <h1>The State of Web Design, 2013</h1>
+            <p><strong><a rel="bookmark" href="http://dbushell.com/2012/12/10/the-state-of-web-design-2013/">This article is from my blog.</a></strong></p>
+            <p>To wrap up 2011 <a title="Web Design: 2012 and Beyond" href="http://dbushell.com/2011/12/15/web-design-2012-and-beyond/">I wrote a few thoughts</a> on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I&#8217;m doing it again this year.</p>
+            <p><strong>I encourage you to do the same!</strong></p>
+            <p>This all stemmed from a <a title="Tweet from @dbushell" href="http://twitter.com/dbushell/status/258633483579162624" target="_blank">tweet</a> back in October. It&#8217;s fine to observe and copy trends, but it&#8217;s also important to reflect upon your own work and instigate new ideas. They don&#8217;t need to be revolutionary, but if you don&#8217;t share your thoughts the evolution of web design becomes mighty slow. So with that, you know what I ask of you!</p>
+            <p>This is my personal take:</p>
+            <h2>Improve Responsive</h2>
+            <p>In essence <a title="A Responsive Design Case Study" href="http://dbushell.com/2012/06/17/passenger-focus-responsive-web-design-case-study/">responsive design</a> is about adapting a website to best fit the <strong>device viewport</strong>. One website for <a title="Jeremy Keith's &quot;One Web&quot; talk at DIBI Conference 2011" href="http://vimeo.com/27484362" target="_blank">One Web</a>. We use CSS media queries to build fluid grids and flexible media. It&#8217;s worth remembering <em>why</em> we do this. By creating a single <em>device-independent</em> website we gain:</p>
+            <ul>
+            <li><strong>Accessibility:</strong> a canonical web location without fragmentation of content or users.</li>
+            <li><strong>Maintainability:</strong>  a single codebase to develop and deploy.</li>
+            <li><strong>Usability:</strong> a website that, in theory, is easy to navigate on any device.</li>
+            </ul>
+            <p>That last point — usability — is one we cannot forget. By adapting to the <a title="Using the viewport meta tag to control layout on mobile browsers" href="https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag" target="_blank">device width</a> we&#8217;re removing the need to zoom and pan; a painful way to navigate. But what often happens is that we stack content vertically. This results in endless scrolling.</p>
+            <p><a title="Separate Mobile Website Vs. Responsive Website" href="http://mobile.smashingmagazine.com/2012/08/22/separate-mobile-responsive-website-presidential-smackdown/" target="_blank">As Brad Frost recognises</a>:</p>
+            <blockquote><p>Scrolling through disparate content types is not a good experience. How do users figure out that other content exists? Finding what they’re looking for becomes a scavenger hunt.</p></blockquote>
+            <p>A partial solution I&#8217;ve explored is <a title="Responsive Bases &amp; Vertical Spaces" href="http://dbushell.com/2012/11/19/responsive-bases-vertical-spaces/">adapting to the viewport height</a>. Going further we need to develop more interactive forms of content navigation. I&#8217;m a big fan of <strong>off canvas</strong> layouts — <a title="Off Canvas Multi-Device Layouts" href="http://www.lukew.com/ff/entry.asp?1569" target="_blank">Luke Wroblewski</a> and <a title="Off Canvas Layouts" href="http://www.zurb.com/playground/off-canvas-layouts" target="_blank">ZURB</a> can tell you everything. Even simpler is the idea of collapsible content patterns. See <a title="A responsive 'accordian to tabs' pattern" href="http://www.alwaystwisted.com/post.php?s=2012-10-14-a-responsive-accordian-to-tabs-pattern" target="_blank">Stuart Robson&#8217;s accordion to tabs demo</a> (which could easily be fully expanded on large screens). Further to this we may employ <a title="Conditional Loading for Responsive Designs" href="http://24ways.org/2011/conditional-loading-for-responsive-designs/" target="_blank">conditional loading</a>.</p>
+            <p>There is always a desire — and danger — to adapt to things we don&#8217;t actually know; context assumptions. Stephanie Rieger reinforces this point in her article: <a title="Mobile users don’t do that" href="http://stephanierieger.com/mobile-users-dont-do-that/" target="_blank">Mobile users don’t do that</a>. However, with further development in device API&#8217;s one day we&#8217;ll have the data we need. Dan Donald calls this <a title="Should We Be Reactive?" href="http://24ways.org/2012/should-we-be-reactive/" target="_blank">the reactive web</a>. I&#8217;ve always erred on the side of caution in this respect — <a title="The Real Cost of Retina" href="http://dbushell.com/2012/10/23/the-real-cost-of-retina/">high-resolution images</a> are trickier than we think — but it&#8217;s undoubtedly a benefit if done right.</p>
+            <h2>Reject Isolation</h2>
+            <p>I&#8217;m not discussing <strong>performance</strong> in detail here because I do not believe <em>responsive design</em> is inherently related. Bad performance is indicative of bad development. <a title="Responsive Responsive Design" href="http://24ways.org/2012/responsive-responsive-design/" target="_blank">Tim Kadlec shares my opinion</a> and addresses the solution. Time to brush up on development on both sides of the pipe. I would highlight Dave Olsen&#8217;s chapter in <a title="The Mobile Book" href="http://dbushell.com/2012/12/05/the-mobile-book/">The Mobile Book</a> as a perfect place to start.</p>
+            <p>Regardless of our design and development ability, the biggest factor to a successful website is the <strong>process</strong>. After really getting to grips with prototyping in iterative cycles this year I&#8217;ve radically changed many of my practices. Photoshop remains a useful tool for me but it no longer produces deliverables. Design &#8220;sign-off&#8221; no longer exists.</p>
+            <p>I stand by <a title="I’m bored with code" href="http://dbushell.com/2012/08/27/im-bored-with-code/">my statement</a> that the perceived quality of “hand-crafted” code is becoming too expensive to uphold. CSS pre-processors have allowed me to develop modular patterns while remaining focused on the bigger UX questions. Despite considering myself a front-end designer &amp; developer, I will continue my desire to spend less time coding in 2013. Less head in keyboard, more collaboration with clients, colleagues, and users.</p>
+            <h2>Break the Paradigm</h2>
+            <p>As Paul Robert Lloyd reminds us, <a title="The Web Aesthetic" href="http://www.alistapart.com/articles/the-web-aesthetic/" target="_blank">the web aesthetic</a> involves a medium we&#8217;re yet to fully understand. I believe the next evolution in web design will arise when we truly break away from the paradigm our practices are grounded to. We have to destroy the page metaphor.</p>
+            <p>As <a title="A New Canon" href="http://www.markboulton.co.uk/journal/anewcanon" target="_blank">Mark Boulton notes</a>:</p>
+            <blockquote><p>The browser is a flexible window into the web. It grows and shrinks to the users screen size. The user can move it, stretch it, scroll it. The edges are not fixed. It is not a page, but a viewport.</p></blockquote>
+            <p>Embrace the viewport.</p>
+            <p>We&#8217;re seeing a less linear approach to design and more app-like experiences. <a title="Redesign Trend in Tech News Sites: Big, Responsive and Content Heavy" href="http://www.usabilitypost.com/2012/12/05/news-sites-redesign-trend/" target="_blank">Dmitry Fadeyev on the Usability Post</a> has recognised this trend. While he takes issue — <em>&#8220;instead of building the site like a physical page, they treat it like a canvas for an app&#8221;</em> — I actually applaud this thinking. (Dmitry rightly goes on to explain why his examples are ultimately poor form.)</p>
+            <p>Separating intent from execution, there is <em>something</em> to be inspired by with this trend. Fixed viewport elements are most notable. Done with subtlety they can alleviate the endless scroll and scavenger hunt effect so common to responsive websites.</p>
+            <p>I believe we can take the concept of what a website is further. We still need to maintain a sense of state because content needs to be accessible via URLs. Users need to grasp the information architecture and remain confident of location. The question is though, why are we reloading the entire page with every link? I think the web industry is suffering from a Flash hangover. We revolt at anything that resembles the capabilities that Flash had over standards based development. With that we&#8217;re failing to explore interactivity to its fullest potential.</p>
+        </article>
+    </div>
+
+    <footer id="footer" role="contentinfo">
+        <div class="block prose">
+            <p class="small">Copyright © <a href="http://dbushell.com/">David Bushell</a></p>
+        </div>
+    </footer>
+
+</div>
+<!--/#wrapper-->
+
+<script>
+
+/*!
+ *
+ *  Copyright © David Bushell | http://dbushell.com/
+ *
+ */
+
+Modernizr.load([
+    {
+        load: [
+            'js/jquery-1.8.3.min.js',
+            'js/main.js'
+        ],
+        complete: function()
+        {
+
+            $.fn.ready(function()
+            {
+                window.App.init();
+            });
+
+        }
+    }
+]);
+
+</script>
+</body>
+</html>

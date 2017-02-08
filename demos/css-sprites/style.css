@@ -1,0 +1,102 @@
+/*
+ * Author: David Bushell http://dbushell.com
+ */
+
+/*
+ * Basic set up for a nice presentation
+ */
+
+body { font-family: 'Helvetica Neue', Arial, sans-serif; padding: 1.5em; }
+
+h1 {
+	font-size: 2.5em; /* 40/16px */
+	margin-bottom: 0.75em; /* 30/40px */
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.25em; /* 20/16px */
+	margin: 1em 0;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1em; /* 16px */
+	margin: 1em 0;
+}
+
+/*
+ * PNG Sprite (default)
+ */
+
+.actions { display: block; overflow: auto; }
+
+.actions a {
+	background-image: url('sprite.png');
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-weight: bold;
+	color: #444;
+	background-color: #ccc;
+	text-decoration: none;
+	border-radius: 5px;
+	text-shadow: 0 -1px 2px #fff;
+}
+
+#size100 { font-size: 100%; }
+#size200 { font-size: 200%; }
+#size200 h3 { font-size: 50%; }
+
+/*
+ * Pixel Sizes
+ */
+
+.actions-px a {
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 20px 10px 40px;
+	margin-right: 5px;
+}
+
+.a-share  { background-position: 10px 0; }
+.a-print  { background-position: 10px -40px; }
+.a-tag    { background-position: 10px -80px; }
+.a-delete { background-position: 10px -120px; }
+
+/*
+ * Relative Sizes
+ */
+
+.actions-em a {
+	font-size: 1em; /* 16px */
+	line-height: 1.25em; /* 20/16px */
+	padding: 0.625em 1.25em 0.625em 2.5em; /* 10-20-10-40/16px */
+	margin-right: 0.3125em; /* 5/16px */
+	border-radius: 0.3125em;
+}
+
+.actions-em .a-share { background-position: 0.625em 0; /* 10/16px */ }
+.actions-em .a-print { background-position: 0.625em -2.5em; /* 10-40/16px */ }
+.actions-em .a-tag { background-position: 0.625em -5.0em; /* 10-80/16px */ }
+.actions-em .a-delete { background-position: 0.625em -7.5em; /* 10-120/16px */ }
+
+.actions-em a {
+	-webkit-background-size: 1.875em 10em;
+	-o-background-size: 1.875em 10em;
+	-moz-background-size: 1.875em 10em;
+	background-size: 1.875em 10em; /* 30-160/16px */	
+}
+
+/*
+ * SVG Sprite
+ */
+
+.svg .actions-svg a.sprite {	
+	background-image: url('sprite.svg');
+}
+
+
+
+
+
