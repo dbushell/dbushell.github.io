@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>http://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 08 Feb 2017 15:26:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Feb 2017 09:07:28 GMT</lastBuildDate>
     <atom:link href="http://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[React as a Static Site Generator]]></title>
+  <description><![CDATA[<p>Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.
+Time for a new project!
+Abstract: rebuild my website using React as the template engine for a bespoke static […]</p>]]></description>
+  <link>http://dbushell.com/2017/02/13/react-as-a-static-site-generator/</link>
+  <guid isPermaLink="true">http://dbushell.com/2017/02/13/react-as-a-static-site-generator/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Mon, 13 Feb 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Working with Promises]]></title>
   <description><![CDATA[<p>JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.
@@ -220,15 +230,6 @@ I was hired to improve aspects of the design and user experience with the help o
   <guid isPermaLink="true">http://dbushell.com/2015/03/18/responsive-design-for-houden/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Wed, 18 Mar 2015 10:50:59 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Critical CSS and Performance]]></title>
-  <description><![CDATA[<p>I built my website last year with a strong focus on front-end performance.
-This week inspired by Scott Jehl’s article “How we make RWD sites load fast as heck” and Callum Hart’s “Non-blocking UI’s with interface previews” I decided to revisit my code and give it another boost. The trick to getting content on screen faster […]</p>]]></description>
-  <link>http://dbushell.com/2015/02/19/critical-css-and-performance/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/02/19/critical-css-and-performance/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Thu, 19 Feb 2015 16:58:05 GMT</pubDate>
 </item>
 </channel>
 </rss>
