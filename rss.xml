@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title><![CDATA[dbushell.com]]></title>
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
-    <link>http://dbushell.com</link>
+    <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Tue, 14 Feb 2017 17:23:35 GMT</lastBuildDate>
-    <atom:link href="http://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 15 Feb 2017 08:58:19 GMT</lastBuildDate>
+    <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
@@ -15,8 +15,8 @@
   <description><![CDATA[<p>Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.
 Time for a new project!
 Abstract: rebuild my website using React as the template engine for a bespoke static […]</p>]]></description>
-  <link>http://dbushell.com/2017/02/13/react-as-a-static-site-generator/</link>
-  <guid isPermaLink="true">http://dbushell.com/2017/02/13/react-as-a-static-site-generator/</guid>
+  <link>https://dbushell.com/2017/02/13/react-as-a-static-site-generator/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/02/13/react-as-a-static-site-generator/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 13 Feb 2017 10:00:00 GMT</pubDate>
 </item>
@@ -32,8 +32,8 @@ function act1() {
 }
 
 It’s easy […]</p>]]></description>
-  <link>http://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</guid>
+  <link>https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 16 Dec 2016 10:00:00 GMT</pubDate>
 </item>
@@ -44,8 +44,8 @@ It’s easy […]</p>]]></description>
 “A JavaScript library for building user interfaces”.
 
 Unlike other libraries something about React just clicked with me. Back in October a client project came along that presented a golden opportunity to develop a web app. I decided to use React, and I now consider myself comfortable […]</p>]]></description>
-  <link>http://dbushell.com/2016/12/02/my-thoughts-on-react/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/12/02/my-thoughts-on-react/</guid>
+  <link>https://dbushell.com/2016/12/02/my-thoughts-on-react/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/12/02/my-thoughts-on-react/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 02 Dec 2016 10:00:00 GMT</pubDate>
 </item>
@@ -56,8 +56,8 @@ Unlike other libraries something about React just clicked with me. Back in Octob
 
 Getting started
 If you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp;amp; CSS […]</p>]]></description>
-  <link>http://dbushell.com/2016/10/10/building-a-shopify-theme/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/10/10/building-a-shopify-theme/</guid>
+  <link>https://dbushell.com/2016/10/10/building-a-shopify-theme/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/10/10/building-a-shopify-theme/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 10 Oct 2016 10:00:00 GMT</pubDate>
 </item>
@@ -65,8 +65,8 @@ If you’re familiar with my workflow it will be no surprised that I first trans
   <title><![CDATA[Colour Accessibility]]></title>
   <description><![CDATA[<p>“Accessiblity” isn’t a scary word but many web folks shy away from it. Perhaps because the W3C guidelines are a little scary. The reality is website accessibility affects us all. Not just those of us who cross the threshold into a medically diagnosed condition.
 “I want to see like the colour blind” is a Chrome plugin […]</p>]]></description>
-  <link>http://dbushell.com/2016/09/01/colour-accessibility/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/09/01/colour-accessibility/</guid>
+  <link>https://dbushell.com/2016/09/01/colour-accessibility/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/09/01/colour-accessibility/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 01 Sep 2016 10:00:00 GMT</pubDate>
 </item>
@@ -76,8 +76,8 @@ If you’re familiar with my workflow it will be no surprised that I first trans
 
 
 In this review I’ll showcase a few of the defining techniques and challenges that made this […]</p>]]></description>
-  <link>http://dbushell.com/2016/07/14/building-a-wordpress-theme/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/07/14/building-a-wordpress-theme/</guid>
+  <link>https://dbushell.com/2016/07/14/building-a-wordpress-theme/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/07/14/building-a-wordpress-theme/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 14 Jul 2016 10:00:00 GMT</pubDate>
 </item>
@@ -85,8 +85,8 @@ In this review I’ll showcase a few of the defining techniques and challenges t
   <title><![CDATA[New Origins]]></title>
   <description><![CDATA[<p>Greetings! It’s been a while, hasn’t it? The last few months were busy for me. That’s a good thing I suppose, I certainly need to earn a living.
 The only real downside of plentiful client work is the lack of time for my own projects. One of those, codename: “Origin”, is my personal front-end starter kit. […]</p>]]></description>
-  <link>http://dbushell.com/2016/07/12/new-origins/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/07/12/new-origins/</guid>
+  <link>https://dbushell.com/2016/07/12/new-origins/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/07/12/new-origins/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Tue, 12 Jul 2016 10:00:00 GMT</pubDate>
 </item>
@@ -101,8 +101,8 @@ Here’s what basic overflow looks like:
 
 
 And if you want […]</p>]]></description>
-  <link>http://dbushell.com/2016/03/04/css-only-responsive-tables/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/03/04/css-only-responsive-tables/</guid>
+  <link>https://dbushell.com/2016/03/04/css-only-responsive-tables/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/03/04/css-only-responsive-tables/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 04 Mar 2016 10:00:00 GMT</pubDate>
 </item>
@@ -113,8 +113,8 @@ I have an SVG sprite for social icons:
 
   
   .svg-icon  { […]</p>]]></description>
-  <link>http://dbushell.com/2016/03/01/be-careful-with-your-viewbox/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/03/01/be-careful-with-your-viewbox/</guid>
+  <link>https://dbushell.com/2016/03/01/be-careful-with-your-viewbox/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/03/01/be-careful-with-your-viewbox/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Tue, 01 Mar 2016 10:00:00 GMT</pubDate>
 </item>
@@ -126,8 +126,8 @@ This iteration has taken longer than usual because the visual changes are much m
 
 
 It’s been two years since I last updated the design. That is a record because it’s usually an annual tradition. Past updates include: 2014, 2013, 2012, and 2011. Last year I improved […]</p>]]></description>
-  <link>http://dbushell.com/2016/02/29/a-bit-of-a-new-look/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/02/29/a-bit-of-a-new-look/</guid>
+  <link>https://dbushell.com/2016/02/29/a-bit-of-a-new-look/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/02/29/a-bit-of-a-new-look/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 29 Feb 2016 10:00:00 GMT</pubDate>
 </item>
@@ -136,8 +136,8 @@ It’s been two years since I last updated the design. That is a record because 
   <description><![CDATA[<p> PartsGiant is a soon to launch e-commerce store based in Michigan, USA. 
 I was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.
 I’ve always championed the idea of maintainable, […]</p>]]></description>
-  <link>http://dbushell.com/2016/01/04/css-framework-for-partsgiant/</link>
-  <guid isPermaLink="true">http://dbushell.com/2016/01/04/css-framework-for-partsgiant/</guid>
+  <link>https://dbushell.com/2016/01/04/css-framework-for-partsgiant/</link>
+  <guid isPermaLink="true">https://dbushell.com/2016/01/04/css-framework-for-partsgiant/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 04 Jan 2016 10:00:00 GMT</pubDate>
 </item>
@@ -147,8 +147,8 @@ I’ve always championed the idea of maintainable, […]</p>]]></description>
 My highlight for sure was moving into my new flat. The whole searching, buying, and decorating process took way longer than I imagined. Because of this I didn’t take on as many large projects, but I did manage to find enough freelance work to keep me going.
 January
 What better […]</p>]]></description>
-  <link>http://dbushell.com/2015/12/30/2015-in-review/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/12/30/2015-in-review/</guid>
+  <link>https://dbushell.com/2015/12/30/2015-in-review/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/12/30/2015-in-review/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Wed, 30 Dec 2015 10:00:00 GMT</pubDate>
 </item>
@@ -158,8 +158,8 @@ What better […]</p>]]></description>
 
 
 For the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]</p>]]></description>
-  <link>http://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</guid>
+  <link>https://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 12 Nov 2015 10:00:00 GMT</pubDate>
 </item>
@@ -170,8 +170,8 @@ Accelerated Mobile Pages are an alternate version of their corresponding, canoni
 
 
 The BBC News website has implemented AMP, screenshotted […]</p>]]></description>
-  <link>http://dbushell.com/2015/10/20/accelerated-mobile-pages/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/10/20/accelerated-mobile-pages/</guid>
+  <link>https://dbushell.com/2015/10/20/accelerated-mobile-pages/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/10/20/accelerated-mobile-pages/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Tue, 20 Oct 2015 10:00:00 GMT</pubDate>
 </item>
@@ -179,8 +179,8 @@ The BBC News website has implemented AMP, screenshotted […]</p>]]></descriptio
   <title><![CDATA[September Update]]></title>
   <description><![CDATA[<p>Good afternoon! So it’s been a while since I last blogged. Turns out buying a home takes longer than I imagined!
 When I left London in 2012, I moved back in with my parents  (temporarily) to embark upon a freelance career. Work has been steady, not easy, but rewarding and I’m much happier out of […]</p>]]></description>
-  <link>http://dbushell.com/2015/09/07/september-update/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/09/07/september-update/</guid>
+  <link>https://dbushell.com/2015/09/07/september-update/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/09/07/september-update/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 07 Sep 2015 10:00:00 GMT</pubDate>
 </item>
@@ -190,16 +190,16 @@ When I left London in 2012, I moved back in with my parents  (temporarily) to em
 
 
 Usually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]</p>]]></description>
-  <link>http://dbushell.com/2015/07/27/smashing-book-5/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/07/27/smashing-book-5/</guid>
+  <link>https://dbushell.com/2015/07/27/smashing-book-5/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/07/27/smashing-book-5/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 27 Jul 2015 10:00:00 GMT</pubDate>
 </item>
 <item>
   <title><![CDATA[Social Profiles]]></title>
   <description><![CDATA[<p>My website navigation now links to my GitHub and CodePen profiles, alongside Twitter. A long overdue change. It was embarrassing to be rocking the Google+ link. I never used Google+, I don’t even use Facebook, but it was useful to get my face alongside search results. That feature disappeared some time ago and thus the […]</p>]]></description>
-  <link>http://dbushell.com/2015/06/26/social-profiles/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/06/26/social-profiles/</guid>
+  <link>https://dbushell.com/2015/06/26/social-profiles/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/06/26/social-profiles/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 26 Jun 2015 10:00:00 GMT</pubDate>
 </item>
@@ -207,8 +207,8 @@ Usually with books like this I will skip to the chapters that immediately catch 
   <title><![CDATA[Order: HTML vs CSS]]></title>
   <description><![CDATA[<p>Content should follow a logical top-to-bottom order within HTML. CSS is used to change the visual presentation of this content across different viewports.
 On small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout […]</p>]]></description>
-  <link>http://dbushell.com/2015/06/01/order-html-vs-css/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/06/01/order-html-vs-css/</guid>
+  <link>https://dbushell.com/2015/06/01/order-html-vs-css/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/06/01/order-html-vs-css/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 01 Jun 2015 10:00:00 GMT</pubDate>
 </item>
@@ -217,8 +217,8 @@ On small viewports — mobile phones for example — a vertical layout that mimi
   <description><![CDATA[<p>It’s a busy work schedule that is usually to blame for my lack of written output on this blog. That was not the case last month!
 Downtime
 As you may have noticed, my website has been going offline frequently. Not good. After several failed attempts to fix the — admittedly self-inflicted — issue I decided a full […]</p>]]></description>
-  <link>http://dbushell.com/2015/05/11/wordpress-to-metalsmith/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/05/11/wordpress-to-metalsmith/</guid>
+  <link>https://dbushell.com/2015/05/11/wordpress-to-metalsmith/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/05/11/wordpress-to-metalsmith/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 11 May 2015 10:00:00 GMT</pubDate>
 </item>
@@ -226,8 +226,8 @@ As you may have noticed, my website has been going offline frequently. Not good.
   <title><![CDATA[Responsive Design for Houden]]></title>
   <description><![CDATA[<p>Houden is an e-ccomerce store, soon to launch with stylish bags and accessories for laptops, tablets, and cameras.
 I was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at Shopify. Below is a preview of the design and code I’ve […]</p>]]></description>
-  <link>http://dbushell.com/2015/03/18/responsive-design-for-houden/</link>
-  <guid isPermaLink="true">http://dbushell.com/2015/03/18/responsive-design-for-houden/</guid>
+  <link>https://dbushell.com/2015/03/18/responsive-design-for-houden/</link>
+  <guid isPermaLink="true">https://dbushell.com/2015/03/18/responsive-design-for-houden/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Wed, 18 Mar 2015 10:50:59 GMT</pubDate>
 </item>

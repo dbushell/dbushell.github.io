@@ -1,1 +1,1 @@
-Sitemap: http://dbushell.com/sitemap.xml
+Sitemap: https://dbushell.com/sitemap.xml
