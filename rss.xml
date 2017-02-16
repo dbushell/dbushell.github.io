@@ -5,11 +5,22 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 15 Feb 2017 08:58:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Feb 2017 11:39:16 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Web Security and Cloudflare]]></title>
+  <description><![CDATA[<p>I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.
+
+
+I listened to an episode of […]</p>]]></description>
+  <link>https://dbushell.com/2017/02/17/web-security-and-cloudflare/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/02/17/web-security-and-cloudflare/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 17 Feb 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[React as a Static Site Generator]]></title>
   <description><![CDATA[<p>Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.
@@ -221,15 +232,6 @@ As you may have noticed, my website has been going offline frequently. Not good.
   <guid isPermaLink="true">https://dbushell.com/2015/05/11/wordpress-to-metalsmith/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 11 May 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Responsive Design for Houden]]></title>
-  <description><![CDATA[<p>Houden is an e-ccomerce store, soon to launch with stylish bags and accessories for laptops, tablets, and cameras.
-I was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at Shopify. Below is a preview of the design and code I’ve […]</p>]]></description>
-  <link>https://dbushell.com/2015/03/18/responsive-design-for-houden/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/03/18/responsive-design-for-houden/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Wed, 18 Mar 2015 10:50:59 GMT</pubDate>
 </item>
 </channel>
 </rss>
