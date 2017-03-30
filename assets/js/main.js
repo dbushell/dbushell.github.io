@@ -62,17 +62,28 @@ window.dbushell = (function (window, document) {
     if (!_init || !document.querySelector || !document.documentElement.classList) {
       return;
     }
-    var $nav = document.querySelector('.nav');
-    var $navList = $nav ? $nav.querySelector('.nav__list[data-root]') : null;
+    var $nav = document.querySelector('.b-nav');
+    var $navList = $nav ? $nav.querySelector('.b-nav__list[data-root]') : null;
     if (!$navList) {
       return;
     }
     var $navItems;
-    var $navMoreItem = $navList.querySelector('.nav__item--more');
-    var $navMoreList = $navMoreItem.querySelector('.nav__list');
+    var $navMoreItem = $navList.querySelector('.b-nav__item--more');
+    var $navMoreList = $navMoreItem.querySelector('.b-nav__list');
 
     if (window.Headroom) {
-      var headroom = new window.Headroom($nav, {offset: 35});
+      var headroom = new window.Headroom($nav, {
+        offset: 35,
+        classes: {
+          initial: 'b-nav',
+          pinned: 'b-nav--pinned',
+          unpinned: 'b-nav--unpinned',
+          top: 'b-nav--top',
+          notTop: 'b-nav--not-top',
+          bottom: 'b-nav--bottom',
+          notBottom: 'b-nav--not-bottom'
+        }
+      });
       headroom.init();
     }
 
@@ -81,33 +92,33 @@ window.dbushell = (function (window, document) {
 
     $navMoreItem.children[0].addEventListener('click', function (e) {
       e.preventDefault();
-      if ($navMoreList.classList.contains('nav__dropdown--active')) {
-        $navMoreList.classList.remove('nav__dropdown--active');
-        $navMoreList.classList.remove('nav__dropdown--hover');
+      if ($navMoreList.classList.contains('b-nav__dropdown--active')) {
+        $navMoreList.classList.remove('b-nav__dropdown--active');
+        $navMoreList.classList.remove('b-nav__dropdown--hover');
       } else {
-        $navMoreList.classList.add('nav__dropdown--active');
+        $navMoreList.classList.add('b-nav__dropdown--active');
       }
     }, false);
 
     $navMoreItem.addEventListener('mouseenter', function () {
-      $navMoreList.classList.add('nav__dropdown--hover');
+      $navMoreList.classList.add('b-nav__dropdown--hover');
     }, false);
 
     $navMoreItem.addEventListener('mouseleave', function () {
-      $navMoreList.classList.remove('nav__dropdown--hover');
+      $navMoreList.classList.remove('b-nav__dropdown--hover');
     }, false);
 
     var updateLoop = 0;
     function update() {
       if (updateLoop++ < 50) {
         // reset
-        $navMoreList.classList.remove('nav__dropdown--active');
-        $navMoreList.classList.remove('nav__dropdown--hover');
-        $nav.classList.remove('nav--flex');
+        $navMoreList.classList.remove('b-nav__dropdown--active');
+        $navMoreList.classList.remove('b-nav__dropdown--hover');
+        $nav.classList.add('b-nav--min');
         // $nav.offsetWidth;
 
         // update selector of visible nav items
-        $navItems = [].slice.call($nav.querySelectorAll('.nav__list[data-root] > .nav__item:not(.nav__item--more)'));
+        $navItems = [].slice.call($nav.querySelectorAll('.b-nav__list[data-root] > .b-nav__item:not(.b-nav__item--more)'));
         sortBy($navItems, 'priority');
 
         // calc current widths
@@ -116,7 +127,7 @@ window.dbushell = (function (window, document) {
         var freeWidth = 0;
         var navWidth = 0;
 
-        $navItems.forEach(function ($item) {
+        $navItems.forEach(function($item) {
           navWidth += $item.offsetWidth;
         });
 
@@ -153,7 +164,7 @@ window.dbushell = (function (window, document) {
           }
         }
 
-        $nav.classList.add('nav--flex');
+        $nav.classList.remove('b-nav--min');
       } else {
         // should never reach here...
       }
@@ -190,59 +201,3 @@ window.dbushell = (function (window, document) {
 
   return app;
 })(window, window.document);
-
-//     var doc = $(document.documentElement);
-
-//     var grid = false,
-//         $gridEl = $("<div class='grid'> \
-//     <div class='grid__s grid__s--6'> \
-//         <div class='grid__c grid__c--1'></div> \
-//         <div class='grid__c grid__c--2'></div> \
-//         <div class='grid__c grid__c--3'></div> \
-//         <div class='grid__c grid__c--4'></div> \
-//         <div class='grid__c grid__c--5'></div> \
-//         <div class='grid__c grid__c--6'></div> \
-//     </div> \
-// </div> \
-// <div class='grid'> \
-//     <div class='grid__s grid__s--9'> \
-//         <div class='grid__c grid__c--1'></div> \
-//         <div class='grid__c grid__c--2'></div> \
-//         <div class='grid__c grid__c--3'></div> \
-//         <div class='grid__c grid__c--4'></div> \
-//         <div class='grid__c grid__c--5'></div> \
-//         <div class='grid__c grid__c--6'></div> \
-//         <div class='grid__c grid__c--7'></div> \
-//         <div class='grid__c grid__c--8'></div> \
-//         <div class='grid__c grid__c--9'></div> \
-//     </div> \
-// </div>");
-
-//     var $baselineEl = $('<link rel="stylesheet" href="http://basehold.it/14/ff0000">');
-
-//     var addGrid = function()
-//     {
-//         grid = true;
-//         $('main').append($gridEl);
-//         $('head').append($baselineEl);
-//     };
-
-//     var removeGrid = function()
-//     {
-//         grid = false;
-//         $gridEl.remove();
-//         $baselineEl.remove();
-//     };
-
-//     $win.on('keydown', function(e)
-//     {
-
-//         if ((e.which || e.keyCode) === 71) {
-//             if (grid) {
-//                 removeGrid();
-//             } else {
-//                 addGrid();
-//             }
-//             $docEl.toggleClass('js--grid');
-//         }
-//     });
