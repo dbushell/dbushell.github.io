@@ -116,7 +116,7 @@
 
     var start = new Date().getTime();
 
-    win.loadScript('//use.typekit.net/vjw4wno.js', function() {
+    win.loadScript('//use.typekit.net/bgo5mvm.js', function() {
         if (!Typekit) return;
         try {
             Typekit.load();
