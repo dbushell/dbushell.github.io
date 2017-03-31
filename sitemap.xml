@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://dbushell.com/</loc>
-  <lastmod>2017-03-30T14:15:45.000Z</lastmod>
+  <lastmod>2017-03-31T14:31:20.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
 </url>
 <url>
   <loc>https://dbushell.com/contact/</loc>
-  <lastmod>2017-03-30T14:08:01.000Z</lastmod>
+  <lastmod>2017-03-31T13:54:49.000Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -20,19 +20,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/working-with-agencies/</loc>
-  <lastmod>2017-03-20T15:55:48.000Z</lastmod>
+  <lastmod>2017-03-31T15:23:21.000Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/working-with-clients/</loc>
-  <lastmod>2017-03-20T15:55:52.000Z</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://dbushell.com/table-of-contents/</loc>
-  <lastmod>2017-01-24T13:21:49.000Z</lastmod>
+  <lastmod>2017-03-31T15:23:24.000Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -43,32 +37,38 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://dbushell.com/table-of-contents/</loc>
+  <lastmod>2017-01-24T13:21:49.000Z</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://dbushell.com/responsive-design/</loc>
-  <lastmod>2017-03-29T15:40:02.000Z</lastmod>
+  <lastmod>2017-03-31T15:24:22.000Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/front-end-development/</loc>
-  <lastmod>2017-03-29T15:40:02.000Z</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://dbushell.com/process-and-strategy/</loc>
-  <lastmod>2017-03-29T15:40:00.000Z</lastmod>
+  <lastmod>2017-03-31T15:24:27.000Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/services/</loc>
-  <lastmod>2017-03-20T15:59:03.000Z</lastmod>
+  <lastmod>2017-03-31T15:24:17.000Z</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/process-and-strategy/</loc>
+  <lastmod>2017-03-31T15:24:24.000Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/showcase/</loc>
-  <lastmod>2017-03-29T16:21:56.000Z</lastmod>
+  <lastmod>2017-03-31T15:28:16.000Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
