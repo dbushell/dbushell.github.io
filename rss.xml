@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 31 Mar 2017 15:30:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Apr 2017 13:05:57 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[I watched Iron Fist and coded CSS 👈]]></title>
+  <description><![CDATA[<p>They have nothing in common.
+Well, aside from entertaining my weekend. I’m just bad at blog titles and I’m fed up of writing nonsense like “CSS modularity; theory and practice”. My draft title, which let’s face it, nobody is clicking.
+Iron Fist is ‘aight I guess. I’m 7 episodes deep and I’m still awake which is an […]</p>]]></description>
+  <link>https://dbushell.com/2017/04/03/i-watched-iron-fist-and-coded-css.md/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/04/03/i-watched-iron-fist-and-coded-css.md/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Mon, 03 Apr 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Web Security and Cloudflare]]></title>
   <description><![CDATA[<p>I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.
@@ -222,16 +232,6 @@ On small viewports — mobile phones for example — a vertical layout that mimi
   <guid isPermaLink="true">https://dbushell.com/2015/06/01/order-html-vs-css/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 01 Jun 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[WordPress to Metalsmith]]></title>
-  <description><![CDATA[<p>It’s a busy work schedule that is usually to blame for my lack of written output on this blog. That was not the case last month!
-Downtime
-As you may have noticed, my website has been going offline frequently. Not good. After several failed attempts to fix the — admittedly self-inflicted — issue I decided a full […]</p>]]></description>
-  <link>https://dbushell.com/2015/05/11/wordpress-to-metalsmith/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/05/11/wordpress-to-metalsmith/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 11 May 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
