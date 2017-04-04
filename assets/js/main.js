@@ -33,6 +33,13 @@ window.dbushell = (function (window, document) {
     });
   }
 
+  var ua = navigator.userAgent;
+  // app.isOldIE = Boolean(document.all && !document.addEventListener);
+  app.isIE = Boolean(window.ActiveXObject || window.navigator.msPointerEnabled);
+  // app.isAndroid = Boolean(ua.match(/Android/) && ua.match(/AppleWebKit/) && !ua.match(/Chrome/));
+  // app.isIOS = /(iPhone|iPad|iPod)/gi.test(ua);
+  app.isFF = /firefox/i.test(ua);
+
   app.iscroll = function () {
     if (!window.IScroll || !_init) {
       return;
@@ -191,10 +198,13 @@ window.dbushell = (function (window, document) {
         window.dbushell.iscroll();
       });
     }
-    window.loadScript('/assets/js/vendor/fitvids.js');
     // fix SVG sprites in IE
     if (app.isIE) {
       window.loadScript('/assets/js/vendor/svgxuse.min.js');
+    }
+    // Responsive videos
+    if (document.querySelector('iframe')) {
+      window.loadScript('/assets/js/vendor/fitvids.min.js');
     }
     return app;
   };
