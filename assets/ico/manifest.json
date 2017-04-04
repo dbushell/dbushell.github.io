@@ -12,7 +12,8 @@
       "type": "image/png"
     }
   ],
-  "display": "browser",
+  "display": "standalone",
   "theme_color": "#ff6680",
-  "background_color": "#ff6680"
+  "background_color": "#ff6680",
+  "start_url": "/?utm_source=homescreen"
 }
