@@ -46,7 +46,7 @@
       de.className += ' js-anim';
     }, 300);
   });
-  win.loadScript('/assets/js/main.min.js?ver={{siteVer}}', function () {
+  win.loadScript('/assets/js/main.min.js?v={{siteVer}}', function () {
     win.dbushell.init();
   });
 })(window, document);

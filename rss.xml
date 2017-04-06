@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 05 Apr 2017 07:48:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Apr 2017 09:55:10 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[The Magic of Service Workers]]></title>
+  <description><![CDATA[<p>They’re a thing. Google describes them as a “technical foundation”.
+What I’ve learnt is that a service worker is a JavaScript file. It runs in it’s own little world behind a website. That means it can’t access the DOM. What it can do is proxy network requests and access a storage cache.
+I’m sure they can do […]</p>]]></description>
+  <link>https://dbushell.com/2017/04/06/the-magic-of-service-workers/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/04/06/the-magic-of-service-workers/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 06 Apr 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[I watched Iron Fist and coded CSS 👈]]></title>
   <description><![CDATA[<p>They have nothing in common.
@@ -223,15 +233,6 @@ Usually with books like this I will skip to the chapters that immediately catch 
   <guid isPermaLink="true">https://dbushell.com/2015/06/26/social-profiles/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 26 Jun 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Order: HTML vs CSS]]></title>
-  <description><![CDATA[<p>Content should follow a logical top-to-bottom order within HTML. CSS is used to change the visual presentation of this content across different viewports.
-On small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout […]</p>]]></description>
-  <link>https://dbushell.com/2015/06/01/order-html-vs-css/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/06/01/order-html-vs-css/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 01 Jun 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

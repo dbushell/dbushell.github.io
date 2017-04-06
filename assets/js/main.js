@@ -185,6 +185,10 @@ window.dbushell = (function (window, document) {
     window.addEventListener('orientationchange', update, false);
   };
 
+  app.sw = function () {
+
+  }
+
   app.init = function () {
     if (_init++) {
       return;
@@ -205,6 +209,11 @@ window.dbushell = (function (window, document) {
     // Responsive videos
     if (document.querySelector('iframe')) {
       window.loadScript('/assets/js/vendor/fitvids.min.js');
+    }
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js');
+      });
     }
     return app;
   };
