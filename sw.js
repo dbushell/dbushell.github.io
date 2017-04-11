@@ -2,7 +2,7 @@
 
 /*! dbushell.com */
 
-const cacheName = 'dbushell-BJwg8zqae';
+const cacheName = 'dbushell-BkKLcNc6g';
 const cacheWhitelist = [cacheName];
 const cacheURLs = [];
 
@@ -12,7 +12,8 @@ cacheURLs.push(
   '/assets/js/main.min.js?v=9.0.4',
   '/assets/js/vendor/headroom.min.js',
   '/assets/img/dbushell-for-hire.svg',
-  '/assets/img/me3.jpg'
+  '/assets/img/me3@1x.jpg',
+  '/assets/img/me3@2x.jpg'
 );
 
 // Cache common pages
