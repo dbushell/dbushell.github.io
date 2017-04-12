@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Bushell</title>
+<link rel="shortcut icon" href="/assets/ico/favicon.ico">
+<meta name="theme-color" content="#ff6680">
+<link rel="stylesheet" href="/assets/css/all.css">
+<script type="text/javascript">
+(function (win, doc) {
+  const de = doc.getElementsByTagName('html')[0];
+  const fs = doc.getElementsByTagName('script')[0];
+
+  de.className = de.className.replace(/(^|\s)no-js(\s|$)/, '$1js wf-loading$2');
+
+  win.loadScript = function (src, callback) {
+    const script = doc.createElement('script');
+    script.src = src;
+    script.type = 'text/javascript';
+    script.async = true;
+    if (callback) {
+      script.onload = () => {
+        if (/^($|loaded|complete)/.test(script.readyState || '')) {
+          script.onload = null;
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+      script.onreadystatechange = script.onload;
+    }
+    fs.parentNode.insertBefore(script, fs);
+  };
+
+  const start = new Date().getTime();
+  win.loadScript('//use.typekit.net/bgo5mvm.js', () => {
+    if (!win.Typekit) {
+      return;
+    }
+    try {
+      win.Typekit.load();
+      if ((new Date().getTime() - start) > 1000) {
+        const sheets = doc.getElementsByTagName('link');
+        for (let tk, i = 0; i < sheets.length; i++) {
+          if (sheets[i].rel === 'stylesheet' && sheets[i].href && sheets[i].href.indexOf('typekit.net') > -1) {
+            tk = sheets[i];
+            tk.media = 'only x';
+            tk.onload = () => {
+              tk.media = 'all';
+            };
+          }
+        }
+      }
+    } catch (err) {}
+  });
+
+  win.loadScript('/assets/js/app.min.js');
+
+  win.appMounted = () => {
+    win.loadScript('/assets/js/main.min.js?v=9.0.4', () => {
+      win.dbushell.init();
+    });
+    setTimeout(() => {
+      de.className += ' js-anim';
+    }, 300);
+  };
+})(window, document);
+</script>
+<!-- <script src="//unpkg.com/preact"></script> -->
+<!-- <script src="//unpkg.com/proptypes"></script> -->
+<!-- <script src="//unpkg.com/preact-compat"></script> -->
+</head>
+<body></body>
+</html>
