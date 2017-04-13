@@ -236,7 +236,7 @@ window.dbushell = (function (window, document) {
     }
     if ('fetch' in window) {
       app.universal = function () {
-        window.loadScript('/assets/js/app.js?v=' + app.ver);
+        window.loadScript('/assets/js/app.min.js?v=' + app.ver);
       };
     }
     // Responsive video
