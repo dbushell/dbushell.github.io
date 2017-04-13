@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/11/",
+  "pageHeading": "Blog (page 11)",
+  "excerpts": [
+    {
+      "id": "a-responsive-day-out",
+      "title": "A Responsive Day Out",
+      "href": "/2013/03/03/a-responsive-day-out/",
+      "body": "\n\n\nMe on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by Laura Kalbag and Marc Thiele.\n\nOn Friday 1st March, I spoke at Responsive Day Out in Brighton. Videos at Besquare, Audio of all talks is available and you can click along to my slides too.\nWhat a wonderful day! When Jeremy asked me to […]",
+      "date": 1362319748000
+    },
+    {
+      "id": "bring-back-the-sitemap",
+      "title": "Bring Back the Sitemap?",
+      "href": "/2013/02/21/bring-back-the-sitemap/",
+      "body": "I’m doing a small segment on navigation at Responsive Day Out (1st March). It’s an area of responsive design I enjoy experimenting with.\nYou’re probably familiar with responsive patterns that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before […]",
+      "date": 1361455114000
+    },
+    {
+      "id": "captchas-just-say-no",
+      "title": "CAPTCHAs: Just Say No",
+      "href": "/2013/02/18/captchas-just-say-no/",
+      "body": "A couple of years ago I wrote In Search Of The Perfect CAPTCHA for Smashing Magazine. It was always a wild goose chase (but I knew that).\nI still get asked regularly how to deal with spam. It isn’t easy.\nI keep seeing new solutions pop up touted as an alterative to CAPTCHAs. Here’s the deal: replacing […]",
+      "date": 1361217588000
+    },
+    {
+      "id": "performance-varnish-cache-wordpress",
+      "title": "Performance, Varnish Cache, WordPress",
+      "href": "/2013/02/15/performance-varnish-cache-wordpress/",
+      "body": "When it comes to website performance there’s a lot we can do.\nAs designers it means finding a style that suits the Web as a medium; taking advantage of CSS, avoiding heavy raster graphics, etc etc. As front-end developers, well, Harry Roberts’ has a great round-up of techniques.\nThere’s only so much we can do client-side. It’s […]",
+      "date": 1360946898000
+    },
+    {
+      "id": "podcasts",
+      "title": "Podcasts",
+      "href": "/2013/02/14/podcasts/",
+      "body": "I can’t get enough podcasts right now.\nI still love the written word but after a full day of design and code my eyes need a rest (and probably a new test, now that I think about it).\nFearing I’d been overlooking a few I asked Twitter — thanks for the replies! Below is a compilation of […]",
+      "date": 1360854381000
+    },
+    {
+      "id": "on-responsive-navigation-and-rendering",
+      "title": "On Responsive Navigation and Rendering",
+      "href": "/2013/02/07/on-responsive-navigation-and-rendering/",
+      "body": "When I launched my new website earlier this week I implemented the off-canvas navigation technique I’d written about for Smashing Magazine. It uses silky smooth CSS transitions and looks great on mobile (if I do say so myself).\nA small problem came when I set a high breakpoint. The navigation is always off-canvas up to a […]",
+      "date": 1360228167000
+    },
+    {
+      "id": "a-primer-to-front-end-svg-hacking",
+      "title": "A Primer to Front-end SVG Hacking",
+      "href": "/2013/02/04/a-primer-to-front-end-svg-hacking/",
+      "body": "Using SVG (Scalable Vector Graphics) on websites is a lot safer than many front-end developers think. Authoring aside — I wouldn’t suggest trying to hand-code an illustration more complex than a triangle* — the standard is well supported in browsers today and perfect for resolution independence when CSS and icon fonts aren’t suitable.\n* Quick fire […]",
+      "date": 1360011944000
+    }
+  ],
+  "nextPage": "/blog/page/12/",
+  "prevPage": "/blog/page/10/",
+  "pageTitle": "Blog (page 11) – David Bushell – Web Design (UK)"
+}

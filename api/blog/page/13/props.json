@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/13/",
+  "pageHeading": "Blog (page 13)",
+  "excerpts": [
+    {
+      "id": "five-tips-for-responsive-builds",
+      "title": "5 Tips for Responsive Builds",
+      "href": "/2013/01/01/five-tips-for-responsive-builds/",
+      "body": "If design and content strategy stops when the build phase starts it’s time to rethink your process. The role of a modern front-end developer goes beyond following pre-defined blueprints. An iterative, agile-like approach is vital to account for responsive design challenges that inevitably arise as a website takes shape.\nWith that in mind here are my […]",
+      "date": 1357082499000
+    },
+    {
+      "id": "a-new-beginning",
+      "title": "A New Beginning",
+      "href": "/2012/12/30/a-new-beginning/",
+      "body": "Everything changes for me at the end of January.\nAfter a wonderful 18 months at Browser and five years living in London I’m heading home, back up north to Manchester — and then almost immediately back down south for Responsive Day Out — but after that I’ll be starting something new.\nWhat’s Next?\nLondon was a great place […]",
+      "date": 1356863405000
+    },
+    {
+      "id": "a-year-of-writing",
+      "title": "A Year of Writing",
+      "href": "/2012/12/26/a-year-of-writing/",
+      "body": "They say a monkey hitting keys at random will reproduce the works of Shakespeare, eventually. I only had a year but I did manage to produce something worthy of sharing. Here’s a recap of my best efforts, as inadvertently voted by you:\nMost Shared of 2012\n\nThe State of Web Design, 2013 10 Dec — 60 shares\nThe […]",
+      "date": 1356531321000
+    },
+    {
+      "id": "a-responsive-off-canvas-menu-with-css-transforms-and-transitions",
+      "title": "A Responsive Off-Canvas Menu",
+      "href": "/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/",
+      "body": "Have a play with my responsive off-canvas menu. I hadn’t intended this to go viral (I’m well aware of the issues!) but since it has I decided to write a proper introduction.\n\n\nA couple of things to note — this was purely a technical demo to see the performance of CSS transforms &amp; transitions (I’ve built […]",
+      "date": 1356212688000
+    },
+    {
+      "id": "the-state-of-web-design-2013",
+      "title": "The State of Web Design, 2013",
+      "href": "/2012/12/10/the-state-of-web-design-2013/",
+      "body": "To wrap up 2011 I wrote a few thoughts on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I’m doing it again this year.\nI encourage you to do the same!\nThis all stemmed from a tweet back in October. It’s fine to observe and copy trends, but […]",
+      "date": 1355177254000
+    },
+    {
+      "id": "responsive-day-out",
+      "title": "Responsive Day Out",
+      "href": "/2012/12/07/responsive-day-out/",
+      "body": "I’ll be speaking at the Responsive Day Out conference in Brighton, 1st March 2013. Grab a ticket now because at £50+VAT they’ll be sold out very soon! And they’re gone!\n\n\nJeremy Keith explains more on his blog.\nIt’s a kind of conference, I guess, but I think of it as more like a gathering of like-minded people […]",
+      "date": 1354870355000
+    },
+    {
+      "id": "the-mobile-book",
+      "title": "The Mobile Book",
+      "href": "/2012/12/05/the-mobile-book/",
+      "body": "Smashing Magazine’s The Mobile Book is due for dispatch soon. Having had the opportunity to read it I’ll cut to the chase for those deliberating a purchase: it’s well worth the cover price. The e-book edition is a steal!\n\n\nLet it be known that this book goes beyond designing for the Web. The core themes are […]",
+      "date": 1354711297000
+    }
+  ],
+  "nextPage": "/blog/page/14/",
+  "prevPage": "/blog/page/12/",
+  "pageTitle": "Blog (page 13) – David Bushell – Web Design (UK)"
+}

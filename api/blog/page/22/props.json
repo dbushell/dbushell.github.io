@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/22/",
+  "pageHeading": "Blog (page 22)",
+  "excerpts": [
+    {
+      "id": "learning-from-the-crazy-ones",
+      "title": "Learning from the crazy ones",
+      "href": "/2011/10/30/learning-from-the-crazy-ones/",
+      "body": "I’ve been reading the Steve Jobs biography and a quote in the Jony Ive chapter (half way through the book) from Jobs really stood out:\n“In most people’s vocabularies, design means veneer, but to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up […]",
+      "date": 1319972978000
+    },
+    {
+      "id": "reaction-time",
+      "title": "Reaction Time",
+      "href": "/2011/10/25/reaction-time/",
+      "body": "Last week I wrote about device optimisation which adds a much needed bit of pragmatism to the holy grail of timeless, device-agnostic website design.\nI touched on a technique that I’ll expand here because it can be used more generically. If you’re going for a responsive layout with interactive elements this makes a massive difference to […]",
+      "date": 1319568205000
+    },
+    {
+      "id": "the-thoughtful-touches",
+      "title": "The Thoughtful Touches",
+      "href": "/2011/10/18/the-thoughtful-touches/",
+      "body": "I just finished building a website!\nI’m afraid it’s not live just yet but there are a few thoughts I’d like to share, so if you can get your imagination running I promise not to waste your time! (No refunds.)\nIt’s different than other websites I’ve built because it’s 90% photography — think fullscreen slideshows. While the […]",
+      "date": 1318967962000
+    },
+    {
+      "id": "the-javascript-refresh",
+      "title": "The JavaScript Refresh",
+      "href": "/2011/10/16/the-javascript-refresh/",
+      "body": "Those of us who care a little about progressive enhancement and accessibility will be well aware of the “JavaScript refresh”. This is when the page initially renders — visible to the user — before deferred JavaScript kicks in. Think jQuery’s $(document).ready() or similar.\nThis problem occurs from very good practices. We have to make sure pages […]",
+      "date": 1318782609000
+    },
+    {
+      "id": "the-user-and-the-public",
+      "title": "The User / The Public",
+      "href": "/2011/10/16/the-user-and-the-public/",
+      "body": "I’ll start by recommending the book that has influenced this article:\nPublic Parts: How Sharing in the Digital Age Improves the Way We Work and Live. Author Jeff Jarvis is an interesting guy. He’s an old school journalist who is well versed in the web and what is has to offer the future. If you want […]",
+      "date": 1318723003000
+    },
+    {
+      "id": "web-apps-and-ios5",
+      "title": "Web Apps and iOS5",
+      "href": "/2011/10/13/web-apps-and-ios5/",
+      "body": "One less advertised feature of iOS5 is Mobile Safari CSS support for position:fixed. Much overdue, and very useful for creating “web apps” where navigation bars are fixed to the viewport’s edge (top or bottom), allowing content to scroll naturally underneath.\nSome mobile bowsers already support this (see Mobile HTML5 and When can I use…) and all […]",
+      "date": 1318539515000
+    },
+    {
+      "id": "beyond-superficial-with-css3",
+      "title": "Beyond superficial with CSS3",
+      "href": "/2011/10/05/beyond-superficial-with-css3/",
+      "body": "Last week I wrote Building for Future Design — the notion: to advance web design we must build on solid foundations. Never forget accessibility.\nSix Revisions published the very timely article Are You Using CSS3 Appropriately? by Delwin Campbell this week in which he reaches similar conclusions to me; usability, accessibility and user experience are our […]",
+      "date": 1317855405000
+    }
+  ],
+  "nextPage": "/blog/page/23/",
+  "prevPage": "/blog/page/21/",
+  "pageTitle": "Blog (page 22) – David Bushell – Web Design (UK)"
+}

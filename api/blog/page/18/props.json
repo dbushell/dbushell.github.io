@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/18/",
+  "pageHeading": "Blog (page 18)",
+  "excerpts": [
+    {
+      "id": "terms-of-service-tldr",
+      "title": "Terms of Service TL;DR",
+      "href": "/2012/04/15/terms-of-service-tldr/",
+      "body": "This week saw an echo of praise around the tech community for photography website 500px’s approach to its Terms of Service page.\nThe basic idea being that the left column contains the verbose legal terms while the right column holds a brief layman’s translation. What I find worry is the vast number of web professionals who […]",
+      "date": 1334488626000
+    },
+    {
+      "id": "spotify-play-button-and-socialite-js",
+      "title": "Spotify & Socialite.js",
+      "href": "/2012/04/11/spotify-play-button-and-socialite-js/",
+      "body": "Spotify have just released their Spotify Play Button allowing you to embed any song or playlist on your website or blog. It’s awesome, but it also comes at a cost.\nThe whole include (which uses an iframe) weights in at close to 500kb and uses upwards of 30 http requests alone. Chunky! Chunkier than many web […]",
+      "date": 1334150615000
+    },
+    {
+      "id": "svg-use-it-already",
+      "title": "SVG, Use it Already",
+      "href": "/2012/04/03/svg-use-it-already/",
+      "body": "Here’s the deal: there’s no reasonable excuse to avoid using SVG for vector graphics on the Web (with a PNG fallback, primarily for IE &lt; 9 and older Android).\nWhile there are legitimate design problems when using one single file with icons at multiple sizes, this is not unique to SVG and in the land of […]",
+      "date": 1333458611000
+    },
+    {
+      "id": "dropping-ie-support",
+      "title": "Dropping IE Support",
+      "href": "/2012/04/02/dropping-ie-support/",
+      "body": "Yesterday TechCrunch reported on the start-up 4ormat and their decision to drop support for Internet Explorer entirely. Their logic behind this seems simple enough; developing for IE users did not equate to profit.\nSupporting variants of IE can easily increase design work by 30% to 100%, but complex features can easily double (or even triple) development […]",
+      "date": 1333373071000
+    },
+    {
+      "id": "introducing-shiro",
+      "title": "Introducing Shiro",
+      "href": "/2012/03/27/introducing-shiro/",
+      "body": "Update — March 19th, 2013: please read this article for updates!\nI’ve always taken a very liberal/aggressive approach to progressive enhancement. Older browsers get accessible content but layout is limited and aesthetic styles are better lost completely than hacked on with nasty techniques.\nEvery website is different of course. When I redesigned my personal website I had […]",
+      "date": 1332836102000
+    },
+    {
+      "id": "the-mobile-fallacy",
+      "title": "The Mobile Fallacy",
+      "href": "/2012/03/23/the-mobile-fallacy/",
+      "body": "Brad Frost wrote an excellent overview of Content Parity saying “it’s alright to optimize the presentation of content as long as the content remains accessible in some way, shape or form”. This is so vital to understand when designing for the Web across multiple devices. There are still far too many designers equating mobile with […]",
+      "date": 1332502608000
+    },
+    {
+      "id": "preserving-the-web",
+      "title": "Preserving the Web",
+      "href": "/2012/03/20/preserving-the-web/",
+      "body": "Before I ramble on, if you haven’t seen Jeremy Keith’s talk on time, networks and history, may I point you to his article: Of Time And The Network. You can also watch his talk from Webstock ‘12 on Vimeo.\nIn regards to our content he says:\nPublish it. Publish it on the network. Put it out there, […]",
+      "date": 1332277791000
+    }
+  ],
+  "nextPage": "/blog/page/19/",
+  "prevPage": "/blog/page/17/",
+  "pageTitle": "Blog (page 18) – David Bushell – Web Design (UK)"
+}

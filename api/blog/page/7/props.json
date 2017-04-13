@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/7/",
+  "pageHeading": "Blog (page 7)",
+  "excerpts": [
+    {
+      "id": "a-year-for-clients-and-side-projects",
+      "title": "A Year for Clients and Side Projects",
+      "href": "/2014/01/30/a-year-for-clients-and-side-projects/",
+      "body": "It’s been a slow start to the year — my internet access is peaking at 15kb/s for the time being — so if you’re reading this, I’ve got through!\nWorking freelance for most of last year was very rewarding and I’m glad I made the jump. I want 2014 to be a year for both perfect […]",
+      "date": 1391070071000
+    },
+    {
+      "id": "building-for-perch-cms",
+      "title": "Building for Perch CMS",
+      "href": "/2014/01/10/building-for-perch-cms/",
+      "body": "Perch CMS has been on my radar for a few years now and given the praise I continue to see I figured it was time to learn the ins and outs of Perch development.\n\n\nPerch is a very good CMS for both development ease and content editing. After spending a week with Perch I feel confident […]",
+      "date": 1389343076000
+    },
+    {
+      "id": "thanks-for-a-great-year",
+      "title": "Thanks for a Great Year!",
+      "href": "/2013/12/18/thanks-for-a-great-year/",
+      "body": "2013 has been a fun year, one of the most eventful of my career. Usually I like to round up with a review of my work but with several projects launching in January, I’ll hold off until then. This is a short thank you to my clients and fellow web workers who have supported me […]",
+      "date": 1387382150000
+    },
+    {
+      "id": "what-is-wrong-with-this-message",
+      "title": "What is wrong with this message?",
+      "href": "/2013/11/14/what-is-wrong-with-this-message/",
+      "body": "Nobody said microcopy was easy…\nWhile catching up with my Twitter feed I follow a link to Google+ — appears to show signs of life within the tech community — and I’m greeted with this wonderful message:\n\n\n“Your profile has been suspended because it impersonates someone.”\nA straight up accusation of potentially illegal acts. There’s no ambiguity, I’m […]",
+      "date": 1384434839000
+    },
+    {
+      "id": "form-label-design",
+      "title": "Form Label Design",
+      "href": "/2013/11/08/form-label-design/",
+      "body": "Web forms are often a tedious experience. There’s a lot to be said for keeping questions to a minimum. Do I really need to enter my name across three fields, can’t you just call me “Dave”?\nTo save space and reduce visual noise it’s become quite common to repurpose HTML placeholders. But as we should all […]",
+      "date": 1383909303000
+    },
+    {
+      "id": "browser-support-again",
+      "title": "Browser Support, Again",
+      "href": "/2013/11/06/browser-support-again/",
+      "body": "With a high-profile portfolio of websites like Google Apps dropping support for IE9 the question of browser support inevitably resurfaces. Many will see this news as justification for their own abandonment of a legacy browser.\nAs I’ve said time and time again, external decisions and aggregated statistics are irrelevant if you have specific numbers for a […]",
+      "date": 1383736927000
+    },
+    {
+      "id": "front-end-style-guides",
+      "title": "Front-end Style Guides",
+      "href": "/2013/11/05/front-end-style-guides/",
+      "body": "I’ve just read Front-end Style Guides written by Anna Debenham, published by Five Simple Steps. As a thorough overview of all that the title suggests the book sets a practical mindset for utilising style guides with many examples (and at £2.40; an absolute steal).\nStyle guides are critical to how I make websites.\nMy design &amp; build […]",
+      "date": 1383666952000
+    }
+  ],
+  "nextPage": "/blog/page/8/",
+  "prevPage": "/blog/page/6/",
+  "pageTitle": "Blog (page 7) – David Bushell – Web Design (UK)"
+}

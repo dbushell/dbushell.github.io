@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/20/",
+  "pageHeading": "Blog (page 20)",
+  "excerpts": [
+    {
+      "id": "designing-operating-systems",
+      "title": "Designing OS’s",
+      "href": "/2012/02/19/designing-operating-systems/",
+      "body": "Earlier this week Apple announced OS X Mountain Lion which brings closer unity between itself and iOS for mobile. Both in user experience and—sadly—user interface.\nI can’t say I’m particularly excited about upgrading to OS X 10.8. The heavily stylised and textured design already looks tired on mobile apps, now we have the pleasure of it […]",
+      "date": 1329651353000
+    },
+    {
+      "id": "are-you-sure-the-user-experience-of-confirmation-dialogs",
+      "title": "Are You Sure? The UX of Confirmations",
+      "href": "/2012/02/13/are-you-sure-the-user-experience-of-confirmation-dialogs/",
+      "body": "Imagine for a minute your web app has a “Delete” action. In HTML it takes this form:\n&lt;a class=\"delete\" href=\"#\">Delete Item&lt;/a>\n\nThe anchor is styled up with sexy CSS3 and functionality is implemented with an asynchronous JavaScript API call. Because we all care about accessibility (and standards) we provide a “no-JS” fallback:\n&lt;a class=\"delete\" href=\"/item/delete/1/\">Delete Item&lt;/a>\n\nLovely! It’s great […]",
+      "date": 1329158792000
+    },
+    {
+      "id": "resolution-independence",
+      "title": "Resolution Independence!",
+      "href": "/2012/01/16/resolution-independence/",
+      "body": "One of my thoughts for Web Design: 2012 and Beyond concerned the issues of screen resolution and the necessity for scalable graphics on the web. As part of that thinking I’ve written a piece for Smashing Magazine entitled Resolution Independence with SVG:\nWhen we look at the breadth of Web-enabled devices, responsive design is sure to […]",
+      "date": 1326741891000
+    },
+    {
+      "id": "device-optimisation",
+      "title": "Device Optimisation",
+      "href": "/2012/01/11/device-optimisation/",
+      "body": "Device optimisation is about accessing a website on one set up and fine-tuning the experience. It could be Internet Explorer 7 on a mediocre PC, the iPhone 4000, a generic and underpowered Android tablet, or a web-enabled HD 3D TV. Whatever the set up, ask: how can I make this one experience better?\nThe idea is […]",
+      "date": 1326242026000
+    },
+    {
+      "id": "responsive-tables-2",
+      "title": "Responsive Tables (2)",
+      "href": "/2012/01/05/responsive-tables-2/",
+      "body": "\nNEW: CSS only Responsive Tables\nSee the link above for more recent developments.\n\n\nMy last article on responsive tables was very popular so I’ve only gone and implemented the idea that I was alluding to with horizontal scrolling!\n\n\nSee Responsive Tables Demo (2) — in a modern browser! Webkit browsers handle both tables perfectly. Firefox &amp; Opera handle […]",
+      "date": 1325793182000
+    },
+    {
+      "id": "responsive-calendar-demo",
+      "title": "Responsive Tables (and a calendar demo)",
+      "href": "/2012/01/04/responsive-calendar-demo/",
+      "body": "Update see more responsive tables progress (5th Jan).\nA real short post for future reference! I’m experimenting with a responsive calendar design and build. See my very rough responsive calendar demo.\nI’ve found through trial, error, and much pondering that the idea of a responsive calendar is actually not that complex. My demo needs more considered breakpoints […]",
+      "date": 1325721511000
+    },
+    {
+      "id": "web-design-2012-and-beyond",
+      "title": "Web Design: 2012 and Beyond",
+      "href": "/2011/12/15/web-design-2012-and-beyond/",
+      "body": "The year is ending, I guess it’s time to look forward?\n2011 has been the best year of my career so far. I left my previous job to join Browser, an unexpected but excellent move! I’ve been refining my front-end development skills and design process. Next year we’ll have big websites to launch that I plan […]",
+      "date": 1323907873000
+    }
+  ],
+  "nextPage": "/blog/page/21/",
+  "prevPage": "/blog/page/19/",
+  "pageTitle": "Blog (page 20) – David Bushell – Web Design (UK)"
+}

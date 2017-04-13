@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/4/",
+  "pageHeading": "Blog (page 4)",
+  "excerpts": [
+    {
+      "id": "wordpress-to-metalsmith",
+      "title": "WordPress to Metalsmith",
+      "href": "/2015/05/11/wordpress-to-metalsmith/",
+      "body": "It’s a busy work schedule that is usually to blame for my lack of written output on this blog. That was not the case last month!\nDowntime\nAs you may have noticed, my website has been going offline frequently. Not good. After several failed attempts to fix the — admittedly self-inflicted — issue I decided a full […]",
+      "date": 1431338400000
+    },
+    {
+      "id": "responsive-design-for-houden",
+      "title": "Responsive Design for Houden",
+      "href": "/2015/03/18/responsive-design-for-houden/",
+      "body": "Houden is an e-ccomerce store, soon to launch with stylish bags and accessories for laptops, tablets, and cameras.\nI was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at Shopify. Below is a preview of the design and code I’ve […]",
+      "date": 1426675859000
+    },
+    {
+      "id": "critical-css-and-performance",
+      "title": "Critical CSS and Performance",
+      "href": "/2015/02/19/critical-css-and-performance/",
+      "body": "I built my website last year with a strong focus on front-end performance.\nThis week inspired by Scott Jehl’s article “How we make RWD sites load fast as heck” and Callum Hart’s “Non-blocking UI’s with interface previews” I decided to revisit my code and give it another boost. The trick to getting content on screen faster […]",
+      "date": 1424365085000
+    },
+    {
+      "id": "when-can-a-website-be-over-1mb",
+      "title": "When can a website be over 1mb?",
+      "href": "/2015/02/06/when-can-a-website-be-over-1mb/",
+      "body": "When a new website is released for a popular or high profile brand there are two stages of reaction. The first is praise: “it’s responsive!”, “it’s gorgeous!”. The second is criticism: “don’t work in IE9!”, “it’s over 1MB!”. As is internet traditional, opinion must be bipolar and unconditional.\nInitial reaction to the new Majora’s Mask 3DS […]",
+      "date": 1423222268000
+    },
+    {
+      "id": "i-dont-do-angular-is-that-ok",
+      "title": "I don’t do Angular, is that OK?",
+      "href": "/2015/02/04/i-dont-do-angular-is-that-ok/",
+      "body": "I’ve never been one to care for job titles. One or two words can’t adequately explain the extent of our roles. I try to avoid giving myself a strict title on this website.\nOn my homepage:\n“I design, build &amp; write all things web”\n\n\nThen I list:\n\nResponsive Design\nFront-end Development\nProcess &amp; Strategy\n\nThese pages are a delicate balance of an […]",
+      "date": 1423057945000
+    },
+    {
+      "id": "use-svg-part-2",
+      "title": "Use SVG (part 2)",
+      "href": "/2015/01/30/use-svg-part-2/",
+      "body": "On Monday I wrote about using SVG for content images. Aside from minor workarounds for a peculiar Internet Explorer bug, it’s a relatively straight forward task.\nI was planning to follow up with a technical overview of SVG sprites, but really, I can’t write anything better than Sara Soueidan’s comprehensive guide: “An Overview of SVG Sprite […]",
+      "date": 1422612058000
+    },
+    {
+      "id": "use-svg-part-1",
+      "title": "Use SVG (part 1)",
+      "href": "/2015/01/26/use-svg-part-1/",
+      "body": "As you know I’m a big fan of using SVG whenever possible.\nSee my articles ‘Resolution Independence With SVG’ (Jan 2012) and ‘A Primer to Front-end SVG Hacking’ (Feb 2013) for a retrospective.\n\nI’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how […]",
+      "date": 1422279504000
+    }
+  ],
+  "nextPage": "/blog/page/5/",
+  "prevPage": "/blog/page/3/",
+  "pageTitle": "Blog (page 4) – David Bushell – Web Design (UK)"
+}

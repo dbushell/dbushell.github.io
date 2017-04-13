@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/12/",
+  "pageHeading": "Blog (page 12)",
+  "excerpts": [
+    {
+      "id": "a-new-home",
+      "title": "A New Home",
+      "href": "/2013/02/04/a-new-home/",
+      "body": "Welcome to my new website. I haven’t rebranded entirely — what you see bears many similarities to updates past — but I am launching a new stage in my career.\n2013 is the year I go freelance.\nThis site now represents my web design and front-end development services. It’s heavily content-centric in design. And responsive, of course! […]",
+      "date": 1359948357000
+    },
+    {
+      "id": "gloople-responsive-design-review",
+      "title": "Gloople: Responsive Design Review",
+      "href": "/2013/01/28/gloople-responsive-design-review/",
+      "body": "Following last year’s Passenger Focus case study, today I present the Gloople responsive design review. Gloople is an ecommerce platform with emphasis on social and mobile. We designed and built the website at Browser.\nPlease bear in mind this is a beta registration launch. The final site, fully optimised, and the ecommerce platform will arive later […]",
+      "date": 1359383125000
+    },
+    {
+      "id": "multiple-accounts-and-ssh-keys",
+      "title": "Multiple Accounts and SSH Keys",
+      "href": "/2013/01/27/multiple-accounts-and-ssh-keys/",
+      "body": "Now that I’m officially a self-employed freelancer I plan to blog more frequently. In the past I’ve rarely written very technical articles, but I imagine there are many designer/front-end developer types like me who struggle with this stuff. Tomorrow I’ll post a big responsive design case study, I promise.\nToday I moved my private code repositories […]",
+      "date": 1359313041000
+    },
+    {
+      "id": "re-jquery-animation-vs-css",
+      "title": "Re: jQuery Animation vs CSS",
+      "href": "/2013/01/15/re-jquery-animation-vs-css/",
+      "body": "In response to my Smashing Magazine article on implementing off-canvas navigation I received a great comment by Michael Benin:\n\nhttps://github.com/benbarnett/jQuery-Animate-Enhanced\nhttps://github.com/gnarf37/jquery-requestAnimationFrame\nDropping in these two plugins should achieve what is accomplished in this article using CSS, and furthermore will utilize RAF. It would be interesting for you to run the same tests against JS/jQuery with these jQuery plugins.\n\n\n\nI […]",
+      "date": 1358289461000
+    },
+    {
+      "id": "as-seen-on-smashing-magazine",
+      "title": "As Seen on Smashing Magazine",
+      "href": "/2013/01/15/as-seen-on-smashing-magazine/",
+      "body": "\n\nYou may have caught my recent experiment — well I’ve gone and written a very thorough examination for Smashing Magazine. Read my latest article: “Implementing Off-Canvas Navigation For A Responsive Website”.\nI do enjoy writing for @smashingmag. They’re genuinely some of the nicest people ever to email me. As I leave London this year I plan […]",
+      "date": 1358272214000
+    },
+    {
+      "id": "responsive-mistakes-less-is-more",
+      "title": "Responsive Mistakes: Less is More",
+      "href": "/2013/01/09/responsive-mistakes-less-is-more/",
+      "body": "This is part 2 of my responsive mistakes mini-series.\nResponsive design musing often leans towards a mobile bias. It’s obvious why. After years of desktop-centric design, mobile is brimming with fresh opportunity.\nAs it turns out, the mobile perspective is very helpful for us and our clients. Designing for small viewports forces content to the forefront of […]",
+      "date": 1357738070000
+    },
+    {
+      "id": "a-mini-series-of-responsive-mistakes",
+      "title": "Responsive Mistakes (a mini-series)",
+      "href": "/2013/01/06/a-mini-series-of-responsive-mistakes/",
+      "body": "Last week I shared some front-end experience with 5 tips for responsive builds. It received positive feedback so I thought it’d be fun to continue with a new mini-series. This month I’ll be focusing on the mistakes we make. Without further ado, let’s start with the biggest:\nSmart Phone, Tablet, Desktop\nAs a composition to highlight the […]",
+      "date": 1357486067000
+    }
+  ],
+  "nextPage": "/blog/page/13/",
+  "prevPage": "/blog/page/11/",
+  "pageTitle": "Blog (page 12) – David Bushell – Web Design (UK)"
+}

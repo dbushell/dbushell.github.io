@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/",
+  "pageHeading": "Blog",
+  "excerpts": [
+    {
+      "id": "the-magic-of-service-workers",
+      "title": "The Magic of Service Workers",
+      "href": "/2017/04/06/the-magic-of-service-workers/",
+      "body": "They’re a thing. Google describes them as a “technical foundation”.\nWhat I’ve learnt is that a service worker is a JavaScript file. It runs in it’s own little world behind a website. That means it can’t access the DOM. What it can do is proxy network requests and access a storage cache.\nI’m sure they can do […]",
+      "date": 1491472800000
+    },
+    {
+      "id": "i-watched-iron-fist-and-coded-css",
+      "title": "I watched Iron Fist and coded CSS 👈",
+      "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/",
+      "body": "They have nothing in common.\nWell, aside from entertaining my weekend. I’m just bad at blog titles and I’m fed up of writing nonsense like “CSS modularity; theory and practice”. My draft title, which let’s face it, nobody is clicking.\nIron Fist is ‘aight I guess. I’m 7 episodes deep and I’m still awake which is an […]",
+      "date": 1491213600000
+    },
+    {
+      "id": "web-security-and-cloudflare",
+      "title": "Web Security and Cloudflare",
+      "href": "/2017/02/17/web-security-and-cloudflare/",
+      "body": "I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.\n\n\nI listened to an episode of […]",
+      "date": 1487325600000
+    },
+    {
+      "id": "react-as-a-static-site-generator",
+      "title": "React as a Static Site Generator",
+      "href": "/2017/02/13/react-as-a-static-site-generator/",
+      "body": "Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.\nTime for a new project!\nAbstract: rebuild my website using React as the template engine for a bespoke static […]",
+      "date": 1486980000000
+    },
+    {
+      "id": "resolving-javascript-promises-sequentially-without-nesting",
+      "title": "Working with Promises",
+      "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
+      "body": "JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.\nLet’s say you have several functions that return a promise:\nfunction act1() {\n  return new Promise((resolve, reject) => {\n    // do something that might reject...\n    resolve();\n  });\n}\n\nIt’s easy […]",
+      "date": 1481882400000
+    },
+    {
+      "id": "my-thoughts-on-react",
+      "title": "My thoughts on React",
+      "href": "/2016/12/02/my-thoughts-on-react/",
+      "body": "I’ve been playing with React for some time now. React is:\n\n“A JavaScript library for building user interfaces”.\n\nUnlike other libraries something about React just clicked with me. Back in October a client project came along that presented a golden opportunity to develop a web app. I decided to use React, and I now consider myself comfortable […]",
+      "date": 1480672800000
+    },
+    {
+      "id": "building-a-shopify-theme",
+      "title": "Building a Shopify Theme",
+      "href": "/2016/10/10/building-a-shopify-theme/",
+      "body": "Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.\n\n\nGetting started\nIf you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp; CSS […]",
+      "date": 1476093600000
+    }
+  ],
+  "nextPage": "/blog/page/2/",
+  "prevPage": null,
+  "pageTitle": "Blog – David Bushell – Web Design (UK)"
+}

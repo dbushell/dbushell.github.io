@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/16/",
+  "pageHeading": "Blog (page 16)",
+  "excerpts": [
+    {
+      "id": "nestable-jquery-plugin",
+      "title": "Nestable jQuery Plugin",
+      "href": "/2012/06/17/nestable-jquery-plugin/",
+      "body": "I’ve started writing a jQuery plugin called Nestable — try it out.\nNestable is an interactive hierarchical list. You can drag and drop to rearrange the order. It even works well on touch-screens. If you’re familiar with the way WordPress allows the user to manage menus, this will be used for a similar UI.\n\n\nThe only similar […]",
+      "date": 1339936744000
+    },
+    {
+      "id": "featured-in-javascript-weekly",
+      "title": "Featured",
+      "href": "/2012/06/08/featured-in-javascript-weekly/",
+      "body": "If you’re a website developer, subscriptions to the JavaScript Weekly and HTML5 Weekly newsletters are mandatory. Even in the days of Twitter they’re a goldmine of knowledge.\nAs it happens, my Socialite.js project makes an appearance in Issue #82! My praise of these newsletters is in no way disingenuous; it really is an honour (albeit a […]",
+      "date": 1339159514000
+    },
+    {
+      "id": "search-responsive-design",
+      "title": "Search & Responsive Design",
+      "href": "/2012/06/06/search-responsive-design/",
+      "body": "As a Websitemaker the only thing you need to know about search engines (Google) is that they rank quality and relevance. Not the density of keywords, not the number of inbound links, certainly not the colour of your hat.\nApplying an “SEO” perspective to your website is one more obfuscated step between you and your users. […]",
+      "date": 1339015294000
+    },
+    {
+      "id": "socialite-2-preview",
+      "title": "Socialite 2 Preview",
+      "href": "/2012/05/29/socialite-2-preview/",
+      "body": "I’ve just uploaded a developer preview of Socialite v2.0 over at GitHub.\nSocialite allows you to delay the loading of social sharing buttons (which aren’t very popular at the moment [1] [2]). This speeds up the load of important content dramatically. It also means you can initialise new buttons for dynamically loaded content at any time. […]",
+      "date": 1338328923000
+    },
+    {
+      "id": "the-restriction-of-type",
+      "title": "The Restriction of Type",
+      "href": "/2012/05/26/the-restriction-of-type/",
+      "body": "Responsive website design is incredibly difficult to get right. It’s often said that designing for content is the key to success.\nIn the screenshots below you can see the websites of Elliot Jay Stocks, Jeffrey Zeldman, and Information Architects, all of which have had a redesign/realign this year with content as their priority and thus typography […]",
+      "date": 1338023028000
+    },
+    {
+      "id": "javascript-bookmarklets",
+      "title": "JavaScript Bookmarklets",
+      "href": "/2012/05/22/javascript-bookmarklets/",
+      "body": "I love a good JavaScript bookmarklet.\nThey’re fun to play with and a great way to hack around on a live website with new code without affecting anyone else’s experience. They can also become part of your service; think Readability’s ‘Read Now’ or Pinterest’s ‘Pin it!’.\nA bookmarklet begins with the following shell:\njavascript:(function(){\n    // […]",
+      "date": 1337674216000
+    },
+    {
+      "id": "pageshift-removing-the-refresh",
+      "title": "Pageshift",
+      "href": "/2012/05/15/pageshift-removing-the-refresh/",
+      "body": "It’s 2012, why are we still seeing websites assemble like Optimus Prime?\nIn January I wrote Web Design: 2012 and Beyond to highlight points of interest for the coming year. On interactivity I asked, “Is the page reload a thing of the past?”. ‘Web apps’ are all the rage, and while we shouldn’t be trying to […]",
+      "date": 1337119848000
+    }
+  ],
+  "nextPage": "/blog/page/17/",
+  "prevPage": "/blog/page/15/",
+  "pageTitle": "Blog (page 16) – David Bushell – Web Design (UK)"
+}

@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/19/",
+  "pageHeading": "Blog (page 19)",
+  "excerpts": [
+    {
+      "id": "the-lovedsgn-story",
+      "title": "The LoveDsgn Story",
+      "href": "/2012/03/18/the-lovedsgn-story/",
+      "body": "Zero to 200,000 page views and 1000 members in less than 30 days. A brand new domain, no advertising.\nThat’s the sort of website launch our clients convince themselves of but never see. Nobody is talking about a website they’ve never heard of, nobody is searching for something they didn’t know existed. And yet I sat […]",
+      "date": 1332082842000
+    },
+    {
+      "id": "ideas-of-march",
+      "title": "Ideas of March",
+      "href": "/2012/03/16/ideas-of-march/",
+      "body": "If you haven’t read an Ideas of March post yet they all start by explaining what an Ideas of March post is. I’m just going to link to Chris Shiflett’s 2012 update.\nI believe I’m suppose to write about writing. When I started this blog in 2008 post-graduation it began as a tiny link hidden away […]",
+      "date": 1331935405000
+    },
+    {
+      "id": "svg-all-fun-and-games",
+      "title": "SVG, all fun and games!",
+      "href": "/2012/03/11/svg-all-fun-and-games/",
+      "body": "When I wrote Resolution Independence for Smashing Magazine I focused almost exclusively on SVG (Scalable Vector Graphics) to save our souls from high-resolution hell.\nSVG is more than just a vector graphic format. I’m here to tell you why it’s better than sliced bread and highlight some of the problems you’ll encounter in everyday front-end usage.\nFeatures […]",
+      "date": 1331429092000
+    },
+    {
+      "id": "design-heroes",
+      "title": "Design Heroes",
+      "href": "/2012/03/06/design-heroes/",
+      "body": "My bookmark blog Design Heroes has built quite a following over the last few years — who said RSS was dead? — but being more active on Twitter (@dbushell) has made this blog redundant (and a pain to maintain).\n\n\nDesign Heroes was my “original” web project so I’ve been hesitant to let it die but lack […]",
+      "date": 1331023196000
+    },
+    {
+      "id": "user-experience-and-privacy-the-fickle-web",
+      "title": "UX and Privacy",
+      "href": "/2012/03/05/user-experience-and-privacy-the-fickle-web/",
+      "body": "I bought a Samsung Galaxy Nexus — running Google’s Android 4.0, ICS — several months ago. I ditched the iPhone 4 just past half way through my contract, and you know what? This is the best user experience I’ve had on a phone to date.\nBut this blog post isn’t about a phone. It’s about Google, […]",
+      "date": 1330991356000
+    },
+    {
+      "id": "forget-about-browser-support",
+      "title": "Browser Support? Forget It!",
+      "href": "/2012/03/03/forget-about-browser-support/",
+      "body": "What is meant by “browser support” when creating a website? Ensuring it is accessible by a browser is what I like to think of. Others may dream of pixel-perfection. Whatever “support” entails, browsers that don’t make the cut are universally ignored with much delight and little chance of being usable.\nIt’s common practice to maintain a […]",
+      "date": 1330799094000
+    },
+    {
+      "id": "spring-cleaning-redesigning-dbushell-com",
+      "title": "Spring Cleaning",
+      "href": "/2012/02/27/spring-cleaning-redesigning-dbushell-com/",
+      "body": "May 2011 — I redesigned my website (this website) with the primary goal of making it responsive. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little […]",
+      "date": 1330348374000
+    }
+  ],
+  "nextPage": "/blog/page/20/",
+  "prevPage": "/blog/page/18/",
+  "pageTitle": "Blog (page 19) – David Bushell – Web Design (UK)"
+}

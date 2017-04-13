@@ -40,6 +40,8 @@ window.dbushell = (function (window, document) {
   // app.isIOS = /(iPhone|iPad|iPod)/gi.test(ua);
   app.isFF = /firefox/i.test(ua);
 
+  var footerUpdate;
+
   app.iscroll = function () {
     if (!window.IScroll || !_init) {
       return;
@@ -53,7 +55,7 @@ window.dbushell = (function (window, document) {
       interactiveScrollbars: true,
       fadeScrollbars: true
     });
-    var resize = function () {
+    footerUpdate = function () {
       var position = window.getComputedStyle($footer, null).getPropertyValue('position');
       if (position === 'fixed') {
         scroller.enable();
@@ -61,9 +63,11 @@ window.dbushell = (function (window, document) {
         scroller.disable();
       }
     };
-    window.addEventListener('resize', resize, false);
-    setTimeout(resize, 0);
+    window.addEventListener('resize', footerUpdate);
+    setTimeout(footerUpdate, 0);
   };
+
+  var navUpdate;
 
   app.nav = function () {
     if (!_init || !document.querySelector || !document.documentElement.classList) {
@@ -116,7 +120,7 @@ window.dbushell = (function (window, document) {
     }, false);
 
     var updateLoop = 0;
-    function update() {
+    navUpdate = function() {
       if (updateLoop++ < 50) {
         // reset
         $navMoreList.classList.remove('b-nav__dropdown--active');
@@ -151,7 +155,7 @@ window.dbushell = (function (window, document) {
           } else {
             $navMoreList.appendChild($last);
           }
-          return update();
+          return navUpdate();
         }
         // add overflow items back into menu
         if ($navMoreList.children.length > 0) {
@@ -167,7 +171,7 @@ window.dbushell = (function (window, document) {
             });
             $navList.appendChild($navMoreItem);
             // $navList.insertBefore($first, $navMoreItem);
-            return update();
+            return navUpdate();
           }
         }
 
@@ -178,44 +182,68 @@ window.dbushell = (function (window, document) {
       updateLoop = 0;
       // update more list visiblity
       $navMoreItem.style.display = $navMoreList.children.length ? 'block' : 'none';
-    }
+    };
 
-    window.addEventListener('load', update, false);
-    window.addEventListener('resize', update, false);
-    window.addEventListener('orientationchange', update, false);
+    window.addEventListener('load', navUpdate);
+    window.addEventListener('resize', navUpdate);
+    window.addEventListener('orientationchange', navUpdate);
   };
 
-  app.sw = function () {
+  app.video = function () {
+    if (!document.querySelector('iframe')) {
+      return;
+    }
+    if (window.fitVids) {
+      window.fitVids();
+    } else {
+      window.loadScript('/assets/js/vendor/fitvids.min.js?v=' + app.ver);
+    }
+  };
 
-  }
+  app.refresh = function (hard) {
+    if (navUpdate) {
+      window.removeEventListener('load', navUpdate);
+      window.removeEventListener('resize', navUpdate);
+      window.removeEventListener('orientationchange', navUpdate);
+      app.nav();
+    }
+    if (hard && footerUpdate) {
+      window.removeEventListener('resize', footerUpdate);
+      app.iscroll();
+    }
+    app.video();
+    window.dispatchEvent(new Event('resize'));
+  };
 
   app.init = function () {
     if (_init++) {
       return;
     }
-    window.loadScript('/assets/js/vendor/headroom.min.js', function () {
+    window.loadScript('/assets/js/vendor/headroom.min.js?v=' + app.ver, function () {
       window.dbushell.nav();
     });
     // use iScroll5 for scrollbar design in Firefox and IE9+
     if (app.isFF || (app.isIE && !app.isOldIE)) {
-      window.loadScript('/assets/js/vendor/iscroll.min.js', function () {
+      window.loadScript('/assets/js/vendor/iscroll.min.js?v=' + app.ver, function () {
         window.dbushell.iscroll();
       });
     }
     // fix SVG sprites in IE
     if (app.isIE) {
-      window.loadScript('/assets/js/vendor/svgxuse.min.js');
-    }
-    // Responsive videos
-    if (document.querySelector('iframe')) {
-      window.loadScript('/assets/js/vendor/fitvids.min.js');
+      window.loadScript('/assets/js/vendor/svgxuse.min.js?v=' + app.ver);
     }
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('/sw.js');
       });
     }
-    return app;
+    if ('fetch' in window) {
+      app.universal = function () {
+        window.loadScript('/assets/js/app.js?v=' + app.ver);
+      };
+    }
+    // Responsive video
+    window.dbushell.video();
   };
 
   return app;

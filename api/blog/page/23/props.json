@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/23/",
+  "pageHeading": "Blog (page 23)",
+  "excerpts": [
+    {
+      "id": "building-for-future-design",
+      "title": "Building for Future Design",
+      "href": "/2011/10/01/building-for-future-design/",
+      "body": "2011 is vanishing fast!\nI’ve been busy working hard at my new home (Browser) refining my front-end coding skills.\nMy focus has been on honing the semantic and accessible nature of the websites we build. That is the underlying requirement I need to fulfil my mandate of designing superb user experiences. It’s really all about pushing website […]",
+      "date": 1317474186000
+    },
+    {
+      "id": "what-is-mobile",
+      "title": "What is mobile?",
+      "href": "/2011/09/14/what-is-mobile/",
+      "body": "Have you ever seen someone walk down the street with a tower strapped to their back and a 24” flatscreen perched on one arm tweeting away? We can assert that anyone “mobile” is more than likely “small-screen” but there is still a strong distinction between the two. “Mobile” suggests either:\n\nuse of a specific handheld device […]",
+      "date": 1316006024000
+    },
+    {
+      "id": "save-the-planet-with-css",
+      "title": "Save the planet with CSS!",
+      "href": "/2011/09/04/save-the-planet-with-css/",
+      "body": "I’ve been quiet lately (big updates on the horizon) so a quick one for this evening:\nMy pre-launch checklist for website builds has always include “create print.css”. Most of the time I forget (or ignore it). It seems like the default thing to do though. Until you think about it.\nWho prints web pages?\nI do sometimes. Invoices, […]",
+      "date": 1315159739000
+    },
+    {
+      "id": "moving-on",
+      "title": "Moving on",
+      "href": "/2011/08/10/moving-on/",
+      "body": "I’ve been the Senior Web Designer (and front-end dev) at Base Creative, London for the last three years. I’ve worked on great projects with amazing clients, making the Web that little bit better.\nBut sadly nothing can stay the same forever, and despite fond memories, I’ve decided to move on.\nNext Monday I’ll be joining Browser Creative, […]",
+      "date": 1312996208000
+    },
+    {
+      "id": "adobe-edge-preview",
+      "title": "Adobe Edge Preview",
+      "href": "/2011/08/01/adobe-edge-preview/",
+      "body": "My first foray into programming was Flash ActionScript and thus I’ve always had a place in my heart for the damned software. (With the release of ActionScript 3 I even learnt a bit about real programming.) Even now — despite my flag waving for web standards — I do still secretly love Flash, regardless of […]",
+      "date": 1312230129000
+    },
+    {
+      "id": "the-social-designer-google-authorship",
+      "title": "The Social Designer",
+      "href": "/2011/07/14/the-social-designer-google-authorship/",
+      "body": "Earlier this month I wrote an article about self promotion online as a designer (read Speak to Me over at xheight). I summed it up to this sentiment:\nSelf promotion is not about pushing an ego onto others, it’s simply about making yourself visible and accessible.\n\n\nOne thing I realised quickly in my career is the importance […]",
+      "date": 1310645305000
+    },
+    {
+      "id": "solving-a-problem-like-change",
+      "title": "Solving a Problem like Change",
+      "href": "/2011/07/12/solving-a-problem-like-change/",
+      "body": "A while back the Gawker network redesigned their line-up and the Internet revolted. It was bad, very _very _bad. The design, the usability, the technical implementation—it had people scratching their heads.\nYesterday TechCrunch launched a redesign and, well, it’s not quite ‘a Gawker’.\n\nWe used AOL Paint, which comes free on the AOL CD and has this […]",
+      "date": 1310471846000
+    }
+  ],
+  "nextPage": "/blog/page/24/",
+  "prevPage": "/blog/page/22/",
+  "pageTitle": "Blog (page 23) – David Bushell – Web Design (UK)"
+}

@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/5/",
+  "pageHeading": "Blog (page 5)",
+  "excerpts": [
+    {
+      "id": "happy-new-year-2",
+      "title": "Happy New Year!",
+      "href": "/2015/01/12/happy-new-year-2/",
+      "body": "I’m back in the office and feeling positive about this year’s work.\nGive me a shout if you require my web design / front-end skills. I’ve been thinking long and hard about the type of work I’d like to take on, and really, I find a variety most rewarding. It’s nice to alternate between design and […]",
+      "date": 1421064732000
+    },
+    {
+      "id": "whats-up",
+      "title": "What’s up?",
+      "href": "/2014/11/24/whats-up/",
+      "body": "Before I ramble on, a quick note to say I’m taking a break over December. Once I’ve completed active projects I’ll be offline for the most part! That means no emails. I’m not a fan of “out of office” auto responders, so please don’t be offended if you don’t receive a reply until January. At […]",
+      "date": 1416844586000
+    },
+    {
+      "id": "how-i-built-a-static-site-generator",
+      "title": "How I built a Static Site Generator",
+      "href": "/2014/07/09/how-i-built-a-static-site-generator/",
+      "body": "I used to build websites with nothing but a text editor.\nNow I have an army of tools at my finger tips. When I began to establish my Grunt tasks I wanted something basic for HTML. My biggest gripe was repetition. The simple concept of “includes” was all I wanted.\nAt the time static site generators and […]",
+      "date": 1404907422000
+    },
+    {
+      "id": "elbows-and-office-chairs",
+      "title": "Elbows and Office Chairs",
+      "href": "/2014/06/18/elbows-and-office-chairs/",
+      "body": "It’s funny what you get used to.\nI migrated from an iPhone to a larger Android device many years back. Nowadays, squinting at a smaller mobile screen makes me feel a bit dizzy.\nWhen I started freelancing last year I moved in the opposite direction. At my old workplace I dual-wielded 24” monitors. Since then I’ve adapted […]",
+      "date": 1403080210000
+    },
+    {
+      "id": "dependency-overload",
+      "title": "Dependency Overload",
+      "href": "/2014/06/10/dependency-overload/",
+      "body": "I employ an army of command line tools to aid my front-end development.\nTruth be told it’s a bit of an addiction. I’m constantly adding more tools that allow me to do less work. Am I in danger of overloading, of creating a system so convoluted that it evolves into a hindrance and defeats the point […]",
+      "date": 1402408825000
+    },
+    {
+      "id": "work-as-a-freelancer",
+      "title": "Work as a Freelancer",
+      "href": "/2014/06/02/work-as-a-freelancer/",
+      "body": "It’s been over a year since I started freelancing and time has flown by in the most enjoyable of fashions. Work has been good and financially I hit my 12 month target — nothing specific or special; enough to get by. I didn’t expect to match my London salary nor have I but all balanced […]",
+      "date": 1401726579000
+    },
+    {
+      "id": "web-fonts-and-progressive-enhancements",
+      "title": "Web Fonts & Enhancements",
+      "href": "/2014/05/13/web-fonts-and-progressive-enhancements/",
+      "body": "Yesterday I found myself thoroughly impressed with Laura Kalbag’s effort to ensure the Indie Tech Summit website remains well designed.\n\n\nIn the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of progressive enhancement.\nHad web fonts failed to load I wouldn’t have known otherwise. Of […]",
+      "date": 1399976189000
+    }
+  ],
+  "nextPage": "/blog/page/6/",
+  "prevPage": "/blog/page/4/",
+  "pageTitle": "Blog (page 5) – David Bushell – Web Design (UK)"
+}

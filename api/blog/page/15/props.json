@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/15/",
+  "pageHeading": "Blog (page 15)",
+  "excerpts": [
+    {
+      "id": "im-bored-with-code",
+      "title": "I’m bored with code",
+      "href": "/2012/08/27/im-bored-with-code/",
+      "body": "The state of the browser defines our freedom as website makers. Browsers are a constant source of frustration. For every step forward they take so does the horizon. New possibilities emerge; expectations are raised. What is seen as “modern” is always just beyond our ability. It has always been my desire to deliver websites at […]",
+      "date": 1346101891000
+    },
+    {
+      "id": "www",
+      "title": "WWW",
+      "href": "/2012/08/20/www/",
+      "body": "I’ve been semi-offline for quite a while now. I took some weeks off to relax and enjoy the Olympics, so this is a short post to warm up my blogging fingers. (Not to suggest that — by jumping straight back behind the keyboard — I haven’t been inspired by the games, I’ve been running a […]",
+      "date": 1345487654000
+    },
+    {
+      "id": "re-social-media-buttons",
+      "title": "Re: Social Media Buttons",
+      "href": "/2012/07/20/re-social-media-buttons/",
+      "body": ".net magazine recently published the Big question: should we drop social media buttons with opinions and anecdotes from various professionals.\nTwo common arguments against them are:\nPage load\n**Social widgets are massive. They’re effectively additional websites sandboxed within tiny iframes and most are poorly optimised. Facebook’s “like” button is appalling. This problem cannot be understated and I developed […]",
+      "date": 1342787589000
+    },
+    {
+      "id": "vector-graphics-retina-and-you",
+      "title": "Vector graphics, Retina, and You",
+      "href": "/2012/07/13/vector-graphics-retina-and-you/",
+      "body": "It’s Friday 13th. It’s been a long and productive week, I’ll try to keep this light-hearted :)\nI’m going to use this post to combine two rants. One on the use of the word “Retina”, another on live conference tweeting. I saw this retweeted the other day:\n“I think CSS is our best vector-based drawing tool in […]",
+      "date": 1342178920000
+    },
+    {
+      "id": "on-the-tools-of-our-trade",
+      "title": "On the tools of our trade",
+      "href": "/2012/07/11/on-the-tools-of-our-trade/",
+      "body": "This year I’ve been making a conscious effort to change my tune when discussing particular methodologies and tools used in our fine art of website making.\nWhen we launched Passenger Focus at Browser I wrote “A Responsive Design Case Study” and for me it’s the best article I’ve ever written on this blog. I present my […]",
+      "date": 1342004458000
+    },
+    {
+      "id": "jquery-2-0-goodbye-old-ie",
+      "title": "jQuery 2.0, “Goodbye Old IE”",
+      "href": "/2012/06/29/jquery-2-0-goodbye-old-ie/",
+      "body": "jQuery 2.0, expected release “early 2013”, will drop support for Internet Explorer 6–8.\njQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move […]",
+      "date": 1340957971000
+    },
+    {
+      "id": "passenger-focus-responsive-web-design-case-study",
+      "title": "A Responsive Design Case Study",
+      "href": "/2012/06/17/passenger-focus-responsive-web-design-case-study/",
+      "body": "The many-device Web we use today has unearthed new design methodologies.\nDesigning one website for 3.5”–30” screens and everything between and beyond is a tricky challenge. The Web is like any other medium; it has limitations. You wouldn’t try to print a super thin font or full-colour photography on uncoated newspaper stock and expect high fidelity. […]",
+      "date": 1339958569000
+    }
+  ],
+  "nextPage": "/blog/page/16/",
+  "prevPage": "/blog/page/14/",
+  "pageTitle": "Blog (page 15) – David Bushell – Web Design (UK)"
+}

@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/3/",
+  "pageHeading": "Blog (page 3)",
+  "excerpts": [
+    {
+      "id": "2015-in-review",
+      "title": "My Year in Review",
+      "href": "/2015/12/30/2015-in-review/",
+      "body": "All considered, 2015 has been a good year!\nMy highlight for sure was moving into my new flat. The whole searching, buying, and decorating process took way longer than I imagined. Because of this I didn’t take on as many large projects, but I did manage to find enough freelance work to keep me going.\nJanuary\nWhat better […]",
+      "date": 1451469600000
+    },
+    {
+      "id": "tales-wordpress-theme-now-free",
+      "title": "Tales WordPress theme is now free!",
+      "href": "/2015/11/12/tales-wordpress-theme-now-free/",
+      "body": "Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.\n\n\nFor the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]",
+      "date": 1447322400000
+    },
+    {
+      "id": "accelerated-mobile-pages",
+      "title": "Accelerated Mobile Pages",
+      "href": "/2015/10/20/accelerated-mobile-pages/",
+      "body": "The AMP Project is an initiative by Google to improve the “mobile web”.\nAccelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:\n\n\nThe BBC News website has implemented AMP, screenshotted […]",
+      "date": 1445335200000
+    },
+    {
+      "id": "september-update",
+      "title": "September Update",
+      "href": "/2015/09/07/september-update/",
+      "body": "Good afternoon! So it’s been a while since I last blogged. Turns out buying a home takes longer than I imagined!\nWhen I left London in 2012, I moved back in with my parents  (temporarily) to embark upon a freelance career. Work has been steady, not easy, but rewarding and I’m much happier out of […]",
+      "date": 1441620000000
+    },
+    {
+      "id": "smashing-book-5",
+      "title": "Real-Life Responsive Web Design",
+      "href": "/2015/07/27/smashing-book-5/",
+      "body": "Last week I had the opportunity to read “Real-Life Responsive Web Design”, the fifth book in the Smashing Book series.\n\n\nUsually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]",
+      "date": 1437991200000
+    },
+    {
+      "id": "social-profiles",
+      "title": "Social Profiles",
+      "href": "/2015/06/26/social-profiles/",
+      "body": "My website navigation now links to my GitHub and CodePen profiles, alongside Twitter. A long overdue change. It was embarrassing to be rocking the Google+ link. I never used Google+, I don’t even use Facebook, but it was useful to get my face alongside search results. That feature disappeared some time ago and thus the […]",
+      "date": 1435312800000
+    },
+    {
+      "id": "order-html-vs-css",
+      "title": "Order: HTML vs CSS",
+      "href": "/2015/06/01/order-html-vs-css/",
+      "body": "Content should follow a logical top-to-bottom order within HTML. CSS is used to change the visual presentation of this content across different viewports.\nOn small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout […]",
+      "date": 1433152800000
+    }
+  ],
+  "nextPage": "/blog/page/4/",
+  "prevPage": "/blog/page/2/",
+  "pageTitle": "Blog (page 3) – David Bushell – Web Design (UK)"
+}

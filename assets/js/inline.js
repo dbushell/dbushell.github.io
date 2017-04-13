@@ -1,6 +1,8 @@
 (function (win, doc) {
 
-  var db = win.dbushell = { };
+  var db = win.dbushell = {
+    ver: '{{siteVer}}'
+  };
   var de = doc.getElementsByTagName('html')[0];
   var fs = doc.getElementsByTagName('script')[0];
 

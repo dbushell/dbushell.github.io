@@ -1,0 +1,58 @@
+{
+  "pagePath": "/blog/page/6/",
+  "pageHeading": "Blog (page 6)",
+  "excerpts": [
+    {
+      "id": "responsive-design-for-uwe-wittwer",
+      "title": "Responsive Design for Uwe Wittwer",
+      "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
+      "body": "\n\nDavid immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.\n\n\nKevin Mueller, Studio Manager for Uwe Wittwer\n\n\n\n\n\n\n\nAtelier Uwe Wittwer came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I […]",
+      "date": 1399472897000
+    },
+    {
+      "id": "two-week-build",
+      "title": "Two Week Build",
+      "href": "/2014/04/24/two-week-build/",
+      "body": "From concept to launch the new version of my website clocked just over two weeks of development time. This article documents assorted aspects of that process.\nInitial Concept\n\n\nWhat you see above is the extent of my ’shopping for the new design. I probably wasted more time setting up those ridiculous guides than I did mocking up […]",
+      "date": 1398332871000
+    },
+    {
+      "id": "spring-refresh",
+      "title": "Spring Refresh",
+      "href": "/2014/04/21/spring-refresh/",
+      "body": "Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since I started freelancing.\n\n\n\n\n\nNo More Logo\nI’ve ditched my logo. It was large and a little out-dated. I work independently, my name and […]",
+      "date": 1398087058000
+    },
+    {
+      "id": "gulp-first-impressions",
+      "title": "Gulp: First Impressions",
+      "href": "/2014/04/04/gulp-first-impressions/",
+      "body": "Grunt has long been my command line companion of choice. It has served me well. I have no complaints but I’ve read many obituaries so this week I sat down to test Gulp, its supposed successor. These are my first impressions.\nMy use case is very particular, see related articles:\n\nAutomation\nThe Flat Build\nThe Flat Build (2)\nOrigin\nUpdates to […]",
+      "date": 1396607442000
+    },
+    {
+      "id": "tales-update-spanish-translation",
+      "title": "Tales update: Spanish Translation",
+      "href": "/2014/03/31/tales-update-spanish-translation/",
+      "body": "v1.1 of my Tales WordPress theme includes a new Spanish translation.\nMany thanks to Mike Walsh for contributing the translation and adapting my theme for his own website Imaginalgo — looks great!\n\n\nSee my blog post “Introducing Tales” for more information about the theme.\n",
+      "date": 1396257055000
+    },
+    {
+      "id": "introducing-tales",
+      "title": "Introducing Tales",
+      "href": "/2014/02/17/introducing-tales/",
+      "body": "For the last few weeks I’ve been working on a little project that I’m excited to announce. That project is called Tales and it’s available today.\n\n\nTales is a responsive WordPress theme tailored for a beautiful reading experience. Its strength and design principle can be summed up in one word; simplicity. Visit the Tales Demo website […]",
+      "date": 1392627469000
+    },
+    {
+      "id": "simple-grids-with-css-multi-column-layout",
+      "title": "Simple Grids with CSS Multi-Column Layout",
+      "href": "/2014/02/03/simple-grids-with-css-multi-column-layout/",
+      "body": "Last week I began researching CSS layout — what’s achievable with the various spec modules — and grid systems (the myriad of solutions from 960gs to Zen Grids). My notes have quickly grown to thesis-level — I do eventually plan to publish something — but for now here’s a nice example demonstrating what is sure […]",
+      "date": 1391433532000
+    }
+  ],
+  "nextPage": "/blog/page/7/",
+  "prevPage": "/blog/page/5/",
+  "pageTitle": "Blog (page 6) – David Bushell – Web Design (UK)"
+}
