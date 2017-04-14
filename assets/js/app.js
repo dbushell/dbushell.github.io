@@ -1184,22 +1184,13 @@ var Blog$$1 = function Blog$$1(props) {
 
 Blog$$1.defaultProps = defaults$2;
 
-/**
- * ButtonLabel
- */
-
 var ButtonLabel = function ButtonLabel(props) {
   return React.h(
     'span',
     { className: 'e-button__label' },
-    props.children
+    props.text
   );
 };
-
-/**
- * Button
- */
-
 var Button = function Button(props) {
   var attr = {
     className: 'e-button'
@@ -1213,11 +1204,7 @@ var Button = function Button(props) {
   if (props.shadow) {
     attr.className += ' e-button--shadow';
   }
-  var label = React.h(
-    ButtonLabel,
-    null,
-    props.text
-  );
+  var label = React.h(ButtonLabel, { text: props.text });
   var button = void 0;
   if (props.submit) {
     button = React.h(
@@ -1234,16 +1221,6 @@ var Button = function Button(props) {
   }
   return button;
 };
-
-// Button.propTypes = {
-//   text: PropTypes.string.isRequired,
-//   href: PropTypes.string,
-//   submit: PropTypes.bool,
-//   bg1: PropTypes.bool,
-//   bg2: PropTypes.bool,
-//   shadow: PropTypes.bool
-// };
-
 Button.defaultProps = {
   text: 'Button'
 };
@@ -1330,7 +1307,7 @@ var defaults$4 = {
 	href: href$1
 };
 
-var Cta$$1 = function Cta$$1(props) {
+var Cta = function Cta(props) {
   var paragraph$$1 = function paragraph$$1() {
     return {
       __html: props.paragraph
@@ -1348,15 +1325,7 @@ var Cta$$1 = function Cta$$1(props) {
     React.h(Button, { bg1: true, href: props.href, text: props.link })
   );
 };
-
-// Cta.propTypes = {
-//   title: PropTypes.string,
-//   paragraph: PropTypes.string,
-//   link: PropTypes.string,
-//   href: PropTypes.string
-// };
-
-Cta$$1.defaultProps = defaults$4;
+Cta.defaultProps = defaults$4;
 
 var Excerpt$$1 = function Excerpt$$1(props) {
   var attr = {
@@ -1540,10 +1509,6 @@ var Footer$$1 = function Footer$$1(props) {
 Footer$$1.defaultProps = {
   isHirable: true
 };
-
-// Headline.propTypes = {
-//   children: PropTypes.node
-// };
 
 var heading$2 = "David Bushell – Web Design & Front-end Development (based in Manchester, UK)";
 var defaults$5 = {
@@ -2122,7 +2087,7 @@ var chars = {
   '<': '&lt;',
   '>': '&gt;',
   '"': '&quot;',
-  '\'': '&#x27;',
+  "'": '&#x27;',
   '`': '&#x60;',
   '=': '&#x3D;'
 };
@@ -2196,7 +2161,7 @@ var Article = function Article(props) {
         React.h('div', { className: 'b-post__body', dangerouslySetInnerHTML: body() })
       ),
       React.h('hr', null),
-      React.h(Cta$$1, ctaProps),
+      React.h(Cta, ctaProps),
       React.h(Newsletter, null)
     )
   );
@@ -2439,7 +2404,7 @@ var Patterns = function Patterns(props) {
         React.h(
           'div',
           { className: 'b-post__pattern' },
-          React.h(Cta$$1, null)
+          React.h(Cta, null)
         ),
         React.h(
           'h2',
@@ -2816,12 +2781,24 @@ Portfolio.defaultProps = {
   pageHeading: 'Portfolio'
 };
 
-var history = window.history;
+var pageHeading = "Connectivity Issues!";
+var pagePath = "/offline/";
+var innerHTML = "<p class=\"p--large\"><strong>Uh-oh!</strong> You may be offline… <span style=\"font-family:sans-serif;\" role=\"presentation\">(-_-)ゞ</span></p>\n\n<p>Or maybe my server just evaporated? Refresh, try again later, file complaints with <a href=\"http://twitter.com/dbushell\">@dbushell</a> if symptoms persist.</p>\n";
+var pageTitle = "Connectivity Issues! – David Bushell – Web Design (UK)";
+var offlinePageProps = {
+	pageHeading: pageHeading,
+	pagePath: pagePath,
+	innerHTML: innerHTML,
+	pageTitle: pageTitle
+};
+
 var ver = window.dbushell.ver;
+var history = window.history;
 var docEl = document.documentElement;
 var $app = document.querySelector('#app');
 var $title = document.querySelector('title');
 var $canonical = document.querySelector('link[rel="canonical"]');
+
 var initProps = {
   pageProps: {
     pageHref: $canonical.href,
@@ -2830,7 +2807,12 @@ var initProps = {
   }
 };
 
+var offlineProps = {
+  pageProps: offlinePageProps
+};
+
 function fetchURL(href) {
+  var same = href === initProps.pageProps.pageHref;
   var url = new URL(href);
   var api = ('/api' + url.pathname + 'props.json?v=' + ver).replace('/spa/', '/');
   var init = {
@@ -2840,21 +2822,37 @@ function fetchURL(href) {
       'Content-Type': 'application/json'
     }
   };
-  if (href !== initProps.pageProps.pageHref) {
+  if (!same) {
     docEl.classList.add('js-loading');
+    docEl.classList.add('js-loading-anim');
   }
-  return window.fetch(api, init).then(function (response) {
+  var start = Date.now();
+  var finish = function finish() {
     setTimeout(function () {
       docEl.classList.remove('js-loading');
-    }, 50);
+      setTimeout(function () {
+        docEl.classList.remove('js-loading-anim');
+      }, 300);
+    }, Math.max(300 - (Date.now() - start), 0));
+  };
+  return window.fetch(api, init).then(function (response) {
+    finish();
     if (response.status !== 200 || response.type !== 'basic') {
       throw new Error('Unknown API response');
     }
     return response.json().then(function (pageProps) {
+      try {
+        if (!same && window.ga) {
+          window.ga('set', 'page', pageProps.pagePath);
+          window.ga('send', 'pageview');
+        }
+      } catch (err) {}
       return pageProps;
     });
   }).catch(function (err) {
     console.log(err);
+    finish();
+    return offlineProps.pageProps;
   });
 }
 
@@ -2869,7 +2867,6 @@ var Root = function (_Component) {
     _this.state = {
       pageProps: _extends({}, props.pageProps)
     };
-    // Rebind event handlers to maintain `this` reference
     _this.handleClick = _this.handleClick.bind(_this);
     _this.handlePopState = _this.handlePopState.bind(_this);
     return _this;
@@ -2942,7 +2939,12 @@ var Root = function (_Component) {
       if (!e.state || !e.state.href) {
         return;
       }
-      fetchURL(e.state.href).then(function (pageProps) {
+      var url = new URL(e.state.href);
+      if (this.state.pageProps.pagePath === url.pathname) {
+        window.scrollTo(0, 0);
+        return;
+      }
+      fetchURL(url.href).then(function (pageProps) {
         _this2.setState(function () {
           return { pageProps: pageProps };
         });
@@ -2952,20 +2954,20 @@ var Root = function (_Component) {
     key: 'render',
     value: function render$$1() {
       var pageProps = this.state.pageProps;
-      var pagePath = pageProps.pagePath;
+      var pagePath$$1 = pageProps.pagePath;
 
       var el = void 0;
-      if (pagePath === '/') {
+      if (pagePath$$1 === '/') {
         el = Home;
-      } else if (/^\/contact\/$/.test(pagePath)) {
+      } else if (/^\/contact\/$/.test(pagePath$$1)) {
         el = Contact;
-      } else if (/^\/pattern-library\/$/.test(pagePath)) {
+      } else if (/^\/pattern-library\/$/.test(pagePath$$1)) {
         el = Patterns;
-      } else if (/^\/showcase\/$/.test(pagePath)) {
+      } else if (/^\/showcase\/$/.test(pagePath$$1)) {
         el = Portfolio;
-      } else if (/^\/blog\//.test(pagePath)) {
+      } else if (/^\/blog\//.test(pagePath$$1)) {
         el = Archive;
-      } else if (/^\/\d{4}\/\d{2}\/\d{2}\//.test(pagePath)) {
+      } else if (/^\/\d{4}\/\d{2}\/\d{2}\//.test(pagePath$$1)) {
         el = Article;
       } else {
         el = Page;
