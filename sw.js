@@ -2,7 +2,11 @@
 
 /*! dbushell.com */
 
-const cacheName = 'dbushell-S12k8jNAl';
+<<<<<<< HEAD
+const cacheName = 'dbushell-Bk2ADsNCg';
+=======
+const cacheName = 'dbushell-BJSoKQ0px';
+>>>>>>> 451ca20ae83fd32ca781df70fc378ca328cb456c
 const cacheWhitelist = [cacheName];
 const cacheURLs = [];
 
