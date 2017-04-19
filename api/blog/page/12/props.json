@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "a-primer-to-front-end-svg-hacking",
+      "title": "A Primer to Front-end SVG Hacking",
+      "href": "/2013/02/04/a-primer-to-front-end-svg-hacking/",
+      "body": "Using SVG (Scalable Vector Graphics) on websites is a lot safer than many front-end developers think. Authoring aside — I wouldn’t suggest trying to hand-code an illustration more complex than a triangle* — the standard is well supported in browsers today and perfect for resolution independence when CSS and icon fonts aren’t suitable.\n* Quick fire […]",
+      "date": 1360011944000
+    },
+    {
       "id": "a-new-home",
       "title": "A New Home",
       "href": "/2013/02/04/a-new-home/",
@@ -43,13 +50,6 @@
       "href": "/2013/01/09/responsive-mistakes-less-is-more/",
       "body": "This is part 2 of my responsive mistakes mini-series.\nResponsive design musing often leans towards a mobile bias. It’s obvious why. After years of desktop-centric design, mobile is brimming with fresh opportunity.\nAs it turns out, the mobile perspective is very helpful for us and our clients. Designing for small viewports forces content to the forefront of […]",
       "date": 1357738070000
-    },
-    {
-      "id": "a-mini-series-of-responsive-mistakes",
-      "title": "Responsive Mistakes (a mini-series)",
-      "href": "/2013/01/06/a-mini-series-of-responsive-mistakes/",
-      "body": "Last week I shared some front-end experience with 5 tips for responsive builds. It received positive feedback so I thought it’d be fun to continue with a new mini-series. This month I’ll be focusing on the mistakes we make. Without further ado, let’s start with the biggest:\nSmart Phone, Tablet, Desktop\nAs a composition to highlight the […]",
-      "date": 1357486067000
     }
   ],
   "nextPage": "/blog/page/13/",

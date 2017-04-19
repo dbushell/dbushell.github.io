@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "scoping-typography-css",
+      "title": "Scoping Typography CSS",
+      "href": "/2012/04/18/scoping-typography-css/",
+      "body": "I’m writing a very long article on front-end dev builds, this is a quick prelude to that!\nIt’s common practice to define global typography style early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, type selectors like:\nh1 { […]",
+      "date": 1334748564000
+    },
+    {
       "id": "terms-of-service-tldr",
       "title": "Terms of Service TL;DR",
       "href": "/2012/04/15/terms-of-service-tldr/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/23/the-mobile-fallacy/",
       "body": "Brad Frost wrote an excellent overview of Content Parity saying “it’s alright to optimize the presentation of content as long as the content remains accessible in some way, shape or form”. This is so vital to understand when designing for the Web across multiple devices. There are still far too many designers equating mobile with […]",
       "date": 1332502608000
-    },
-    {
-      "id": "preserving-the-web",
-      "title": "Preserving the Web",
-      "href": "/2012/03/20/preserving-the-web/",
-      "body": "Before I ramble on, if you haven’t seen Jeremy Keith’s talk on time, networks and history, may I point you to his article: Of Time And The Network. You can also watch his talk from Webstock ‘12 on Vimeo.\nIn regards to our content he says:\nPublish it. Publish it on the network. Put it out there, […]",
-      "date": 1332277791000
     }
   ],
   "nextPage": "/blog/page/19/",

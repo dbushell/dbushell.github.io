@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "passenger-focus-responsive-web-design-case-study",
+      "title": "A Responsive Design Case Study",
+      "href": "/2012/06/17/passenger-focus-responsive-web-design-case-study/",
+      "body": "The many-device Web we use today has unearthed new design methodologies.\nDesigning one website for 3.5”–30” screens and everything between and beyond is a tricky challenge. The Web is like any other medium; it has limitations. You wouldn’t try to print a super thin font or full-colour photography on uncoated newspaper stock and expect high fidelity. […]",
+      "date": 1339958569000
+    },
+    {
       "id": "nestable-jquery-plugin",
       "title": "Nestable jQuery Plugin",
       "href": "/2012/06/17/nestable-jquery-plugin/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/22/javascript-bookmarklets/",
       "body": "I love a good JavaScript bookmarklet.\nThey’re fun to play with and a great way to hack around on a live website with new code without affecting anyone else’s experience. They can also become part of your service; think Readability’s ‘Read Now’ or Pinterest’s ‘Pin it!’.\nA bookmarklet begins with the following shell:\njavascript:(function(){\n    // […]",
       "date": 1337674216000
-    },
-    {
-      "id": "pageshift-removing-the-refresh",
-      "title": "Pageshift",
-      "href": "/2012/05/15/pageshift-removing-the-refresh/",
-      "body": "It’s 2012, why are we still seeing websites assemble like Optimus Prime?\nIn January I wrote Web Design: 2012 and Beyond to highlight points of interest for the coming year. On interactivity I asked, “Is the page reload a thing of the past?”. ‘Web apps’ are all the rage, and while we shouldn’t be trying to […]",
-      "date": 1337119848000
     }
   ],
   "nextPage": "/blog/page/17/",

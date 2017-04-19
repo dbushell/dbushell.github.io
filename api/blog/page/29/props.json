@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "when-free-fonts-arent-free",
+      "title": "When Free Fonts Aren’t Free",
+      "href": "/2010/11/18/when-free-fonts-arent-free/",
+      "body": "Font Squirrel is one of the best online resources for finding high quality (and almost free) fonts. I do rate it very highly, and @font-face generator is the work of magic elves in my opinion.\n“Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Even if that means we send you elsewhere to […]",
+      "date": 1290090331000
+    },
+    {
       "id": "the-typographic-gauntlet",
       "title": "The Typographic Gauntlet",
       "href": "/2010/11/07/the-typographic-gauntlet/",
@@ -43,13 +50,6 @@
       "href": "/2010/09/02/do-you-love-design/",
       "body": "Before I get into the meaty part of this post I’d like to share this by Kyle Steed:\nHomer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.\n\n\nFunny and true. I’m guilty of this myself, despite vowing a _very long time ago never to write a […]",
       "date": 1283417680000
-    },
-    {
-      "id": "web-fonts-just-got-interesting",
-      "title": "Web Fonts just got interesting",
-      "href": "/2010/08/19/web-fonts-just-got-interesting/",
-      "body": "Around this time last year I was blogging about the then-new Typekit service and the news of Typotheque offering web licenses. I enquired as to when (or whether) the big font foundries would embrace the new world of web fonts. Or if they would sit back and watch the licensing nightmare unfold.\nWell, this month has […]",
-      "date": 1282221600000
     }
   ],
   "nextPage": "/blog/page/30/",

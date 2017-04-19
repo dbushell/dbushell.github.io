@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 14)",
   "excerpts": [
     {
+      "id": "the-mobile-book",
+      "title": "The Mobile Book",
+      "href": "/2012/12/05/the-mobile-book/",
+      "body": "Smashing Magazine’s The Mobile Book is due for dispatch soon. Having had the opportunity to read it I’ll cut to the chase for those deliberating a purchase: it’s well worth the cover price. The e-book edition is a steal!\n\n\nLet it be known that this book goes beyond designing for the Web. The core themes are […]",
+      "date": 1354711297000
+    },
+    {
       "id": "responsive-bases-vertical-spaces",
       "title": "Responsive Bases & Vertical Spaces",
       "href": "/2012/11/19/responsive-bases-vertical-spaces/",
@@ -43,13 +50,6 @@
       "href": "/2012/09/25/what-is-the-medium/",
       "body": "A must read on A List Apart: The Web Aesthetic, by Paul Robert Lloyd.\nThe article above is jam packed with goodness. I’ve been racking my brain this year trying to understand the web as a medium and Paul does a wonderfully succinct job of encapsulating that idea in a way that I’ve never quite managed.\nTo […]",
       "date": 1348612624000
-    },
-    {
-      "id": "agile-website-design-and-development",
-      "title": "Agile Website Design",
-      "href": "/2012/09/17/agile-website-design-and-development/",
-      "body": "At Browser we’ve been transitioning into an Agile development process.\nIf you know nothing about Agile, it involves breaking down a project into individual requirements and delivering them within an iterative release cycle. This not only allows for a feedback loop involving client and agency alike, but it also gives an evolving indication of time and […]",
-      "date": 1347912776000
     }
   ],
   "nextPage": "/blog/page/15/",

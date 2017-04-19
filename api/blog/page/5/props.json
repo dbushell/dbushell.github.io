@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "use-svg-part-1",
+      "title": "Use SVG (part 1)",
+      "href": "/2015/01/26/use-svg-part-1/",
+      "body": "As you know I’m a big fan of using SVG whenever possible.\nSee my articles ‘Resolution Independence With SVG’ (Jan 2012) and ‘A Primer to Front-end SVG Hacking’ (Feb 2013) for a retrospective.\n\nI’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how […]",
+      "date": 1422279504000
+    },
+    {
       "id": "happy-new-year-2",
       "title": "Happy New Year!",
       "href": "/2015/01/12/happy-new-year-2/",
@@ -43,13 +50,6 @@
       "href": "/2014/06/02/work-as-a-freelancer/",
       "body": "It’s been over a year since I started freelancing and time has flown by in the most enjoyable of fashions. Work has been good and financially I hit my 12 month target — nothing specific or special; enough to get by. I didn’t expect to match my London salary nor have I but all balanced […]",
       "date": 1401726579000
-    },
-    {
-      "id": "web-fonts-and-progressive-enhancements",
-      "title": "Web Fonts & Enhancements",
-      "href": "/2014/05/13/web-fonts-and-progressive-enhancements/",
-      "body": "Yesterday I found myself thoroughly impressed with Laura Kalbag’s effort to ensure the Indie Tech Summit website remains well designed.\n\n\nIn the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of progressive enhancement.\nHad web fonts failed to load I wouldn’t have known otherwise. Of […]",
-      "date": 1399976189000
     }
   ],
   "nextPage": "/blog/page/6/",
