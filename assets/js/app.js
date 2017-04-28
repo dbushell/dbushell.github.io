@@ -1169,13 +1169,6 @@ var Time = function Time(props) {
   );
 };
 
-var heading = "From the blog…";
-var items$1 = [{ "id": "typescript-instead-of-react-proptypes", "title": "TypeScript over React PropTypes", "href": "/2017/04/19/typescript-instead-of-react-proptypes/", "date": 1492596000000 }, { "id": "the-magic-of-service-workers", "title": "The Magic of Service Workers", "href": "/2017/04/06/the-magic-of-service-workers/", "date": 1491472800000 }, { "id": "i-watched-iron-fist-and-coded-css", "title": "I watched Iron Fist and coded CSS 👈", "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/", "date": 1491213600000 }, { "id": "web-security-and-cloudflare", "title": "Web Security and Cloudflare", "href": "/2017/02/17/web-security-and-cloudflare/", "date": 1487325600000 }, { "id": "react-as-a-static-site-generator", "title": "React as a Static Site Generator", "href": "/2017/02/13/react-as-a-static-site-generator/", "date": 1486980000000 }, { "id": "resolving-javascript-promises-sequentially-without-nesting", "title": "Working with Promises", "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/", "date": 1481882400000 }];
-var defaults$2 = {
-	heading: heading,
-	items: items$1
-};
-
 var BlogItem = function BlogItem(props) {
   return React.h(
     'li',
@@ -1214,7 +1207,6 @@ var Blog = function Blog(props) {
     )
   );
 };
-Blog.defaultProps = defaults$2;
 
 var Small = function Small(props) {
   return React.h(
@@ -1228,6 +1220,17 @@ var Small = function Small(props) {
   );
 };
 
+var heading = "From the blog…";
+var items$1 = [{ "id": "typescript-instead-of-react-proptypes", "title": "TypeScript over React PropTypes", "href": "/2017/04/19/typescript-instead-of-react-proptypes/", "date": 1492596000000 }, { "id": "the-magic-of-service-workers", "title": "The Magic of Service Workers", "href": "/2017/04/06/the-magic-of-service-workers/", "date": 1491472800000 }, { "id": "i-watched-iron-fist-and-coded-css", "title": "I watched Iron Fist and coded CSS 👈", "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/", "date": 1491213600000 }, { "id": "web-security-and-cloudflare", "title": "Web Security and Cloudflare", "href": "/2017/02/17/web-security-and-cloudflare/", "date": 1487325600000 }, { "id": "react-as-a-static-site-generator", "title": "React as a Static Site Generator", "href": "/2017/02/13/react-as-a-static-site-generator/", "date": 1486980000000 }, { "id": "resolving-javascript-promises-sequentially-without-nesting", "title": "Working with Promises", "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/", "date": 1481882400000 }];
+var blogProps$1 = {
+	heading: heading,
+	items: items$1
+};
+
+// Read props live for static site generation to avoid require cache
+function blogProps() {
+  return blogProps$1;
+}
 var Footer = function Footer(props) {
   var attr = {
     id: 'footer',
@@ -1250,7 +1253,7 @@ var Footer = function Footer(props) {
       null,
       React.h(Bio, null),
       props.isHirable ? hire : React.h('hr', null),
-      React.h(Blog, null),
+      React.h(Blog, blogProps()),
       React.h('hr', null),
       React.h(
         Small,
@@ -1283,7 +1286,7 @@ var Icon = function Icon(props) {
 
 var heading$1 = "Website Navigation";
 var items$2 = [{ "order": 1, "priority": 1, "text": "Home", "href": "/" }, { "order": 2, "priority": 4, "text": "About", "href": "/about/" }, { "order": 3, "priority": 2, "text": "Services", "href": "/services/" }, { "order": 4, "priority": 5, "text": "Portfolio", "href": "/showcase/" }, { "order": 5, "priority": 6, "text": "Blog", "href": "/blog/" }, { "order": 6, "priority": 3, "text": "Contact", "href": "/contact/" }];
-var defaults$3 = {
+var defaults$2 = {
 	heading: heading$1,
 	items: items$2
 };
@@ -1368,21 +1371,21 @@ var Nav = function Nav(props) {
             'CodePen'
           )
         )
-      ),
-      React.h(
-        'li',
-        { className: 'b-nav__item b-nav__item--more' },
-        React.h(
-          'button',
-          { type: 'button', className: 'b-nav__link' },
-          React.h(Icon, { id: 'nav' })
-        ),
-        React.h('ul', { className: 'b-nav__list b-nav__dropdown' })
       )
+    ),
+    React.h(
+      'div',
+      { className: 'b-nav__more' },
+      React.h(
+        'button',
+        { type: 'button', className: 'b-nav__link' },
+        React.h(Icon, { id: 'nav' })
+      ),
+      React.h('ul', { className: 'b-nav__dropdown' })
     )
   );
 };
-Nav.defaultProps = defaults$3;
+Nav.defaultProps = defaults$2;
 
 var ButtonLabel = function ButtonLabel(props) {
   return React.h(
@@ -1516,7 +1519,7 @@ var title$1 = "Get a free quote…";
 var paragraph = "Interested in working with me? <a href=\"/contact/\">Send me an email</a> with your requirements and I’ll happily provide a free quote and let you know my availability.";
 var link = "Get in touch";
 var href$1 = "/contact/";
-var defaults$4 = {
+var defaults$3 = {
 	title: title$1,
 	paragraph: paragraph,
 	link: link,
@@ -1541,7 +1544,7 @@ var Cta = function Cta(props) {
     React.h(Button, { bg1: true, href: props.href, text: props.link })
   );
 };
-Cta.defaultProps = defaults$4;
+Cta.defaultProps = defaults$3;
 
 var Field = function Field(props) {
   var attr = {
@@ -1912,7 +1915,7 @@ Contact.defaultProps = {
 var heading$2 = "What my clients say:";
 var button = { "href": "/contact/", "text": "Work with me", "bg1": true };
 var blockquotes = [{ "id": 1, "quote": "Highly skilled, personable, helpful and dedicated: David exceeded my expectations to deliver for us on a key project.", "cite": "Frank Fenton – Head of Digital – Dinosaur UK Ltd." }, { "id": 2, "quote": "David honestly was the integral component that allowed us to finally launch. We continue to go to him for any development work for our site, because he goes above & beyond what you’d ever expect.", "cite": "Alexandra Adina – SwingVoterz.com" }, { "id": 3, "quote": "David provided us with beautiful and cost effective templates for our CMS that surpassed our high expectations from both the design and the tech perspective.", "cite": "Kevin Mueller – Studio Manager – Uwe Wittwer", "href": "/2014/05/07/responsive-design-for-uwe-wittwer/" }];
-var defaults$5 = {
+var defaults$4 = {
 	heading: heading$2,
 	button: button,
 	blockquotes: blockquotes
@@ -1969,12 +1972,12 @@ var Clients = function Clients(props) {
     )
   );
 };
-Clients.defaultProps = defaults$5;
+Clients.defaultProps = defaults$4;
 
 var heading$3 = "Featured Projects";
 var href$2 = "/showcase/";
 var items$3 = [{ "bgColor": "#b72817", "href": "/2016/10/10/building-a-shopify-theme/", "heading": "Shopify Theme", "imageSrc": "/assets/img/portfolio/stshopify.png", "imageAlt": "Building a Shopify Theme" }, { "bgColor": "#d8ac59", "href": "/2015/03/18/responsive-design-for-houden/", "heading": "Houden", "imageSrc": "/assets/img/portfolio/houden.png", "imageAlt": "Houden" }, { "bgColor": "#993300", "href": "/2014/05/07/responsive-design-for-uwe-wittwer/", "heading": "Uwe Wittwer", "imageSrc": "/assets/img/portfolio/uwewittwer.png", "imageAlt": "Uwe Wittwer" }];
-var defaults$6 = {
+var defaults$5 = {
 	heading: heading$3,
 	href: href$2,
 	items: items$3
@@ -2034,7 +2037,7 @@ var Folio = function Folio(props) {
     )
   );
 };
-Folio.defaultProps = defaults$6;
+Folio.defaultProps = defaults$5;
 
 var Star = function Star(props) {
   var star = function star(id) {
@@ -2054,7 +2057,7 @@ Star.defaultProps = {
 };
 
 var heading$4 = "David Bushell – Web Design & Front-end Development (based in Manchester, UK)";
-var defaults$7 = {
+var defaults$6 = {
 	heading: heading$4
 };
 
@@ -2098,7 +2101,7 @@ var Hero = function Hero(props) {
     )
   );
 };
-Hero.defaultProps = defaults$7;
+Hero.defaultProps = defaults$6;
 
 var Sector = function Sector(props) {
   var attr = {
@@ -2146,7 +2149,7 @@ var Sector = function Sector(props) {
 };
 
 var items$4 = [{ "rtl": true, "alt": true, "heading": "For Businesses", "subheading": "Have an idea?", "description": "Let’s discuss your requirements, share ideas, and figure out what’s best for your new website together.", "button": { "text": "How I can help", "href": "/working-with-clients/" } }, { "heading": "Web Agencies", "subheading": "Need a hand?", "description": "I’m reliable and flexible, priding myself in communication and initiative to ensure smooth delivery.", "button": { "text": "What I can do", "href": "/working-with-agencies/" } }];
-var defaults$8 = {
+var defaults$7 = {
 	items: items$4
 };
 
@@ -2176,10 +2179,10 @@ var Sectors = function Sectors(_ref) {
     )
   );
 };
-Sectors.defaultProps = defaults$8;
+Sectors.defaultProps = defaults$7;
 
 var items$5 = [{ "href": "/responsive-design/", "heading": "Responsive Web Design", "description": "I design websites that work across all devices. They’re fluid and adaptive, just like my process.", "button": { "href": "/contact/", "text": "Hire me!" } }, { "href": "/front-end-development/", "heading": "Front-end Development", "description": "HTML, CSS, & JavaScript - there’s web standards and then there’s browsers, and I know both." }, { "href": "/services/", "heading": "And a whole lot more…", "description": "Be it WordPress, eCommerce, or simply advice, I have a depth of experience to help you." }];
-var defaults$9 = {
+var defaults$8 = {
 	items: items$5
 };
 
@@ -2230,7 +2233,7 @@ var Steps = function Steps(props) {
     )
   );
 };
-Steps.defaultProps = defaults$9;
+Steps.defaultProps = defaults$8;
 
 var Home = function Home() {
   return React.h(
@@ -2321,7 +2324,7 @@ var Patterns = function Patterns(props) {
         React.h(
           'div',
           { className: 'b-post__pattern' },
-          React.h(Blog, null)
+          React.h(Blog, blogProps$1)
         ),
         React.h(
           'h2',

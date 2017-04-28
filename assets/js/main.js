@@ -2,44 +2,49 @@
  * Copyright (c) David Bushell | @dbushell | http://dbushell.com
  */
 if (/dbushell\.com/.test(window.location.hostname)) {
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    (i[r] =
+      i[r] ||
+      function() {
+        (i[r].q = i[r].q || []).push(arguments);
+      }), (i[r].l = 1 * new Date());
+    (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    'script',
+    'https://www.google-analytics.com/analytics.js',
+    'ga'
+  );
   ga('create', 'UA-9497100-1', 'auto');
   ga('send', 'pageview');
 }
 
-window.dbushell = (function (window, document) {
+window.dbushell = (function(window, document) {
   var _init = 0;
-  var app = window.dbushell || { };
-
-  function getData(el, attr) {
-    return el ? (el.dataset ? el.dataset[attr] : el.getAttribute('data-' + attr)) : null;
-  }
-
-  function setData(el, attr, value) {
-    return el ? (el.dataset ? (el.dataset[attr] = value) : el.setAttribute('data-' + attr, value)) : null;
-  }
+  var app = window.dbushell || {};
 
   function sortBy(arr, attr) {
-    return arr.sort(function (a, b) {
-      var ap = parseInt(getData(a, attr) || 100, 10);
-      var bp = parseInt(getData(b, attr) || 100, 10);
+    return arr.sort(function(a, b) {
+      var ap = parseInt(a.dataset[attr] || 100, 10);
+      var bp = parseInt(b.dataset[attr] || 100, 10);
       return ap - bp;
     });
   }
 
   var ua = navigator.userAgent;
-  // app.isOldIE = Boolean(document.all && !document.addEventListener);
+  app.isFF = /firefox/i.test(ua);
   app.isIE = Boolean(window.ActiveXObject || window.navigator.msPointerEnabled);
   // app.isAndroid = Boolean(ua.match(/Android/) && ua.match(/AppleWebKit/) && !ua.match(/Chrome/));
   // app.isIOS = /(iPhone|iPad|iPod)/gi.test(ua);
-  app.isFF = /firefox/i.test(ua);
 
   var footerUpdate;
 
-  app.iscroll = function () {
+  app.iscroll = function() {
     if (!window.IScroll || !_init) {
       return;
     }
@@ -52,8 +57,10 @@ window.dbushell = (function (window, document) {
       interactiveScrollbars: true,
       fadeScrollbars: true
     });
-    footerUpdate = function () {
-      var position = window.getComputedStyle($footer, null).getPropertyValue('position');
+    footerUpdate = function() {
+      var position = window
+        .getComputedStyle($footer, null)
+        .getPropertyValue('position');
       if (position === 'fixed') {
         scroller.enable();
       } else {
@@ -64,129 +71,139 @@ window.dbushell = (function (window, document) {
     setTimeout(footerUpdate, 0);
   };
 
-  var navUpdate;
+  var $nav, $navList, $navMore, $navDropdown, navListStyle, navListPadding;
+  var navDropdownActiveClass = 'b-nav__dropdown--active';
+  var navDropdownHoverClass = 'b-nav__dropdown--hover';
 
-  app.nav = function () {
-    if (!_init || !document.querySelector || !document.documentElement.classList) {
-      return;
+  function navUpdate(recursed) {
+    recursed = parseInt(recursed, 10) || 0;
+    if (recursed === 0) {
+      $nav = document.querySelector('.b-nav');
+      $navList = $nav.querySelector('.b-nav__list');
+      $navMore = $nav.querySelector('.b-nav__more');
+      $navDropdown = $nav.querySelector('.b-nav__dropdown');
+      navListStyle = window.getComputedStyle($navList, null);
+      navListPadding =
+        parseInt(navListStyle.paddingLeft, 10) +
+        parseInt(navListStyle.paddingRight, 10);
+      $navDropdown.classList.remove(navDropdownActiveClass);
+      $navDropdown.classList.remove(navDropdownHoverClass);
+      $nav.classList.remove('b-nav--not-overflow');
+      $nav.classList.remove('b-nav--overflow');
     }
-    var $nav = document.querySelector('.b-nav');
-    var $navList = $nav ? $nav.querySelector('.b-nav__list[data-root]') : null;
-    if (!$navList) {
-      return;
+    if (++recursed > 50) {
+      return console.log('navUpdate recursion error');
     }
-    var $navItems;
-    var $navMoreItem = $navList.querySelector('.b-nav__item--more');
-    var $navMoreList = $navMoreItem.querySelector('.b-nav__list');
+    $nav.classList.add('b-nav--min');
 
-    if (window.Headroom) {
-      var headroom = new window.Headroom($nav, {
-        offset: 35,
-        classes: {
-          initial: 'b-nav',
-          pinned: 'b-nav--pinned',
-          unpinned: 'b-nav--unpinned',
-          top: 'b-nav--top',
-          notTop: 'b-nav--not-top',
-          bottom: 'b-nav--bottom',
-          notBottom: 'b-nav--not-bottom'
-        }
-      });
-      headroom.init();
-    }
+    // Get and sort visible nav items
+    var $navItems = [].slice.call($navList.querySelectorAll('.b-nav__item'));
+    sortBy($navItems, 'priority');
 
-    var navListStyle = window.getComputedStyle($navList, null);
-    var navListPadding = parseInt(navListStyle.paddingLeft, 10) + parseInt(navListStyle.paddingRight, 10);
+    var freeWidth = $navList.offsetWidth - navListPadding;
+    var navWidth = $navItems.reduce(function(width, $item) {
+      return width + $item.offsetWidth;
+    }, 0);
 
-    $navMoreItem.children[0].addEventListener('click', function (e) {
-      e.preventDefault();
-      if ($navMoreList.classList.contains('b-nav__dropdown--active')) {
-        $navMoreList.classList.remove('b-nav__dropdown--active');
-        $navMoreList.classList.remove('b-nav__dropdown--hover');
+    // Reduce until all items are on one line
+    if (navWidth > freeWidth) {
+      var $last = $navItems[$navItems.length - 1];
+      $last.dataset.width = $last.offsetWidth;
+      // Prepend last item to the overflow list
+      if ($navDropdown.childNodes.length > 0) {
+        $navDropdown.insertBefore($last, $navDropdown.childNodes[0]);
       } else {
-        $navMoreList.classList.add('b-nav__dropdown--active');
+        $navDropdown.appendChild($last);
       }
-    }, false);
-
-    $navMoreItem.addEventListener('mouseenter', function () {
-      $navMoreList.classList.add('b-nav__dropdown--hover');
-    }, false);
-
-    $navMoreItem.addEventListener('mouseleave', function () {
-      $navMoreList.classList.remove('b-nav__dropdown--hover');
-    }, false);
-
-    var updateLoop = 0;
-    navUpdate = function() {
-      if (updateLoop++ < 50) {
-        // reset
-        $navMoreList.classList.remove('b-nav__dropdown--active');
-        $navMoreList.classList.remove('b-nav__dropdown--hover');
-        $nav.classList.add('b-nav--min');
-        // $nav.offsetWidth;
-
-        // update selector of visible nav items
-        $navItems = [].slice.call($nav.querySelectorAll('.b-nav__list[data-root] > .b-nav__item:not(.b-nav__item--more)'));
-        sortBy($navItems, 'priority');
-
-        // calc current widths
-        $navMoreItem.style.display = 'block';
-        var moreWidth = $navMoreItem.offsetWidth;
-        var freeWidth = 0;
-        var navWidth = 0;
-
+      return navUpdate(recursed);
+    }
+    // Add overflow items back into menu
+    if ($navDropdown.childNodes.length > 0) {
+      var $first = $navDropdown.childNodes[0];
+      // Move the first item back into the main list if space is free
+      if (navWidth + parseInt($first.dataset.width, 10) < freeWidth) {
+        $navItems.push($first);
+        sortBy($navItems, 'order');
         $navItems.forEach(function($item) {
-          navWidth += $item.offsetWidth;
+          $navList.appendChild($item);
         });
-
-        freeWidth = ($navList.offsetWidth - navListPadding) - moreWidth;
-
-        // reduce until all items are on one line
-        if (navWidth > freeWidth) {
-          var $last = $navItems[$navItems.length - 1];
-          // $last.dataset.width = $last.offsetWidth;
-          setData($last, 'width', $last.offsetWidth);
-          // prepend last item to the overflow list
-          if ($navMoreList.children.length > 0) {
-            $navMoreList.insertBefore($last, $navMoreList.children[0]);
-          } else {
-            $navMoreList.appendChild($last);
-          }
-          return navUpdate();
-        }
-        // add overflow items back into menu
-        if ($navMoreList.children.length > 0) {
-          var $first = $navMoreList.children[0];
-          // if ($navMoreList.children.length === 1) {
-          // }
-          // move the first item back into the main list if space is free
-          if (navWidth + parseInt(getData($first, 'width'), 10) < freeWidth) {
-            $navItems.push($first);
-            sortBy($navItems, 'order');
-            $navItems.forEach(function ($item) {
-              $navList.appendChild($item);
-            });
-            $navList.appendChild($navMoreItem);
-            // $navList.insertBefore($first, $navMoreItem);
-            return navUpdate();
-          }
-        }
-
-        $nav.classList.remove('b-nav--min');
-      } else {
-        // should never reach here...
+        // $navList.appendChild($navMore);
+        return navUpdate(recursed);
       }
-      updateLoop = 0;
-      // update more list visiblity
-      $navMoreItem.style.display = $navMoreList.children.length ? 'block' : 'none';
-    };
+    }
+
+    $nav.classList.remove('b-nav--min');
+
+    // Update more list visiblity
+    if ($navDropdown.childNodes.length) {
+      $nav.classList.add('b-nav--overflow');
+      $navMore.style.display = 'block';
+    } else {
+      $nav.classList.add('b-nav--not-overflow');
+      $navMore.style.display = 'none';
+    }
+  }
+
+  app.headroom = function() {
+    if (!window.Headroom) {
+      return;
+    }
+    var headroom = new window.Headroom($nav, {
+      offset: 35,
+      classes: {
+        initial: 'b-nav',
+        pinned: 'b-nav--pinned',
+        unpinned: 'b-nav--unpinned',
+        top: 'b-nav--top',
+        notTop: 'b-nav--not-top',
+        bottom: 'b-nav--bottom',
+        notBottom: 'b-nav--not-bottom'
+      }
+    });
+    headroom.init();
+  };
+
+  app.nav = function() {
+    document.documentElement.classList.add('js-nav');
+
+    navUpdate();
+
+    $navMore.childNodes[0].addEventListener(
+      'click',
+      function(e) {
+        e.preventDefault();
+        if ($navDropdown.classList.contains(navDropdownActiveClass)) {
+          $navDropdown.classList.remove(navDropdownActiveClass);
+          $navDropdown.classList.remove(navDropdownHoverClass);
+        } else {
+          $navDropdown.classList.add(navDropdownActiveClass);
+        }
+      },
+      false
+    );
+
+    $navMore.addEventListener(
+      'mouseenter',
+      function() {
+        $navDropdown.classList.add(navDropdownHoverClass);
+      },
+      false
+    );
+
+    $navMore.addEventListener(
+      'mouseleave',
+      function() {
+        $navDropdown.classList.remove(navDropdownHoverClass);
+      },
+      false
+    );
 
     window.addEventListener('load', navUpdate);
     window.addEventListener('resize', navUpdate);
     window.addEventListener('orientationchange', navUpdate);
   };
 
-  app.video = function () {
+  app.video = function() {
     if (!document.querySelector('iframe')) {
       return;
     }
@@ -197,8 +214,9 @@ window.dbushell = (function (window, document) {
     }
   };
 
-  app.refresh = function (hard) {
-    if (navUpdate) {
+  app.refresh = function(hard) {
+    if (hard && $nav) {
+      app.headroom();
       window.removeEventListener('load', navUpdate);
       window.removeEventListener('resize', navUpdate);
       window.removeEventListener('orientationchange', navUpdate);
@@ -212,30 +230,41 @@ window.dbushell = (function (window, document) {
     window.dispatchEvent(new Event('resize'));
   };
 
-  app.init = function () {
-    if (_init++) {
+  app.init = function() {
+    if (
+      _init++ ||
+      !document.querySelector ||
+      !document.documentElement.classList
+    ) {
       return;
     }
-    window.loadScript('/assets/js/vendor/headroom.min.js?v=' + app.ver, function () {
-      window.dbushell.nav();
-    });
-    // use iScroll5 for scrollbar design in Firefox and IE9+
-    if (app.isFF || (app.isIE && !app.isOldIE)) {
-      window.loadScript('/assets/js/vendor/iscroll.min.js?v=' + app.ver, function () {
-        window.dbushell.iscroll();
-      });
+    window.dbushell.nav();
+    window.loadScript(
+      '/assets/js/vendor/headroom.min.js?v=' + app.ver,
+      function() {
+        window.dbushell.headroom();
+      }
+    );
+    // Use iScroll5 for scrollbar design in Firefox and IE9+
+    if (app.isFF || app.isIE) {
+      window.loadScript(
+        '/assets/js/vendor/iscroll.min.js?v=' + app.ver,
+        function() {
+          window.dbushell.iscroll();
+        }
+      );
     }
-    // fix SVG sprites in IE
+    // Fix SVG sprites in IE
     if (app.isIE) {
       window.loadScript('/assets/js/vendor/svgxuse.min.js?v=' + app.ver);
     }
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
+    if (/dbushell/.test(window.location.href) && 'serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
         navigator.serviceWorker.register('/sw.js');
       });
     }
     if ('fetch' in window) {
-      app.universal = function () {
+      app.universal = function() {
         window.loadScript('/assets/js/app.min.js?v=' + app.ver);
       };
     }
