@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 8)",
   "excerpts": [
     {
+      "id": "browser-support-again",
+      "title": "Browser Support, Again",
+      "href": "/2013/11/06/browser-support-again/",
+      "body": "With a high-profile portfolio of websites like Google Apps dropping support for IE9 the question of browser support inevitably resurfaces. Many will see this news as justification for their own abandonment of a legacy browser.\nAs I’ve said time and time again, external decisions and aggregated statistics are irrelevant if you have specific numbers for a […]",
+      "date": 1383736927000
+    },
+    {
       "id": "front-end-style-guides",
       "title": "Front-end Style Guides",
       "href": "/2013/11/05/front-end-style-guides/",
@@ -43,13 +50,6 @@
       "href": "/2013/07/08/open-responsibility/",
       "body": "I like to be very “open”. I write about my ideas and experiences and I share code projects on GitHub. There are many reasons for this. High on that list are the improvements I gain as a professional in this industry.\nSharing Code\nSome of my projects like Pikaday are very mature. I’m keen to see them […]",
       "date": 1373281933000
-    },
-    {
-      "id": "automated-accessibility-colour-contrast",
-      "title": "Automated Accessibility: Colour Contrast",
-      "href": "/2013/06/24/automated-accessibility-colour-contrast/",
-      "body": "In my quest to automate my entire job I’ve moved into the realms of testing and accessibility checks. The W3C guidelines on accessibility contain a wealth of advice. Much of it would appear to be common sense. It should be a cornerstone of web design but unfortunately it’s often ignored with the focus on surface […]",
-      "date": 1372089389000
     }
   ],
   "nextPage": "/blog/page/9/",

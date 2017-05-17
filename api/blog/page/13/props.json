@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "responsive-mistakes-less-is-more",
+      "title": "Responsive Mistakes: Less is More",
+      "href": "/2013/01/09/responsive-mistakes-less-is-more/",
+      "body": "This is part 2 of my responsive mistakes mini-series.\nResponsive design musing often leans towards a mobile bias. It’s obvious why. After years of desktop-centric design, mobile is brimming with fresh opportunity.\nAs it turns out, the mobile perspective is very helpful for us and our clients. Designing for small viewports forces content to the forefront of […]",
+      "date": 1357738070000
+    },
+    {
       "id": "a-mini-series-of-responsive-mistakes",
       "title": "Responsive Mistakes (a mini-series)",
       "href": "/2013/01/06/a-mini-series-of-responsive-mistakes/",
@@ -43,13 +50,6 @@
       "href": "/2012/12/10/the-state-of-web-design-2013/",
       "body": "To wrap up 2011 I wrote a few thoughts on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I’m doing it again this year.\nI encourage you to do the same!\nThis all stemmed from a tweet back in October. It’s fine to observe and copy trends, but […]",
       "date": 1355177254000
-    },
-    {
-      "id": "responsive-day-out",
-      "title": "Responsive Day Out",
-      "href": "/2012/12/07/responsive-day-out/",
-      "body": "I’ll be speaking at the Responsive Day Out conference in Brighton, 1st March 2013. Grab a ticket now because at £50+VAT they’ll be sold out very soon! And they’re gone!\n\n\nJeremy Keith explains more on his blog.\nIt’s a kind of conference, I guess, but I think of it as more like a gathering of like-minded people […]",
-      "date": 1354870355000
     }
   ],
   "nextPage": "/blog/page/14/",

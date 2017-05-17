@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 17)",
   "excerpts": [
     {
+      "id": "javascript-bookmarklets",
+      "title": "JavaScript Bookmarklets",
+      "href": "/2012/05/22/javascript-bookmarklets/",
+      "body": "I love a good JavaScript bookmarklet.\nThey’re fun to play with and a great way to hack around on a live website with new code without affecting anyone else’s experience. They can also become part of your service; think Readability’s ‘Read Now’ or Pinterest’s ‘Pin it!’.\nA bookmarklet begins with the following shell:\njavascript:(function(){\n    // […]",
+      "date": 1337674216000
+    },
+    {
       "id": "pageshift-removing-the-refresh",
       "title": "Pageshift",
       "href": "/2012/05/15/pageshift-removing-the-refresh/",
@@ -43,13 +50,6 @@
       "href": "/2012/04/30/notes-from-user-testing/",
       "body": "Last week Browser hosted a UAT session for our latest website development (launching soon!)\nMost website designs — or any design for that matter — do not go through this sort of testing but it’s well worth the effort when done right. It’s exciting and a bit scary to be sat there with your clients while […]",
       "date": 1335770434000
-    },
-    {
-      "id": "modularity-and-style-guides",
-      "title": "Modularity and Style Guides",
-      "href": "/2012/04/23/modularity-and-style-guides/",
-      "body": "Last week I wrote about scoping typographic styles to introduce the concept of modularity in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a .text class to be applied to any block of text-based content. This technique gives us […]",
-      "date": 1335174328000
     }
   ],
   "nextPage": "/blog/page/18/",

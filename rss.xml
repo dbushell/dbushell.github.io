@@ -5,11 +5,25 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 28 Apr 2017 16:40:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2017 11:19:17 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[SSH Passphrases in MacOS Sierra (and learning Vim)]]></title>
+  <description><![CDATA[<p>Managing SSH keys for remote repositories ain’t easy to grok. “Multiple Accounts and SSH
+Keys” is to no
+suprise one of my most popular articles. It’s
+still relevant and I have to refer to it myself at least once a year.
+Recently MacOS began requesting my passphrase with every Git push and pull. That
+is not productive.
+The solution is two […]</p>]]></description>
+  <link>https://dbushell.com/2017/05/18/ssh-passphrases-in-macos-sierra/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/05/18/ssh-passphrases-in-macos-sierra/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 18 May 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[TypeScript over React PropTypes]]></title>
   <description><![CDATA[<p>React v15.5.0 is here and the React.PropTypes module gives a deprecation warning. Moving forward you’ll find it in it’s own package.
@@ -226,17 +240,6 @@ When I left London in 2012, I moved back in with my parents  (temporarily) to em
   <guid isPermaLink="true">https://dbushell.com/2015/09/07/september-update/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 07 Sep 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Real-Life Responsive Web Design]]></title>
-  <description><![CDATA[<p>Last week I had the opportunity to read “Real-Life Responsive Web Design”, the fifth book in the Smashing Book series.
-
-
-Usually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]</p>]]></description>
-  <link>https://dbushell.com/2015/07/27/smashing-book-5/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/07/27/smashing-book-5/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 27 Jul 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

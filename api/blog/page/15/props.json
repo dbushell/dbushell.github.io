@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 15)",
   "excerpts": [
     {
+      "id": "what-is-the-medium",
+      "title": "What is the medium?",
+      "href": "/2012/09/25/what-is-the-medium/",
+      "body": "A must read on A List Apart: The Web Aesthetic, by Paul Robert Lloyd.\nThe article above is jam packed with goodness. I’ve been racking my brain this year trying to understand the web as a medium and Paul does a wonderfully succinct job of encapsulating that idea in a way that I’ve never quite managed.\nTo […]",
+      "date": 1348612624000
+    },
+    {
       "id": "agile-website-design-and-development",
       "title": "Agile Website Design",
       "href": "/2012/09/17/agile-website-design-and-development/",
@@ -43,13 +50,6 @@
       "href": "/2012/07/11/on-the-tools-of-our-trade/",
       "body": "This year I’ve been making a conscious effort to change my tune when discussing particular methodologies and tools used in our fine art of website making.\nWhen we launched Passenger Focus at Browser I wrote “A Responsive Design Case Study” and for me it’s the best article I’ve ever written on this blog. I present my […]",
       "date": 1342004458000
-    },
-    {
-      "id": "jquery-2-0-goodbye-old-ie",
-      "title": "jQuery 2.0, “Goodbye Old IE”",
-      "href": "/2012/06/29/jquery-2-0-goodbye-old-ie/",
-      "body": "jQuery 2.0, expected release “early 2013”, will drop support for Internet Explorer 6–8.\njQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move […]",
-      "date": 1340957971000
     }
   ],
   "nextPage": "/blog/page/16/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "modularity-and-style-guides",
+      "title": "Modularity and Style Guides",
+      "href": "/2012/04/23/modularity-and-style-guides/",
+      "body": "Last week I wrote about scoping typographic styles to introduce the concept of modularity in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a .text class to be applied to any block of text-based content. This technique gives us […]",
+      "date": 1335174328000
+    },
+    {
       "id": "scoping-typography-css",
       "title": "Scoping Typography CSS",
       "href": "/2012/04/18/scoping-typography-css/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/27/introducing-shiro/",
       "body": "Update — March 19th, 2013: please read this article for updates!\nI’ve always taken a very liberal/aggressive approach to progressive enhancement. Older browsers get accessible content but layout is limited and aesthetic styles are better lost completely than hacked on with nasty techniques.\nEvery website is different of course. When I redesigned my personal website I had […]",
       "date": 1332836102000
-    },
-    {
-      "id": "the-mobile-fallacy",
-      "title": "The Mobile Fallacy",
-      "href": "/2012/03/23/the-mobile-fallacy/",
-      "body": "Brad Frost wrote an excellent overview of Content Parity saying “it’s alright to optimize the presentation of content as long as the content remains accessible in some way, shape or form”. This is so vital to understand when designing for the Web across multiple devices. There are still far too many designers equating mobile with […]",
-      "date": 1332502608000
     }
   ],
   "nextPage": "/blog/page/19/",
