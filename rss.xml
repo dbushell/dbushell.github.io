@@ -5,11 +5,24 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 17 May 2017 11:19:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Aug 2017 14:53:10 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[#TIFU by deleting my work]]></title>
+  <description><![CDATA[<p>Ever get that feeling you’ve lost something?
+
+
+I’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. CodePen Projects is a newish addition. It provides a more complete development environment.
+A mini-project came along for a client that gave me the perfect excuse to try CodePen Projects.
+Development […]</p>]]></description>
+  <link>https://dbushell.com/2017/08/15/tifu-by-deleting-my-work/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/08/15/tifu-by-deleting-my-work/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Tue, 15 Aug 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[SSH Passphrases in MacOS Sierra (and learning Vim)]]></title>
   <description><![CDATA[<p>Managing SSH keys for remote repositories ain’t easy to grok. “Multiple Accounts and SSH
@@ -231,15 +244,6 @@ The BBC News website has implemented AMP, screenshotted […]</p>]]></descriptio
   <guid isPermaLink="true">https://dbushell.com/2015/10/20/accelerated-mobile-pages/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Tue, 20 Oct 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[September Update]]></title>
-  <description><![CDATA[<p>Good afternoon! So it’s been a while since I last blogged. Turns out buying a home takes longer than I imagined!
-When I left London in 2012, I moved back in with my parents  (temporarily) to embark upon a freelance career. Work has been steady, not easy, but rewarding and I’m much happier out of […]</p>]]></description>
-  <link>https://dbushell.com/2015/09/07/september-update/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/09/07/september-update/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 07 Sep 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

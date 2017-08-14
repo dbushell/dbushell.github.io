@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 30)",
   "excerpts": [
     {
+      "id": "think-different",
+      "title": "Think Different",
+      "href": "/2010/09/06/think-different/",
+      "body": "I stumbled across one of Apple’s classic ad campaigns. Watch Jobs pitch it below:\nFound this via Young Guns vs. Old Ones.\n\nInspiring, and a masterpiece of advertisement.\nMakes me wonder how differently Apple were thinking when they announced Ping their new social network for music.\nDespite championing HTML5 it would seem Apple have now decided a web browser […]",
+      "date": 1283784836000
+    },
+    {
       "id": "do-you-love-design",
       "title": "Do you Love Design?",
       "href": "/2010/09/02/do-you-love-design/",
@@ -43,13 +50,6 @@
       "href": "/2010/07/12/on-design-blogging/",
       "body": "I’ve never liked the term “blogging”. It sounds a bit buzzy but I guess it’s becoming more acceptable these days. I still refuse to use the word “tweeting” in real life conversation without following it up with “I can’t believe I said that”. Ignoring the vocabulary blogging and tweeting have become a big part of […]",
       "date": 1278967233000
-    },
-    {
-      "id": "morning-design-blogs",
-      "title": "Morning design blogs",
-      "href": "/2010/07/08/morning-design-blogs/",
-      "body": "I’d like to say I spend my mornings sat peacefully in my slippers, a nice cup of tea to hand, the sun steadily rising in my kitchen window while I casually read the latest design blogs on my MacBook Pro. I would like to say that. But most mornings are a frantic bewildered rush to […]",
-      "date": 1278621823000
     }
   ],
   "nextPage": "/blog/page/31/",

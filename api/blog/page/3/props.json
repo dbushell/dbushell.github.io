@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "be-careful-with-your-viewbox",
+      "title": "Be careful with your viewBox",
+      "href": "/2016/03/01/be-careful-with-your-viewbox/",
+      "body": "In Sara Soueidan’s article: SVG Style Inheritance and the ‘Flash of Unstyled SVG’, Sara explains the importance of having width, height, and viewBox attributes on SVG elements. This reminded me of two issues I ran into last week building my new design.\nI have an SVG sprite for social icons:\n\n  \n  .svg-icon  { […]",
+      "date": 1456826400000
+    },
+    {
       "id": "a-bit-of-a-new-look",
       "title": "A Bit of a New Look",
       "href": "/2016/02/29/a-bit-of-a-new-look/",
@@ -43,13 +50,6 @@
       "href": "/2015/09/07/september-update/",
       "body": "Good afternoon! So it’s been a while since I last blogged. Turns out buying a home takes longer than I imagined!\nWhen I left London in 2012, I moved back in with my parents  (temporarily) to embark upon a freelance career. Work has been steady, not easy, but rewarding and I’m much happier out of […]",
       "date": 1441620000000
-    },
-    {
-      "id": "smashing-book-5",
-      "title": "Real-Life Responsive Web Design",
-      "href": "/2015/07/27/smashing-book-5/",
-      "body": "Last week I had the opportunity to read “Real-Life Responsive Web Design”, the fifth book in the Smashing Book series.\n\n\nUsually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]",
-      "date": 1437991200000
     }
   ],
   "nextPage": "/blog/page/4/",

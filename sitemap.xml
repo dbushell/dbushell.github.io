@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://dbushell.com/</loc>
-  <lastmod>2017-04-25T11:14:23.000Z</lastmod>
+  <lastmod>2017-05-17T15:37:25.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
 </url>
 <url>
   <loc>https://dbushell.com/contact/</loc>
-  <lastmod>2017-04-25T11:14:23.000Z</lastmod>
+  <lastmod>2017-05-17T15:37:25.000Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -68,7 +68,7 @@
 </url>
 <url>
   <loc>https://dbushell.com/showcase/</loc>
-  <lastmod>2017-04-25T11:14:23.000Z</lastmod>
+  <lastmod>2017-05-17T15:37:25.000Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
@@ -1749,6 +1749,12 @@
 <url>
   <loc>https://dbushell.com/2017/05/18/ssh-passphrases-in-macos-sierra/</loc>
   <lastmod>2017-05-17T11:19:10.000Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2017/08/15/tifu-by-deleting-my-work/</loc>
+  <lastmod>2017-08-14T14:52:52.000Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

@@ -1221,7 +1221,7 @@ var Small = function Small(props) {
 };
 
 var heading = "From the blog…";
-var items$1 = [{ "id": "typescript-instead-of-react-proptypes", "title": "TypeScript over React PropTypes", "href": "/2017/04/19/typescript-instead-of-react-proptypes/", "date": 1492596000000 }, { "id": "the-magic-of-service-workers", "title": "The Magic of Service Workers", "href": "/2017/04/06/the-magic-of-service-workers/", "date": 1491472800000 }, { "id": "i-watched-iron-fist-and-coded-css", "title": "I watched Iron Fist and coded CSS 👈", "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/", "date": 1491213600000 }, { "id": "web-security-and-cloudflare", "title": "Web Security and Cloudflare", "href": "/2017/02/17/web-security-and-cloudflare/", "date": 1487325600000 }, { "id": "react-as-a-static-site-generator", "title": "React as a Static Site Generator", "href": "/2017/02/13/react-as-a-static-site-generator/", "date": 1486980000000 }, { "id": "resolving-javascript-promises-sequentially-without-nesting", "title": "Working with Promises", "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/", "date": 1481882400000 }];
+var items$1 = [{ "id": "ssh-passphrases-in-macos-sierra", "title": "SSH Passphrases in MacOS Sierra (and learning Vim)", "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/", "date": 1495101600000 }, { "id": "typescript-instead-of-react-proptypes", "title": "TypeScript over React PropTypes", "href": "/2017/04/19/typescript-instead-of-react-proptypes/", "date": 1492596000000 }, { "id": "the-magic-of-service-workers", "title": "The Magic of Service Workers", "href": "/2017/04/06/the-magic-of-service-workers/", "date": 1491472800000 }, { "id": "i-watched-iron-fist-and-coded-css", "title": "I watched Iron Fist and coded CSS 👈", "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/", "date": 1491213600000 }, { "id": "web-security-and-cloudflare", "title": "Web Security and Cloudflare", "href": "/2017/02/17/web-security-and-cloudflare/", "date": 1487325600000 }, { "id": "react-as-a-static-site-generator", "title": "React as a Static Site Generator", "href": "/2017/02/13/react-as-a-static-site-generator/", "date": 1486980000000 }];
 var blogProps$1 = {
 	heading: heading,
 	items: items$1
@@ -1278,10 +1278,10 @@ var Icon = function Icon(props) {
   var icon = function icon(id) {
     return { __html: '<use xlink:href="/assets/img/icons.svg#' + id + '"></use>' };
   };
-  var attr = {
-    role: 'presentation'
-  };
-  return React.h('svg', _extends({}, attr, { dangerouslySetInnerHTML: icon(props.id) }));
+  // const attr = {
+  //   role: 'presentation'
+  // };
+  return React.h('svg', { dangerouslySetInnerHTML: icon(props.id) });
 };
 
 var heading$1 = "Website Navigation";
@@ -1292,12 +1292,17 @@ var defaults$2 = {
 };
 
 var NavItem = function NavItem(props) {
+  var attr = {
+    className: 'b-nav__item'
+  };
+  attr['data-priority'] = props.priority;
+  attr['data-order'] = props.order;
+  if (props.active) {
+    attr.className += ' b-nav__item--active';
+  }
   return React.h(
     'li',
-    {
-      className: 'b-nav__item',
-      'data-priority': props.priority,
-      'data-order': props.order },
+    attr,
     React.h(
       'a',
       { href: props.href, className: 'b-nav__link' },
@@ -1306,6 +1311,19 @@ var NavItem = function NavItem(props) {
   );
 };
 var Nav = function Nav(props) {
+  var pagePath = props.pagePath;
+
+  if (pagePath) {
+    props.items.forEach(function (item) {
+      item.active = false;
+      if (item.href === pagePath) {
+        item.active = true;
+      }
+      if (/^\/blog\//.test(item.href) && /^\/\d{4}\/\d{2}\/\d{2}\//.test(pagePath)) {
+        item.active = true;
+      }
+    });
+  }
   return React.h(
     'nav',
     { className: 'b-nav', id: 'nav' },
@@ -2044,8 +2062,8 @@ var Star = function Star(props) {
     return { __html: '<use xlink:href="/assets/img/stars.svg#' + id + '"></use>' };
   };
   var attr = {
-    className: 'e-star',
-    role: 'presentation'
+    className: 'e-star'
+    // role: 'presentation'
   };
   if (props.blink) {
     attr.className += ' e-star--blink';
@@ -2976,7 +2994,7 @@ var Root = function (_Component) {
         null,
         React.h(el, pageProps),
         React.h(Footer, null),
-        React.h(Nav, null)
+        React.h(Nav, { pagePath: pagePath$$1 })
       );
     }
   }]);

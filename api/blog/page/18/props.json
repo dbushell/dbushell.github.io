@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "notes-from-user-testing",
+      "title": "Notes From User Testing",
+      "href": "/2012/04/30/notes-from-user-testing/",
+      "body": "Last week Browser hosted a UAT session for our latest website development (launching soon!)\nMost website designs — or any design for that matter — do not go through this sort of testing but it’s well worth the effort when done right. It’s exciting and a bit scary to be sat there with your clients while […]",
+      "date": 1335770434000
+    },
+    {
       "id": "modularity-and-style-guides",
       "title": "Modularity and Style Guides",
       "href": "/2012/04/23/modularity-and-style-guides/",
@@ -43,13 +50,6 @@
       "href": "/2012/04/02/dropping-ie-support/",
       "body": "Yesterday TechCrunch reported on the start-up 4ormat and their decision to drop support for Internet Explorer entirely. Their logic behind this seems simple enough; developing for IE users did not equate to profit.\nSupporting variants of IE can easily increase design work by 30% to 100%, but complex features can easily double (or even triple) development […]",
       "date": 1333373071000
-    },
-    {
-      "id": "introducing-shiro",
-      "title": "Introducing Shiro",
-      "href": "/2012/03/27/introducing-shiro/",
-      "body": "Update — March 19th, 2013: please read this article for updates!\nI’ve always taken a very liberal/aggressive approach to progressive enhancement. Older browsers get accessible content but layout is limited and aesthetic styles are better lost completely than hacked on with nasty techniques.\nEvery website is different of course. When I redesigned my personal website I had […]",
-      "date": 1332836102000
     }
   ],
   "nextPage": "/blog/page/19/",

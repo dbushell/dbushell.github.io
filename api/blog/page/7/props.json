@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "tales-update-spanish-translation",
+      "title": "Tales update: Spanish Translation",
+      "href": "/2014/03/31/tales-update-spanish-translation/",
+      "body": "v1.1 of my Tales WordPress theme includes a new Spanish translation.\nMany thanks to Mike Walsh for contributing the translation and adapting my theme for his own website Imaginalgo — looks great!\n\n\nSee my blog post “Introducing Tales” for more information about the theme.\n",
+      "date": 1396257055000
+    },
+    {
       "id": "introducing-tales",
       "title": "Introducing Tales",
       "href": "/2014/02/17/introducing-tales/",
@@ -43,13 +50,6 @@
       "href": "/2013/11/14/what-is-wrong-with-this-message/",
       "body": "Nobody said microcopy was easy…\nWhile catching up with my Twitter feed I follow a link to Google+ — appears to show signs of life within the tech community — and I’m greeted with this wonderful message:\n\n\n“Your profile has been suspended because it impersonates someone.”\nA straight up accusation of potentially illegal acts. There’s no ambiguity, I’m […]",
       "date": 1384434839000
-    },
-    {
-      "id": "form-label-design",
-      "title": "Form Label Design",
-      "href": "/2013/11/08/form-label-design/",
-      "body": "Web forms are often a tedious experience. There’s a lot to be said for keeping questions to a minimum. Do I really need to enter my name across three fields, can’t you just call me “Dave”?\nTo save space and reduce visual noise it’s become quite common to repurpose HTML placeholders. But as we should all […]",
-      "date": 1383909303000
     }
   ],
   "nextPage": "/blog/page/8/",

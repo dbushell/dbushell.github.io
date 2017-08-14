@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 25)",
   "excerpts": [
     {
+      "id": "hey-i-was-reading-that",
+      "title": "Hey, I was reading that…",
+      "href": "/2011/06/05/hey-i-was-reading-that/",
+      "body": "I’m a huge fan of web typography, but we’ll have to wait a bit longer to catch up with print.\nTwitter surged last week with the news of Futura’s arrival at Typekit.\nFutura PT’s classic design — tall ascenders, near perfect geometric shapes — make it both instantly recognizable and irrepressibly modern.\n\n\nIndeed, and browser rendering makes it […]",
+      "date": 1307298695000
+    },
+    {
       "id": "dont-tell-me-where-to-click",
       "title": "Don’t tell me where to click",
       "href": "/2011/05/30/dont-tell-me-where-to-click/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/15/attending-fowd-2011/",
       "body": "Only two days before this year’s Future of Web Design! I’m excited, thanks to the fine folks at Smashing Magazine I’ll be attending both seminar days. Say hello!\nI’m not a fan of the two track structure as I’ll have to miss some talks live (though I’ll be able to catch them online later). I’m going […]",
       "date": 1305480240000
-    },
-    {
-      "id": "the-responsive-design-secret",
-      "title": "The Responsive Design Secret",
-      "href": "/2011/05/11/the-responsive-design-secret/",
-      "body": "Responsive website design - what technique should we use?\n…there’s the three fixed sizes approach - little (320px), medium (~700px) and large (~960px). There’s 100% fluid, 100% fluid with media queries for one or two stages smaller, or 100% fluid from 320 up. Or fluid with a min &amp; max-width. Fixed at 960 with a separate […]",
-      "date": 1305137694000
     }
   ],
   "nextPage": "/blog/page/26/",

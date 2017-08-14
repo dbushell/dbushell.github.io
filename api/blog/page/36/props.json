@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 36)",
   "excerpts": [
     {
+      "id": "inspiration-archives",
+      "title": "Inspiration Archives",
+      "href": "/2009/10/13/inspiration-archives/",
+      "body": "If you’re a designer, photographer, or any kind of artist you’ve probably been asked the question - where do you get your ideas from?\nIt’s often said that it takes a certain kind of person to become an artist. I believe creative people become interested in design at a very young age and because of that […]",
+      "date": 1255436518000
+    },
+    {
       "id": "graphic-design-referenced",
       "title": "Graphic Design Referenced",
       "href": "/2009/10/11/graphic-design-referenced/",
@@ -43,13 +50,6 @@
       "href": "/2009/09/08/verdana-is-so-hot-right-now/",
       "body": "Two of the “core fonts for the web” are to be updated! What impact will this have on website design?\nAfter the earthshattering announcement last month that IKEA will use Verdana both on the web and in print (I spat coffee out reading that), today we hear that Verdana and Georgia are getting a face lift.\nAnnounced […]",
       "date": 1252411962000
-    },
-    {
-      "id": "bad-design-wins-awards",
-      "title": "Bad Design Wins Awards",
-      "href": "/2009/09/08/bad-design-wins-awards/",
-      "body": "On accountability in design, and have you ever wondered why you’ve never seen half of those adverts that win the design and advertising awards?\nThat’s because agencies create them specifically to win awards. They get run once in obscure  magazines or TV channels at 5am and they qualify as “real” advertisements. Some of them aren’t […]",
-      "date": 1252411141000
     }
   ],
   "nextPage": "/blog/page/37/",

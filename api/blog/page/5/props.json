@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "i-dont-do-angular-is-that-ok",
+      "title": "I don’t do Angular, is that OK?",
+      "href": "/2015/02/04/i-dont-do-angular-is-that-ok/",
+      "body": "I’ve never been one to care for job titles. One or two words can’t adequately explain the extent of our roles. I try to avoid giving myself a strict title on this website.\nOn my homepage:\n“I design, build &amp; write all things web”\n\n\nThen I list:\n\nResponsive Design\nFront-end Development\nProcess &amp; Strategy\n\nThese pages are a delicate balance of an […]",
+      "date": 1423057945000
+    },
+    {
       "id": "use-svg-part-2",
       "title": "Use SVG (part 2)",
       "href": "/2015/01/30/use-svg-part-2/",
@@ -43,13 +50,6 @@
       "href": "/2014/06/18/elbows-and-office-chairs/",
       "body": "It’s funny what you get used to.\nI migrated from an iPhone to a larger Android device many years back. Nowadays, squinting at a smaller mobile screen makes me feel a bit dizzy.\nWhen I started freelancing last year I moved in the opposite direction. At my old workplace I dual-wielded 24” monitors. Since then I’ve adapted […]",
       "date": 1403080210000
-    },
-    {
-      "id": "dependency-overload",
-      "title": "Dependency Overload",
-      "href": "/2014/06/10/dependency-overload/",
-      "body": "I employ an army of command line tools to aid my front-end development.\nTruth be told it’s a bit of an addiction. I’m constantly adding more tools that allow me to do less work. Am I in danger of overloading, of creating a system so convoluted that it evolves into a hindrance and defeats the point […]",
-      "date": 1402408825000
     }
   ],
   "nextPage": "/blog/page/6/",

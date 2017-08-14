@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "introducing-shiro",
+      "title": "Introducing Shiro",
+      "href": "/2012/03/27/introducing-shiro/",
+      "body": "Update — March 19th, 2013: please read this article for updates!\nI’ve always taken a very liberal/aggressive approach to progressive enhancement. Older browsers get accessible content but layout is limited and aesthetic styles are better lost completely than hacked on with nasty techniques.\nEvery website is different of course. When I redesigned my personal website I had […]",
+      "date": 1332836102000
+    },
+    {
       "id": "the-mobile-fallacy",
       "title": "The Mobile Fallacy",
       "href": "/2012/03/23/the-mobile-fallacy/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/06/design-heroes/",
       "body": "My bookmark blog Design Heroes has built quite a following over the last few years — who said RSS was dead? — but being more active on Twitter (@dbushell) has made this blog redundant (and a pain to maintain).\n\n\nDesign Heroes was my “original” web project so I’ve been hesitant to let it die but lack […]",
       "date": 1331023196000
-    },
-    {
-      "id": "user-experience-and-privacy-the-fickle-web",
-      "title": "UX and Privacy",
-      "href": "/2012/03/05/user-experience-and-privacy-the-fickle-web/",
-      "body": "I bought a Samsung Galaxy Nexus — running Google’s Android 4.0, ICS — several months ago. I ditched the iPhone 4 just past half way through my contract, and you know what? This is the best user experience I’ve had on a phone to date.\nBut this blog post isn’t about a phone. It’s about Google, […]",
-      "date": 1330991356000
     }
   ],
   "nextPage": "/blog/page/20/",

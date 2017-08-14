@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "on-the-tools-of-our-trade",
+      "title": "On the tools of our trade",
+      "href": "/2012/07/11/on-the-tools-of-our-trade/",
+      "body": "This year I’ve been making a conscious effort to change my tune when discussing particular methodologies and tools used in our fine art of website making.\nWhen we launched Passenger Focus at Browser I wrote “A Responsive Design Case Study” and for me it’s the best article I’ve ever written on this blog. I present my […]",
+      "date": 1342004458000
+    },
+    {
       "id": "jquery-2-0-goodbye-old-ie",
       "title": "jQuery 2.0, “Goodbye Old IE”",
       "href": "/2012/06/29/jquery-2-0-goodbye-old-ie/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/29/socialite-2-preview/",
       "body": "I’ve just uploaded a developer preview of Socialite v2.0 over at GitHub.\nSocialite allows you to delay the loading of social sharing buttons (which aren’t very popular at the moment [1] [2]). This speeds up the load of important content dramatically. It also means you can initialise new buttons for dynamically loaded content at any time. […]",
       "date": 1338328923000
-    },
-    {
-      "id": "the-restriction-of-type",
-      "title": "The Restriction of Type",
-      "href": "/2012/05/26/the-restriction-of-type/",
-      "body": "Responsive website design is incredibly difficult to get right. It’s often said that designing for content is the key to success.\nIn the screenshots below you can see the websites of Elliot Jay Stocks, Jeffrey Zeldman, and Information Architects, all of which have had a redesign/realign this year with content as their priority and thus typography […]",
-      "date": 1338023028000
     }
   ],
   "nextPage": "/blog/page/17/",

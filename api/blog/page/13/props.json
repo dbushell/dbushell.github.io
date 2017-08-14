@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "as-seen-on-smashing-magazine",
+      "title": "As Seen on Smashing Magazine",
+      "href": "/2013/01/15/as-seen-on-smashing-magazine/",
+      "body": "\n\nYou may have caught my recent experiment — well I’ve gone and written a very thorough examination for Smashing Magazine. Read my latest article: “Implementing Off-Canvas Navigation For A Responsive Website”.\nI do enjoy writing for @smashingmag. They’re genuinely some of the nicest people ever to email me. As I leave London this year I plan […]",
+      "date": 1358272214000
+    },
+    {
       "id": "responsive-mistakes-less-is-more",
       "title": "Responsive Mistakes: Less is More",
       "href": "/2013/01/09/responsive-mistakes-less-is-more/",
@@ -43,13 +50,6 @@
       "href": "/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/",
       "body": "Have a play with my responsive off-canvas menu. I hadn’t intended this to go viral (I’m well aware of the issues!) but since it has I decided to write a proper introduction.\n\n\nA couple of things to note — this was purely a technical demo to see the performance of CSS transforms &amp; transitions (I’ve built […]",
       "date": 1356212688000
-    },
-    {
-      "id": "the-state-of-web-design-2013",
-      "title": "The State of Web Design, 2013",
-      "href": "/2012/12/10/the-state-of-web-design-2013/",
-      "body": "To wrap up 2011 I wrote a few thoughts on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I’m doing it again this year.\nI encourage you to do the same!\nThis all stemmed from a tweet back in October. It’s fine to observe and copy trends, but […]",
-      "date": 1355177254000
     }
   ],
   "nextPage": "/blog/page/14/",
