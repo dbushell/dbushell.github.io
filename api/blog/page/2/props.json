@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 2)",
   "excerpts": [
     {
+      "id": "react-as-a-static-site-generator",
+      "title": "React as a Static Site Generator",
+      "href": "/2017/02/13/react-as-a-static-site-generator/",
+      "body": "Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.\nTime for a new project!\nAbstract: rebuild my website using React as the template engine for a bespoke static […]",
+      "date": 1486980000000
+    },
+    {
       "id": "resolving-javascript-promises-sequentially-without-nesting",
       "title": "Working with Promises",
       "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
@@ -43,13 +50,6 @@
       "href": "/2016/07/12/new-origins/",
       "body": "Greetings! It’s been a while, hasn’t it? The last few months were busy for me. That’s a good thing I suppose, I certainly need to earn a living.\nThe only real downside of plentiful client work is the lack of time for my own projects. One of those, codename: “Origin”, is my personal front-end starter kit. […]",
       "date": 1468317600000
-    },
-    {
-      "id": "css-only-responsive-tables",
-      "title": "CSS only Responsive Tables",
-      "href": "/2016/03/04/css-only-responsive-tables/",
-      "body": "Four years ago I shared an idea to make tabular data responsive. Browser support was experimental and the workarounds were extremely hacky. I revisited the technique this week, cleaned it up, and I am pleased to say all modern browsers work perfectly.\nSee the full demo on CodePen\n\n\n\nHere’s what basic overflow looks like:\n\n\nAnd if you want […]",
-      "date": 1457085600000
     }
   ],
   "nextPage": "/blog/page/3/",

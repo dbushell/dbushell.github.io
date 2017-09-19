@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "attending-fowd-2011",
+      "title": "Attending FOWD 2011",
+      "href": "/2011/05/15/attending-fowd-2011/",
+      "body": "Only two days before this year’s Future of Web Design! I’m excited, thanks to the fine folks at Smashing Magazine I’ll be attending both seminar days. Say hello!\nI’m not a fan of the two track structure as I’ll have to miss some talks live (though I’ll be able to catch them online later). I’m going […]",
+      "date": 1305480240000
+    },
+    {
       "id": "the-responsive-design-secret",
       "title": "The Responsive Design Secret",
       "href": "/2011/05/11/the-responsive-design-secret/",
@@ -43,13 +50,6 @@
       "href": "/2011/04/12/seo-is-killing-website-design/",
       "body": "Misguided “Search Engine Optimisation” is the harbinger of a website disaster, and after the ‘sensationalist’ headline above, I’ll do my best to explain why.\nThe Logic of a Good Search Result\nWebsites should be optimised for search engines but you have to remember one important fact. Search engines care about delivering good results to their users. Users […]",
       "date": 1302636693000
-    },
-    {
-      "id": "launching-xheight",
-      "title": "Launching xheight",
-      "href": "/2011/04/10/launching-xheight/",
-      "body": "As most people know I don’t ‘do things by half’ and taking on ambitious projects is generally how I role these days. (Not Sunday though, I refused to take things serious on Sunday.)\nLast week I launched xheight.dbushell.com as a blog for many more designers than just myself to discuss the theory of design from experience […]",
-      "date": 1302434964000
     }
   ],
   "nextPage": "/blog/page/27/",

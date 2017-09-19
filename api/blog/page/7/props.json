@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "gulp-first-impressions",
+      "title": "Gulp: First Impressions",
+      "href": "/2014/04/04/gulp-first-impressions/",
+      "body": "Grunt has long been my command line companion of choice. It has served me well. I have no complaints but I’ve read many obituaries so this week I sat down to test Gulp, its supposed successor. These are my first impressions.\nMy use case is very particular, see related articles:\n\nAutomation\nThe Flat Build\nThe Flat Build (2)\nOrigin\nUpdates to […]",
+      "date": 1396607442000
+    },
+    {
       "id": "tales-update-spanish-translation",
       "title": "Tales update: Spanish Translation",
       "href": "/2014/03/31/tales-update-spanish-translation/",
@@ -43,13 +50,6 @@
       "href": "/2013/12/18/thanks-for-a-great-year/",
       "body": "2013 has been a fun year, one of the most eventful of my career. Usually I like to round up with a review of my work but with several projects launching in January, I’ll hold off until then. This is a short thank you to my clients and fellow web workers who have supported me […]",
       "date": 1387382150000
-    },
-    {
-      "id": "what-is-wrong-with-this-message",
-      "title": "What is wrong with this message?",
-      "href": "/2013/11/14/what-is-wrong-with-this-message/",
-      "body": "Nobody said microcopy was easy…\nWhile catching up with my Twitter feed I follow a link to Google+ — appears to show signs of life within the tech community — and I’m greeted with this wonderful message:\n\n\n“Your profile has been suspended because it impersonates someone.”\nA straight up accusation of potentially illegal acts. There’s no ambiguity, I’m […]",
-      "date": 1384434839000
     }
   ],
   "nextPage": "/blog/page/8/",

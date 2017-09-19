@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "when-can-a-website-be-over-1mb",
+      "title": "When can a website be over 1mb?",
+      "href": "/2015/02/06/when-can-a-website-be-over-1mb/",
+      "body": "When a new website is released for a popular or high profile brand there are two stages of reaction. The first is praise: “it’s responsive!”, “it’s gorgeous!”. The second is criticism: “don’t work in IE9!”, “it’s over 1MB!”. As is internet traditional, opinion must be bipolar and unconditional.\nInitial reaction to the new Majora’s Mask 3DS […]",
+      "date": 1423222268000
+    },
+    {
       "id": "i-dont-do-angular-is-that-ok",
       "title": "I don’t do Angular, is that OK?",
       "href": "/2015/02/04/i-dont-do-angular-is-that-ok/",
@@ -43,13 +50,6 @@
       "href": "/2014/07/09/how-i-built-a-static-site-generator/",
       "body": "I used to build websites with nothing but a text editor.\nNow I have an army of tools at my finger tips. When I began to establish my Grunt tasks I wanted something basic for HTML. My biggest gripe was repetition. The simple concept of “includes” was all I wanted.\nAt the time static site generators and […]",
       "date": 1404907422000
-    },
-    {
-      "id": "elbows-and-office-chairs",
-      "title": "Elbows and Office Chairs",
-      "href": "/2014/06/18/elbows-and-office-chairs/",
-      "body": "It’s funny what you get used to.\nI migrated from an iPhone to a larger Android device many years back. Nowadays, squinting at a smaller mobile screen makes me feel a bit dizzy.\nWhen I started freelancing last year I moved in the opposite direction. At my old workplace I dual-wielded 24” monitors. Since then I’ve adapted […]",
-      "date": 1403080210000
     }
   ],
   "nextPage": "/blog/page/6/",

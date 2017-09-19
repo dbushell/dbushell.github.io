@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Mon, 14 Aug 2017 14:53:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 Sep 2017 08:13:03 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Raspberry Pi + e-Paper module + Node.js]]></title>
+  <description><![CDATA[<p>A few weeks ago I was digging through storage and I found an original Raspberry Pi. When I’d bought it years ago interest was lost rather quickly. I wasn’t as comfortable with a Unix command line as I am today.
+The Raspberry Pi / Arduino / single-board computer ecosystem has exploded since then. Maybe I can […]</p>]]></description>
+  <link>https://dbushell.com/2017/09/20/raspberry-pi-epaper/</link>
+  <guid isPermaLink="true">https://dbushell.com/2017/09/20/raspberry-pi-epaper/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Wed, 20 Sep 2017 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[#TIFU by deleting my work]]></title>
   <description><![CDATA[<p>Ever get that feeling you’ve lost something?
@@ -232,18 +241,6 @@ For the few months that I sold Tales it provided a small but welcome side income
   <guid isPermaLink="true">https://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 12 Nov 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Accelerated Mobile Pages]]></title>
-  <description><![CDATA[<p>The AMP Project is an initiative by Google to improve the “mobile web”.
-Accelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:
-
-
-The BBC News website has implemented AMP, screenshotted […]</p>]]></description>
-  <link>https://dbushell.com/2015/10/20/accelerated-mobile-pages/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/10/20/accelerated-mobile-pages/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Tue, 20 Oct 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

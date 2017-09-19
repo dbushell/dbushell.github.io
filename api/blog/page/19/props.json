@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "dropping-ie-support",
+      "title": "Dropping IE Support",
+      "href": "/2012/04/02/dropping-ie-support/",
+      "body": "Yesterday TechCrunch reported on the start-up 4ormat and their decision to drop support for Internet Explorer entirely. Their logic behind this seems simple enough; developing for IE users did not equate to profit.\nSupporting variants of IE can easily increase design work by 30% to 100%, but complex features can easily double (or even triple) development […]",
+      "date": 1333373071000
+    },
+    {
       "id": "introducing-shiro",
       "title": "Introducing Shiro",
       "href": "/2012/03/27/introducing-shiro/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/11/svg-all-fun-and-games/",
       "body": "When I wrote Resolution Independence for Smashing Magazine I focused almost exclusively on SVG (Scalable Vector Graphics) to save our souls from high-resolution hell.\nSVG is more than just a vector graphic format. I’m here to tell you why it’s better than sliced bread and highlight some of the problems you’ll encounter in everyday front-end usage.\nFeatures […]",
       "date": 1331429092000
-    },
-    {
-      "id": "design-heroes",
-      "title": "Design Heroes",
-      "href": "/2012/03/06/design-heroes/",
-      "body": "My bookmark blog Design Heroes has built quite a following over the last few years — who said RSS was dead? — but being more active on Twitter (@dbushell) has made this blog redundant (and a pain to maintain).\n\n\nDesign Heroes was my “original” web project so I’ve been hesitant to let it die but lack […]",
-      "date": 1331023196000
     }
   ],
   "nextPage": "/blog/page/20/",

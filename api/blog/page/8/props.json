@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 8)",
   "excerpts": [
     {
+      "id": "what-is-wrong-with-this-message",
+      "title": "What is wrong with this message?",
+      "href": "/2013/11/14/what-is-wrong-with-this-message/",
+      "body": "Nobody said microcopy was easy…\nWhile catching up with my Twitter feed I follow a link to Google+ — appears to show signs of life within the tech community — and I’m greeted with this wonderful message:\n\n\n“Your profile has been suspended because it impersonates someone.”\nA straight up accusation of potentially illegal acts. There’s no ambiguity, I’m […]",
+      "date": 1384434839000
+    },
+    {
       "id": "form-label-design",
       "title": "Form Label Design",
       "href": "/2013/11/08/form-label-design/",
@@ -43,13 +50,6 @@
       "href": "/2013/08/09/responsive-design-for-kings-transfer/",
       "body": "The new King’s Transfer website has gone live. I worked on design and front-end development while Peter Mitchell took care of all things back-end.\nThis is my third in-depth responsive design case study and my first as a freelancer. I feel it’s my best work to-date and that’s due to a great client and a real […]",
       "date": 1376035715000
-    },
-    {
-      "id": "progressive-viewports",
-      "title": "Progressive Viewports",
-      "href": "/2013/07/25/progressive-viewports/",
-      "body": "Implementing off-canvas navigation requires a fair amount of effort in the realms of front-end performance and “viewport management” but the general principles are simple. Once you’ve cracked them you can create some brilliant responsive and interactive interfaces.\nViewport set-up\nI’ve decided to write a mostly high-level introduction here without getting bogged down in code. My Smashing Magazine […]",
-      "date": 1374764334000
     }
   ],
   "nextPage": "/blog/page/9/",

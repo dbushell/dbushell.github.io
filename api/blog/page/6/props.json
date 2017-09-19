@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "elbows-and-office-chairs",
+      "title": "Elbows and Office Chairs",
+      "href": "/2014/06/18/elbows-and-office-chairs/",
+      "body": "It’s funny what you get used to.\nI migrated from an iPhone to a larger Android device many years back. Nowadays, squinting at a smaller mobile screen makes me feel a bit dizzy.\nWhen I started freelancing last year I moved in the opposite direction. At my old workplace I dual-wielded 24” monitors. Since then I’ve adapted […]",
+      "date": 1403080210000
+    },
+    {
       "id": "dependency-overload",
       "title": "Dependency Overload",
       "href": "/2014/06/10/dependency-overload/",
@@ -43,13 +50,6 @@
       "href": "/2014/04/21/spring-refresh/",
       "body": "Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since I started freelancing.\n\n\n\n\n\nNo More Logo\nI’ve ditched my logo. It was large and a little out-dated. I work independently, my name and […]",
       "date": 1398087058000
-    },
-    {
-      "id": "gulp-first-impressions",
-      "title": "Gulp: First Impressions",
-      "href": "/2014/04/04/gulp-first-impressions/",
-      "body": "Grunt has long been my command line companion of choice. It has served me well. I have no complaints but I’ve read many obituaries so this week I sat down to test Gulp, its supposed successor. These are my first impressions.\nMy use case is very particular, see related articles:\n\nAutomation\nThe Flat Build\nThe Flat Build (2)\nOrigin\nUpdates to […]",
-      "date": 1396607442000
     }
   ],
   "nextPage": "/blog/page/7/",

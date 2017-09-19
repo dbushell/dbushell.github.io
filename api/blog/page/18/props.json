@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "hacking-it-right",
+      "title": "Hacking it Right",
+      "href": "/2012/05/03/hacking-it-right/",
+      "body": "Developing with open web standards that are to be interpreted by literally hundreds of variations in device and browser can be tricky, but the biggest problem is often not the browser interpreting the code, but the developer writing it. Many so called “bugs” are the product of bad code and wrong expectations; don’t blame the […]",
+      "date": 1336082878000
+    },
+    {
       "id": "notes-from-user-testing",
       "title": "Notes From User Testing",
       "href": "/2012/04/30/notes-from-user-testing/",
@@ -43,13 +50,6 @@
       "href": "/2012/04/03/svg-use-it-already/",
       "body": "Here’s the deal: there’s no reasonable excuse to avoid using SVG for vector graphics on the Web (with a PNG fallback, primarily for IE &lt; 9 and older Android).\nWhile there are legitimate design problems when using one single file with icons at multiple sizes, this is not unique to SVG and in the land of […]",
       "date": 1333458611000
-    },
-    {
-      "id": "dropping-ie-support",
-      "title": "Dropping IE Support",
-      "href": "/2012/04/02/dropping-ie-support/",
-      "body": "Yesterday TechCrunch reported on the start-up 4ormat and their decision to drop support for Internet Explorer entirely. Their logic behind this seems simple enough; developing for IE users did not equate to profit.\nSupporting variants of IE can easily increase design work by 30% to 100%, but complex features can easily double (or even triple) development […]",
-      "date": 1333373071000
     }
   ],
   "nextPage": "/blog/page/19/",
