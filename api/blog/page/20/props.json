@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 20)",
   "excerpts": [
     {
+      "id": "svg-all-fun-and-games",
+      "title": "SVG, all fun and games!",
+      "href": "/2012/03/11/svg-all-fun-and-games/",
+      "body": "When I wrote Resolution Independence for Smashing Magazine I focused almost exclusively on SVG (Scalable Vector Graphics) to save our souls from high-resolution hell.\nSVG is more than just a vector graphic format. I’m here to tell you why it’s better than sliced bread and highlight some of the problems you’ll encounter in everyday front-end usage.\nFeatures […]",
+      "date": 1331429092000
+    },
+    {
       "id": "design-heroes",
       "title": "Design Heroes",
       "href": "/2012/03/06/design-heroes/",
@@ -43,13 +50,6 @@
       "href": "/2012/02/13/are-you-sure-the-user-experience-of-confirmation-dialogs/",
       "body": "Imagine for a minute your web app has a “Delete” action. In HTML it takes this form:\n&lt;a class=\"delete\" href=\"#\">Delete Item&lt;/a>\n\nThe anchor is styled up with sexy CSS3 and functionality is implemented with an asynchronous JavaScript API call. Because we all care about accessibility (and standards) we provide a “no-JS” fallback:\n&lt;a class=\"delete\" href=\"/item/delete/1/\">Delete Item&lt;/a>\n\nLovely! It’s great […]",
       "date": 1329158792000
-    },
-    {
-      "id": "resolution-independence",
-      "title": "Resolution Independence!",
-      "href": "/2012/01/16/resolution-independence/",
-      "body": "One of my thoughts for Web Design: 2012 and Beyond concerned the issues of screen resolution and the necessity for scalable graphics on the web. As part of that thinking I’ve written a piece for Smashing Magazine entitled Resolution Independence with SVG:\nWhen we look at the breadth of Web-enabled devices, responsive design is sure to […]",
-      "date": 1326741891000
     }
   ],
   "nextPage": "/blog/page/21/",

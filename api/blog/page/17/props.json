@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 17)",
   "excerpts": [
     {
+      "id": "search-responsive-design",
+      "title": "Search & Responsive Design",
+      "href": "/2012/06/06/search-responsive-design/",
+      "body": "As a Websitemaker the only thing you need to know about search engines (Google) is that they rank quality and relevance. Not the density of keywords, not the number of inbound links, certainly not the colour of your hat.\nApplying an “SEO” perspective to your website is one more obfuscated step between you and your users. […]",
+      "date": 1339015294000
+    },
+    {
       "id": "socialite-2-preview",
       "title": "Socialite 2 Preview",
       "href": "/2012/05/29/socialite-2-preview/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/08/paydirt-youre-doing-it-wrong/",
       "body": "We don’t spend hours debugging obscure IE bugs…\n\n\nNeither do I, yet my websites work just fine in Internet Explorer.\nJust over a month after the last “we’re dropping IE support” publicity stunt, another tech start-up has successfully hit pay dirt with the exact same bullshit (read: actively blocking IE).\nI realise that by sharing this link bait […]",
       "date": 1336511221000
-    },
-    {
-      "id": "smashing-book-3",
-      "title": "Smashing Book #3",
-      "href": "/2012/05/07/smashing-book-3/",
-      "body": "As an occasional writer for Smashing Magazine — that’s a disclaimer (and an honour!) — I’ve had the pleasure of reading the latest publication, Smashing Book #3 - Redesign The Web.\nHere’s my honest opinion on why this book is worth buying:\nOn Business\nBook #3 opens with wise words from Paul Boag on the reality of web […]",
-      "date": 1336398706000
     }
   ],
   "nextPage": "/blog/page/18/",

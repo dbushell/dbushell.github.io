@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 25)",
   "excerpts": [
     {
+      "id": "dont-copy-that-floppy",
+      "title": "Don’t copy that floppy!",
+      "href": "/2011/06/14/dont-copy-that-floppy/",
+      "body": "I’ve written a new article for Smashing Magazine entitled Understanding Copyright &amp; Licenses. It’s a primer for web designers and developers. Give it a read, let me know what you think.\n\nI do like to tackle the difficult topics. They often require a lot of research and I tend to arrive at the other end knowing […]",
+      "date": 1308065447000
+    },
+    {
       "id": "design-it-build-it-dibi",
       "title": "Design it. Build it. #DIBI",
       "href": "/2011/06/09/design-it-build-it-dibi/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/18/fowd-day-two-review/",
       "body": "I was a few minutes late today (apparently I didn’t have time for a tactical Maccy D’s bacon roll) which almost cost me dearly!\nA change in schedule meant Ethan Marcotte was up first with:\nResponsive Web Design\nThis was suppose to be the headline act. I think a lot of people who missed this morning (a lot […]",
       "date": 1305737155000
-    },
-    {
-      "id": "fowd-day-one-review",
-      "title": "#FOWD Day One Review",
-      "href": "/2011/05/17/fowd-day-one-review/",
-      "body": "This is my first year at Future of Web Design so I was unsure what to expect but secretly I knew it’d be pretty awesome. What a learning experience.\nBelow is a bit of a brain dump so I don’t forget, but I think everyone can benefit from these notes – the ideas were so strong […]",
-      "date": 1305657566000
     }
   ],
   "nextPage": "/blog/page/26/",

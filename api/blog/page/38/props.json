@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 38)",
   "excerpts": [
     {
+      "id": "the-art-of-nadeem-chughtai",
+      "title": "The Art of Nadeem Chughtai",
+      "href": "/2009/07/02/the-art-of-nadeem-chughtai/",
+      "body": "\nLast Friday I visited the Secret Blisters screen print poster show and I also had the opportunity to pop into Absorb Art Studios who had a summer gallery showing next door. There were several artists that stood out, the first of which I’d like to share on this blog is Nadeem Chughtai.\n“The character I use […]",
+      "date": 1246564688000
+    },
+    {
       "id": "edgar-mueller-3d-art",
       "title": "Edgar Mueller – 3D Art",
       "href": "/2009/06/30/edgar-mueller-3d-art/",
@@ -43,13 +50,6 @@
       "href": "/2009/06/09/waterstones-space-opera/",
       "body": "Waterstones book display - some very eye catching book designs.\nLondon Underground has decided to strike today for 48 hours which has slightly inconvenienced my journey to and from work. Rather than getting terribly angry about the whole situation I’m going to take it as a challenge to see more of London (probably from a bus […]",
       "date": 1244573426000
-    },
-    {
-      "id": "readable-type",
-      "title": "Readable Type",
-      "href": "/2009/06/07/readable-type/",
-      "body": "Readability and Legibility are words often interchanged in general conversation, however they both have a significant difference when thinking about the text we use on websites (and in all digital and printed work).\nThis article was written for a presentation at Base Creative.\nReadability\nIf we are providing a piece of textual information readability can be defined as […]",
-      "date": 1244407342000
     }
   ],
   "nextPage": "/blog/page/39/",

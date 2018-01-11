@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 35)",
   "excerpts": [
     {
+      "id": "frozen-and-flickr",
+      "title": "Frozen and Flickr",
+      "href": "/2010/01/02/frozen-and-flickr/",
+      "body": "Around here it’s nearly zero and covered in snow. I decided to spend the day integrating Flickr.\n\nIf you take a look in the right-hand column of my blog (under Twitter) you should see two of my latest Flickr photos. I say “should” because I’m not 100 percent on the Flickr API I’ve been experimenting with, […]",
+      "date": 1262449786000
+    },
+    {
       "id": "tweets-and-tweaks",
       "title": "Tweets and Tweaks",
       "href": "/2009/12/31/tweets-and-tweaks/",
@@ -43,13 +50,6 @@
       "href": "/2009/10/26/barcamp-london-in-review/",
       "body": "BarCamp London 7 is a free-to-attend weekend unconference for designers, developers and geeks of all types.\nSounds like a fun weekend eh?\nI didn’t know anything about BarCamp until a week or so before but it sounded very interesting so I thought why not? My boss (Iain Scott) was also lucky enough to grab a ticket in […]",
       "date": 1256589264000
-    },
-    {
-      "id": "typotheque-offer-web-licenses",
-      "title": "Typotheque offer web licenses",
-      "href": "/2009/10/20/typotheque-offer-web-licenses/",
-      "body": "Good news everybody!\nThe Typotheque font foundry are now offering web licenses with a hosted service similar to Typekit (read my review on Typekit.)\n“The Typotheque Web Font Service enables you to use custom fonts in your website using the @font-face rule in CSS. Just add a line of code to your page and get it working […]",
-      "date": 1256068254000
     }
   ],
   "nextPage": "/blog/page/36/",

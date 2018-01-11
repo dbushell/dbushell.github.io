@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Mon, 27 Nov 2017 12:18:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 09:41:32 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Hello Twenty Eighteen]]></title>
+  <description><![CDATA[<p>In 2018 I’ll be celebrating 10 years as a professional.
+I graduated in 2008. I hopped on a train to London and spent five years with two agencies. In 2013 I dusted off my return ticket and headed back up North. I’ve been freelancing ever since. My first office was the window end of my parent’s […]</p>]]></description>
+  <link>https://dbushell.com/2018/01/11/hello-2018/</link>
+  <guid isPermaLink="true">https://dbushell.com/2018/01/11/hello-2018/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 11 Jan 2018 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Raspberry Pi + e-Paper module + Node.js]]></title>
   <description><![CDATA[<p>A few weeks ago I was digging through storage and I found an original Raspberry Pi. When I’d bought it years ago interest was lost rather quickly. I wasn’t as comfortable with a Unix command line as I am today.
@@ -230,17 +239,6 @@ What better […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2015/12/30/2015-in-review/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Wed, 30 Dec 2015 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Tales WordPress theme is now free!]]></title>
-  <description><![CDATA[<p>Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.
-
-
-For the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]</p>]]></description>
-  <link>https://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/11/12/tales-wordpress-theme-now-free/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Thu, 12 Nov 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

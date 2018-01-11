@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "smashing-book-3",
+      "title": "Smashing Book #3",
+      "href": "/2012/05/07/smashing-book-3/",
+      "body": "As an occasional writer for Smashing Magazine — that’s a disclaimer (and an honour!) — I’ve had the pleasure of reading the latest publication, Smashing Book #3 - Redesign The Web.\nHere’s my honest opinion on why this book is worth buying:\nOn Business\nBook #3 opens with wise words from Paul Boag on the reality of web […]",
+      "date": 1336398706000
+    },
+    {
       "id": "hacking-it-right",
       "title": "Hacking it Right",
       "href": "/2012/05/03/hacking-it-right/",
@@ -43,13 +50,6 @@
       "href": "/2012/04/11/spotify-play-button-and-socialite-js/",
       "body": "Spotify have just released their Spotify Play Button allowing you to embed any song or playlist on your website or blog. It’s awesome, but it also comes at a cost.\nThe whole include (which uses an iframe) weights in at close to 500kb and uses upwards of 30 http requests alone. Chunky! Chunkier than many web […]",
       "date": 1334150615000
-    },
-    {
-      "id": "svg-use-it-already",
-      "title": "SVG, Use it Already",
-      "href": "/2012/04/03/svg-use-it-already/",
-      "body": "Here’s the deal: there’s no reasonable excuse to avoid using SVG for vector graphics on the Web (with a PNG fallback, primarily for IE &lt; 9 and older Android).\nWhile there are legitimate design problems when using one single file with icons at multiple sizes, this is not unique to SVG and in the land of […]",
-      "date": 1333458611000
     }
   ],
   "nextPage": "/blog/page/19/",

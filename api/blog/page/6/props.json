@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "how-i-built-a-static-site-generator",
+      "title": "How I built a Static Site Generator",
+      "href": "/2014/07/09/how-i-built-a-static-site-generator/",
+      "body": "I used to build websites with nothing but a text editor.\nNow I have an army of tools at my finger tips. When I began to establish my Grunt tasks I wanted something basic for HTML. My biggest gripe was repetition. The simple concept of “includes” was all I wanted.\nAt the time static site generators and […]",
+      "date": 1404907422000
+    },
+    {
       "id": "elbows-and-office-chairs",
       "title": "Elbows and Office Chairs",
       "href": "/2014/06/18/elbows-and-office-chairs/",
@@ -43,13 +50,6 @@
       "href": "/2014/04/24/two-week-build/",
       "body": "From concept to launch the new version of my website clocked just over two weeks of development time. This article documents assorted aspects of that process.\nInitial Concept\n\n\nWhat you see above is the extent of my ’shopping for the new design. I probably wasted more time setting up those ridiculous guides than I did mocking up […]",
       "date": 1398332871000
-    },
-    {
-      "id": "spring-refresh",
-      "title": "Spring Refresh",
-      "href": "/2014/04/21/spring-refresh/",
-      "body": "Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since I started freelancing.\n\n\n\n\n\nNo More Logo\nI’ve ditched my logo. It was large and a little out-dated. I work independently, my name and […]",
-      "date": 1398087058000
     }
   ],
   "nextPage": "/blog/page/7/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "spring-refresh",
+      "title": "Spring Refresh",
+      "href": "/2014/04/21/spring-refresh/",
+      "body": "Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since I started freelancing.\n\n\n\n\n\nNo More Logo\nI’ve ditched my logo. It was large and a little out-dated. I work independently, my name and […]",
+      "date": 1398087058000
+    },
+    {
       "id": "gulp-first-impressions",
       "title": "Gulp: First Impressions",
       "href": "/2014/04/04/gulp-first-impressions/",
@@ -43,13 +50,6 @@
       "href": "/2014/01/10/building-for-perch-cms/",
       "body": "Perch CMS has been on my radar for a few years now and given the praise I continue to see I figured it was time to learn the ins and outs of Perch development.\n\n\nPerch is a very good CMS for both development ease and content editing. After spending a week with Perch I feel confident […]",
       "date": 1389343076000
-    },
-    {
-      "id": "thanks-for-a-great-year",
-      "title": "Thanks for a Great Year!",
-      "href": "/2013/12/18/thanks-for-a-great-year/",
-      "body": "2013 has been a fun year, one of the most eventful of my career. Usually I like to round up with a review of my work but with several projects launching in January, I’ll hold off until then. This is a short thank you to my clients and fellow web workers who have supported me […]",
-      "date": 1387382150000
     }
   ],
   "nextPage": "/blog/page/8/",
