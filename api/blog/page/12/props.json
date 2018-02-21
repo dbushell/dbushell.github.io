@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "bring-back-the-sitemap",
+      "title": "Bring Back the Sitemap?",
+      "href": "/2013/02/21/bring-back-the-sitemap/",
+      "body": "I’m doing a small segment on navigation at Responsive Day Out (1st March). It’s an area of responsive design I enjoy experimenting with.\nYou’re probably familiar with responsive patterns that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before […]",
+      "date": 1361455114000
+    },
+    {
       "id": "captchas-just-say-no",
       "title": "CAPTCHAs: Just Say No",
       "href": "/2013/02/18/captchas-just-say-no/",
@@ -43,13 +50,6 @@
       "href": "/2013/02/04/a-new-home/",
       "body": "Welcome to my new website. I haven’t rebranded entirely — what you see bears many similarities to updates past — but I am launching a new stage in my career.\n2013 is the year I go freelance.\nThis site now represents my web design and front-end development services. It’s heavily content-centric in design. And responsive, of course! […]",
       "date": 1359948357000
-    },
-    {
-      "id": "gloople-responsive-design-review",
-      "title": "Gloople: Responsive Design Review",
-      "href": "/2013/01/28/gloople-responsive-design-review/",
-      "body": "Following last year’s Passenger Focus case study, today I present the Gloople responsive design review. Gloople is an ecommerce platform with emphasis on social and mobile. We designed and built the website at Browser.\nPlease bear in mind this is a beta registration launch. The final site, fully optimised, and the ecommerce platform will arive later […]",
-      "date": 1359383125000
     }
   ],
   "nextPage": "/blog/page/13/",

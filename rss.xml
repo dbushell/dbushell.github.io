@@ -5,11 +5,24 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Thu, 11 Jan 2018 09:41:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2018 09:47:20 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[CodePen Snippets]]></title>
+  <description><![CDATA[<p>I’ve started a new Code Snippets collection on CodePen. It will be populated with the little and sometimes peculiar CSS techniques I’ve used. Mostly CSS but with occasional JavaScript sprinkles. Progressively enhanced, of course.
+Stuff like this styled range input:
+
+  
+  See the Pen Styled input range (slider/progress) by David Bushell (@dbushell) on CodePen.
+ […]</p>]]></description>
+  <link>https://dbushell.com/2018/02/21/codepen-snippets/</link>
+  <guid isPermaLink="true">https://dbushell.com/2018/02/21/codepen-snippets/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Wed, 21 Feb 2018 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Hello Twenty Eighteen]]></title>
   <description><![CDATA[<p>In 2018 I’ll be celebrating 10 years as a professional.
@@ -228,17 +241,6 @@ I’ve always championed the idea of maintainable, […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2016/01/04/css-framework-for-partsgiant/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 04 Jan 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[My Year in Review]]></title>
-  <description><![CDATA[<p>All considered, 2015 has been a good year!
-My highlight for sure was moving into my new flat. The whole searching, buying, and decorating process took way longer than I imagined. Because of this I didn’t take on as many large projects, but I did manage to find enough freelance work to keep me going.
-January
-What better […]</p>]]></description>
-  <link>https://dbushell.com/2015/12/30/2015-in-review/</link>
-  <guid isPermaLink="true">https://dbushell.com/2015/12/30/2015-in-review/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Wed, 30 Dec 2015 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

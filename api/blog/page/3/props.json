@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "building-a-wordpress-theme",
+      "title": "Building a WordPress Theme",
+      "href": "/2016/07/14/building-a-wordpress-theme/",
+      "body": "I was delighted when Base Creative asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.\n\n\nIn this review I’ll showcase a few of the defining techniques and challenges that made this […]",
+      "date": 1468490400000
+    },
+    {
       "id": "new-origins",
       "title": "New Origins",
       "href": "/2016/07/12/new-origins/",
@@ -43,13 +50,6 @@
       "href": "/2015/12/30/2015-in-review/",
       "body": "All considered, 2015 has been a good year!\nMy highlight for sure was moving into my new flat. The whole searching, buying, and decorating process took way longer than I imagined. Because of this I didn’t take on as many large projects, but I did manage to find enough freelance work to keep me going.\nJanuary\nWhat better […]",
       "date": 1451469600000
-    },
-    {
-      "id": "tales-wordpress-theme-now-free",
-      "title": "Tales WordPress theme is now free!",
-      "href": "/2015/11/12/tales-wordpress-theme-now-free/",
-      "body": "Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.\n\n\nFor the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]",
-      "date": 1447322400000
     }
   ],
   "nextPage": "/blog/page/4/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 27)",
   "excerpts": [
     {
+      "id": "simplicity-and-sexy-buttons-in-web-design",
+      "title": "Simplicity and Sexy Buttons",
+      "href": "/2011/04/18/simplicity-and-sexy-buttons-in-web-design/",
+      "body": "I’ve mentioned simplicity a few times before but I thought I’d expand on this concept within web design as it’s such a fundamental part of my process.\nSimplicity in Aesthetics\nAlthough aesthetics are perhaps the least important aspect of website design they are initially the most noticeable, at least for demonstration purposes.\nLet’s consider four submit buttons:\n\nThe first […]",
+      "date": 1303157548000
+    },
+    {
       "id": "seo-is-killing-website-design",
       "title": "SEO is Killing Website Design",
       "href": "/2011/04/12/seo-is-killing-website-design/",
@@ -43,13 +50,6 @@
       "href": "/2011/03/09/inspire-me-now/",
       "body": "There are many things that inspire me – some I’d be embarrassed to admit! – but a combination of graphics, typography and a great quotation is certain to be a winner.\nI’ve never really been a quote type of person though, because my memory isn’t geared to remembering that sort of stuff.  I even set […]",
       "date": 1299674997000
-    },
-    {
-      "id": "in-search-of-the-perfect-captcha",
-      "title": "In Search of the Perfect CAPTCHA",
-      "href": "/2011/03/04/in-search-of-the-perfect-captcha/",
-      "body": "I’ve been on quite the journey over the last few weeks…\n…searching for the perfect CAPTCHA!\nYou can read my findings over at Smashing Magazine – big thanks to the team for their support and guidance in writing this article – I’m still immensly honoured! It’s also been quite an eye-opener to the issues of accessibility. That’s […]",
-      "date": 1299243520000
     }
   ],
   "nextPage": "/blog/page/28/",

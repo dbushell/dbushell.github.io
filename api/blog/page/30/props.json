@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 30)",
   "excerpts": [
     {
+      "id": "book-review-just-my-type",
+      "title": "Book Review: Just My Type",
+      "href": "/2010/10/25/book-review-just-my-type/",
+      "body": "If you’ve been following my Design Heroes blog you’ll know I’ve recently been impressed with two (1, 2) different excerpts from Simon Garfield’s new book Just My Type.\nSo much so that I purchased and read it as fast as humanly possible.\nThe book starts with a chapter on Comic Sans, illustrating the significant impact a font […]",
+      "date": 1288039937000
+    },
+    {
       "id": "design-is-not-doomed",
       "title": "Design is not doomed",
       "href": "/2010/10/14/design-is-not-doomed/",
@@ -27,7 +34,7 @@
       "id": "do-you-love-design",
       "title": "Do you Love Design?",
       "href": "/2010/09/02/do-you-love-design/",
-      "body": "Before I get into the meaty part of this post I’d like to share this by Kyle Steed:\nHomer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.\n\n\nFunny and true. I’m guilty of this myself, despite vowing a _very long time ago never to write a […]",
+      "body": "Before I get into the meaty part of this post I’d like to share this by Kyle Steed:\nHomer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.\n\n\nFunny and true. I’m guilty of this myself, despite vowing a _very _long time ago never to write a […]",
       "date": 1283417680000
     },
     {
@@ -43,13 +50,6 @@
       "href": "/2010/08/12/summer-of-design-heroes/",
       "body": "The trouble with writing for two design blogs is that all the positive stuff tends to drift towards one of them (especially when it’s called Design Heroes).\nSo in an effort to balance the love I present a run down of all the brilliant creativity I’ve been blogging about over the last few months.\nFavourites of June\nHayaku: […]",
       "date": 1281647277000
-    },
-    {
-      "id": "using-photoshop-like-a-real-web-design",
-      "title": "Photoshop like a Real Designer",
-      "href": "/2010/07/29/using-photoshop-like-a-real-web-design/",
-      "body": "There has been a lot of debate recently in the web design social networks about whether a web designer should be able to code. I didn’t contribute much to the question because the answer is obviously yes, but I did think long and hard about my own practices.\nToday Smashing Magazine published a great article by […]",
-      "date": 1280403884000
     }
   ],
   "nextPage": "/blog/page/31/",

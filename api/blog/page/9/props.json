@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 9)",
   "excerpts": [
     {
+      "id": "reacting-to-the-resize",
+      "title": "Reacting to the Resize",
+      "href": "/2013/08/29/reacting-to-the-resize/",
+      "body": "I’m building a client’s website design that is more aware of the viewport than usual. Page headers — think large typography with a background image — cover 100% of the initial view. So too does the navigation; five items presented overlaying the entire screen.\nFirst but not final\nWhen a page loads the first render — at […]",
+      "date": 1377785694000
+    },
+    {
       "id": "responsive-design-for-kings-transfer",
       "title": "Responsive Design for King’s Transfer",
       "href": "/2013/08/09/responsive-design-for-kings-transfer/",
@@ -43,13 +50,6 @@
       "href": "/2013/06/10/updates-to-origin/",
       "body": "Back in April I published my front-end starting point on GitHub. It includes basic HTML &amp; CSS and many Grunt tasks to automate compilation, minification, optimisation, and rasterisation.\nWhat’s new\nMy custom SVG rasterisation task was poorly written. It brought my laptop to a standstill while churning through as many phantom.js processes as there were SVG files. […]",
       "date": 1370870989000
-    },
-    {
-      "id": "the-raster-image-paradox",
-      "title": "The Raster Image Paradox",
-      "href": "/2013/06/03/the-raster-image-paradox/",
-      "body": "The recent Clown Car Technique is a clever use of SVG but as with all “adaptive image” solutions for responsive web design it’s not something I’d be comfortable using.\nOne image to rule them all\nWhen I build web pages I generally come to the conclusion that using a single image is a sensible bet. Nothing fancy, […]",
-      "date": 1370274214000
     }
   ],
   "nextPage": "/blog/page/10/",

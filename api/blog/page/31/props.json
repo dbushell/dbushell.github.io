@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 31)",
   "excerpts": [
     {
+      "id": "using-photoshop-like-a-real-web-design",
+      "title": "Photoshop like a Real Designer",
+      "href": "/2010/07/29/using-photoshop-like-a-real-web-design/",
+      "body": "There has been a lot of debate recently in the web design social networks about whether a web designer should be able to code. I didn’t contribute much to the question because the answer is obviously yes, but I did think long and hard about my own practices.\nToday Smashing Magazine published a great article by […]",
+      "date": 1280403884000
+    },
+    {
       "id": "stop-being-a-designer-from-hell",
       "title": "Stop being a Designer from Hell",
       "href": "/2010/07/17/stop-being-a-designer-from-hell/",
@@ -43,13 +50,6 @@
       "href": "/2010/06/30/using-svg-logos/",
       "body": "Update 1th November 2011: The Good, the Bad, and the Logo\nIf you visited this website recently you may have noticed the new logo/emblem that adorns the top centre of the design. For the last few days that logo was simply a _PNG _image. Well this evening I asked myself why?** **It’s obviously been designed as […]",
       "date": 1277929259000
-    },
-    {
-      "id": "do-you-need-a-javascript-library",
-      "title": "Do you need a JavaScript library?",
-      "href": "/2010/06/29/do-you-need-a-javascript-library/",
-      "body": "Over the last few years JavaScript has gone through a renaissance.\nFrom a buggy unpredictable add-on, to a mature superfast piece of kit, JavaScript is an integral component to any website. To prove this I’d present libraries like jQuery, Modernizr and Raphaël (to name a few of my favourites).\nBut the question of the day is: do […]",
-      "date": 1277844775000
     }
   ],
   "nextPage": "/blog/page/32/",

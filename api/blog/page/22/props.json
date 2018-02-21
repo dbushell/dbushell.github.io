@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 22)",
   "excerpts": [
     {
+      "id": "window-resize-in-javascript",
+      "title": "Window Resize in JS",
+      "href": "/2011/11/24/window-resize-in-javascript/",
+      "body": "I will write a full article on responsive website design &amp; JavaScript soon, but for now here’s a quick snippet! (With a little help from jQuery, naturally.)\nvar resizeTimeout, win = $(window);\nwin.bind('resize', function()\n{\n    if (resizeTimeout) clearTimeout(resizeTimeout);\n    resizeTimeout = setTimeout(function()\n    {\n        […]",
+      "date": 1322174153000
+    },
+    {
       "id": "reaction-time-2",
       "title": "Reaction Time (2)",
       "href": "/2011/11/16/reaction-time-2/",
@@ -43,13 +50,6 @@
       "href": "/2011/10/30/learning-from-the-crazy-ones/",
       "body": "I’ve been reading the Steve Jobs biography and a quote in the Jony Ive chapter (half way through the book) from Jobs really stood out:\n“In most people’s vocabularies, design means veneer, but to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up […]",
       "date": 1319972978000
-    },
-    {
-      "id": "reaction-time",
-      "title": "Reaction Time",
-      "href": "/2011/10/25/reaction-time/",
-      "body": "Last week I wrote about device optimisation which adds a much needed bit of pragmatism to the holy grail of timeless, device-agnostic website design.\nI touched on a technique that I’ll expand here because it can be used more generically. If you’re going for a responsive layout with interactive elements this makes a massive difference to […]",
-      "date": 1319568205000
     }
   ],
   "nextPage": "/blog/page/23/",

@@ -1766,7 +1766,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2018/01/11/hello-2018/</loc>
-  <lastmod>2018-01-11T09:41:17.000Z</lastmod>
+  <lastmod>2018-01-11T10:14:52.000Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2018/02/21/codepen-snippets/</loc>
+  <lastmod>2018-02-20T15:07:17.024Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "gloople-responsive-design-review",
+      "title": "Gloople: Responsive Design Review",
+      "href": "/2013/01/28/gloople-responsive-design-review/",
+      "body": "Following last year’s Passenger Focus case study, today I present the Gloople responsive design review. Gloople is an ecommerce platform with emphasis on social and mobile. We designed and built the website at Browser.\nPlease bear in mind this is a beta registration launch. The final site, fully optimised, and the ecommerce platform will arive later […]",
+      "date": 1359383125000
+    },
+    {
       "id": "multiple-accounts-and-ssh-keys",
       "title": "Multiple Accounts and SSH Keys",
       "href": "/2013/01/27/multiple-accounts-and-ssh-keys/",
@@ -43,13 +50,6 @@
       "href": "/2013/01/01/five-tips-for-responsive-builds/",
       "body": "If design and content strategy stops when the build phase starts it’s time to rethink your process. The role of a modern front-end developer goes beyond following pre-defined blueprints. An iterative, agile-like approach is vital to account for responsive design challenges that inevitably arise as a website takes shape.\nWith that in mind here are my […]",
       "date": 1357082499000
-    },
-    {
-      "id": "a-new-beginning",
-      "title": "A New Beginning",
-      "href": "/2012/12/30/a-new-beginning/",
-      "body": "Everything changes for me at the end of January.\nAfter a wonderful 18 months at Browser and five years living in London I’m heading home, back up north to Manchester — and then almost immediately back down south for Responsive Day Out — but after that I’ll be starting something new.\nWhat’s Next?\nLondon was a great place […]",
-      "date": 1356863405000
     }
   ],
   "nextPage": "/blog/page/14/",

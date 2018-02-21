@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 14)",
   "excerpts": [
     {
+      "id": "a-new-beginning",
+      "title": "A New Beginning",
+      "href": "/2012/12/30/a-new-beginning/",
+      "body": "Everything changes for me at the end of January.\nAfter a wonderful 18 months at Browser and five years living in London I’m heading home, back up north to Manchester — and then almost immediately back down south for Responsive Day Out — but after that I’ll be starting something new.\nWhat’s Next?\nLondon was a great place […]",
+      "date": 1356863405000
+    },
+    {
       "id": "a-year-of-writing",
       "title": "A Year of Writing",
       "href": "/2012/12/26/a-year-of-writing/",
@@ -43,13 +50,6 @@
       "href": "/2012/11/19/responsive-bases-vertical-spaces/",
       "body": "Build a responsive design and you’ll find yourself knee deep in relative units and percentage widths. Media queries are the weapon of choice to adjust CSS on viewport change. Almost every example I’ve seen (and made) are based exclusively on the viewport width.\nWhat about height?\nThe Baseline Grid\nAs an exercise in ‘perfection’ when I last updated […]",
       "date": 1353347128000
-    },
-    {
-      "id": "design-books-for-sale",
-      "title": "Design Books for Sale",
-      "href": "/2012/10/29/design-books-for-sale/",
-      "body": "Based in the UK? Like design, books, design books, book design?\nI’ve got just what you need. I’m selling a few of my design books. These are all top notch and have served me well (some since the uni days). Today I’m all digital and sadly have no room for a physical book collection. I want […]",
-      "date": 1351547745000
     }
   ],
   "nextPage": "/blog/page/15/",
