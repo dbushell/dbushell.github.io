@@ -132,10 +132,33 @@ var stack = [];
 
 var EMPTY_CHILDREN = [];
 
-/** JSX/hyperscript reviver
-*	Benchmarks: https://esbench.com/bench/57ee8f8e330ab09900a1a1a0
- *	@see http://jasonformat.com/wtf-is-jsx
- *	@public
+/**
+ * JSX/hyperscript reviver.
+ * @see http://jasonformat.com/wtf-is-jsx
+ * Benchmarks: https://esbench.com/bench/57ee8f8e330ab09900a1a1a0
+ *
+ * Note: this is exported as both `h()` and `createElement()` for compatibility reasons.
+ *
+ * Creates a VNode (virtual DOM element). A tree of VNodes can be used as a lightweight representation
+ * of the structure of a DOM tree. This structure can be realized by recursively comparing it against
+ * the current _actual_ DOM structure, and applying only the differences.
+ *
+ * `h()`/`createElement()` accepts an element name, a list of attributes/props,
+ * and optionally children to append to the element.
+ *
+ * @example The following DOM tree
+ *
+ * `<div id="foo" name="bar">Hello!</div>`
+ *
+ * can be constructed using this function as:
+ *
+ * `h('div', { id: 'foo', name : 'bar' }, 'Hello!');`
+ *
+ * @param {string} nodeName	An element name. Ex: `div`, `a`, `span`, etc.
+ * @param {Object} attributes	Any attributes/props to set on the created element.
+ * @param rest			Additional arguments are taken to be children to append. Can be infinitely nested Arrays.
+ *
+ * @public
  */
 function h(nodeName, attributes) {
 	var children = EMPTY_CHILDREN,
@@ -186,9 +209,12 @@ function h(nodeName, attributes) {
 	return p;
 }
 
-/** Copy own-properties from `props` onto `obj`.
- *	@returns obj
- *	@private
+/**
+ *  Copy all properties from `props` onto `obj`.
+ *  @param {Object} obj		Object onto which properties should be copied.
+ *  @param {Object} props	Object from which to copy properties.
+ *  @returns obj
+ *  @private
  */
 function extend(obj, props) {
 	for (var i in props) {
@@ -196,11 +222,21 @@ function extend(obj, props) {
 	}return obj;
 }
 
-/** Call a function asynchronously, as soon as possible.
- *	@param {Function} callback
+/**
+ * Call a function asynchronously, as soon as possible. Makes
+ * use of HTML Promise to schedule the callback if available,
+ * otherwise falling back to `setTimeout` (mainly for IE<11).
+ *
+ * @param {Function} callback
  */
 var defer = typeof Promise == 'function' ? Promise.resolve().then.bind(Promise.resolve()) : setTimeout;
 
+/**
+ * Clones the given VNode, optionally adding attributes/props and replacing its children.
+ * @param {VNode} vnode		The virutal DOM element to clone
+ * @param {Object} props	Attributes/props to add when cloning
+ * @param {VNode} rest		Any additional arguments will be used as replacement children.
+ */
 function cloneElement(vnode, props) {
 	return h(vnode.nodeName, extend(extend({}, vnode.attributes), props), arguments.length > 2 ? [].slice.call(arguments, 2) : vnode.children);
 }
@@ -227,10 +263,13 @@ function rerender() {
 	}
 }
 
-/** Check if two nodes are equivalent.
- *	@param {Element} node
- *	@param {VNode} vnode
- *	@private
+/**
+ * Check if two nodes are equivalent.
+ *
+ * @param {Node} node			DOM Node to compare
+ * @param {VNode} vnode			Virtual DOM node to compare
+ * @param {boolean} [hyrdating=false]	If true, ignores component constructors when comparing.
+ * @private
  */
 function isSameNodeType(node, vnode, hydrating) {
 	if (typeof vnode === 'string' || typeof vnode === 'number') {
@@ -242,9 +281,11 @@ function isSameNodeType(node, vnode, hydrating) {
 	return hydrating || node._componentConstructor === vnode.nodeName;
 }
 
-/** Check if an Element has a given normalized name.
-*	@param {Element} node
-*	@param {String} nodeName
+/**
+ * Check if an Element has a given nodeName, case-insensitively.
+ *
+ * @param {Element} node	A DOM Element to inspect the name of.
+ * @param {String} nodeName	Unnormalized name to compare against.
  */
 function isNamedNode(node, nodeName) {
 	return node.normalizedNodeName === nodeName || node.nodeName.toLowerCase() === nodeName.toLowerCase();
@@ -254,6 +295,7 @@ function isNamedNode(node, nodeName) {
  * Reconstruct Component-style `props` from a VNode.
  * Ensures default/fallback values from `defaultProps`:
  * Own-properties of `defaultProps` not present in `vnode.attributes` are added.
+ *
  * @param {VNode} vnode
  * @returns {Object} props
  */
@@ -1229,7 +1271,7 @@ var Small = function Small(props) {
 };
 
 var heading = "From the blog…";
-var items$1 = [{ "id": "raspberry-pi-epaper", "title": "Raspberry Pi + e-Paper module + Node.js", "href": "/2017/09/20/raspberry-pi-epaper/", "date": 1505901600000 }, { "id": "tifu-by-deleting-my-work", "title": "#TIFU by deleting my work", "href": "/2017/08/15/tifu-by-deleting-my-work/", "date": 1502791200000 }, { "id": "ssh-passphrases-in-macos-sierra", "title": "SSH Passphrases in MacOS Sierra (and learning Vim)", "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/", "date": 1495101600000 }, { "id": "typescript-instead-of-react-proptypes", "title": "TypeScript over React PropTypes", "href": "/2017/04/19/typescript-instead-of-react-proptypes/", "date": 1492596000000 }, { "id": "the-magic-of-service-workers", "title": "The Magic of Service Workers", "href": "/2017/04/06/the-magic-of-service-workers/", "date": 1491472800000 }, { "id": "i-watched-iron-fist-and-coded-css", "title": "I watched Iron Fist and coded CSS 👈", "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/", "date": 1491213600000 }];
+var items$1 = [{ "id": "react-redux-internationalisation", "title": "React & Redux - Internationalisation", "href": "/2018/04/05/react-redux-internationalisation/", "date": 1522922400000 }, { "id": "codepen-snippets", "title": "CodePen Snippets", "href": "/2018/02/21/codepen-snippets/", "date": 1519207200000 }, { "id": "hello-2018", "title": "Hello Twenty Eighteen", "href": "/2018/01/11/hello-2018/", "date": 1515664800000 }, { "id": "raspberry-pi-epaper", "title": "Raspberry Pi + e-Paper module + Node.js", "href": "/2017/09/20/raspberry-pi-epaper/", "date": 1505901600000 }, { "id": "tifu-by-deleting-my-work", "title": "#TIFU by deleting my work", "href": "/2017/08/15/tifu-by-deleting-my-work/", "date": 1502791200000 }, { "id": "ssh-passphrases-in-macos-sierra", "title": "SSH Passphrases in MacOS Sierra (and learning Vim)", "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/", "date": 1495101600000 }];
 var blogProps$1 = {
 	heading: heading,
 	items: items$1
@@ -1790,7 +1832,7 @@ Article.defaultProps = {
   dateUnix: Date.now()
 };
 
-var contactScript = '\nvar href = window.location.href;\nvar form = document.getElementById(\'contact-form\');\nvar para = document.createElement(\'p\');\nif (href.indexOf(\'?success=true\') !== -1) {\n  para.innerHTML = \'<hr><strong>Thank you for your enquiry, I\u2019ll reply as soon as possible.</strong>\';\n  form.style.cssText = \'display: none;\';\n}\nif (href.indexOf(\'?error=true\') !== -1) {\n  para.className = \'u-error\';\n  para.innerHTML = \'<strong>There was an error submitting your enquiry, please email <a href="mailto:hi@dbushell.com">hi@dbushell.com</a></strong>\';\n}\nif (href.indexOf(\'?error=empty\') !== -1) {\n  para.className = \'u-error\';\n  para.innerHTML = \'<strong>Please enter your name, email address, and enquiry.</strong>\';\n}\nif (href.indexOf(\'?error=email\') !== -1) {\n  para.className = \'u-error\';\n  para.innerHTML = \'<strong>Please enter a valid email address.</strong>\';\n}\nif (para.innerHTML.length > 0) {\n  form.parentNode.insertBefore(para, form);\n}\n';
+var contactScript = '\nvar href = window.location.href;\nvar form = document.getElementById(\'contact-form\');\nvar para = document.createElement(\'p\');\nif (href.indexOf(\'?success=true\') !== -1) {\n  para.innerHTML = \'<hr><strong>Thank you for your enquiry, I\u2019ll reply as soon as possible.</strong>\';\n  form.style.cssText = \'display: none;\';\n}\nif (href.indexOf(\'?error=true\') !== -1) {\n  para.className = \'u-error\';\n  para.innerHTML = \'<strong>There was an error submitting your enquiry, please email me on the address above.</strong>\';\n}\nif (href.indexOf(\'?error=empty\') !== -1) {\n  para.className = \'u-error\';\n  para.innerHTML = \'<strong>Please enter your name, email address, and enquiry.</strong>\';\n}\nif (href.indexOf(\'?error=email\') !== -1) {\n  para.className = \'u-error\';\n  para.innerHTML = \'<strong>Please enter a valid email address.</strong>\';\n}\nif (para.innerHTML.length > 0) {\n  form.parentNode.insertBefore(para, form);\n}\n';
 var Contact = function Contact(props) {
   return preact.h(
     Block,
@@ -1813,21 +1855,6 @@ var Contact = function Contact(props) {
         preact.h(
           'div',
           { className: 'b-post__body' },
-          preact.h(
-            'div',
-            { className: 'b-boxed b-boxed--light' },
-            preact.h(
-              'p',
-              null,
-              'I have no availability this year',
-              ' ',
-              preact.h(
-                'b',
-                null,
-                'but please get in touch for 2018!'
-              )
-            )
-          ),
           preact.h(
             'p',
             null,
