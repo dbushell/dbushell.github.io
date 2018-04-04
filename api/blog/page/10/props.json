@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 10)",
   "excerpts": [
     {
+      "id": "updates-to-origin",
+      "title": "Updates to Origin",
+      "href": "/2013/06/10/updates-to-origin/",
+      "body": "Back in April I published my front-end starting point on GitHub. It includes basic HTML &amp; CSS and many Grunt tasks to automate compilation, minification, optimisation, and rasterisation.\nWhat’s new\nMy custom SVG rasterisation task was poorly written. It brought my laptop to a standstill while churning through as many phantom.js processes as there were SVG files. […]",
+      "date": 1370870989000
+    },
+    {
       "id": "the-raster-image-paradox",
       "title": "The Raster Image Paradox",
       "href": "/2013/06/03/the-raster-image-paradox/",
@@ -43,13 +50,6 @@
       "href": "/2013/04/25/ember-data-and-mongodb/",
       "body": "Macaque lives! If you’ve been following my recent blog posts —\n\nPart 1: Macaque: A New Project\nPart 2: Test Driven Development\nPart 3: Prototyping\n\n— you’ll know I’m building a to-do app with Node and Ember. Macaque’s development has reached the point where I can use the app itself for issue and feature tracking. If you want to […]",
       "date": 1366912828000
-    },
-    {
-      "id": "prototyping",
-      "title": "Prototyping",
-      "href": "/2013/04/18/prototyping/",
-      "body": "A couple of weeks ago I embarked upon a new side quest: make a list app and use as much JavaScript in the stack as possible. Fighting adversity, I’ve made progress:\n\n\n\nTwitter Bootstrap is a great UI toolkit for prototypes. Don’t let it seduce you, my underlying code ain’t pretty!\n\n\n\n\nLearning Curve\nAfter the excitement of last weekend’s […]",
-      "date": 1366314337000
     }
   ],
   "nextPage": "/blog/page/11/",

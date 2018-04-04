@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 32)",
   "excerpts": [
     {
+      "id": "using-svg-logos",
+      "title": "Using SVG Logos",
+      "href": "/2010/06/30/using-svg-logos/",
+      "body": "Update 1th November 2011: The Good, the Bad, and the Logo\nIf you visited this website recently you may have noticed the new logo/emblem that adorns the top centre of the design. For the last few days that logo was simply a _PNG _image. Well this evening I asked myself why?** **It’s obviously been designed as […]",
+      "date": 1277929259000
+    },
+    {
       "id": "do-you-need-a-javascript-library",
       "title": "Do you need a JavaScript library?",
       "href": "/2010/06/29/do-you-need-a-javascript-library/",
@@ -43,13 +50,6 @@
       "href": "/2010/05/30/pentagram-marks/",
       "body": "I just so happened to feature the book Pentagram Marks on Design Heroes a few weeks ago. Now that I’ve recieved a copy (birthday present) I though it deserved a full review! Click above, or read below:\nMy review of Pentagram Marks *\n\nPentagram Marks arrived in the post this week!\nThe book is delightfully smallish in stature […]",
       "date": 1275216537000
-    },
-    {
-      "id": "minimalist-html",
-      "title": "Minimalist HTML?",
-      "href": "/2010/05/22/minimalist-html/",
-      "body": "As part of the ongoing Design Heroes project we’ve started to include longer reviews with juicier content! The latest feature is on web designer and strategist Giuseppe Scappaticcio and his glorious website (and it’s source!). Read the review on Design Heroes, see a snippet below:\n“Really conserve your HTML as if it’s a non-renewable source. Give […]",
-      "date": 1274522211000
     }
   ],
   "nextPage": "/blog/page/33/",

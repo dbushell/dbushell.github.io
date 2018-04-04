@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 17)",
   "excerpts": [
     {
+      "id": "nestable-jquery-plugin",
+      "title": "Nestable jQuery Plugin",
+      "href": "/2012/06/17/nestable-jquery-plugin/",
+      "body": "I’ve started writing a jQuery plugin called Nestable — try it out.\nNestable is an interactive hierarchical list. You can drag and drop to rearrange the order. It even works well on touch-screens. If you’re familiar with the way WordPress allows the user to manage menus, this will be used for a similar UI.\n\n\nThe only similar […]",
+      "date": 1339936744000
+    },
+    {
       "id": "featured-in-javascript-weekly",
       "title": "Featured",
       "href": "/2012/06/08/featured-in-javascript-weekly/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/15/pageshift-removing-the-refresh/",
       "body": "It’s 2012, why are we still seeing websites assemble like Optimus Prime?\nIn January I wrote Web Design: 2012 and Beyond to highlight points of interest for the coming year. On interactivity I asked, “Is the page reload a thing of the past?”. ‘Web apps’ are all the rage, and while we shouldn’t be trying to […]",
       "date": 1337119848000
-    },
-    {
-      "id": "were-hiring",
-      "title": "We’re Hiring!",
-      "href": "/2012/05/15/were-hiring/",
-      "body": "\nWe’re hiring at Browser. If you like making stuff for the Web you’ll fit right in. The roles that need filling are a Junior Digital Designer/Developer (1 year’s experience needed) and an Intern Digital Designer (no experience, but lots of skills and ambition).\nHit the website for more info and contact details.\nRecruitment agencies, try: +44 (0) […]",
-      "date": 1337065744000
     }
   ],
   "nextPage": "/blog/page/18/",

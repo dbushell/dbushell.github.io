@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "reflecting-on-aesthetics",
+      "title": "Reflecting on Aesthetics",
+      "href": "/2011/01/16/reflecting-on-aesthetics/",
+      "body": "This past month I’ve focused solely on the accessibility and usability of web design. I’ve spent a long time considering how this fits into my daily practice, for real clients and personal projects, and all the ideals, limitations and opportunities involved.\nIn my article Transitioning as a Web Designer I sum up a very practical evolution […]",
+      "date": 1295221386000
+    },
+    {
       "id": "transitioning-as-a-web-designer",
       "title": "Transitioning as a Web Designer",
       "href": "/2011/01/15/transitioning-as-a-web-designer/",
@@ -43,13 +50,6 @@
       "href": "/2010/11/18/when-free-fonts-arent-free/",
       "body": "Font Squirrel is one of the best online resources for finding high quality (and almost free) fonts. I do rate it very highly, and @font-face generator is the work of magic elves in my opinion.\n“Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Even if that means we send you elsewhere to […]",
       "date": 1290090331000
-    },
-    {
-      "id": "the-typographic-gauntlet",
-      "title": "The Typographic Gauntlet",
-      "href": "/2010/11/07/the-typographic-gauntlet/",
-      "body": "I love typography!\nTo celebrate my love I have set myself a new challenge: design 6 fonts in 12 months.\nMy last “creative challenge” was to fold 1000 origami cranes before the end of 2010. I think I’ve done about 100 so far (having folded nothing since March). Some may say I set the bar too high […]",
-      "date": 1289173153000
     }
   ],
   "nextPage": "/blog/page/30/",

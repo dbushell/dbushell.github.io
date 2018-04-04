@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 14)",
   "excerpts": [
     {
+      "id": "five-tips-for-responsive-builds",
+      "title": "5 Tips for Responsive Builds",
+      "href": "/2013/01/01/five-tips-for-responsive-builds/",
+      "body": "If design and content strategy stops when the build phase starts it’s time to rethink your process. The role of a modern front-end developer goes beyond following pre-defined blueprints. An iterative, agile-like approach is vital to account for responsive design challenges that inevitably arise as a website takes shape.\nWith that in mind here are my […]",
+      "date": 1357082499000
+    },
+    {
       "id": "a-new-beginning",
       "title": "A New Beginning",
       "href": "/2012/12/30/a-new-beginning/",
@@ -43,13 +50,6 @@
       "href": "/2012/12/05/the-mobile-book/",
       "body": "Smashing Magazine’s The Mobile Book is due for dispatch soon. Having had the opportunity to read it I’ll cut to the chase for those deliberating a purchase: it’s well worth the cover price. The e-book edition is a steal!\n\n\nLet it be known that this book goes beyond designing for the Web. The core themes are […]",
       "date": 1354711297000
-    },
-    {
-      "id": "responsive-bases-vertical-spaces",
-      "title": "Responsive Bases & Vertical Spaces",
-      "href": "/2012/11/19/responsive-bases-vertical-spaces/",
-      "body": "Build a responsive design and you’ll find yourself knee deep in relative units and percentage widths. Media queries are the weapon of choice to adjust CSS on viewport change. Almost every example I’ve seen (and made) are based exclusively on the viewport width.\nWhat about height?\nThe Baseline Grid\nAs an exercise in ‘perfection’ when I last updated […]",
-      "date": 1353347128000
     }
   ],
   "nextPage": "/blog/page/15/",

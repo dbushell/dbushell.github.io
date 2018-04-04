@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 21 Feb 2018 09:47:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 11:28:21 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[React &amp; Redux - Internationalisation]]></title>
+  <description><![CDATA[<p>Internationalisation, i18n, localisation – whatever you prefer – can be tricky if your code does not support the ability to translate user interface text.
+When writing React it’s easy to hard-code UI text right into the JavaScript. This is not good if your website or app needs to support multiple languages. Even if you only support […]</p>]]></description>
+  <link>https://dbushell.com/2018/04/05/react-redux-internationalisation/</link>
+  <guid isPermaLink="true">https://dbushell.com/2018/04/05/react-redux-internationalisation/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 05 Apr 2018 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[CodePen Snippets]]></title>
   <description><![CDATA[<p>I’ve started a new Code Snippets collection on CodePen. It will be populated with the little and sometimes peculiar CSS techniques I’ve used. Mostly CSS but with occasional JavaScript sprinkles. Progressively enhanced, of course.
@@ -231,16 +240,6 @@ It’s been two years since I last updated the design. That is a record because 
   <guid isPermaLink="true">https://dbushell.com/2016/02/29/a-bit-of-a-new-look/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 29 Feb 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[CSS Framework for PartsGiant]]></title>
-  <description><![CDATA[<p> PartsGiant is a soon to launch e-commerce store based in Michigan, USA. 
-I was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.
-I’ve always championed the idea of maintainable, […]</p>]]></description>
-  <link>https://dbushell.com/2016/01/04/css-framework-for-partsgiant/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/01/04/css-framework-for-partsgiant/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 04 Jan 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

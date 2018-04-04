@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 28)",
   "excerpts": [
     {
+      "id": "inspire-me-now",
+      "title": "Inspire me now!",
+      "href": "/2011/03/09/inspire-me-now/",
+      "body": "There are many things that inspire me – some I’d be embarrassed to admit! – but a combination of graphics, typography and a great quotation is certain to be a winner.\nI’ve never really been a quote type of person though, because my memory isn’t geared to remembering that sort of stuff.  I even set […]",
+      "date": 1299674997000
+    },
+    {
       "id": "in-search-of-the-perfect-captcha",
       "title": "In Search of the Perfect CAPTCHA",
       "href": "/2011/03/04/in-search-of-the-perfect-captcha/",
@@ -20,7 +27,7 @@
       "id": "website-design-without-lorem-ipsum",
       "title": "Design without Lorem Ipsum",
       "href": "/2011/02/17/website-design-without-lorem-ipsum/",
-      "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of _Pi_, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from […]",
+      "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of Pi, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from […]",
       "date": 1297947201000
     },
     {
@@ -43,13 +50,6 @@
       "href": "/2011/02/03/on-doing-what-you-do-best/",
       "body": "Today I’m exceedingly happy :-D\nMy article Bringing Interactivity To Your Website With Web Standards has just been published on Smashing Magazine, the biggest web design blog there is. I’m also half way through writing my second article. (Despite being immensely tired from slogging out up to 14 hours of work daily over the last fortnight […]",
       "date": 1296762806000
-    },
-    {
-      "id": "reflecting-on-aesthetics",
-      "title": "Reflecting on Aesthetics",
-      "href": "/2011/01/16/reflecting-on-aesthetics/",
-      "body": "This past month I’ve focused solely on the accessibility and usability of web design. I’ve spent a long time considering how this fits into my daily practice, for real clients and personal projects, and all the ideals, limitations and opportunities involved.\nIn my article Transitioning as a Web Designer I sum up a very practical evolution […]",
-      "date": 1295221386000
     }
   ],
   "nextPage": "/blog/page/29/",

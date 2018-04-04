@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "happy-new-year-2",
+      "title": "Happy New Year!",
+      "href": "/2015/01/12/happy-new-year-2/",
+      "body": "I’m back in the office and feeling positive about this year’s work.\nGive me a shout if you require my web design / front-end skills. I’ve been thinking long and hard about the type of work I’d like to take on, and really, I find a variety most rewarding. It’s nice to alternate between design and […]",
+      "date": 1421064732000
+    },
+    {
       "id": "whats-up",
       "title": "What’s up?",
       "href": "/2014/11/24/whats-up/",
@@ -43,13 +50,6 @@
       "href": "/2014/05/13/web-fonts-and-progressive-enhancements/",
       "body": "Yesterday I found myself thoroughly impressed with Laura Kalbag’s effort to ensure the Indie Tech Summit website remains well designed.\n\n\nIn the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of progressive enhancement.\nHad web fonts failed to load I wouldn’t have known otherwise. Of […]",
       "date": 1399976189000
-    },
-    {
-      "id": "responsive-design-for-uwe-wittwer",
-      "title": "Responsive Design for Uwe Wittwer",
-      "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
-      "body": "\n\nDavid immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.\n\n\nKevin Mueller, Studio Manager for Uwe Wittwer\n\n\n\n\n\n\n\nAtelier Uwe Wittwer came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I […]",
-      "date": 1399472897000
     }
   ],
   "nextPage": "/blog/page/7/",

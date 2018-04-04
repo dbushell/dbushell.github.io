@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "designing-a-new-me",
+      "title": "Designing a new me",
+      "href": "/2011/05/25/designing-a-new-me/",
+      "body": "I often say that aesthetics are the least important part of a website design.\nContent and functionality are miles ahead of anything else. It’s obvious really, why would people visit unless you have some substance? They’re so important that design should focus on layout and architecture and only then should aesthetics be considered.\nIt’s refreshing!\nI’ve had dbushell.com […]",
+      "date": 1306318189000
+    },
+    {
       "id": "fowd-day-two-review",
       "title": "#FOWD Day Two Review",
       "href": "/2011/05/18/fowd-day-two-review/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/03/why-ill-never-be-out-of-a-job/",
       "body": "The 15th Annual Webby Awards winners were announced today.\nNow, I’m not one to be cynical (and I’ve pledged to avoid negativity) but I’m completely perplexed at some of the design related choices. Many of the awards are purely content based which I’m not interested in, but this won Best Navigation/Structure:\n\nThe Webby Awards winner for Best […]",
       "date": 1304442473000
-    },
-    {
-      "id": "design-and-enjoy-it",
-      "title": "Design and enjoy it",
-      "href": "/2011/04/24/design-and-enjoy-it/",
-      "body": "I design websites all day which means I’m one click away from the design community.\nParticipation is rewarding but exposure can be difficult to control. On a good day it leads to inspiration that keeps me up at night in awe. Other times I’m left feeling like a mighty small fish. At worst I develop a […]",
-      "date": 1303684794000
     }
   ],
   "nextPage": "/blog/page/27/",

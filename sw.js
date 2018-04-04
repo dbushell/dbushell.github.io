@@ -2,15 +2,15 @@
 
 /*! dbushell.com */
 
-const cacheName = 'dbushell-rJ6Gz6qDz';
+const cacheName = 'dbushell-SJo-DNziz';
 const cacheWhitelist = [cacheName];
 const cacheURLs = [];
 
 // Cache global
 cacheURLs.push(
   '/offline/',
-  '/assets/js/main.min.js?v=9.0.8',
-  '/assets/js/vendor/headroom.min.js?v=9.0.8',
+  '/assets/js/main.min.js?v=9.0.10',
+  '/assets/js/vendor/headroom.min.js?v=9.0.10',
   '/assets/img/dbushell-for-hire.svg',
   '/assets/img/me3@1x.jpg',
   '/assets/img/me3@2x.jpg'
