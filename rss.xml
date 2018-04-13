@@ -5,7 +5,7 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 04 Apr 2018 11:28:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 13:14:48 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
@@ -24,9 +24,10 @@ When writing React it’s easy to hard-code UI text right into the JavaScript. T
   <description><![CDATA[<p>I’ve started a new Code Snippets collection on CodePen. It will be populated with the little and sometimes peculiar CSS techniques I’ve used. Mostly CSS but with occasional JavaScript sprinkles. Progressively enhanced, of course.
 Stuff like this styled range input:
 
-  
   See the Pen Styled input range (slider/progress) by David Bushell (@dbushell) on CodePen.
- […]</p>]]></description>
+
+
+Who would have […]</p>]]></description>
   <link>https://dbushell.com/2018/02/21/codepen-snippets/</link>
   <guid isPermaLink="true">https://dbushell.com/2018/02/21/codepen-snippets/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>

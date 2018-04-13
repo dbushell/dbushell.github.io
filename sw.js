@@ -2,16 +2,18 @@
 
 /*! dbushell.com */
 
-const cacheName = 'dbushell-rJmiK4zoM';
+const cacheName = 'dbushell-r1Hh6JAof';
 const cacheWhitelist = [cacheName];
 const cacheURLs = [];
 
-// Cache global
+// Cache global assets
 cacheURLs.push(
-  '/offline/',
-  '/assets/js/main.min.js?v=9.0.10',
-  '/assets/js/vendor/headroom.min.js?v=9.0.10',
   '/assets/img/dbushell-for-hire.svg',
+  '/assets/img/origami-crane-bg.svg',
+  '/assets/img/origami-crane.png',
+  '/assets/img/david-bushell.svg',
+  '/assets/img/starburst.svg',
+  '/assets/img/stars.svg',
   '/assets/img/me3@1x.jpg',
   '/assets/img/me3@2x.jpg'
 );
@@ -24,25 +26,27 @@ cacheURLs.push(
   '/contact/',
   '/services/',
   '/showcase/',
-  '/assets/img/origami-crane-bg.svg',
-  '/assets/img/origami-crane.png',
-  '/assets/img/david-bushell.svg',
-  '/assets/img/starburst.svg',
-  '/assets/img/stars.svg'
+  '/api/props.json?v=10.0.0',
+  '/api/about/props.json?v=10.0.0',
+  '/api/blog/props.json?v=10.0.0',
+  '/api/contact/props.json?v=10.0.0',
+  '/api/services/props.json?v=10.0.0',
+  '/api/showcase/props.json?v=10.0.0'
 );
+
+const rVer = '\\?v=([\\d]+\\.[\\d]+\\.[\\d]+)';
 
 // Ignore URLs matches
 const cacheIgnore = [
   /^\/Pikaday\//i,
-  /^\/Nestable\//i,
-  /^\/browser-sync\//i
+  /^\/Nestable\//i
 ];
 
 // Accept URLs matches
 const cacheAccept = [
   /\/[\w_-]+\/$/,
-  /\.(js|json)$/,
-  /\.(jpeg|jpg|png|svg)$/
+  new RegExp(`\.(js|json)(${rVer})?$`, 'i'),
+  new RegExp(`\.(jpeg|jpg|png|svg)(${rVer})?$`, 'i')
 ];
 
 const offlineImage = `<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
@@ -62,15 +66,22 @@ const offlineImage = `<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/s
 </svg>`;
 
 function updateCache() {
-  return caches.open(cacheName)
-    .then(cache => cache.addAll(cacheURLs));
+  return caches.open(cacheName).then(cache => cache.addAll(cacheURLs));
 }
 
 function clearCache() {
-  return caches.keys().then(cacheNames => Promise.all(
-    cacheNames.map(name => cacheWhitelist.includes(name) ?
-      Promise.resolve() : caches.delete(name))
-    ));
+  return caches
+    .keys()
+    .then(keyList =>
+      Promise.all(
+        keyList.map(
+          key =>
+            cacheWhitelist.includes(key)
+              ? Promise.resolve()
+              : caches.delete(key)
+        )
+      )
+    );
 }
 
 self.addEventListener('install', event => {
@@ -92,32 +103,41 @@ self.addEventListener('fetch', event => {
       if (response) {
         return response;
       }
-      return fetch(request).then(response => {
-        if (!response || response.status !== 200 || response.type !== 'basic') {
-          return response;
-        }
-        const ignore = cacheIgnore.filter(r => r.test(url.pathname));
-        if (ignore.length > 0) {
-          return response;
-        }
-        const accept = cacheAccept.filter(r => r.test(url.pathname));
-        if (accept.length < 1) {
-          return response;
-        }
-        return caches.open(cacheName).then(cache => {
-          cache.put(request, response.clone());
-          return response;
-        });
-      }).catch(() => {
-        if (!url.pathname.match(/\.[a-z]+$/)) {
-          return caches.match('/offline/');
-        }
-        if (url.pathname.match(/\.(jpeg|jpg|png|svg)$/)) {
-          return new Response(offlineImage, {
-            headers: {'Content-Type': 'image/svg+xml', 'Cache-Control': 'no-store'}
+      return fetch(request)
+        .then(response => {
+          if (
+            !response ||
+            response.status !== 200 ||
+            response.type !== 'basic'
+          ) {
+            return response;
+          }
+          const ignore = cacheIgnore.filter(r => r.test(url.pathname));
+          if (ignore.length > 0) {
+            return response;
+          }
+          const accept = cacheAccept.filter(r => r.test(url.pathname));
+          if (accept.length < 1) {
+            return response;
+          }
+          return caches.open(cacheName).then(cache => {
+            cache.put(request, response.clone());
+            return response;
           });
-        }
-      });
+        })
+        .catch(() => {
+          if (!url.pathname.match(/\.[a-z]+$/)) {
+            return caches.match('/offline/');
+          }
+          if (url.pathname.match(/\.(jpeg|jpg|png|svg)$/)) {
+            return new Response(offlineImage, {
+              headers: {
+                'Content-Type': 'image/svg+xml',
+                'Cache-Control': 'no-store'
+              }
+            });
+          }
+        });
     })
   );
 });
