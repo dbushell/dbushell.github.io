@@ -2,7 +2,7 @@
 
 /*! dbushell.com */
 
-const cacheName = 'dbushell-r1Hh6JAof';
+const cacheName = 'dbushell-rJC7ReRjf';
 const cacheWhitelist = [cacheName];
 const cacheURLs = [];
 
@@ -26,12 +26,12 @@ cacheURLs.push(
   '/contact/',
   '/services/',
   '/showcase/',
-  '/api/props.json?v=10.0.0',
-  '/api/about/props.json?v=10.0.0',
-  '/api/blog/props.json?v=10.0.0',
-  '/api/contact/props.json?v=10.0.0',
-  '/api/services/props.json?v=10.0.0',
-  '/api/showcase/props.json?v=10.0.0'
+  '/api/props.json?v=10.0.1',
+  '/api/about/props.json?v=10.0.1',
+  '/api/blog/props.json?v=10.0.1',
+  '/api/contact/props.json?v=10.0.1',
+  '/api/services/props.json?v=10.0.1',
+  '/api/showcase/props.json?v=10.0.1'
 );
 
 const rVer = '\\?v=([\\d]+\\.[\\d]+\\.[\\d]+)';
