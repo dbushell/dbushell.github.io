@@ -14,6 +14,7 @@ workbox.core.setCacheNameDetails({
 });
 
 const daySeconds = days => days * 24 * 60 * 60;
+const rVer = '\\?v=([\\d]+\\.[\\d]+\\.[\\d]+)';
 
 workbox.precaching.precache([
   '/assets/img/offline.svg',
@@ -31,7 +32,7 @@ const matchPreCache = url =>
   });
 
 workbox.routing.registerRoute(
-  new RegExp(`.js$`),
+  new RegExp(`.js(${rVer})?$`),
   workbox.strategies.cacheFirst({
     cacheName: 'dbushell-js-v1',
     plugins: [
@@ -82,7 +83,7 @@ const imageStrategy = workbox.strategies.cacheFirst({
 });
 
 workbox.routing.registerRoute(
-  new RegExp(`\.(?:gif|jpeg|jpg|png|svg)$`),
+  new RegExp(`\.(?:gif|jpeg|jpg|png|svg)(${rVer})?$`),
   context =>
     imageStrategy.handle(context).catch(err =>
       matchPreCache('/assets/img/offline.svg').then(response =>
