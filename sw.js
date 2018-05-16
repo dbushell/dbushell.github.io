@@ -117,7 +117,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
-  new RegExp('https://use.typekit.net/(.*)'),
+  new RegExp('https://(p|use).typekit.net/(.*)'),
   workbox.strategies.cacheFirst({
     cacheName: 'dbushell-typekit-v1',
     plugins: [
