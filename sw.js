@@ -33,7 +33,7 @@ const matchPreCache = url =>
 
 workbox.routing.registerRoute(
   new RegExp(`.js(${rVer})?$`),
-  workbox.strategies.cacheFirst({
+  workbox.strategies.staleWhileRevalidate({
     cacheName: 'dbushell-js-v1',
     plugins: [
       new workbox.expiration.Plugin({
