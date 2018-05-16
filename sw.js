@@ -1,143 +1,132 @@
-'use strict';
-
-/*! dbushell.com */
-
-const cacheName = 'dbushell-rJC7ReRjf';
-const cacheWhitelist = [cacheName];
-const cacheURLs = [];
-
-// Cache global assets
-cacheURLs.push(
-  '/assets/img/dbushell-for-hire.svg',
-  '/assets/img/origami-crane-bg.svg',
-  '/assets/img/origami-crane.png',
-  '/assets/img/david-bushell.svg',
-  '/assets/img/starburst.svg',
-  '/assets/img/stars.svg',
-  '/assets/img/me3@1x.jpg',
-  '/assets/img/me3@2x.jpg'
+importScripts(
+  'https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js'
 );
 
-// Cache common pages
-cacheURLs.push(
-  '/',
-  '/about/',
-  '/blog/',
-  '/contact/',
-  '/services/',
-  '/showcase/',
-  '/api/props.json?v=10.0.1',
-  '/api/about/props.json?v=10.0.1',
-  '/api/blog/props.json?v=10.0.1',
-  '/api/contact/props.json?v=10.0.1',
-  '/api/services/props.json?v=10.0.1',
-  '/api/showcase/props.json?v=10.0.1'
+workbox.setConfig({
+  debug: false
+});
+
+workbox.core.setCacheNameDetails({
+  prefix: 'dbushell',
+  suffix: 'v1',
+  precache: 'precache',
+  runtime: 'runtime'
+});
+
+const daySeconds = days => days * 24 * 60 * 60;
+
+workbox.precaching.precache([
+  '/assets/img/offline.svg',
+  '/api/props.json',
+  '/api/about/props.json',
+  '/api/blog/props.json',
+  '/api/contact/props.json',
+  '/api/services/props.json',
+  '/api/showcase/props.json'
+]);
+
+const matchPreCache = url =>
+  caches.match(url, {
+    cacheName: 'dbushell-precache-v1'
+  });
+
+workbox.routing.registerRoute(
+  new RegExp(`.js$`),
+  workbox.strategies.cacheFirst({
+    cacheName: 'dbushell-js-v1',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxAgeSeconds: daySeconds(7),
+        maxEntries: 10
+      })
+    ]
+  })
 );
 
-const rVer = '\\?v=([\\d]+\\.[\\d]+\\.[\\d]+)';
-
-// Ignore URLs matches
-const cacheIgnore = [
-  /^\/Pikaday\//i,
-  /^\/Nestable\//i
-];
-
-// Accept URLs matches
-const cacheAccept = [
-  /\/[\w_-]+\/$/,
-  new RegExp(`\.(js|json)(${rVer})?$`, 'i'),
-  new RegExp(`\.(jpeg|jpg|png|svg)(${rVer})?$`, 'i')
-];
-
-const offlineImage = `<svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .st0{fill:#fff}.st1{fill:#1d97bf}.st2{fill:#494b4d;font-family:"Helvetica Neue",Arial,sans-serif;font-size:20px;}
-  </style>
-  <path class="st0" d="M0 0h400v225H0z"/>
-  <g transform="matrix(2 0 0 2 176 40)">
-    <path class="st0" d="M16.557 1H7.443L1 7.443v9.113L7.443 23h9.113L23 16.557V7.443L16.557 1z"/>
-    <path class="st1" d="M16.143 2L22 7.858v8.284L16.143 22H7.857L2 16.142V7.858L7.857 2h8.286zm.828-2H7.029L0 7.029v9.941L7.029 24h9.941L24 16.971V7.029L16.971 0z"/>
-    <path class="st1" d="M10.5 6h3l-1 8h-1z"/>
-    <circle class="st1" cx="12" cy="17" r="1.25"/>
-  </g>
-  <text class="st2" x="200" y="150" text-anchor="middle" alignment-baseline="central" transform="translate(0 -28)">
-    <tspan x="200" dy="0">Image failed to load due</tspan> <tspan x="200" dy="28">to connectivity issues,</tspan> <tspan x="200" dy="28">are you offline?</tspan>
-  </text>
-</svg>`;
-
-function updateCache() {
-  return caches.open(cacheName).then(cache => cache.addAll(cacheURLs));
-}
-
-function clearCache() {
-  return caches
-    .keys()
-    .then(keyList =>
-      Promise.all(
-        keyList.map(
-          key =>
-            cacheWhitelist.includes(key)
-              ? Promise.resolve()
-              : caches.delete(key)
-        )
-      )
-    );
-}
-
-self.addEventListener('install', event => {
-  event.waitUntil(updateCache().then(() => self.skipWaiting()));
+const htmlStrategy = workbox.strategies.staleWhileRevalidate({
+  cacheName: 'dbushell-html-v1',
+  plugins: [
+    new workbox.expiration.Plugin({
+      maxAgeSeconds: daySeconds(7),
+      maxEntries: 30
+    })
+  ]
 });
 
-self.addEventListener('activate', event => {
-  event.waitUntil(clearCache().then(() => self.clients.claim()));
+workbox.routing.registerRoute(/\/([\w_-]+\/)*$/, context =>
+  htmlStrategy.handle(context).catch(err => matchPreCache(context.url))
+);
+
+const jsonStrategy = workbox.strategies.staleWhileRevalidate({
+  cacheName: 'dbushell-json-v1',
+  plugins: [
+    new workbox.expiration.Plugin({
+      maxAgeSeconds: daySeconds(7),
+      maxEntries: 30
+    })
+  ]
 });
 
-self.addEventListener('fetch', event => {
-  const request = event.request;
-  const url = new URL(request.url);
-  if (request.method !== 'GET') {
-    return;
-  }
-  event.respondWith(
-    caches.match(request).then(response => {
-      if (response) {
-        return response;
-      }
-      return fetch(request)
-        .then(response => {
-          if (
-            !response ||
-            response.status !== 200 ||
-            response.type !== 'basic'
-          ) {
-            return response;
-          }
-          const ignore = cacheIgnore.filter(r => r.test(url.pathname));
-          if (ignore.length > 0) {
-            return response;
-          }
-          const accept = cacheAccept.filter(r => r.test(url.pathname));
-          if (accept.length < 1) {
-            return response;
-          }
-          return caches.open(cacheName).then(cache => {
-            cache.put(request, response.clone());
-            return response;
-          });
-        })
-        .catch(() => {
-          if (!url.pathname.match(/\.[a-z]+$/)) {
-            return caches.match('/offline/');
-          }
-          if (url.pathname.match(/\.(jpeg|jpg|png|svg)$/)) {
-            return new Response(offlineImage, {
+workbox.routing.registerRoute(new RegExp(`.json$`), context =>
+  jsonStrategy.handle(context).catch(err => matchPreCache(context.url))
+);
+
+const imageStrategy = workbox.strategies.cacheFirst({
+  cacheName: 'dbushell-images-v1',
+  plugins: [
+    new workbox.expiration.Plugin({
+      maxAgeSeconds: daySeconds(30),
+      maxEntries: 30
+    })
+  ]
+});
+
+workbox.routing.registerRoute(
+  new RegExp(`\.(?:gif|jpeg|jpg|png|svg)$`),
+  context =>
+    imageStrategy.handle(context).catch(err =>
+      matchPreCache('/assets/img/offline.svg').then(response =>
+        response.text().then(
+          text =>
+            new Response(text, {
               headers: {
                 'Content-Type': 'image/svg+xml',
                 'Cache-Control': 'no-store'
               }
-            });
-          }
-        });
-    })
-  );
-});
+            })
+        )
+      )
+    )
+);
+
+workbox.routing.registerRoute(
+  new RegExp('https://unpkg.com/(.*)'),
+  workbox.strategies.cacheFirst({
+    cacheName: 'dbushell-unpkg-v1',
+    plugins: [
+      new workbox.cacheableResponse.Plugin({
+        statuses: [0, 200]
+      }),
+      new workbox.expiration.Plugin({
+        maxAgeSeconds: daySeconds(30),
+        maxEntries: 5
+      })
+    ]
+  })
+);
+
+workbox.routing.registerRoute(
+  new RegExp('https://use.typekit.net/(.*)'),
+  workbox.strategies.cacheFirst({
+    cacheName: 'dbushell-typekit-v1',
+    plugins: [
+      new workbox.cacheableResponse.Plugin({
+        statuses: [0, 200]
+      }),
+      new workbox.expiration.Plugin({
+        maxAgeSeconds: daySeconds(30),
+        maxEntries: 10
+      })
+    ]
+  })
+);

@@ -32,7 +32,7 @@
       script.onload = script.onreadystatechange = function() {
         if (/^($|loaded|complete)/.test(script.readyState || '')) {
           script.onload = script.onreadystatechange = null;
-          callback();
+          callback(src);
         }
       };
     }
@@ -41,7 +41,7 @@
 
   $html.className += ' wf-loading';
   var start = new Date().getTime();
-  app.load('//use.typekit.net/bgo5mvm.js', function() {
+  app.load('https://use.typekit.net/bgo5mvm.js', function() {
     if (!win.Typekit) return;
     try {
       win.Typekit.load();
@@ -70,16 +70,22 @@
     }
   });
 
-  var reactURL =
-    '/assets/js/vendor/react' + (app.isDev ? '' : '.min') + '.js?v=' + app.ver;
-  var appURL = '/assets/js/app.min.js?v=' + app.ver;
+  var suffix = app.isDev ? 'development' : 'production.min';
+  var dependencies = [
+    'https://unpkg.com/react@16.3.2/umd/react.' + suffix + '.js',
+    'https://unpkg.com/react-dom@16.3.2/umd/react-dom.' + suffix + '.js',
+    '/assets/js/app.min.js?v=' + app.ver
+  ];
 
   if (app.isReact) {
-    app.load(reactURL, function() {
-      app.load(appURL, function() {
+    function loadDependency() {
+      if (dependencies.length) {
+        app.load(dependencies.shift(), loadDependency);
+      } else {
         win.dbushell.boot();
-      });
-    });
+      }
+    }
+    loadDependency();
   }
 
   win.dbushell = app;

@@ -34,7 +34,7 @@
       "id": "resolving-javascript-promises-sequentially-without-nesting",
       "title": "Working with Promises",
       "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
-      "body": "JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.\nLet’s say you have several functions that return a promise:\nfunction act1() {\n  return new Promise((resolve, reject) => {\n    // do something that might reject...\n    resolve();\n  });\n}\n\nIt’s easy […]",
+      "body": "JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.\nLet’s say you have several functions that return a promise:\nfunction act1() {\n  return new Promise((resolve, reject) =&gt; {\n    // do something that might reject...\n    resolve();\n  });\n}\n\nIt’s easy […]",
       "date": 1481882400000
     },
     {

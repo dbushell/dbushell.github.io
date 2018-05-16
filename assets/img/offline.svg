@@ -1,6 +1,6 @@
 <svg viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .st0{fill:#fff}.st1{fill:#1d97bf}.st2{fill:#494b4d;font-family:"Helvetica Neue",Arial,sans-serif;font-size:20px;}
+    .st0{fill:#fff}.st1{fill:#1d97bf}
   </style>
   <path class="st0" d="M0 0h400v225H0z"/>
   <g transform="matrix(2 0 0 2 176 40)">
@@ -9,7 +9,7 @@
     <path class="st1" d="M10.5 6h3l-1 8h-1z"/>
     <circle class="st1" cx="12" cy="17" r="1.25"/>
   </g>
-  <text class="st2" x="200" y="150" text-anchor="middle" alignment-baseline="central" transform="translate(0 -28)">
+  <text x="200" y="150" text-anchor="middle" alignment-baseline="central" transform="translate(0 -28)" fill="#494b4d" font-family="Arial, sans-serif" font-size="20">
     <tspan x="200" dy="0">Image failed to load due</tspan> <tspan x="200" dy="28">to connectivity issues,</tspan> <tspan x="200" dy="28">are you offline?</tspan>
   </text>
 </svg>
