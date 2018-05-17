@@ -8,7 +8,7 @@ workbox.setConfig({
 
 const cacheNameParts = {
   prefix: 'dbushell',
-  suffix: 'v2'
+  suffix: 'v3'
 };
 
 const getCacheName = name =>
@@ -55,7 +55,7 @@ const matchPreCache = url =>
   });
 
 workbox.routing.registerRoute(
-  new RegExp('^/(Pikaday|Nestable).*?'),
+  new RegExp('/(Pikaday|Nestable).*$'),
   workbox.strategies.networkOnly()
 );
 
