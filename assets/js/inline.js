@@ -39,32 +39,13 @@
     $head.appendChild(script);
   };
 
-  function loadTypekit() {
-    $html.className += ' wf-loading';
-    // var start = new Date().getTime();
-    app.load('https://use.typekit.net/bgo5mvm.js', function() {
-      if (!win.Typekit) return;
-      // try {
-      win.Typekit.load();
-      // if (new Date().getTime() - start > 1000) {
-      //   var sheets = doc.getElementsByTagName('link');
-      //   for (var tk, i = 0; i < sheets.length; i++) {
-      //     if (
-      //       sheets[i].rel === 'stylesheet' &&
-      //       sheets[i].href &&
-      //       sheets[i].href.indexOf('typekit.net') > -1
-      //     ) {
-      //       tk = sheets[i];
-      //       tk.media = 'only x';
-      //       tk.onload = function() {
-      //         tk.media = 'all';
-      //       };
-      //     }
-      //   }
-      // }
-      // } catch (e) {}
-    });
-  }
+  window.WebFontConfig = {
+    google: {
+      families: ['Noto+Sans:400,400i,70', 'Quicksand:500']
+    }
+  };
+
+  app.load('https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
 
   var suffix = app.isDev ? 'development' : 'production.min';
 
@@ -91,7 +72,6 @@
     if (app.isIE) {
       app.load('/assets/js/vendor/svgxuse.min.js?v=' + app.ver);
     }
-    loadTypekit();
   });
 
   if (app.isReact) {

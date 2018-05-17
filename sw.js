@@ -6,15 +6,38 @@ workbox.setConfig({
   debug: false
 });
 
-workbox.core.setCacheNameDetails({
+const cacheNameParts = {
   prefix: 'dbushell',
-  suffix: 'v1',
+  suffix: 'v2'
+};
+
+const getCacheName = name =>
+  `${cacheNameParts.prefix}-${name}-${cacheNameParts.suffix}`;
+
+workbox.core.setCacheNameDetails({
+  prefix: cacheNameParts.prefix,
+  suffix: cacheNameParts.suffix,
   precache: 'precache',
   runtime: 'runtime'
 });
 
 const daySeconds = days => days * 24 * 60 * 60;
 const rVer = '\\?v=([\\d]+\\.[\\d]+\\.[\\d]+)';
+const rName = new RegExp(getCacheName('[a-z]*?'));
+
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches
+      .keys()
+      .then(cacheNames =>
+        Promise.all(
+          cacheNames
+            .filter(name => !rName.test(name))
+            .map(name => caches.delete(name))
+        )
+      )
+  );
+});
 
 workbox.precaching.precache([
   '/assets/img/offline.svg',
@@ -28,13 +51,13 @@ workbox.precaching.precache([
 
 const matchPreCache = url =>
   caches.match(url, {
-    cacheName: 'dbushell-precache-v1'
+    cacheName: getCacheName('precache')
   });
 
 workbox.routing.registerRoute(
   new RegExp(`.js(${rVer})?$`),
   workbox.strategies.staleWhileRevalidate({
-    cacheName: 'dbushell-js-v1',
+    cacheName: getCacheName('js'),
     plugins: [
       new workbox.expiration.Plugin({
         maxAgeSeconds: daySeconds(7),
@@ -45,7 +68,7 @@ workbox.routing.registerRoute(
 );
 
 const htmlStrategy = workbox.strategies.staleWhileRevalidate({
-  cacheName: 'dbushell-html-v1',
+  cacheName: getCacheName('html'),
   plugins: [
     new workbox.expiration.Plugin({
       maxAgeSeconds: daySeconds(7),
@@ -59,7 +82,7 @@ workbox.routing.registerRoute(/\/([\w_-]+\/)*$/, context =>
 );
 
 const jsonStrategy = workbox.strategies.staleWhileRevalidate({
-  cacheName: 'dbushell-json-v1',
+  cacheName: getCacheName('json'),
   plugins: [
     new workbox.expiration.Plugin({
       maxAgeSeconds: daySeconds(7),
@@ -73,7 +96,7 @@ workbox.routing.registerRoute(new RegExp(`.json$`), context =>
 );
 
 const imageStrategy = workbox.strategies.cacheFirst({
-  cacheName: 'dbushell-images-v1',
+  cacheName: getCacheName('images'),
   plugins: [
     new workbox.expiration.Plugin({
       maxAgeSeconds: daySeconds(30),
@@ -101,9 +124,22 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
+  new RegExp('https://(storage|fonts).(?:googleapis|gstatic).com/(.*)'),
+  workbox.strategies.cacheFirst({
+    cacheName: getCacheName('googleapis'),
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxAgeSeconds: daySeconds(30),
+        maxEntries: 30
+      })
+    ]
+  })
+);
+
+workbox.routing.registerRoute(
   new RegExp('https://unpkg.com/(.*)'),
   workbox.strategies.cacheFirst({
-    cacheName: 'dbushell-unpkg-v1',
+    cacheName: getCacheName('unpkg'),
     plugins: [
       new workbox.cacheableResponse.Plugin({
         statuses: [0, 200]
@@ -111,22 +147,6 @@ workbox.routing.registerRoute(
       new workbox.expiration.Plugin({
         maxAgeSeconds: daySeconds(30),
         maxEntries: 5
-      })
-    ]
-  })
-);
-
-workbox.routing.registerRoute(
-  new RegExp('https://(p|use).typekit.net/(.*)'),
-  workbox.strategies.cacheFirst({
-    cacheName: 'dbushell-typekit-v1',
-    plugins: [
-      new workbox.cacheableResponse.Plugin({
-        statuses: [0, 200]
-      }),
-      new workbox.expiration.Plugin({
-        maxAgeSeconds: daySeconds(30),
-        maxEntries: 10
       })
     ]
   })
