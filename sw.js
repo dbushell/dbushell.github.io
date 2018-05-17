@@ -55,6 +55,11 @@ const matchPreCache = url =>
   });
 
 workbox.routing.registerRoute(
+  /^\/(Pikaday|Nestable)/,
+  workbox.strategies.networkOnly()
+);
+
+workbox.routing.registerRoute(
   new RegExp(`.js(${rVer})?$`),
   workbox.strategies.staleWhileRevalidate({
     cacheName: getCacheName('js'),
