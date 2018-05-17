@@ -129,7 +129,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
-  new RegExp('https://(storage|fonts).(?:googleapis|gstatic).com/(.*)'),
+  new RegExp('https://(ajax|storage|fonts).(?:googleapis|gstatic).com/(.*)'),
   workbox.strategies.cacheFirst({
     cacheName: getCacheName('googleapis'),
     plugins: [
