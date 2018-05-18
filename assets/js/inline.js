@@ -1,30 +1,31 @@
-(function(win, doc) {
+(function(window, document) {
   // cut the mustard
-  if (!'querySelector' in doc) return;
+  if (!'querySelector' in document) return;
 
   // setup global
   var app = {
     ver: '{{siteVer}}',
-    isDev: false, // !/dbushell\.com/.test(win.location.hostname),
-    isReact: 'fetch' in win,
+    isDev: !/dbushell\.com/.test(window.location.hostname),
+    isReact: 'fetch' in window,
+    isLazy: 'IntersectionObserver' in window,
     isWorker: 'serviceWorker' in navigator,
     isFF: /firefox/i.test(navigator.userAgent),
-    isIE: Boolean(win.ActiveXObject || win.navigator.msPointerEnabled)
+    isIE: Boolean(window.ActiveXObject || window.navigator.msPointerEnabled)
   };
 
   // load service worker
   if (app.isWorker) {
-    win.addEventListener('load', function() {
+    window.addEventListener('load', function() {
       navigator.serviceWorker.register('/sw.js');
     });
   }
 
   // selectors
-  var $html = doc.documentElement;
-  var $head = doc.querySelector('head');
+  var $html = document.documentElement;
+  var $head = document.querySelector('head');
 
   app.load = function(src, callback) {
-    var script = doc.createElement('script');
+    var script = document.createElement('script');
     script.src = src;
     script.type = 'text/javascript';
     script.async = true;
@@ -47,18 +48,17 @@
 
   app.load('https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
 
-  var suffix = app.isDev ? 'development' : 'production.min';
-
+  var unpkgEnv = app.isDev ? 'development' : 'production.min';
   var dependencies = [
-    'https://unpkg.com/react@16.3.2/umd/react.' + suffix + '.js',
-    'https://unpkg.com/react-dom@16.3.2/umd/react-dom.' + suffix + '.js',
-    '/assets/js/app.min.js?v=' + app.ver
+    'https://unpkg.com/react@16.3.2/umd/react.' + unpkgEnv + '.js',
+    'https://unpkg.com/react-dom@16.3.2/umd/react-dom.' + unpkgEnv + '.js',
+    '/assets/js/app' + (app.isDev ? '' : '.min') + '.js?v=' + app.ver
   ];
 
-  win.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener('DOMContentLoaded', function() {
     if (app.isReact) {
       if (app.isLoaded) {
-        win.dbushell.boot();
+        window.dbushell.boot();
       } else {
         app.isReady = true;
       }
@@ -80,7 +80,7 @@
         app.load(dependencies.shift(), loadDependency);
       } else {
         if (app.isReady) {
-          win.dbushell.boot();
+          window.dbushell.boot();
         } else {
           app.isLoaded = true;
         }
@@ -89,5 +89,5 @@
     loadDependency();
   }
 
-  win.dbushell = app;
+  window.dbushell = app;
 })(window, document);

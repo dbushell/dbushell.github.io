@@ -8,7 +8,7 @@ workbox.setConfig({
 
 const cacheNameParts = {
   prefix: 'dbushell',
-  suffix: 'v3'
+  suffix: 'v4'
 };
 
 const getCacheName = name =>
