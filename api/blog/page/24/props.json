@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 24)",
   "excerpts": [
     {
+      "id": "beyond-superficial-with-css3",
+      "title": "Beyond superficial with CSS3",
+      "href": "/2011/10/05/beyond-superficial-with-css3/",
+      "body": "Last week I wrote Building for Future Design — the notion: to advance web design we must build on solid foundations. Never forget accessibility.\nSix Revisions published the very timely article Are You Using CSS3 Appropriately? by Delwin Campbell this week in which he reaches similar conclusions to me; usability, accessibility and user experience are our […]",
+      "date": 1317855405000
+    },
+    {
       "id": "building-for-future-design",
       "title": "Building for Future Design",
       "href": "/2011/10/01/building-for-future-design/",
@@ -43,13 +50,6 @@
       "href": "/2011/07/14/the-social-designer-google-authorship/",
       "body": "Earlier this month I wrote an article about self promotion online as a designer (read Speak to Me over at xheight). I summed it up to this sentiment:\nSelf promotion is not about pushing an ego onto others, it’s simply about making yourself visible and accessible.\n\n\nOne thing I realised quickly in my career is the importance […]",
       "date": 1310645305000
-    },
-    {
-      "id": "solving-a-problem-like-change",
-      "title": "Solving a Problem like Change",
-      "href": "/2011/07/12/solving-a-problem-like-change/",
-      "body": "A while back the Gawker network redesigned their line-up and the Internet revolted. It was bad, very _very _bad. The design, the usability, the technical implementation—it had people scratching their heads.\nYesterday TechCrunch launched a redesign and, well, it’s not quite ‘a Gawker’.\n\nWe used AOL Paint, which comes free on the AOL CD and has this […]",
-      "date": 1310471846000
     }
   ],
   "nextPage": "/blog/page/25/",

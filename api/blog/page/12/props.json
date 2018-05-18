@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "automation",
+      "title": "Automation",
+      "href": "/2013/03/12/automation/",
+      "body": "I used to believe hand-crafting every line of code was a necessity. I u-turned on that opinion and adopted CSS preprocessors with much gusto last year.\nIt wasn’t so much the syntactical learning curve that initially put me off — they’re familiar if you’ve done any kind of programming — it was the perceived “added complexity” […]",
+      "date": 1363112796000
+    },
+    {
       "id": "a-responsive-day-out",
       "title": "A Responsive Day Out",
       "href": "/2013/03/03/a-responsive-day-out/",
@@ -43,13 +50,6 @@
       "href": "/2013/02/07/on-responsive-navigation-and-rendering/",
       "body": "When I launched my new website earlier this week I implemented the off-canvas navigation technique I’d written about for Smashing Magazine. It uses silky smooth CSS transitions and looks great on mobile (if I do say so myself).\nA small problem came when I set a high breakpoint. The navigation is always off-canvas up to a […]",
       "date": 1360228167000
-    },
-    {
-      "id": "a-primer-to-front-end-svg-hacking",
-      "title": "A Primer to Front-end SVG Hacking",
-      "href": "/2013/02/04/a-primer-to-front-end-svg-hacking/",
-      "body": "Using SVG (Scalable Vector Graphics) on websites is a lot safer than many front-end developers think. Authoring aside — I wouldn’t suggest trying to hand-code an illustration more complex than a triangle* — the standard is well supported in browsers today and perfect for resolution independence when CSS and icon fonts aren’t suitable.\n* Quick fire […]",
-      "date": 1360011944000
     }
   ],
   "nextPage": "/blog/page/13/",

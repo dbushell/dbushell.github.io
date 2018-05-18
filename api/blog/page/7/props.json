@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "web-fonts-and-progressive-enhancements",
+      "title": "Web Fonts & Enhancements",
+      "href": "/2014/05/13/web-fonts-and-progressive-enhancements/",
+      "body": "Yesterday I found myself thoroughly impressed with Laura Kalbag’s effort to ensure the Indie Tech Summit website remains well designed.\n\n\nIn the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of progressive enhancement.\nHad web fonts failed to load I wouldn’t have known otherwise. Of […]",
+      "date": 1399976189000
+    },
+    {
       "id": "responsive-design-for-uwe-wittwer",
       "title": "Responsive Design for Uwe Wittwer",
       "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
@@ -43,13 +50,6 @@
       "href": "/2014/02/17/introducing-tales/",
       "body": "For the last few weeks I’ve been working on a little project that I’m excited to announce. That project is called Tales and it’s available today.\n\n\nTales is a responsive WordPress theme tailored for a beautiful reading experience. Its strength and design principle can be summed up in one word; simplicity. Visit the Tales Demo website […]",
       "date": 1392627469000
-    },
-    {
-      "id": "simple-grids-with-css-multi-column-layout",
-      "title": "Simple Grids with CSS Multi-Column Layout",
-      "href": "/2014/02/03/simple-grids-with-css-multi-column-layout/",
-      "body": "Last week I began researching CSS layout — what’s achievable with the various spec modules — and grid systems (the myriad of solutions from 960gs to Zen Grids). My notes have quickly grown to thesis-level — I do eventually plan to publish something — but for now here’s a nice example demonstrating what is sure […]",
-      "date": 1391433532000
     }
   ],
   "nextPage": "/blog/page/8/",

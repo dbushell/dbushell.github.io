@@ -8,7 +8,7 @@ workbox.setConfig({
 
 const cacheNameParts = {
   prefix: 'dbushell',
-  suffix: 'v4'
+  suffix: 'v5'
 };
 
 const getCacheName = name =>
@@ -129,7 +129,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
-  new RegExp('https://(ajax|storage|fonts).(?:googleapis|gstatic).com/(.*)'),
+  new RegExp('https://(.*?).(googleapis|gstatic).com/(.*)'),
   workbox.strategies.cacheFirst({
     cacheName: getCacheName('googleapis'),
     plugins: [

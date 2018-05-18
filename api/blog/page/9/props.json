@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 9)",
   "excerpts": [
     {
+      "id": "front-end-style-guides",
+      "title": "Front-end Style Guides",
+      "href": "/2013/11/05/front-end-style-guides/",
+      "body": "I’ve just read Front-end Style Guides written by Anna Debenham, published by Five Simple Steps. As a thorough overview of all that the title suggests the book sets a practical mindset for utilising style guides with many examples (and at £2.40; an absolute steal).\nStyle guides are critical to how I make websites.\nMy design &amp; build […]",
+      "date": 1383666952000
+    },
+    {
       "id": "css-fixed-positioning-and-mobile-zoom",
       "title": "CSS Fixed Positioning and Mobile Zoom",
       "href": "/2013/09/10/css-fixed-positioning-and-mobile-zoom/",
@@ -43,13 +50,6 @@
       "href": "/2013/06/24/automated-accessibility-colour-contrast/",
       "body": "In my quest to automate my entire job I’ve moved into the realms of testing and accessibility checks. The W3C guidelines on accessibility contain a wealth of advice. Much of it would appear to be common sense. It should be a cornerstone of web design but unfortunately it’s often ignored with the focus on surface […]",
       "date": 1372089389000
-    },
-    {
-      "id": "update-from-june-3rd",
-      "title": "Update from June 3rd",
-      "href": "/2013/06/20/update-from-june-3rd/",
-      "body": "I received a shout-out in the “hot drama” section of Shop Talk Show (E073) — bucket list checked, I love those guys — however my point was somewhat missed I feel.\nOn June 3rd I wrote an article entitled The Raster Image Paradox which prompted a response from Tim Kadlec on Why We Need Responsive Images […]",
-      "date": 1371715773000
     }
   ],
   "nextPage": "/blog/page/10/",

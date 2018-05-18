@@ -42,7 +42,7 @@
 
   window.WebFontConfig = {
     google: {
-      families: ['Noto+Sans:400,400i,70', 'Quicksand:500']
+      families: ['Noto+Sans:400,400i,700', 'Raleway:700']
     }
   };
 
@@ -63,11 +63,12 @@
         app.isReady = true;
       }
     } else {
-      document
-        .querySelectorAll('img[data-lazy="false"]')
-        .forEach(function(img) {
-          img.src = img.dataset.src;
-        });
+      var images = [].slice.call(
+        document.querySelectorAll('img[data-lazy="false"]')
+      );
+      for (var i = 0; i < images.length; i++) {
+        images[i].src = images[i].dataset.src;
+      }
     }
     if (app.isIE) {
       app.load('/assets/js/vendor/svgxuse.min.js?v=' + app.ver);

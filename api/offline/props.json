@@ -1,6 +1,6 @@
 {
   "pageHeading": "Connectivity Issues!",
   "pagePath": "/offline/",
-  "innerHTML": "<p class=\"p--large\"><strong>Uh-oh!</strong> You may be offline… <span style=\"font-family:sans-serif;\" role=\"presentation\">(-_-)ゞ</span></p>\n\n<p>Or maybe my server just evaporated? Refresh, try again later, file complaints with <a href=\"http://twitter.com/dbushell\">@dbushell</a> if symptoms persist.</p>\n",
+  "innerHTML": "<p class=\"p--large\"><strong>Uh-oh!</strong> You may be offline… <span style=\"font-family:sans-serif;\" role=\"presentation\">(-_-)ゞ</span></p>\n\n<p>Or maybe my server just evaporated? Refresh, try again later, file complaints with <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"http://twitter.com/dbushell\">@dbushell</a> if symptoms persist.</p>\n",
   "pageTitle": "Connectivity Issues! – David Bushell – Web Design (UK)"
 }

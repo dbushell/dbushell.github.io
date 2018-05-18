@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 38)",
   "excerpts": [
     {
+      "id": "designing-with-placeholder-text",
+      "title": "Designing with Placeholder Text",
+      "href": "/2009/08/31/designing-with-placeholder-text/",
+      "body": "Lorem Ipsum has been traditionally used as placeholder text in graphic design. It’s a series of random words similar to Latin. Is it better to design websites with this, or relevant English?\nThe Big Advantage\nI’ve been designing with Lorem Ipsum for most of my graphics career but lately I’ve been wondering if I’m doing the right […]",
+      "date": 1251723191000
+    },
+    {
       "id": "redesign-or-realign",
       "title": "Redesign or Realign?",
       "href": "/2009/08/26/redesign-or-realign/",
@@ -43,13 +50,6 @@
       "href": "/2009/06/28/secret-blisters/",
       "body": "Secret Blisters screen print poster show at Print Club London - 35 artists, 35 limited edition prints, 35 pounds each.\nFriday night I went to Print Club London in Dalston (London E8) to see the Secret Blisters screen print gallery (photos below). I was expecting a good night but the showcase was incredible. Thankfully it was […]",
       "date": 1246188954000
-    },
-    {
-      "id": "giant-robots-and-art",
-      "title": "Giant Robots and ART",
-      "href": "/2009/06/21/giant-robots-and-art/",
-      "body": "Heading to the cinema to watch Transformers 2 yesterday afternoon I saw something that turned out to be far more interesting than the film. The giant  “ A  R  T  “ (pictured below) certainly caught my eye as I walked over the West India Quay bridge. After more research apparently it’s […]",
-      "date": 1245585019000
     }
   ],
   "nextPage": "/blog/page/39/",
