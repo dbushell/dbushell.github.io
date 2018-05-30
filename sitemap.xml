@@ -8,9 +8,15 @@
 </url>
 <url>
   <loc>https://dbushell.com/contact/</loc>
-  <lastmod>2018-05-18T15:28:38.104Z</lastmod>
+  <lastmod>2018-05-30T12:26:14.326Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/privacy/</loc>
+  <lastmod>2018-05-30T12:26:14.328Z</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/about/</loc>
