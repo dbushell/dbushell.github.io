@@ -5,11 +5,22 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 30 May 2018 12:27:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Aug 2018 08:39:39 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Availability - September 2018]]></title>
+  <description><![CDATA[<p>Hi there!
+Do you need an experienced front-end dev person who can also consult, design, and figure out back-end integration with minimal Slack gifs? Well good news! I have a surplus of time in September and I can build (almost) anything.
+You can contact me to discuss projects, requirements, costs, the weather.
+</p>]]></description>
+  <link>https://dbushell.com/2018/08/14/availability-september/</link>
+  <guid isPermaLink="true">https://dbushell.com/2018/08/14/availability-september/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Tue, 14 Aug 2018 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[PWA: Progressive Web Apps]]></title>
   <description><![CDATA[<p>This website – dbushell.com – or dbushell.app if you like redirects – is now a progressive web app!
@@ -225,18 +236,6 @@ And if you want […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2016/03/04/css-only-responsive-tables/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 04 Mar 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Be careful with your viewBox]]></title>
-  <description><![CDATA[<p>In Sara Soueidan’s article: SVG Style Inheritance and the ‘Flash of Unstyled SVG’, Sara explains the importance of having width, height, and viewBox attributes on SVG elements. This reminded me of two issues I ran into last week building my new design.
-I have an SVG sprite for social icons:
-
-  
-  .svg-icon  { […]</p>]]></description>
-  <link>https://dbushell.com/2016/03/01/be-careful-with-your-viewbox/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/03/01/be-careful-with-your-viewbox/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Tue, 01 Mar 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

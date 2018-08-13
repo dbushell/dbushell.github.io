@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "the-flat-build",
+      "title": "The Flat Build",
+      "href": "/2013/03/18/the-flat-build/",
+      "body": "The flat build is the process of coding a static website in HTML &amp; CSS without worrying about complete functionality or CMS integration. UI prototypes, responsive design layouts, or even the initial stages of final front-end development.\nIt’s becoming increasingly apparent that merging the design and dev process in an iterative workflow is key to a […]",
+      "date": 1363603561000
+    },
+    {
       "id": "automation",
       "title": "Automation",
       "href": "/2013/03/12/automation/",
@@ -43,13 +50,6 @@
       "href": "/2013/02/14/podcasts/",
       "body": "I can’t get enough podcasts right now.\nI still love the written word but after a full day of design and code my eyes need a rest (and probably a new test, now that I think about it).\nFearing I’d been overlooking a few I asked Twitter — thanks for the replies! Below is a compilation of […]",
       "date": 1360854381000
-    },
-    {
-      "id": "on-responsive-navigation-and-rendering",
-      "title": "On Responsive Navigation and Rendering",
-      "href": "/2013/02/07/on-responsive-navigation-and-rendering/",
-      "body": "When I launched my new website earlier this week I implemented the off-canvas navigation technique I’d written about for Smashing Magazine. It uses silky smooth CSS transitions and looks great on mobile (if I do say so myself).\nA small problem came when I set a high breakpoint. The navigation is always off-canvas up to a […]",
-      "date": 1360228167000
     }
   ],
   "nextPage": "/blog/page/13/",

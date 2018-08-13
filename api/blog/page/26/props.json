@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "dont-tell-me-where-to-click",
+      "title": "Don’t tell me where to click",
+      "href": "/2011/05/30/dont-tell-me-where-to-click/",
+      "body": "\n\n“click here“, “read more“, “next“ – a bad habit that just won’t go away, and I’m to blame as much as the next designer (at least the “more” end of the spectrum, if that will save integrity).\nWhy is “click here” so bad?\nGood link text should not be overly general; don’t use “click here.” Not only […]",
+      "date": 1306756902000
+    },
+    {
       "id": "simplicity-in-ui-design-ia-writer-for-mac",
       "title": "Simplicity in UI - IA Writer for Mac",
       "href": "/2011/05/28/simplicity-in-ui-design-ia-writer-for-mac/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/11/the-responsive-design-secret/",
       "body": "Responsive website design - what technique should we use?\n…there’s the three fixed sizes approach - little (320px), medium (~700px) and large (~960px). There’s 100% fluid, 100% fluid with media queries for one or two stages smaller, or 100% fluid from 320 up. Or fluid with a min &amp; max-width. Fixed at 960 with a separate […]",
       "date": 1305137694000
-    },
-    {
-      "id": "truly-great-websites-are-not-created-on-a-computer",
-      "title": "Truly great websites are not created on a computer",
-      "href": "/2011/05/05/truly-great-websites-are-not-created-on-a-computer/",
-      "body": "There is a perception of the Website Designer busily working away, headphones on, brief in lap, mouse at hand, pushing pixels while striking a balance between their own artistic license and the client’s demands.\nThis couldn’t be further from the truth. Great websites are not created on a computer, and they’re certainly not designed by the […]",
-      "date": 1304634799000
     }
   ],
   "nextPage": "/blog/page/27/",

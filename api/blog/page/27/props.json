@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 27)",
   "excerpts": [
     {
+      "id": "truly-great-websites-are-not-created-on-a-computer",
+      "title": "Truly great websites are not created on a computer",
+      "href": "/2011/05/05/truly-great-websites-are-not-created-on-a-computer/",
+      "body": "There is a perception of the Website Designer busily working away, headphones on, brief in lap, mouse at hand, pushing pixels while striking a balance between their own artistic license and the client’s demands.\nThis couldn’t be further from the truth. Great websites are not created on a computer, and they’re certainly not designed by the […]",
+      "date": 1304634799000
+    },
+    {
       "id": "why-ill-never-be-out-of-a-job",
       "title": "Why I’ll never be out of a job",
       "href": "/2011/05/03/why-ill-never-be-out-of-a-job/",
@@ -43,13 +50,6 @@
       "href": "/2011/03/28/three-months-in/",
       "body": "I find it hard to believe we’re already (ok, almost) in April.\n2011 in web design for me has kicked off with a BOOM! If I do say so myself. I’m no longer interested in just designing websites for clients and clients’ clients. I’m doing all that, and I’m pushing it further; looking for opportunities to […]",
       "date": 1301343043000
-    },
-    {
-      "id": "designing-mylifelisted",
-      "title": "Designing MyLifeListed",
-      "href": "/2011/03/14/designing-mylifelisted/",
-      "body": "Today I’m excited to see MyLifeListed launch!\nWe’ve been very busy at Base Creative designing &amp; developing the site. We’re glad to be part of such an exciting project. See for yourself:\n\nI’m going to write a more in-depth article on the design process of MyLifeListed but since this is probably my favourite design project to date, […]",
-      "date": 1300139030000
     }
   ],
   "nextPage": "/blog/page/28/",

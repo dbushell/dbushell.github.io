@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 15)",
   "excerpts": [
     {
+      "id": "responsive-day-out",
+      "title": "Responsive Day Out",
+      "href": "/2012/12/07/responsive-day-out/",
+      "body": "I’ll be speaking at the Responsive Day Out conference in Brighton, 1st March 2013. Grab a ticket now because at £50+VAT they’ll be sold out very soon! And they’re gone!\n\n\nJeremy Keith explains more on his blog.\nIt’s a kind of conference, I guess, but I think of it as more like a gathering of like-minded people […]",
+      "date": 1354870355000
+    },
+    {
       "id": "the-mobile-book",
       "title": "The Mobile Book",
       "href": "/2012/12/05/the-mobile-book/",
@@ -43,13 +50,6 @@
       "href": "/2012/09/30/groundhog-day/",
       "body": "“ahhhhhh!”\n— is what I tweeted on this fine Sunday evening. (And some people choose not to follow me?) What provoked this dramatic outburst was every designers’ worst nightmare; a sudden urge to “redesign” their website.\nJune 2009, August 2009, June 2010, May 2011, February 2012. At this point the cycle is hardly a surprise and I […]",
       "date": 1349042155000
-    },
-    {
-      "id": "what-is-the-medium",
-      "title": "What is the medium?",
-      "href": "/2012/09/25/what-is-the-medium/",
-      "body": "A must read on A List Apart: The Web Aesthetic, by Paul Robert Lloyd.\nThe article above is jam packed with goodness. I’ve been racking my brain this year trying to understand the web as a medium and Paul does a wonderfully succinct job of encapsulating that idea in a way that I’ve never quite managed.\nTo […]",
-      "date": 1348612624000
     }
   ],
   "nextPage": "/blog/page/16/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 2)",
   "excerpts": [
     {
+      "id": "ssh-passphrases-in-macos-sierra",
+      "title": "SSH Passphrases in MacOS Sierra (and learning Vim)",
+      "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/",
+      "body": "Managing SSH keys for remote repositories ain’t easy to grok. “Multiple Accounts and SSH\nKeys” is to no\nsuprise one of my most popular articles. It’s\nstill relevant and I have to refer to it myself at least once a year.\nRecently MacOS began requesting my passphrase with every Git push and pull. That\nis not productive.\nThe solution is two […]",
+      "date": 1495101600000
+    },
+    {
       "id": "typescript-instead-of-react-proptypes",
       "title": "TypeScript over React PropTypes",
       "href": "/2017/04/19/typescript-instead-of-react-proptypes/",
@@ -43,13 +50,6 @@
       "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
       "body": "JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.\nLet’s say you have several functions that return a promise:\nfunction act1() {\n  return new Promise((resolve, reject) => {\n    // do something that might reject...\n    resolve();\n  });\n}\n\nIt’s easy […]",
       "date": 1481882400000
-    },
-    {
-      "id": "my-thoughts-on-react",
-      "title": "My thoughts on React",
-      "href": "/2016/12/02/my-thoughts-on-react/",
-      "body": "I’ve been playing with React for some time now. React is:\n\n“A JavaScript library for building user interfaces”.\n\nUnlike other libraries something about React just clicked with me. Back in October a client project came along that presented a golden opportunity to develop a web app. I decided to use React, and I now consider myself comfortable […]",
-      "date": 1480672800000
     }
   ],
   "nextPage": "/blog/page/3/",

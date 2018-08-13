@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 24)",
   "excerpts": [
     {
+      "id": "web-apps-and-ios5",
+      "title": "Web Apps and iOS5",
+      "href": "/2011/10/13/web-apps-and-ios5/",
+      "body": "One less advertised feature of iOS5 is Mobile Safari CSS support for position:fixed. Much overdue, and very useful for creating “web apps” where navigation bars are fixed to the viewport’s edge (top or bottom), allowing content to scroll naturally underneath.\nSome mobile bowsers already support this (see Mobile HTML5 and When can I use…) and all […]",
+      "date": 1318539515000
+    },
+    {
       "id": "beyond-superficial-with-css3",
       "title": "Beyond superficial with CSS3",
       "href": "/2011/10/05/beyond-superficial-with-css3/",
@@ -43,13 +50,6 @@
       "href": "/2011/08/01/adobe-edge-preview/",
       "body": "My first foray into programming was Flash ActionScript and thus I’ve always had a place in my heart for the damned software. (With the release of ActionScript 3 I even learnt a bit about real programming.) Even now — despite my flag waving for web standards — I do still secretly love Flash, regardless of […]",
       "date": 1312230129000
-    },
-    {
-      "id": "the-social-designer-google-authorship",
-      "title": "The Social Designer",
-      "href": "/2011/07/14/the-social-designer-google-authorship/",
-      "body": "Earlier this month I wrote an article about self promotion online as a designer (read Speak to Me over at xheight). I summed it up to this sentiment:\nSelf promotion is not about pushing an ego onto others, it’s simply about making yourself visible and accessible.\n\n\nOne thing I realised quickly in my career is the importance […]",
-      "date": 1310645305000
     }
   ],
   "nextPage": "/blog/page/25/",

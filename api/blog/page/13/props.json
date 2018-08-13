@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "on-responsive-navigation-and-rendering",
+      "title": "On Responsive Navigation and Rendering",
+      "href": "/2013/02/07/on-responsive-navigation-and-rendering/",
+      "body": "When I launched my new website earlier this week I implemented the off-canvas navigation technique I’d written about for Smashing Magazine. It uses silky smooth CSS transitions and looks great on mobile (if I do say so myself).\nA small problem came when I set a high breakpoint. The navigation is always off-canvas up to a […]",
+      "date": 1360228167000
+    },
+    {
       "id": "a-primer-to-front-end-svg-hacking",
       "title": "A Primer to Front-end SVG Hacking",
       "href": "/2013/02/04/a-primer-to-front-end-svg-hacking/",
@@ -43,13 +50,6 @@
       "href": "/2013/01/15/as-seen-on-smashing-magazine/",
       "body": "\n\nYou may have caught my recent experiment — well I’ve gone and written a very thorough examination for Smashing Magazine. Read my latest article: “Implementing Off-Canvas Navigation For A Responsive Website”.\nI do enjoy writing for @smashingmag. They’re genuinely some of the nicest people ever to email me. As I leave London this year I plan […]",
       "date": 1358272214000
-    },
-    {
-      "id": "responsive-mistakes-less-is-more",
-      "title": "Responsive Mistakes: Less is More",
-      "href": "/2013/01/09/responsive-mistakes-less-is-more/",
-      "body": "This is part 2 of my responsive mistakes mini-series.\nResponsive design musing often leans towards a mobile bias. It’s obvious why. After years of desktop-centric design, mobile is brimming with fresh opportunity.\nAs it turns out, the mobile perspective is very helpful for us and our clients. Designing for small viewports forces content to the forefront of […]",
-      "date": 1357738070000
     }
   ],
   "nextPage": "/blog/page/14/",

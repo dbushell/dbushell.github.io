@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 22)",
   "excerpts": [
     {
+      "id": "responsive-calendar-demo",
+      "title": "Responsive Tables (and a calendar demo)",
+      "href": "/2012/01/04/responsive-calendar-demo/",
+      "body": "Update see more responsive tables progress (5th Jan).\nA real short post for future reference! I’m experimenting with a responsive calendar design and build. See my very rough responsive calendar demo.\nI’ve found through trial, error, and much pondering that the idea of a responsive calendar is actually not that complex. My demo needs more considered breakpoints […]",
+      "date": 1325721511000
+    },
+    {
       "id": "web-design-2012-and-beyond",
       "title": "Web Design: 2012 and Beyond",
       "href": "/2011/12/15/web-design-2012-and-beyond/",
@@ -43,13 +50,6 @@
       "href": "/2011/11/11/in-favour-of-semantics/",
       "body": "The true value of a website is its content.\nData — until semantics and presentation turn it into information. If that value is true we can therefore infer that semantics reign supreme in front-end website production.\nThe thing is, not all content is created equally. There needs to be a pragmatic interpretation of how content is represented. […]",
       "date": 1321053927000
-    },
-    {
-      "id": "the-good-the-bad-and-the-logo",
-      "title": "The Good, the Bad, and the Logo",
-      "href": "/2011/11/11/the-good-the-bad-and-the-logo/",
-      "body": "Back in June 2010 I wrote about using SVG for your logo. When I realigned my website earlier this year (see: Designing a new me) I reverted back to the typical PNG and used the -webkit-min-device-pixel-ratio to provide a high-res version.\nWell 17 months ago I wasn’t as sharp as I am today with front-end standards […]",
-      "date": 1321001916000
     }
   ],
   "nextPage": "/blog/page/23/",
