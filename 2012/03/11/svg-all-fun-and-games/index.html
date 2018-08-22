@@ -45,8 +45,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <h3 id="svg-and-css-backgrounds">SVG and CSS Backgrounds</h3>
 <p>With CSS 3D Transforms it’s fairly clear why this happens. Manipulating the DOM is an expensive hobby, doing so in 3D space is currently a pipe dream.</p>
 <p>There are, however, other situations in which this kind of <strong>early rasterisation</strong> catches us of guard. <strong>Firefox</strong> has a bug (I believe <a rel="noopener noreferrer" target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=600207">this one</a>) relating to background images. I’ve uploaded a <a href="/demos/svg/scaling-09-03-12/">demo and workaround</a> and a screenshot of the problem below:</p>
-<p class="b-post__image"><a href="/demos/svg/scaling-09-03-12/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2012/03/svg-rendering.png" alt="SVG pixelated rendering in Firefox"></a></p>
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2012/03/svg-rendering.png" alt="SVG pixelated rendering in Firefox"></p>
 <p> Blurry SVG is obviously not the desired result.</p>
 <p>Under certain conditions Firefox rasterises the graphic before applying the <code>background-size</code>. What’s the solution? Provide a bigger SVG!</p>
 <p>That doesn’t initially make sense — surely vector graphics are infinite in size by their nature? But remember that all points within an SVG file relate to an initial height &amp; width of the container. These values get translated directly into pixel units. In my Smashing Magazine article I had success changing these values to <code>em</code> units but that solution was short lived and probably ill-informed.</p>

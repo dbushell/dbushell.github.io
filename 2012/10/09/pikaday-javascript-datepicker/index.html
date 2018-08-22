@@ -34,14 +34,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <body>
 <div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">Pikaday: JavaScript datepicker</h1><p class="b-post__date"><time class="time" dateTime="2012-10-09T08:03:10.000Z">Tuesday <b>9 <abbr title="October">Oct</abbr> 2012</b></time></p><div class="b-post__body"><p>Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with <a href="/2012/04/23/modularity-and-style-guides/">modular CSS</a>. It’s in ‘developer preview mode’ but already looking great:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2012/10/pikaday.png" alt="Pikaday screenshot"></p>
-
-
-
-
 <h2 id="why-now-">Why now?</h2>
 <p>Because as much as we like open standards, the <a rel="noopener noreferrer" target="_blank" href="http://www.quirksmode.org/html5/inputs.html">HTML5 input types</a> lack browser support and are poorly implemented in places; see Chrome (22 as of writing) below:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2012/10/dateinput1.png" alt="Chrome date input"></p>
-
 <p>This leaves us with a tricky situation. Normally we can safely use new web standards with the knowledge that non-supporting browsers will simply ignore them, or we can use <a href="/2012/03/03/forget-about-browser-support/">feature detection</a> to progressively enhance the experience. With the state of the new input types however, this unfortunately means polyfill-only for the foreseeable future.</p>
 <p><strong>Pikaday <a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Pikaday/">demo</a> and <a rel="noopener noreferrer" target="_blank" href="https://github.com/dbushell/Pikaday">source</a> on GitHub.</strong></p>
 <p>What’s wrong with the ubiquitous <a rel="noopener noreferrer" target="_blank" href="http://jqueryui.com/datepicker/">jQuery UI datepicker</a>? This little guy has been my go-to widget for many years. Trouble is the dependencies are very heavy; 50kb+ of JavaScript (minified and compressed), and several image requests. jQuery UI is great (and <a rel="noopener noreferrer" target="_blank" href="http://blog.jqueryui.com/2012/10/jquery-ui-1-9-0/">very much alive</a>) but to me it feels like an all-or-nothing commitment.</p>

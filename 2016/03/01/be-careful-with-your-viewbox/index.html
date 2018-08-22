@@ -52,8 +52,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>These three icons live within a single file (see Sara’s guide to <a rel="noopener noreferrer" target="_blank" href="https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/">SVG sprites</a>). To reused an icon is as simple as referencing it like so:</p>
 <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>use</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>icons.svg#twitter<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>use</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span></code></pre>
 <p>With CSS I can style the size and colour of individual icons, amongst other properties. At least that is the basic principle. Of course, when your asset pipeline is a mess of custom node scripts, what’s eventually rendered in the browser can be a delightful surprise.</p>
 <p><strong>My icons weren’t displaying at all.</strong></p>
 <p>I checked my SVG sprite source and it looked correct:</p>
@@ -67,12 +66,10 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>symbol</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>codepen<span class="token punctuation">"</span></span> <span class="token attr-name">viewbox</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0 0 28 28<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
         <span class="token comment">&lt;!-- [path data] --></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>symbol</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span></code></pre>
 <p>I checked my minified SVG sprite source and it looked suspiciously empty:</p>
 <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.w3.org/2000/svg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span></code></pre>
 <p>If you’re using a minifying tool based on <a rel="noopener noreferrer" target="_blank" href="https://github.com/svg/svgo">SVGO</a> you need to disable a couple of plugins (‘cleanupIDs’ and ‘removeViewBox’). This will ensure the <code>&lt;symbol&gt;</code> elements are not removed from your sprite.</p>
 <p>That fixed, I refreshed to find my icons were now visible but not scaling correctly. Regardless of what CSS <code>width</code> or <code>height</code> values I set they refused to listen. After a brief spell of bewilderment I realised that my minified sprite was still missing the <code>viewBox</code> attributes on each <code>&lt;symbol&gt;</code>. Browsers will not scale SVG without this attribute.</p>
 <p>Why was it being removed? That’s because — and this took me an embarrassingly long time to notice — my <code>viewbox</code> attributes were lower-case. From testing it seems browsers don’t actually care but SVGO is case-sensitive in this scenario. Not recognising the lower-case <code>viewbox</code> it was being removed.</p>

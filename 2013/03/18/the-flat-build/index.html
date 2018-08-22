@@ -37,25 +37,19 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>Getting to the browser sooner — where changes are fast but welcome — makes the flat build an obvious bottleneck to progress. The most apparent issue is shared code. The global elements used across multiple pages. Design and structure is going to change and manually updating flat build files is tedious and prone to fragmentation.</p>
 <h2 id="the-old-way">The old way</h2>
 <p>it used to be the only time I’d do a flat build was post-design. I’d use PHP includes because CMS integration was the main task at hand; the end game.</p>
-<pre><code class="language-php"><span class="token delimiter important">&lt;?php</span> <span class="token keyword">include</span> <span class="token single-quoted-string string">'header.php'</span><span class="token punctuation">;</span> <span class="token delimiter important">?></span>
-</code></pre>
+<pre><code class="language-php"><span class="token delimiter important">&lt;?php</span> <span class="token keyword">include</span> <span class="token single-quoted-string string">'header.php'</span><span class="token punctuation">;</span> <span class="token delimiter important">?></span></code></pre>
 <p>I was coding up PSDs. My only concern was when to introduce CMS template constructs. Too soon and HTML becomes messy to refactor. Too late and time is wasted with repetitive placeholders. Design was not suppose to change and I consider that a real pain in the arse when it inevitably did.</p>
 <p>Now that flat builds are introduced as soon as possible I could continue to use PHP. By definition it’s a HTML preprocessor, isn’t that exactly what I need? My issue is that PHP will always be required to view the build. I want to compile plain HTML I can view in the browser anywhere I go and quickly chop up when it comes to development (I always build a style guide/pattern library alongside my templates). Running a full stack on my laptop or requiring server deployment is too unwieldy at this stage.</p>
 <p>Includes are also not the only requirement for productive flat builds to evolve throughout the project. Asset management can also be a big bottleneck.</p>
 <h2 id="the-apps">The apps</h2>
 <p>I’m not surprised we’re seeing trendy apps appear to solve this problem. <a rel="noopener noreferrer" target="_blank" href="http://hammerformac.com/">Hammer</a>, <a rel="noopener noreferrer" target="_blank" href="http://mixture.io/">Mixture</a>, and <a rel="noopener noreferrer" target="_blank" href="http://incident57.com/codekit/">CodeKit</a> all give it a good go. My first recommendation to anyone looking to improve their flat build process would be to trial these apps. An attractive UI tends to be quickly accessible with a small learning curve.</p>
-<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/03/hammer-for-mac.png" alt="no description"></p>
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/03/hammer-for-mac.png" alt=""></p>
 <p>For me — and this may be entirely my own flaw — none of these apps quite fit the bill. Because they’re “one size fits all” solutions it’s difficult to work around them if you have additional requirements. For example, I have SVG assets I want to automatically rasterise as PNG fallbacks.</p>
 <h2 id="building-your-own">Building your own</h2>
 <p>I like total control and flexibility. I roll my own <a href="/2013/03/12/automation/">automated Grunt tasks</a> to achieve what these apps do (and more).</p>
 <p>The barrier to entry here is extremely high. I can’t deny there’s a hell of a lot to learn just to understand how all of the pieces work. I know a lot of people don’t like this complexity. I agree to some extent with the arguments against but you do have to consider what knowledge is actually a prerequisite.</p>
 <p>As long as you’re not introducing more work than you’re going to save — which is the whole point — I’m all for choosing the tools that suit you and your team. Personally, things like CoffeeScript and HTML abstractions are a step too far for me. I can’t however deny other people find them more productive. If I’m not working independently on a project it’d be ignorant of me to default to this Grunt set up. That’s the important decision.</p>
-<p class="p--small"><em>(For some reason — maybe it is irrational — I have a deep hatred for CoffeeScript but ranting here would totally default my own points so I’ll hold my tongue!)</em></p>
-
-
-
-
+<p class="p--small u-dim"><em>(For some reason — maybe it is irrational — I have a deep hatred for CoffeeScript but ranting here would totally default my own points so I’ll hold my tongue!)</em></p>
 <h2 id="missing-pieces">Missing pieces</h2>
 <p>Naturally the inclination to do it yourself results in a half-baked solution. My Grunt set up is missing a HTML preprocessor, which if you remember is 50% of this article.</p>
 <p>I decided to build my own from scratch. I know, I know, I do actually have a client website I need to build but I figured I’d take some 20% time for personal development. This was primarily a bit of fun to learn more Node (grunt tasks already exists that could achieve this <a rel="noopener noreferrer" target="_blank" href="https://github.com/onehealth/grunt-preprocess/">grunt-preprocess</a>, <a rel="noopener noreferrer" target="_blank" href="https://github.com/vanetix/grunt-includes">grunt-includes</a>, <a rel="noopener noreferrer" target="_blank" href="https://github.com/outaTiME/grunt-replace">grunt-replace</a>).</p>
@@ -64,11 +58,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>main<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Hello World!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span>
-<span class="token comment">&lt;!-- @include _footer.html --></span>
-</code></pre>
+<span class="token comment">&lt;!-- @include _footer.html --></span></code></pre>
 <p>It can perform multiple passes (to find includes within includes). Includes are matched via name first or path second if you specify a directory:</p>
-<pre><code class="language-markup"><span class="token comment">&lt;!-- @include blog/_header.html --></span>
-</code></pre>
+<pre><code class="language-markup"><span class="token comment">&lt;!-- @include blog/_header.html --></span></code></pre>
 <p>Which is quite cool to allow for namespacing.</p>
 <p>Feel free to poke around the <a rel="noopener noreferrer" target="_blank" href="https://gist.github.com/dbushell/5186122">code in this gist</a>. It’s not an actual project repo yet because it’s missing vital features like relative asset/anchor URLs. Manual management of those is even more painful than basic includes.</p>
 <h2 id="perspective">Perspective</h2>

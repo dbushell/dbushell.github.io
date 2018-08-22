@@ -37,11 +37,10 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>There’s only so much we can do client-side. It’s always a trade off. It all goes downhill after <code>&lt;!DOCTYPE html&gt;</code>. I like Mark Perkins’ idea of a <a rel="noopener noreferrer" target="_blank" href="http://clearleft.com/thinks/responsivedesignonabudget/">responsive budget</a>.</p>
 <h2 id="before-the-browser">Before the browser</h2>
 <p>What many people in my position forget are the bottlenecks that exist server-side and across the Internet at large. Not much point minifying CSS if you’re sharing some backwater server with a hundred others for five bucks a month.</p>
-<p>A while ago I moved hosting to <a rel="noopener noreferrer" target="_blank" href="http://www.heartinternet.co.uk/vps/">Heart Internet VPS</a>. (Before they started sponsoring my blog </disclaimer>.) Media Temple’s Grid hosting was terrible, but this was as much a move to consolidate my hosting and domains (away from GoDaddy).</p>
+<p>A while ago I moved hosting to <a rel="noopener noreferrer" target="_blank" href="http://www.heartinternet.co.uk/vps/">Heart Internet VPS</a>. (Before they started sponsoring my blog <code>&lt;/disclaimer&gt;</code>.) Media Temple’s Grid hosting was terrible, but this was as much a move to consolidate my hosting and domains (away from GoDaddy).</p>
 <p>With a new virtual server to play with I installed <a rel="noopener noreferrer" target="_blank" href="https://www.varnish-cache.org/">Varnish Cache</a>. Varnish sits in front of the web server and takes over port 80. That means when you hit a page on my site you’re served pre-rendered HTML and cached assets by Varnish. You never normally reach the “AMP” part of the LAMP stack (Apache, MySQL, and PHP).</p>
 <p>Here’s a wonderful illustration from <a rel="noopener noreferrer" target="_blank" href="http://en.wikipedia.org/wiki/File:Reverse_proxy_h2g2bob.svg">Wiki Commons</a>:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/02/Reverse_proxy_h2g2bob.svg" alt="Reverse_proxy_h2g2bob"></p>
-
 <p>Setting up Varnish required some hacking of Plesk and Apache. I went at it like a lumberjack. In my wisdom I made no record of what I did and I was drinking heavily. That means any day now I might have to hit the <em>“restore factory settings</em>“ button.</p>
 <p>Until that day comes, my website is lightning fast.</p>
 <p>What I do know is blogged below for future reference:</p>
@@ -52,24 +51,20 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <h2 id="a-big-refresh">A big refresh</h2>
 <p>My <a href="/2013/02/04/a-new-home/">new site design</a> has a <em>“From the blog…”</em> feature in the page footer. This caused me some concern because dynamic content and caching don’t go hand in hand.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/02/from-the-blog.png" alt="latest articles on dbushell.com"></p>
-
 <p>In WordPress you would normally create a template include like so:</p>
 <pre><code class="language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token comment">// include "From the blog..." section</span>
 <span class="token function">get_template_part</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'blog.partial'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token delimiter important">?></span>
-</code></pre>
+<span class="token delimiter important">?></span></code></pre>
 <p>Naming conventions aside, this is WordPress/PHP basics. But a big problem arises when I publish a new article. This include is on every page. Do I purge my entire website? That would mean every page has to be re-cached. It would be beneficial if I can purge this area alone. That’s what <a rel="noopener noreferrer" target="_blank" href="https://www.varnish-cache.org/trac/wiki/ESIfeatures">edge side includes</a> allow.</p>
 <p>On my production server the code above is replaced with:</p>
-<pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">esi:</span>include</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>&lt;?php bloginfo(<span class="token punctuation">'</span>template_url<span class="token punctuation">'</span>); ?>/blog.esi.php<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-</code></pre>
+<pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">esi:</span>include</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>&lt;?php bloginfo(<span class="token punctuation">'</span>template_url<span class="token punctuation">'</span>); ?>/blog.esi.php<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
 <p>It’s not quite that simple. Varnish needs a URL to hit to access this document fragment. If you were to try and access any PHP file in the WordPress theme directory it would likely throw an error. <a rel="noopener noreferrer" target="_blank" href="http://timbroder.com/2012/12/getting-started-with-varnish-edge-side-includes-and-wordpress.html">Tim Broder</a> provides the answer:</p>
 <pre><code class="language-php"><span class="token delimiter important">&lt;?php</span>
 <span class="token variable">$cwd</span> <span class="token operator">=</span> <span class="token function">getcwd</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token variable">$path</span> <span class="token operator">=</span> <span class="token function">substr</span><span class="token punctuation">(</span><span class="token variable">$cwd</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token function">strpos</span><span class="token punctuation">(</span><span class="token variable">$cwd</span><span class="token punctuation">,</span><span class="token single-quoted-string string">'wp-content/'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token variable">$path</span> <span class="token punctuation">.</span> <span class="token single-quoted-string string">'wp-blog-header.php'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token delimiter important">?></span>
-</code></pre>
+<span class="token delimiter important">?></span></code></pre>
 <p>This ensures my latest posts <a rel="noopener noreferrer" target="_blank" href="http://codex.wordpress.org/Class_Reference/WP_Query">WP_Query</a> can run when the template include is accessed independently of the theme. The next step is to let Varnish know when to clear the cache for certain URLs.</p>
 <h2 id="clearing-the-cache">Clearing the cache</h2>
 <p>In my WordPress theme <code>function.php</code> I have:</p>
@@ -79,8 +74,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token function">curl_setopt</span><span class="token punctuation">(</span><span class="token variable">$c</span><span class="token punctuation">,</span> <span class="token constant">CURLOPT_CUSTOMREQUEST</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'PURGE'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token function">curl_exec</span><span class="token punctuation">(</span><span class="token variable">$c</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token function">curl_close</span><span class="token punctuation">(</span><span class="token variable">$c</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>Using cURL my blog can send a PURGE request to Varnish and clear the cache for a specific URL. From here it’s just a matter of hooking into the right admin actions:</p>
 <pre><code class="language-php"><span class="token function">add_action</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'save_post'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'mytheme_purge_post_cache'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token function">add_action</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'deleted_post'</span><span class="token punctuation">,</span> <span class="token single-quoted-string string">'mytheme_purge_post_cache'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -93,8 +87,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
         <span class="token function">mytheme_purge_url</span><span class="token punctuation">(</span><span class="token function">site_url</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'/blog/'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token function">mytheme_purge_url</span><span class="token punctuation">(</span><span class="token function">bloginfo</span><span class="token punctuation">(</span><span class="token single-quoted-string string">'template_url'</span><span class="token punctuation">)</span> <span class="token punctuation">.</span> <span class="token single-quoted-string string">'/blog.esi.php'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>Remember that Varnish needs to be configured to never cache the WordPress admin area (otherwise you’ll never get past the login form). Now, after I save or delete a post the URLs for that post, the <a href="/blog/">blog index</a>, and the <em>“From the blog…”</em> include are all purged. They are then cached again on the next request.</p>
 <p>So there it is. Probably the biggest speed boost I’ve given my website. I apologise that my technical ineptitude means I haven’t been able to write a full tutorial but I hope this proves useful to someone.</p>
 <p>Maybe my future self.</p>

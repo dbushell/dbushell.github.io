@@ -6,7 +6,7 @@
       "id": "jquery-2-0-goodbye-old-ie",
       "title": "jQuery 2.0, “Goodbye Old IE”",
       "href": "/2012/06/29/jquery-2-0-goodbye-old-ie/",
-      "body": "jQuery 2.0, expected release “early 2013”, will drop support for Internet Explorer 6–8.\njQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move […]",
+      "body": "jQuery 2.0, expected release “early 2013”, will drop support for Internet Explorer 6–8.\n\njQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move […]",
       "date": 1340957971000
     },
     {
@@ -20,7 +20,7 @@
       "id": "nestable-jquery-plugin",
       "title": "Nestable jQuery Plugin",
       "href": "/2012/06/17/nestable-jquery-plugin/",
-      "body": "I’ve started writing a jQuery plugin called Nestable — try it out.\nNestable is an interactive hierarchical list. You can drag and drop to rearrange the order. It even works well on touch-screens. If you’re familiar with the way WordPress allows the user to manage menus, this will be used for a similar UI.\n\n\nThe only similar […]",
+      "body": "I’ve started writing a jQuery plugin called Nestable — try it out.\nNestable is an interactive hierarchical list. You can drag and drop to rearrange the order. It even works well on touch-screens. If you’re familiar with the way WordPress allows the user to manage menus, this will be used for a similar UI.\n\nThe only similar […]",
       "date": 1339936744000
     },
     {

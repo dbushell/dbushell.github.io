@@ -40,14 +40,12 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">Raspberry Pi + e-Paper module +<span class="nbsp">&nbsp;</span>Node.js</h1><p class="b-post__date"><time class="time" dateTime="2017-09-20T10:00:00.000Z">Wednesday <b>20 <abbr title="September">Sep</abbr> 2017</b></time></p><div class="b-post__body"><p>A few weeks ago I was digging through storage and I found an original Raspberry Pi. When I’d bought it years ago interest was lost rather quickly. I wasn’t as comfortable with a Unix command line as I am today.</p>
 <p>The Raspberry Pi / Arduino / single-board computer ecosystem has exploded since then. Maybe I can make a WiFi router, media server, BitTorent box?</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/rpi-epaper.jpg" alt="Raspberry Pi v3 + 1.54inch Waveshare e-Paper module"></p>
-
 <h2 id="upgrading-to-the-pi">Upgrading to the Pi</h2>
 <p>I bought a new generation Pi v3 model B because my toaster has more RAM than the original. I should have done prior research and got another brand (there are <a rel="noopener noreferrer" target="_blank" href="https://beebom.com/best-raspberry-pi-3-alternatives/">better alternatives</a>). The Pi’s USB and Ethernet ports share one controller which is a bottleneck. Read/write speeds to external storage have been underwhelming. Dreams of SSD shattered.</p>
 <p>Still, it will be fit for – a yet to be decided – purpose.</p>
 <h3 id="finding-a-display-and-enclosure">Finding a display and enclosure</h3>
 <p>Although I’m SSH-ing into the Pi I figured a small display would be nice. I’m using the cheap white ‘official’ case which doesn’t fit a display. I had to make room…</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/rpi-case.jpg" alt="Raspberry Pi + e-Paper module (and case)"></p>
-
 <p>As you can see, I’ve done a decent job hacking a hole into the cover. Shame about the screws. Also, ignore those scratch marks. I could have glued the board on the inside without drilling. Nevermind! The cases are cheap enough.</p>
 <h1 id="e-paper">e-Paper</h1>
 <p>The display itself is the <a rel="noopener noreferrer" target="_blank" href="http://www.waveshare.com/wiki/1.54inch_e-Paper_Module"><strong>Waveshare 1.54inch e-Paper module</strong></a>.</p>

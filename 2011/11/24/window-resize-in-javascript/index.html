@@ -42,8 +42,7 @@ win<span class="token punctuation">.</span><span class="token function">bind</sp
         <span class="token keyword">var</span> width <span class="token operator">=</span> win<span class="token punctuation">.</span><span class="token function">width</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token comment">/* do responsive stuff... */</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>The basic idea is that you don’t want to be hammering the window resize event because it gets fired repeatedly when a user manually resizes their browser. Instead you should use a short timeout to wait for resizing to end.</p>
 <p>You may ask, why am I using JavaScript at all, surely pure CSS media queries are better? For most circumstances they are, but when you’re applying interactivity to a website, that experience can differ greatly depending on the screen size. My latest build involves a lot of Google Maps work but only for larger screens (an alternate — and default before JS kicks in — content design is presented to suit smaller screens). Loading in the whole Google Maps JavaScript library ignorant of usage is a heavy burden on bandwidth.</p>
 <p>I’m using this technique to load JavaScript and other content like high-res images very late in the game. If the window never reaches the larger breakpoints no unused resources are ever wasted.</p>

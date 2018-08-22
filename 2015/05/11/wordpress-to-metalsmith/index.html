@@ -41,7 +41,6 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <h2 id="metalsmith">Metalsmith</h2>
 <p>Last summer I wrote my own Node script for a basic <a rel="noopener noreferrer" target="_blank" href="http://mustache.github.io/">Mustache</a> templating engine (see: <a href="/2014/07/09/how-i-built-a-static-site-generator/">How I built a Static Site Generator</a>). This was a fun project and has proven useful in many of my front-end dev jobs. It’s not really a static site generator though. Suitable only for a handful of templates and placeholder content.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/metalsmith.png" alt="Metalsmith"></p>
-
 <p>I considered using <a rel="noopener noreferrer" target="_blank" href="http://jekyllrb.com">Jekyll</a> to rebuild my site but I was keen to keep my <a rel="noopener noreferrer" target="_blank" href="https://github.com/dbushell/dbushell-Origin">Grunt workflow</a> for assets. That’s when I remembered <a rel="noopener noreferrer" target="_blank" href="http://www.metalsmith.io/">Metalsmith</a>:</p>
 <blockquote>
 <p>An extremely simple, pluggable static site generator.</p>
@@ -51,18 +50,15 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <h2 id="markdown">Markdown</h2>
 <p>WordPress can export content as XML. Which is nice but XML hasn’t been “cool” for a long time. After some trial and error I found <a rel="noopener noreferrer" target="_blank" href="https://github.com/thomasf/exitwp">Exitwp</a> by Thomas Frössman. Exitwp is a Python script that converts WordPress XML to <a rel="noopener noreferrer" target="_blank" href="http://daringfireball.net/projects/markdown/">Markdown</a> files with a YAML header.  The format of choice for static site generators.</p>
 <p>I had to modify the script several times to get the output I wanted. A tedious task for one not fond of, or indeed familiar with, Python. Following a final hour of manual editing, I had a directory of <strong>254 articles</strong> in Markdown format.</p>
-<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/metalsmith-markdown.png" alt="dbushel.com articles in markdown files"></p>
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/metalsmith-markdown.png" alt="dbushell.com articles in markdown files"></p>
 <h2 id="handlebars-templates">Handlebars Templates</h2>
 <p>With content ready, step two was to convert my WordPress theme to <a rel="noopener noreferrer" target="_blank" href="http://handlebarsjs.com/">Handlebars</a>. I’d already written a basic Mustache version of my templates so this didn’t take long. I did need to write several helper functions to replicate WordPress functionality.</p>
 <p>A basic example uses <a rel="noopener noreferrer" target="_blank" href="http://momentjs.com/">Moment.js</a> to format dates:</p>
 <pre><code class="language-javascript">Handlebars<span class="token punctuation">.</span><span class="token function">registerHelper</span><span class="token punctuation">(</span><span class="token string">'moment'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>date<span class="token punctuation">,</span> format<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token function">Moment</span><span class="token punctuation">(</span>date<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span>format<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>Using this in templates I can write:</p>
-<pre><code class="language-javascript"><span class="token punctuation">{</span><span class="token punctuation">{</span> moment date <span class="token string">'dddd DD MM YYYY'</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
-</code></pre>
+<pre><code class="language-javascript"><span class="token punctuation">{</span><span class="token punctuation">{</span> moment date <span class="token string">'dddd DD MM YYYY'</span> <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre>
 <p>— <code>date</code> references the YAML metadata heading the relevant Markdown file. Which itself remains in ISO date format (e.g. <code>2015-03-18 10:50:59+00:00</code>).</p>
 <h3 id="excerpts">Excerpts</h3>
 <p>I wrote an excerpt helper for my <a href="/blog/">blog index</a> similar to the WordPress function. This outputs up to 55 words of content without formatting.</p>
@@ -74,8 +70,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
         text <span class="token operator">=</span> words<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">55</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">' [&amp;hellip;]'</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
     <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Handlebars<span class="token punctuation">.</span>SafeString</span><span class="token punctuation">(</span><span class="token string">'&lt;p>'</span> <span class="token operator">+</span> text <span class="token operator">+</span> <span class="token string">'&lt;/p>'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>I prefer to configure Handlebars myself but an alternate approach would be to use the <a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-excerpts">Metalsmith excerpts plugin</a>. This dynamically adds excerpt metadata prior to templating so <code>{{ this.excerpt }}</code> is available — whereas my approach requires <code>{{ excerpt this.contents }}</code></p>
 <p>I could also manually write excerpts in my Markdown content if I really cared, but who reads excerpts? I’d wager most of my blog readers hit the article page directly via social media or search. An auto-generated excerpt works just fine for me.</p>
 <h2 id="sitemap">Sitemap</h2>
@@ -86,24 +81,35 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>lastmod</span><span class="token punctuation">></span></span>{{lastmod}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>lastmod</span><span class="token punctuation">></span></span>{{/if}}{{#if changefreq}}
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>changefreq</span><span class="token punctuation">></span></span>{{changefreq}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>changefreq</span><span class="token punctuation">></span></span>{{/if}}{{#if priority}}
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>priority</span><span class="token punctuation">></span></span>{{priority}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>priority</span><span class="token punctuation">></span></span>{{/if}}
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>url</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>url</span><span class="token punctuation">></span></span></code></pre>
 <p>The entries are compiled into a single <code>sitemap.xml</code> file which is added to the Metalsmith files list. This in theory would then flow through the other Metalsmith plugins, if the sitemap plugin wasn’t the last one.</p>
 <h2 id="the-final-build">The Final Build</h2>
 <p>My final Metalsmith plugin order runs as following:</p>
 <ul>
-<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-drafts">metalsmith-<strong>drafts</strong></a>
-<br><span class="p--small p--light">remove markdown files marked as draft</span></li>
-<li><em>dbushell-metalsmith-<strong>markup</strong></em>
-<br><span class="p--small p--light">clean up intermediate code due to imperfect WordPress conversion</span></li>
-<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-markdown">metalsmith-<strong>markdown</strong></a>
-<br><span class="p--small p--light">convert Markdown content to HTML</span></li>
-<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-collections">metalsmith-<strong>collections</strong></a>
-<br><span class="p--small p--light">create two group for all blog posts and “From the Blog…” list</span></li>
-<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/blakeembrey/metalsmith-pagination">metalsmith-<strong>pagination</strong></a>
-<br><span class="p--small p--light">generate pages for my <a href="/blog/">blog index</a></span></li>
-<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-permalinks">metalsmith-<strong>permalinks</strong></a>
-<br><span class="p--small p--light">combined with <a rel="noopener noreferrer" target="_blank" href="https://github.com/ericgj/metalsmith-branch">metalsmith-branch</a></span></li>
+<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-drafts">metalsmith-<strong>drafts</strong></a><ul>
+<li>remove markdown files marked as draft</li>
+</ul>
+</li>
+<li><em>dbushell-metalsmith-<strong>markup</strong></em><ul>
+<li>clean up intermediate code due to imperfect WordPress conversion</li>
+</ul>
+</li>
+<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-markdown">metalsmith-<strong>markdown</strong></a><ul>
+<li>convert Markdown content to HTML</li>
+</ul>
+</li>
+<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-collections">metalsmith-<strong>collections</strong></a><ul>
+<li>create two group for all blog posts and “From the Blog…” list</li>
+</ul>
+</li>
+<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/blakeembrey/metalsmith-pagination">metalsmith-<strong>pagination</strong></a><ul>
+<li>generate pages for my <a href="/blog/">blog index</a></li>
+</ul>
+</li>
+<li><a rel="noopener noreferrer" target="_blank" href="https://github.com/segmentio/metalsmith-permalinks">metalsmith-<strong>permalinks</strong></a><ul>
+<li>combined with <a rel="noopener noreferrer" target="_blank" href="https://github.com/ericgj/metalsmith-branch">metalsmith-branch</a></li>
+</ul>
+</li>
 <li><em>dbushell-metalsmith-<strong>sitemap</strong></em></li>
 </ul>
 <p>As you can see, I’m not using Metalsmith to process any assets. I have an existing <a rel="noopener noreferrer" target="_blank" href="https://github.com/dbushell/dbushell-Origin">Grunt workflow</a> to handle them.  I’ve <a rel="noopener noreferrer" target="_blank" href="https://github.com/dbushell/dbushell-com">uploaded my website source</a> to Github for anyone interested. Both Metalsmith and Grunt build tasks have been combined.</p>

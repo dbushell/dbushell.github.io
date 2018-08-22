@@ -51,8 +51,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <pre><code class="language-json"><span class="token punctuation">{</span>
   <span class="token property">"lang"</span><span class="token operator">:</span> <span class="token string">"en"</span><span class="token punctuation">,</span>
   <span class="token property">"i18n"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>The <code>lang</code> property is the translation key to be used. It can be anything but mimicking the <a rel="noopener noreferrer" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang">HTML lang attribute</a> seems logical. The <code>i18n</code> property maps these keys to text strings for each component name.</p>
 <p>Using my <a rel="noopener noreferrer" target="_blank" href="https://codepen.io/dbushell/pen/aYjvaW/">CodePen example</a>:</p>
 <pre><code class="language-json"><span class="token property">"i18n"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
@@ -72,8 +71,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
       <span class="token property">"esButton"</span><span class="token operator">:</span> <span class="token string">"Spanisch"</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>The likelihood of my German being correct is low but you get the idea. If properties like <code>desc</code> need to include variables I format for <a rel="noopener noreferrer" target="_blank" href="https://github.com/alexei/sprintf.js">sprinf</a>. Sprintf is well known and a tiny dependency. This is necessary because sentence structure will change per language. If I were to try and concatenate partial strings and variables within a component it would not work.</p>
 <h2 id="mapping-state-to-props">Mapping state to props</h2>
 <p>Once the translations are ready it’s time to connect. To continue the example, I start with this basic component:</p>
@@ -84,8 +82,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>German<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span>Spanish<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>All the text is hard-coded and the <code>langCount</code> property is inflexible. Let’s update the component to accept translatable strings:</p>
 <pre><code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">Menu</span> <span class="token operator">=</span> props <span class="token operator">=></span> <span class="token punctuation">(</span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
@@ -94,8 +91,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>i18n<span class="token punctuation">.</span>deButton<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">></span></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>i18n<span class="token punctuation">.</span>esButton<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>Now we have a stateless functional component ready. We’ll need to create a container to map Redux state to these properties:</p>
 <pre><code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">mapStateToProps</span> <span class="token operator">=</span> state <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
   langCount<span class="token punctuation">:</span> Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>state<span class="token punctuation">.</span>i18n<span class="token punctuation">)</span><span class="token punctuation">.</span>length
@@ -104,8 +100,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <span class="token keyword">const</span> MenuContainer <span class="token operator">=</span> <span class="token function">translate</span><span class="token punctuation">(</span>
   <span class="token string">'Menu'</span><span class="token punctuation">,</span>
   mapStateToProps
-<span class="token punctuation">)</span><span class="token punctuation">(</span>Menu<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">)</span><span class="token punctuation">(</span>Menu<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>You’ll notice I’m not using <code>connect()</code> from <a rel="noopener noreferrer" target="_blank" href="https://github.com/reactjs/react-redux">react-redux</a>. Instead I have a similar custom <code>translate()</code> function that accepts the component name as the first parameter. Both functions are HOCs <a rel="noopener noreferrer" target="_blank" href="https://reactjs.org/docs/higher-order-components.html">(higher-order components)</a>.</p>
 <blockquote>
 <p>a higher-order component is a function that takes a component and returns a new component</p>
@@ -136,13 +131,11 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
       <span class="token punctuation">}</span><span class="token punctuation">)</span>
     <span class="token punctuation">)</span><span class="token punctuation">(</span>TranslatedComponent<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>The first parameter <code>name</code> references the object key within the state translation data. This can be anything but I find it useful to match component names for simplicity. Basically the <code>translate()</code> function is a convenient wrapper for <code>connect()</code> that establishing an internationalisation conventions.</p>
 <p>Not all components need to be connected to the Redux state directly. Nor is it practical to do so if a component is reusable and context changes. In such cases I’d connect the parent and pass the relevant i18n properties.</p>
 <p>In the example if the <code>&lt;button&gt;</code> was its own React component I’d do:</p>
-<pre><code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CustomButton</span> <span class="token attr-name">label</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>i18n<span class="token punctuation">.</span>enButton<span class="token punctuation">}</span></span> <span class="token punctuation">/></span></span>
-</code></pre>
+<pre><code class="language-jsx"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>CustomButton</span> <span class="token attr-name">label</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>i18n<span class="token punctuation">.</span>enButton<span class="token punctuation">}</span></span> <span class="token punctuation">/></span></span></code></pre>
 <p>I’ve kept <code>translate()</code> to a basic implementation here. It can be extended to provide more advanced logic to resolve translations. Or you could provide access to <code>mergeProps</code> of <code>connect()</code> if required.</p>
 <h2 id="to-summarise-">To summarise!</h2>
 <p>This technique achieves the following results:</p>

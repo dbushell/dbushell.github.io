@@ -48,11 +48,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>As <a rel="noopener noreferrer" target="_blank" href="http://laurakalbag.com/display-none/">Laura Kalbag</a> reiterates, it’s indicative of lazy design. If you absolutely must have different content on larger screens then use <a rel="noopener noreferrer" target="_blank" href="http://24ways.org/2011/conditional-loading-for-responsive-designs/">conditional loading</a> — but first, consider how you <em>progressively enhance</em> visual presentation…</p>
 <h2 id="advancing-text-replacement">Advancing text replacement</h2>
 <p>Replacement techniques have been around long before responsive design. They’re bread and butter for front-end developers. Consider this <a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/step4.html">off-canvas menu demo</a> in which I use icons for the navigation buttons.</p>
-<p class="b-post__image"><a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/step4.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/off-canvas-menu.png" alt="responsive off-canvas menu demo"></a></p>
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/off-canvas-menu.png" alt="responsive off-canvas menu demo"></p>
 <p>The semantic HTML for the nav open button is a normal hyperlink:</p>
-<pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-button<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#nav<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Navigation<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
-</code></pre>
+<pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nav-button<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#nav<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Navigation<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
 <p>In CSS I use an <a rel="noopener noreferrer" target="_blank" href="http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/">image replacement</a> technique:</p>
 <pre><code class="language-css"><span class="token selector">.nav-button</span> <span class="token punctuation">{</span>
     <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
@@ -62,17 +60,14 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token property">width</span><span class="token punctuation">:</span> 1.875em<span class="token punctuation">;</span>
     <span class="token property">height</span><span class="token punctuation">:</span> 1.875em<span class="token punctuation">;</span>
     <span class="token property">background</span><span class="token punctuation">:</span> <span class="token url">url("img/nav-icon.svg")</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>Basic stuff, but this has more profound implications.</p>
 <p>As Paul Robert Lloyd says in <a rel="noopener noreferrer" target="_blank" href="http://www.alistapart.com/articles/the-web-aesthetic/">The Web Aesthetic</a>, <em>“everything on the web ultimately needs to degrade down to plain text”</em>. I agree. If we embrace that philosophy it can be taken much further than basic icon replacement.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/social-links1.png" alt="social sharing links"></p>
-
 <p>This blog has social sharing elements after every article. They start life as text links; the canonical version. I transform them into official widgets using <a rel="noopener noreferrer" target="_blank" href="http://socialitejs.com/">Socialite.js</a>. This enhancement could be improved by taking presentation in multiple directions. If the viewport is small, use icons. If the viewport is large, transform into widgets. In future I could even detect and account for <em>bandwidth</em> (they’re deceptively heavy).</p>
 <p>This is still a fairly small example, but combine it with more intelligent <a rel="noopener noreferrer" target="_blank" href="http://bradfrost.github.com/this-is-responsive/patterns.html">responsive design patterns</a> and hiding content becomes less of a necessity. It’s all about <strong>discoverability</strong> and <strong>accessibility</strong>.</p>
 <p>As long as content can be discovered it can be temporarily hidden and even shape-shift into vastly difference forms. For a perfect design example we can look back at the godfather of responsive websites, <a rel="noopener noreferrer" target="_blank" href="http://www.bostonglobe.com/">The Boston Globe</a>:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/boston-globe-weather.png" alt="The Boston Globe weather feature"></p>
-
 <p>If you absolutely have to hide elements or need to reveal them later, I would advise using the <code>.visuallyhidden</code> class technique from HTML5 boilerplate (inspired by <a rel="noopener noreferrer" target="_blank" href="http://snook.ca/archives/html_and_css/hiding-content-for-accessibility">Jonathon Snook</a>):</p>
 <pre><code class="language-css"><span class="token selector">.visuallyhidden</span> <span class="token punctuation">{</span>
     <span class="token property">border</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
@@ -83,8 +78,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
     <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
     <span class="token property">width</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <h2 id="a-final-word">A final word</h2>
 <p>The Web is a design medium. Like any other we cannot be ignorant of its limitations when planning a website’s objectives and content. Neither can we be too quick to look for shortcuts. Assuming “mobile” equates to “less” and hiding content based on viewport size is not a solution. Once you stop thinking in absolutes, content becomes a lot more malleable.</p>
 <p><a rel="noopener noreferrer" target="_blank" href="http://twitter.com/dbushell">Follow me on Twitter</a> for future updates in this series.</p>

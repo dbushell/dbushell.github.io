@@ -34,11 +34,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <body>
 <div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">Building a Shopify<span class="nbsp">&nbsp;</span>Theme</h1><div class="b-post__body"><p><strong>Shopify</strong> is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at <a rel="noopener noreferrer" target="_blank" href="http://studiotangerine.co.uk/"><strong>Studio Tangerine</strong></a> to develop a Shopify theme. I’ve documented interesting aspects of the process below.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-homepage-design.png" alt="Shopify theme design"></p>
-
 <h2 id="getting-started">Getting started</h2>
 <p>If you’re familiar with <a href="/2016/07/14/building-a-wordpress-theme/">my workflow</a> it will be no surprised that I first translated the design into static HTML &amp; CSS before worrying about integration. Like all good designs this one was very modular so I coded a single page of all components and patterns.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-pattern-library.png" alt="Shopify front-end pattern library"></p>
-
 <p>Building this page in the vein of a pattern library gave us the perfect opportunity to review the responsive design and interactive elements in the browser. Elements were tweaked and final decisions were made on things like the responsive navigation. I did preliminary browsering testing to ensure no major rendering issues — much easier to fix now than later!</p>
 <h2 id="setup-and-tools">Setup and tools</h2>
 <p><a rel="noopener noreferrer" target="_blank" href="https://help.shopify.com/themes/development/templates">Theme development</a> for Shopify is well documented. The <a rel="noopener noreferrer" target="_blank" href="https://help.shopify.com/themes/liquid">Liquid reference</a> is all I’ve needed to see what data objects and filters are available for each template.</p>
@@ -56,12 +54,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <h2 id="interactive-baskets">Interactive baskets</h2>
 <p>When a customer clicks the “Add to Basket” button Shopify will take them to the checkout page by default. Shopify does however provide a JavaScript API that makes on-page interactivity a breeze to implement.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-addtobasket.gif" alt="Shopify theme - interactive &#39;add to basket&#39;"></p>
-
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-basket.gif" alt="Shopify theme - interactive basket"></p>
-
 <p>For this project I used <a rel="noopener noreferrer" target="_blank" href="https://cartjs.org/"><strong>Cart.js</strong></a> which is an API wrapper and library to manage products in the basket. The trick is to override the form submission and call <code>CartJS.addItem()</code> passing the product variant ID, quantity, and callbacks. The Shopify API returns product data or a variety of errors such as insufficient stock so the customer can be informed accordingly.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-basket.png" alt="Shopify theme - interactive basket"></p>
-
 <p>I’m using <a rel="noopener noreferrer" target="_blank" href="https://github.com/janl/mustache.js"><strong>Mustache.js</strong></a> for HTML templating. When Cart.js updates — new products added or items removed — the on-page basket is re-rendered. To do this I simply pass Mustache the HTML template and JSON data for the products.</p>
 <p>The basket template exists within the document source for initial reference. An abbreviated example would look like this:</p>
 <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>basket-template<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/x-mustache-template<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -70,21 +65,17 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>{{ url }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>{{ title }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span>
   {{/ items }}
-  <span class="token comment">&lt;!-- continued... --></span>
-</code></pre>
+  <span class="token comment">&lt;!-- continued... --></span></code></pre>
 <p>This method avoids heavy, manual DOM manipulation. Mustache generates all the HTML and updates a single element. For example:</p>
 <pre><code class="language-javascript"><span class="token keyword">var</span> template <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#basket-template'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">var</span> html <span class="token operator">=</span> Mustache<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>template<span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token string">'items'</span><span class="token punctuation">:</span> CartJS<span class="token punctuation">.</span>cart<span class="token punctuation">.</span>items <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.basket-popup'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>html<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.basket-popup'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>html<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>If the basket design changes we can just edit the template and not worry about the JavaScript. An event listener is bound to the root basket element for the “remove” buttons. On click the Cart.js items are updated which triggers the basket to be rendered again. Mustache is under 10kb; we don’t need anything large like Angular or React to solve this problem.</p>
 <h2 id="getting-fancy-with-variants">Getting fancy with variants</h2>
 <p>Products in Shopify can have up to three options and product variants are generated as combinations thereof. By default Shopify only displays a single <code>&lt;select&gt;</code> input to choose all available variants from:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-product-options-1.png" alt="Shopify theme - default product option"></p>
-
 <p>This isn’t an ideal user experience, especially if there are hundreds of variants, so we’re using a bit of JavaScript magic to break this field apart into multiple options:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-product-options-2.png" alt="Shopify theme - advanced product options"></p>
-
 <p>The product options for “Size” and “Colour” have a unique UI design. Any other options are renders as individual <code>&lt;select&gt;</code> inputs. The default input is hidden and its value is updated to match the variant chosen from these options.</p>
 <p><strong>Although this approach offers a much more usable interface it can lead to issues if certain variants are not available.</strong></p>
 <p>Say for example you have a “Small/Red” sweater, but “Medium/Red” is out of stock, and the “Large” size doesn’t even come in that colour. In the original single input the “Medium/Red” option is disabled and “Large/Red” doesn’t exist.</p>
@@ -95,14 +86,11 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>Building a Shopify theme is always a pleasant experience. The platform is very well documented and Liquid templates allow for a lot of design freedom.</p>
 <p>It should be noted however that Shopify websites have a set formula with predefined templates. All stores follow the same format and you cant change the admin area (outside of theme settings). For example, each product has a single description:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-product-edit.png" alt="Shopify theme - editing product description"></p>
-
 <p>To achieve the accordion design for this content requires JavaScript:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-product-description.png" alt="Shopify theme - product description as accordion design"></p>
-
 <p>I used JavaScript to break apart the content by heading elements <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> before adding the expand/collapse to each section. This technique works fine on the front-end but the admin interface isn’t as intuitive as it could be.</p>
 <p>Similarly, pages are limited to one content area. To manage the hero carousel we can only provide fields within the theme settings (which are somewhat limited).</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/shopifytheme-carousel-edit.png" alt="Shopify theme - carousel settings"></p>
-
 <h2 id="final-thoughts">Final thoughts</h2>
 <p>It’s important to understand exactly what a Shopify website can do before choosing it as an ecommerce platform. It is very good at what it does and a joy to build for, but it’s not a CMS with limitless potential. Still, I couldn’t be more pleased when asked to build a theme.</p>
 <p>If you’re considering Shopify and need a designer and/or developer, <a href="/contact/">please get in touch</a> and we can discuss the possibilities.</p>

@@ -48,8 +48,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <pre><code class="language-javascript">workbox<span class="token punctuation">.</span><span class="token function">routing</span><span class="token punctuation">(</span>
   <span class="token regex">/\.(gif|jpeg|jpg|png|svg)$/</span><span class="token punctuation">,</span>
   workbox<span class="token punctuation">.</span>strategies<span class="token punctuation">.</span><span class="token function">cacheFirst</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>In the example above all images with a matching file extension are fetched from the cache first if available, otherwise from the network (then cached).</p>
 <h3 id="-">🍻 👍 👍</h3>
 <p>Workbox gets one <em>clinking beer mugs</em> and two <em>thumbs up</em> emojis from me. The basics are easy to handle and the native APIs are still there to combine with Workbox for more advanced concepts.</p>
@@ -59,7 +58,6 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>I’m using the History API to maintain URLs and native browser navigation. I’ve also sprinkled in an experimental <code>IntersectionObserver</code> to <a rel="noopener noreferrer" target="_blank" href="https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/">lazy load images</a>.</p>
 <p><a rel="noopener noreferrer" target="_blank" href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> is another useful tool from Google.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/2018/dbushell-app-lighthouse.png" alt="Lighthouse report for dbushell.com"></p>
-
 <p>The browser plugin will run an audit and report back in dizzying detail.</p>
 <p>Lighthouse isn’t easily impressed. I was seeing red lights for days whilst learning new optimisations. I could have sworn it was all green when I checked a few months ago. I suppose the web moves fast and new improvements are forever on the horizon. Ideally these things become second nature but crucial milliseconds can easily slip away if you’re not careful.</p>
 <h2 id="progressive-web">Progressive Web</h2>

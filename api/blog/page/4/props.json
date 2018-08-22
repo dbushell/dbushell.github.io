@@ -6,14 +6,14 @@
       "id": "a-bit-of-a-new-look",
       "title": "A Bit of a New Look",
       "href": "/2016/02/29/a-bit-of-a-new-look/",
-      "body": "I redesigned my website!\n\nThis iteration has taken longer than usual because the visual changes are much more dramatic. I’m really pleased with the results:\n\n\nIt’s been two years since I last updated the design. That is a record because it’s usually an annual tradition. Past updates include: 2014, 2013, 2012, and 2011. Last year I improved […]",
+      "body": "I redesigned my website!\nThis iteration has taken longer than usual because the visual changes are much more dramatic. I’m really pleased with the results:\n\nIt’s been two years since I last updated the design. That is a record because it’s usually an annual tradition. Past updates include: 2014, 2013, 2012, and 2011. Last year I improved […]",
       "date": 1456740000000
     },
     {
       "id": "css-framework-for-partsgiant",
       "title": "CSS Framework for PartsGiant",
       "href": "/2016/01/04/css-framework-for-partsgiant/",
-      "body": " PartsGiant is a soon to launch e-commerce store based in Michigan, USA. \nI was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.\nI’ve always championed the idea of maintainable, […]",
+      "body": "PartsGiant is a soon to launch e-commerce store based in Michigan, USA.\nI was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.\nI’ve always championed the idea of maintainable, future-proof coding […]",
       "date": 1451901600000
     },
     {
@@ -25,16 +25,16 @@
     },
     {
       "id": "tales-wordpress-theme-now-free",
-      "title": "Tales WordPress theme is now free!",
+      "title": "Tales WordPress theme is now free",
       "href": "/2015/11/12/tales-wordpress-theme-now-free/",
-      "body": "Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.\n\n\nFor the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]",
+      "body": "Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.\n\nFor the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]",
       "date": 1447322400000
     },
     {
       "id": "accelerated-mobile-pages",
       "title": "Accelerated Mobile Pages",
       "href": "/2015/10/20/accelerated-mobile-pages/",
-      "body": "The AMP Project is an initiative by Google to improve the “mobile web”.\nAccelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:\n\n\nThe BBC News website has implemented AMP, screenshotted […]",
+      "body": "The AMP Project is an initiative by Google to improve the “mobile web”.\nAccelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:\n\nThe BBC News website has implemented AMP, screenshotted […]",
       "date": 1445335200000
     },
     {
@@ -48,7 +48,7 @@
       "id": "smashing-book-5",
       "title": "Real-Life Responsive Web Design",
       "href": "/2015/07/27/smashing-book-5/",
-      "body": "Last week I had the opportunity to read “Real-Life Responsive Web Design”, the fifth book in the Smashing Book series.\n\n\nUsually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]",
+      "body": "Last week I had the opportunity to read “Real-Life Responsive Web Design”, the fifth book in the Smashing Book series.\n\nUsually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]",
       "date": 1437991200000
     }
   ],

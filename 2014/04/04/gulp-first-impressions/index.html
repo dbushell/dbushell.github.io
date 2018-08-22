@@ -43,7 +43,6 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 </ul>
 <p>Gulp is a build system that runs on <a rel="noopener noreferrer" target="_blank" href="http://nodejs.org/">Node</a> like Grunt. While Grunt is an all-purpose task runner, Gulp is based around streaming — sending files through filters / pipes to do things like preprocessing, minification, and concatenation.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2014/04/gulp.png" alt="gulp"></p>
-
 <p>For a helpful guide see Mark Goodyear’s article: <a rel="noopener noreferrer" target="_blank" href="http://markgoodyear.com/2014/01/getting-started-with-gulp/">Getting started with gulp</a>.</p>
 <p>I found gulp easy to configure. It took me several hours to convert my entire Grunt build script. This included converting several of my own tasks to stream-based gulp plugins. (I need to brush-up on my understanding of Node streams.) Running a full build was noticeably faster than its Grunt predecessor, despite the likely poor optimisation and metaphorical duct tape.</p>
 <p>In my case I’m not sure gulp reaches its full speed potential. I have a lot of bottlenecks: Sass can’t compile CSS without PNG / SVG for inline <a rel="noopener noreferrer" target="_blank" href="http://css-tricks.com/data-uris/">data URIs</a> — images aren’t ready until compressed — some fallback images don’t exist until they’re generated from SVG sources — SVGs are first minimised.</p>

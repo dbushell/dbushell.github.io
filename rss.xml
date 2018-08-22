@@ -5,7 +5,7 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Mon, 13 Aug 2018 08:39:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Aug 2018 09:16:30 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
@@ -75,7 +75,6 @@ The Raspberry Pi / Arduino / single-board computer ecosystem has exploded since 
   <title><![CDATA[#TIFU by deleting my work]]></title>
   <description><![CDATA[<p>Ever get that feeling you’ve lost something?
 
-
 I’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. CodePen Projects is a newish addition. It provides a more complete development environment.
 A mini-project came along for a client that gave me the perfect excuse to try CodePen Projects.
 Development […]</p>]]></description>
@@ -134,7 +133,6 @@ Iron Fist is ‘aight I guess. I’m 7 episodes deep and I’m still awake which
   <title><![CDATA[Web Security and Cloudflare]]></title>
   <description><![CDATA[<p>I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.
 
-
 I listened to an episode of […]</p>]]></description>
   <link>https://dbushell.com/2017/02/17/web-security-and-cloudflare/</link>
   <guid isPermaLink="true">https://dbushell.com/2017/02/17/web-security-and-cloudflare/</guid>
@@ -161,7 +159,6 @@ function act1() {
     resolve();
   });
 }
-
 It’s easy […]</p>]]></description>
   <link>https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</link>
   <guid isPermaLink="true">https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</guid>
@@ -184,7 +181,6 @@ Unlike other libraries something about React just clicked with me. Back in Octob
   <title><![CDATA[Building a Shopify Theme]]></title>
   <description><![CDATA[<p>Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.
 
-
 Getting started
 If you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp;amp; CSS […]</p>]]></description>
   <link>https://dbushell.com/2016/10/10/building-a-shopify-theme/</link>
@@ -204,7 +200,6 @@ If you’re familiar with my workflow it will be no surprised that I first trans
 <item>
   <title><![CDATA[Building a WordPress Theme]]></title>
   <description><![CDATA[<p>I was delighted when Base Creative asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.
-
 
 In this review I’ll showcase a few of the defining techniques and challenges that made this […]</p>]]></description>
   <link>https://dbushell.com/2016/07/14/building-a-wordpress-theme/</link>
@@ -229,7 +224,6 @@ See the full demo on CodePen
 
 
 Here’s what basic overflow looks like:
-
 
 And if you want […]</p>]]></description>
   <link>https://dbushell.com/2016/03/04/css-only-responsive-tables/</link>

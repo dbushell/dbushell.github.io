@@ -39,15 +39,13 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>Unlike other libraries something about React just clicked with me. Back in October a client project came along that presented a golden opportunity to develop a web app. I decided to use React, and I now consider myself comfortable in its ecosystem.</p>
 <p>Below this huge logo are some of my thoughts on React.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/blog/react_logo_og.png" alt="the React logo"></p>
-
 <p>React has its own <a rel="noopener noreferrer" target="_blank" href="https://facebook.github.io/react/docs/jsx-in-depth.html">JSX syntax</a> for writing components. JSX tightly couples HTML with JavaScript in a readable fashion. It does not adhere to a ‘separation of concerns’ in that regard. Rather, it fully embraces the alternative.</p>
 <p>This isn’t a React tutorial but here are two contrived examples that hopefully illustrate my thoughts later. I present a simple button and toolbar:</p>
 <pre><code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">Button</span> <span class="token operator">=</span> props <span class="token operator">=></span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>onClick<span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>label<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
 <pre><code class="language-jsx"><span class="token keyword">const</span> <span class="token function-variable function">Toolbar</span> <span class="token operator">=</span> props <span class="token operator">=></span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toolbar<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -55,8 +53,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>props<span class="token punctuation">.</span>redo<span class="token punctuation">}</span></span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Redo<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
 <p>Apologies for the lack of syntax highlighting.</p>
 <p>There are imperfections to JSX for sure. The <code>class</code> HTML attributes become <code>className</code> for example (the former is a reserved keyword in JavaScript). Components without children must use self-closing tags — flashback to the days of XHTML.</p>
 <p>By the way, if you’ve never used React, the components you define like <code>&lt;Toolbar/&gt;</code> can be re-used like HTML elements in other components. They exist in JSX-world only. When React writes to the DOM it uses your semantic HTML underneath.</p>

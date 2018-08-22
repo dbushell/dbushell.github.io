@@ -33,8 +33,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 </head>
 <body>
 <div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">Use SVG (part<span class="nbsp">&nbsp;</span>1)</h1><p class="b-post__date"><time class="time" dateTime="2015-01-26T13:38:24.000Z">Monday <b>26 <abbr title="January">Jan</abbr> 2015</b></time></p><div class="b-post__body"><p>As you know I’m a big fan of using SVG whenever possible.</p>
-<p class="p--small p--light">See my articles <a rel="noopener noreferrer" target="_blank" href="http://www.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/">‘Resolution Independence With SVG’</a> (Jan 2012) and <a href="/2013/02/04/a-primer-to-front-end-svg-hacking/">‘A Primer to Front-end SVG Hacking’</a> (Feb 2013) for a retrospective.</p>
-
+<p class="p--small u-dim">See my articles <a rel="noopener noreferrer" target="_blank" href="http://www.smashingmagazine.com/2012/01/16/resolution-independence-with-svg/">‘Resolution Independence With SVG’</a> (Jan 2012) and <a href="/2013/02/04/a-primer-to-front-end-svg-hacking/">‘A Primer to Front-end SVG Hacking’</a> (Feb 2013) for a retrospective.</p>
 <p>I’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how you look at it).</p>
 <p>When building a front-end I split graphical assets into two categories:</p>
 <ol>
@@ -44,8 +43,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>Naming isn’t important, recognising different use cases is. We could sprite up UI icons, maybe even embed them within stylesheets — in <em>Part 2</em> I’ll look at these techniques — but using images inside content realistically requires individual files. That’s the reality / state of CMS today.</p>
 <h2 id="the-content-img">The content <code>&lt;img&gt;</code></h2>
 <p>For individual “content” images there’s no better alternative than a good ol’ fashioned <code>&lt;img&gt;</code> element. It’ll work<sup>*</sup> with both SVG and raster sources (PNG, JPEG, etc) — whatever the website owner uploads.</p>
-<p class="p--small p--light">* providing the server and CMS whitelist the MIME type: <code>image/svg+xml</code> (a common oversight)</p>
-
+<p class="p--small u-dim">* providing the server and CMS whitelist the MIME type: <code>image/svg+xml</code> (a common oversight)</p>
 <p>In my opinion <a rel="noopener noreferrer" target="_blank" href="http://caniuse.com/#feat=svg">browser support</a> is good enough today that an SVG fallback isn’t required.</p>
 <p><strong>However!</strong></p>
 <p>With responsive design, Internet Explorer doesn’t scale the <code>&lt;img&gt;</code> as one might expect when using SVG. Let’s use this common pattern as an example:</p>
@@ -54,22 +52,18 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>media__body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">></span></span>Media object with SVG image.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">></span></span> … <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span></code></pre>
 <pre><code class="language-css"><span class="token selector">.media__image</span> <span class="token punctuation">{</span>
   <span class="token property">max-width</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>Testing with both SVG and PNG assets reveals a problem unique to IE (as of today, all SVG supporting versions; 9–11):</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2015/01/IE-svg-scaling.png" alt="IE SVG scaling"></p>
-
 <p>Usually, with responsive images, we can just set <code>max-width</code> in CSS and they will scale to fit (but no larger than the source). In IE this doesn’t work; the aspect ratio is not respected (screenshot above).</p>
 <p>We need to explicitly set a <code>width</code> on the image. In this case:</p>
 <pre><code class="language-css"><span class="token selector">.media__image</span> <span class="token punctuation">{</span>
   <span class="token property">width</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
   <span class="token property">max-width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <p>Or, we could explicitly set a global default and use a <code>max-width</code> on a parent element (requiring extra markup):</p>
 <pre><code class="language-css"><span class="token selector">img</span> <span class="token punctuation">{</span>
   <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
@@ -78,8 +72,7 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 
 <span class="token selector">.media__image</span> <span class="token punctuation">{</span>
   <span class="token property">max-width</span><span class="token punctuation">:</span> 20%<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<span class="token punctuation">}</span></code></pre>
 <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>media<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>media__image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>smile.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Smiley<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -87,18 +80,13 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>media__body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">></span></span>Media object with SVG image.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">></span></span> … <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span></code></pre>
 <p>The same idea applies when floating an image to allow text to wrap around:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2015/01/IE-svg-float.png" alt="IE SVG Float"></p>
-
-
-
 <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>prose<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>smile.svg<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>prose__image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">></span></span>Media object with SVG image.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">></span></span> … <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span>
-</code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span></code></pre>
 <p>Ideally all we need to use is <code>.prose__image { max-width: 20%; }</code> and the image will scale to these conditions:</p>
 <ul>
 <li>no wider than 20% of the parent element</li>

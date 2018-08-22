@@ -41,9 +41,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <li>Use <strong><code>position:absolute</code></strong> (top &amp; bottom) on all containing elements so that the document is never larger than the viewport, then re-implement scrolling on the main container with JavaScript and touch event listeners. This is <em>OK</em> — Google’s Ryan Fioravanti <a rel="noopener noreferrer" target="_blank" href="http://code.google.com/mobile/articles/webapp_fixed_ui.html">explains how</a> — but it does cause gotchas with form elements, and trying to re-implement the smooth, native scrolling of the iPhone seems silly.</li>
 </ol>
 <p>The lack of fixed positioning in Mobile Safari is a real headache for creating web apps. Matteo Spinelli — <em>the developer of <a rel="noopener noreferrer" target="_blank" href="http://cubiq.org/iscroll-4">iScroll</a></em> — knows this <a rel="noopener noreferrer" target="_blank" href="http://cubiq.org/ios5-the-first-true-web-app-ready-platform">all too well</a>. He envisions a future where most “native apps” are simply wrappers for responsive websites. A distinctly advantageous method:</p>
-<blockquote><p>Web apps are much more than position:fixed or webGL. You can update them on the fly, build your own business model on them, ask for a subscription fee, have your users pay for additional features, or make them completely free.</p></blockquote>
-
-
+<blockquote>
+<p>Web apps are much more than position:fixed or webGL. You can update them on the fly, build your own business model on them, ask for a subscription fee, have your users pay for additional features, or make them completely free.</p>
+</blockquote>
 <p>And most importantly, the same app or website can be made accessible on all web devices, just like a good website should. There are many disadvantages of course, but those are for another article :)</p>
 <h2 id="maintaining-legacy-support">Maintaining legacy support</h2>
 <p>Should we rejoice in the fact that iOS5 now supports <strong><code>position:fixed</code></strong>?</p>

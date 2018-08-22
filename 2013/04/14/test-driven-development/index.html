@@ -34,7 +34,6 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <body>
 <div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">Test Driven Development</h1><p class="b-post__date"><time class="time" dateTime="2013-04-14T19:36:37.000Z">Sunday <b>14 <abbr title="April">Apr</abbr> 2013</b></time></p><div class="b-post__body"><p>I’ve been hacking away at my side project <a href="/2013/04/07/macaque-a-new-project/">Macaque</a> today. It’s quickly becoming the world’s most over-engineered to-do app. At the moment it’s categorising primates:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/04/macaque-index.png" alt="macaque-index"></p>
-
 <p>Isn’t it beautiful?</p>
 <p>As you can see, my big ideas for Macaque focus on design but I am building it end-to-end. For the supporting back-end I’ve spent the weekend writing and testing an API. I could have thrown together a diabolical concoction of PHP and MySQL and been done with it. However, since I genuinely plan to use this app, I’ve opted for an ultra-trendy Node solution.</p>
 <h2 id="testing-an-api">Testing an API</h2>
@@ -50,11 +49,9 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
             <span class="token function">done</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>When I run all tests from the command line:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/04/macaque-mocha-tests.png" alt="Mocha tests"></p>
-
 <p>Pretty cool, right?</p>
 <p>This effort has already paid dividends when I came to refactor my API to make use of <a rel="noopener noreferrer" target="_blank" href="http://mongoosejs.com/">Mongoose</a> — a library that provides schema, data validation, and generally easier coding. I had to rewrite much of my code but running the tests again gave me instant confidence it was correct.</p>
 <h2 id="onwards">Onwards</h2>

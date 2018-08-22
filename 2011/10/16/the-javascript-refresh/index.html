@@ -37,16 +37,15 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>There’s a nice technique to avoid the annoying visual kick.</p>
 <h2 id="document-ready-">Document Ready?</h2>
 <p>The trick is understanding how JavaScript executes. For religious jQuery users like I’m forever living inside the <a rel="noopener noreferrer" target="_blank" href="http://api.jquery.com/ready/">document ready event</a>.</p>
-<blockquote><p>While JavaScript provides the load event for executing code when a page is rendered, this event does not get triggered until all assets such as images have been completely received. In most cases, the script can be run as soon as the DOM hierarchy has been fully constructed.</p></blockquote>
-
-
+<blockquote>
+<p>While JavaScript provides the load event for executing code when a page is rendered, this event does not get triggered until all assets such as images have been completely received. In most cases, the script can be run as soon as the DOM hierarchy has been fully constructed.</p>
+</blockquote>
 <p>This means that the whole DOM has loaded and is ready to be manipulated. Sadly for us it also means the web browser has likely rendered the page and all its default visual states. Seeing JavaScript force a re-render is not a nice effect.</p>
 <p>The solution? Add a <strong><code>.no-js</code></strong> class to your opening <code>html</code> element, then remove it as soon as possible with JavaScript. In your <code>head</code> write:</p>
 <pre><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript">
 docHTML <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementsByTagName</span><span class="token punctuation">(</span><span class="token string">'html'</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
 docHTML<span class="token punctuation">.</span>className <span class="token operator">=</span> docHTML<span class="token punctuation">.</span>className<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex">/\bno-js\b/</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">' js'</span><span class="token punctuation">;</span>
-</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
-</code></pre>
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
 <p>This replaces your hardcoded <strong><code>.no-js</code></strong> with a <strong><code>.js</code></strong> class immediately.</p>
 <p>Whether you choose to use write default CSS <em>for</em> JavaScript and use the <strong><code>.no-js</code></strong> class to override, or do it the other way around, you can now make sure the right CSS is going to be applied the first time, safe in the knowledge that DOM-ready scripts will soon kick in.</p>
 <p>What’s going on here — JavaScript in the <code>head</code> element? If you’re familiar with <a rel="noopener noreferrer" target="_blank" href="http://www.modernizr.com/">Modernizr</a> you’ll have seen this before as it uses a similar technique, that’s where I stole it from! See <a rel="noopener noreferrer" target="_blank" href="http://paulirish.com/2009/avoiding-the-fouc-v3/">Paul Irish’s</a> example from 2009.</p>

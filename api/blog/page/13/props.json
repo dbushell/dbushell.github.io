@@ -41,14 +41,14 @@
       "id": "re-jquery-animation-vs-css",
       "title": "Re: jQuery Animation vs CSS",
       "href": "/2013/01/15/re-jquery-animation-vs-css/",
-      "body": "In response to my Smashing Magazine article on implementing off-canvas navigation I received a great comment by Michael Benin:\n\nhttps://github.com/benbarnett/jQuery-Animate-Enhanced\nhttps://github.com/gnarf37/jquery-requestAnimationFrame\nDropping in these two plugins should achieve what is accomplished in this article using CSS, and furthermore will utilize RAF. It would be interesting for you to run the same tests against JS/jQuery with these jQuery plugins.\n\n\n\nI […]",
+      "body": "In response to my Smashing Magazine article on implementing off-canvas navigation I received a great comment by Michael Benin:\n\nhttps://github.com/benbarnett/jQuery-Animate-Enhanced\nhttps://github.com/gnarf37/jquery-requestAnimationFrame\nDropping in these two plugins should achieve what is accomplished in this article using CSS, and furthermore will utilize RAF. It would be interesting for you to run the same tests against JS/jQuery with these jQuery plugins.\n\nI […]",
       "date": 1358289461000
     },
     {
       "id": "as-seen-on-smashing-magazine",
       "title": "As Seen on Smashing Magazine",
       "href": "/2013/01/15/as-seen-on-smashing-magazine/",
-      "body": "\n\nYou may have caught my recent experiment — well I’ve gone and written a very thorough examination for Smashing Magazine. Read my latest article: “Implementing Off-Canvas Navigation For A Responsive Website”.\nI do enjoy writing for @smashingmag. They’re genuinely some of the nicest people ever to email me. As I leave London this year I plan […]",
+      "body": "\nYou may have caught my recent experiment — well I’ve gone and written a very thorough examination for Smashing Magazine. Read my latest article: “Implementing Off-Canvas Navigation For A Responsive Website”.\nI do enjoy writing for @smashingmag. They’re genuinely some of the nicest people ever to email me. As I leave London this year I plan […]",
       "date": 1358272214000
     }
   ],

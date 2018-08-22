@@ -13,7 +13,7 @@
       "id": "building-a-shopify-theme",
       "title": "Building a Shopify Theme",
       "href": "/2016/10/10/building-a-shopify-theme/",
-      "body": "Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.\n\n\nGetting started\nIf you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp; CSS […]",
+      "body": "Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.\n\nGetting started\nIf you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp; CSS […]",
       "date": 1476093600000
     },
     {
@@ -27,7 +27,7 @@
       "id": "building-a-wordpress-theme",
       "title": "Building a WordPress Theme",
       "href": "/2016/07/14/building-a-wordpress-theme/",
-      "body": "I was delighted when Base Creative asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.\n\n\nIn this review I’ll showcase a few of the defining techniques and challenges that made this […]",
+      "body": "I was delighted when Base Creative asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.\n\nIn this review I’ll showcase a few of the defining techniques and challenges that made this […]",
       "date": 1468490400000
     },
     {
@@ -41,7 +41,7 @@
       "id": "css-only-responsive-tables",
       "title": "CSS only Responsive Tables",
       "href": "/2016/03/04/css-only-responsive-tables/",
-      "body": "Four years ago I shared an idea to make tabular data responsive. Browser support was experimental and the workarounds were extremely hacky. I revisited the technique this week, cleaned it up, and I am pleased to say all modern browsers work perfectly.\nSee the full demo on CodePen\n\n\n\nHere’s what basic overflow looks like:\n\n\nAnd if you want […]",
+      "body": "Four years ago I shared an idea to make tabular data responsive. Browser support was experimental and the workarounds were extremely hacky. I revisited the technique this week, cleaned it up, and I am pleased to say all modern browsers work perfectly.\nSee the full demo on CodePen\n\n\n\nHere’s what basic overflow looks like:\n\nAnd if you want […]",
       "date": 1457085600000
     },
     {

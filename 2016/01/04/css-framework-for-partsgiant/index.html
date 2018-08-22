@@ -32,27 +32,22 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 </style>
 </head>
 <body>
-<div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">CSS Framework for PartsGiant</h1><div class="b-post__body"><p><strong> <a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> is a soon to launch e-commerce store based in Michigan, USA. </strong></p>
+<div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">CSS Framework for PartsGiant</h1><div class="b-post__body"><p><strong><a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> is a soon to launch e-commerce store based in Michigan, USA.</strong></p>
 <p>I was hired to build the <a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.</p>
 <p>I’ve always championed the idea of maintainable, future-proof coding practices. With this project I’d put my own ideas to the test by building upon work I’d done months before.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-designs.png" alt="PartsGiant Designs"></p>
-
 <h2 id="stage-1-responsive-website">Stage 1: Responsive Website</h2>
 <p>To kick off the project <a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> provided 15 template designs and an interactive wireframe mock-up of the website.</p>
 <p>I began by doing a ‘content’ or ‘component’ inventory. Basically, this means going through the design and itemising common elements and patterns. These can be coded once and reused across multiple templates (or used as a base for more advanced components).</p>
 <p>I started coding the typographic elements. This is usually a simple task but a vital ingredient. The client gave me freedom to adapt the designs to ensure consistency. I documented each component with HTML examples to show structure and CSS class names. I find a <a rel="noopener noreferrer" target="_blank" href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/">BEM</a>-like naming convention most usable.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-buttons.png" alt="Button component - PartsGiant CSS Framework"></p>
-
 <p>In the screenshots below you can see how the <em>Dropdown</em> component makes use of a <em>Button</em> (above). The basic <em>Dropdown</em> was inherited for more advanced versions like the cart preview. The <em>Dropdown</em> also exists as part of the <em>Search</em> component.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-dropdowns.png" alt="Dropdown component - PartsGiant CSS Framework"></p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-search.png" alt="Search component - PartsGiant CSS Framework"></p>
-
 <p>The primitive components like the <em>Button</em> allowed for rapid development of similar use cases:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-sorting.png" alt="Sorting component - PartsGiant CSS Framework"></p>
-
 <p>Products are listed across the <a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> website with varying amounts of content. I created one <em>Product</em> component whose children can be added or removed depending on use. The <em>Stars</em> and <em>Rating</em> sub-components were abstracted for use elsewhere.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-products.png" alt="Product component - PartsGiant CSS Framework"></p>
-
 <p>Whilst developing these components I documented them in a pattern library (or “front-end style guide” if you prefer that terminology).</p>
 <p>To complete the library I identified common layout patterns. With these I could quickly piece together each template and insert the required components. Very little additional CSS was required for individual templates. In these cases I created larger component groups rather than applying unique styles to the page.</p>
 <p>The result is a modular CSS framework with minimal repetition.</p>
@@ -60,14 +55,12 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <h2 id="stage-2-admin-interface">Stage 2: Admin Interface</h2>
 <p>Later in the year I was asked by <a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> to build their admin interface that would be used to manage products, customers, orders, and other content. Another 15 template wireframes were provided. The design shared the style of the main website so it made sense to built upon the CSS framework I’d already developed.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-admin.png" alt="PartsGiant Admin Design"></p>
-
 <p>I decided to keep the admin styles as a separate add-on, rather than integrating back into the main CSS to avoid unnecessary file size on the user-facing pages.</p>
 <p><strong>The final admin stylesheet was an additional 24KB</strong> (on top of the 147KB base).</p>
 <h2 id="stage-3-mobile-framework">Stage 3: Mobile Framework</h2>
 <p>Although I had developed the main website with a responsive and ’mobile-first’ approach it was decided that a dedicated mobile website would allow for a more tailored experience. This also gave us an opportunity to finely tune page speed and performance for smaller screens.</p>
 <p>Usually I prefer one responsive website but for e-commerce I can understand the benefits of the mobile website approach.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/portfolio/partsgiant-mobile.png" alt="PartsGiant Mobile Design"></p>
-
 <p>Like the first two stages <a rel="noopener noreferrer" target="_blank" href="http://www.partsgiant.com/">PartsGiant</a> sent me wireframes to build (around 20 this time). I branched of the main CSS framework and created a reduced version for mobile. Many of the smaller components are shared. Those not used on mobile were removed.</p>
 <p>I coded each component as a <a rel="noopener noreferrer" target="_blank" href="http://sass-lang.com/">Sass</a> include (in separate files) so nothing was duplicated. An update to the <em>Button</em> for example would update both the responsive and mobile frameworks.</p>
 <p><strong>The entire mobile CSS framework was only 54KB</strong>.</p>

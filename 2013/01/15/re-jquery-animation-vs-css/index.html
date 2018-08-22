@@ -34,20 +34,15 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <body>
 <div id="app"><main class="c-main"><div class="b-block"><div class="b-post"><h1 class="b-post__title">Re: jQuery Animation vs<span class="nbsp">&nbsp;</span>CSS</h1><p class="b-post__date"><time class="time" dateTime="2013-01-15T22:37:41.000Z">Tuesday <b>15 <abbr title="January">Jan</abbr> 2013</b></time></p><div class="b-post__body"><p>In response to my <strong>Smashing Magazine</strong> article on <a rel="noopener noreferrer" target="_blank" href="http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/">implementing off-canvas navigation</a> I received a great <a rel="noopener noreferrer" target="_blank" href="http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/#comment-628183">comment by Michael Benin</a>:</p>
 <blockquote>
-<p><a rel="noopener noreferrer" target="_blank" href="https://github.com/benbarnett/jQuery-Animate-Enhanced">https://github.com/benbarnett/jQuery-Animate-Enhanced</a>
-<a rel="noopener noreferrer" target="_blank" href="https://github.com/gnarf37/jquery-requestAnimationFrame">https://github.com/gnarf37/jquery-requestAnimationFrame</a></p>
+<p><a rel="noopener noreferrer" target="_blank" href="https://github.com/benbarnett/jQuery-Animate-Enhanced">https://github.com/benbarnett/jQuery-Animate-Enhanced</a></p>
+<p><a rel="noopener noreferrer" target="_blank" href="https://github.com/gnarf37/jquery-requestAnimationFrame">https://github.com/gnarf37/jquery-requestAnimationFrame</a></p>
 <p>Dropping in these two plugins should achieve what is accomplished in this article using CSS, and furthermore will utilize RAF. It would be interesting for you to run the same tests against JS/jQuery with these jQuery plugins.</p>
 </blockquote>
-
-
 <p>I agreed that these plugins would speed up my <a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/step3-jquery.html">jQuery demo</a> but they would never overtake the speed of my <a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/step4.html">CSS demo</a> — and that’s ignoring the extra overhead and complexity.</p>
 <p>The proof is in testing so let’s see both in action:</p>
 <h2 id="jquery-animate-enhanced">jQuery Animate Enhanced</h2>
 <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/benbarnett/jQuery-Animate-Enhanced">jquery.animate-enhanced</a> detects CSS transitions and automatically converts your jQuery animation. Basically in theory it’s an invisible plug-and-play deal; a quick win. In practice the animation performance is obviously improved, but there are a few issues:</p>
-<p class="b-post__image"><a href="/images/2013/01/jquery-enhanced-html.png"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/jquery-enhanced-html.png" alt="jQuery Enhanced DOM"></a></p>
-
-
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/jquery-enhanced-html.png" alt="jQuery Enhanced DOM"></p>
 <ol>
 <li>Like my <a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/step3-jquery.html">jQuery demo</a> inline styles are left over in the DOM.</li>
 <li>Likewise, styles are defined within a JavaScript file away from our main CSS.</li>
@@ -57,30 +52,18 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p><strong><a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/extras/step3-jquery-enhanced.html">jQuery Enhanced Demo</a></strong></p>
 <p>Issues aside, this plugin basically achieves something close to my final demo (and in fairness, the last two issues could be fixed). However, for the price of jQuery and a plugin — and the first two issues — it’s ultimately needless complexity. Do consider this plugin though if you want to retro-fit existing builds.</p>
 <h3 id="jquery-enhanced-timeline">jQuery Enhanced timeline</h3>
-<p class="b-post__image"><a href="/images/2013/01/extras-jquery-enhanced.png"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-jquery-enhanced.png" alt="jQuery Enhanced demo timeline"></a></p>
-
-
-
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-jquery-enhanced.png" alt="jQuery Enhanced demo timeline"></p>
 <h3 id="timeline-for-my-final-demo">timeline for my final demo</h3>
-<p class="b-post__image"><a href="/images/2013/01/extras-css.png"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-css.png" alt="CSS timeline"></a></p>
-
-
-
-
+<p>[<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-css.png" alt="CSS timeline"></p>
+</p>
 <h2 id="jquery-requestanimationframe">jQuery requestAnimationFrame</h2>
 <p>jQuery animation uses a sequence of timeouts to trigger each frame. These timeouts are completely ignorant of the browser’s ability to actually render changes in a timely manner. Modern browsers implement <a rel="noopener noreferrer" target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM/window.requestAnimationFrame">requestAnimationFrame</a> which is far more intelligent.</p>
 <p><strong><a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/extras/step3-jquery-animation-frame.html">jQuery requestAnimationFrame Demo</a></strong></p>
 <p>Testing this on my Galaxy Nexus shows no noticeable improvement over the basic <a rel="noopener noreferrer" target="_blank" href="http://dbushell.github.com/Responsive-Off-Canvas-Menu/step3-jquery.html">jQuery demo</a>. Animation is still very slow and stuttering.</p>
 <h3 id="jquery-animate-timeline">jQuery animate timeline</h3>
-<p class="b-post__image"><a href="/images/2013/01/extras-jquery.png"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-jquery.png" alt="jQuery animate timeline"></a></p>
-
-
-
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-jquery.png" alt="jQuery animate timeline"></p>
 <h3 id="jquery-requestanimationframe-timeline">jQuery requestAnimationFrame timeline</h3>
-<p class="b-post__image"><a href="/images/2013/01/extras-jquery-animation-frame.png"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-jquery-animation-frame.png" alt="jQuery requestAnimationFrame demo timeline"></a></p>
-
+<p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/01/extras-jquery-animation-frame.png" alt="jQuery requestAnimationFrame demo timeline"></p>
 <p>The problem is that regardless of the benefits of requestAnimationFrame, we’re still iterating rapidly over an inline style property and the browser just isn’t fast enough to calculate the reflow. At the end of the day, you really don’t want to be manipulation DOM elements at such speed. requestAnimationFrame is very useful for the likes of canvas animation, but not here.</p>
 <h2 id="final-thoughts">Final Thoughts</h2>
 <p>In case you’re wondering, we can’t combine <em>both</em> plugins because as soon as CSS transitions are used there is no frame management done by JavaScript.</p>

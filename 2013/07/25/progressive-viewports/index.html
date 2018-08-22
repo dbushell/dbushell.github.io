@@ -42,7 +42,6 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 </ol>
 <p>The illustration below shows the <strong>viewport</strong> (parent) and the <strong>wrapper</strong> (child) outlined with <em>red</em> and <em>black</em> borders respectively:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/07/viewport.svg" alt="viewport layout"></p>
-
 <p>You can see the <strong>wrapper</strong> is bigger than the <strong>viewport</strong> that masks it. This allows us to hide parts of the interface (like the menu in this example).</p>
 <p>To size elements correctly make the <strong>wrapper</strong> width a percentage of the <strong>viewport</strong> — e.g. <code>150%</code> — then use relative percentages to size child elements —  e.g. <code>33.333%</code> for the menu and <code>66.666%</code> for the main content. Effectively the menu is now 50% of the <strong>viewport</strong> and we can position the <strong>wrapper</strong> <code>left: -50%;</code> to hide it off-canvas — its default resting state.</p>
 <h2 id="state-interaction">State interaction</h2>
@@ -53,18 +52,15 @@ article,aside,footer,header,nav,section{display:block}figcaption,figure,main{dis
 <p>With responsive design we can adjust the size of the content inside the <strong>wrapper</strong> and even ignore the state class at certain breakpoints.</p>
 <p>The illustration below is similar to my website — it shows the menu taking full width of the <strong>viewport</strong> on a mobile screen and positioned always-visible on a desktop screen:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/07/off-canvas-breakpoints.svg" alt="off-canvas navigation breakpoints"></p>
-
 <p>In my demo I use absolute positioning for the menu but you could use flexbox or floats &amp; clearfix to ensure the <strong>wrapper</strong> gets height. How you position content inside the <strong>wrapper</strong> is very dependant on your design.</p>
 <h2 id="accessible-fallbacks">Accessible fallbacks</h2>
 <p>If CSS transitions are not supported use progressive enhancement so that a basic accessible state always exists. For off-canvas navigation I use the <a rel="noopener noreferrer" target="_blank" href="http://adactio.com/journal/6338/">footer-anchor pattern</a> Jeremy Keith writes about. By default the contents of our <strong>wrapper</strong> element are arranged like so:</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/07/off-canvas-fallback.svg" alt="off-canvas footer-anchor fallback"></p>
-
 <p>Only after feature detection should we arrange the elements outside of the viewport (or however we decide to style each state).</p>
 <h2 id="nesting-viewports">Nesting viewports</h2>
 <p>With this off-canvas navigation example we’re using the entire browser window as the <strong>viewport</strong> but there’s no reason we can’t use a smaller element within the page.</p>
 <p>In the illustration below we can see a typical list view. The <strong>outer-viewport</strong> represents the mobile browser window that naturally hides overflow. The <strong>inner-viewport</strong> represents a single list item with hidden controls to the right. These could be swiped into view.</p>
 <p class="b-post__image"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" data-lazy="false" data-src="/images/2013/07/nested-viewport.svg" alt="nested viewport"></p>
-
 <p>Prior to progressive enhancement kicking in, the hidden controls would sit visible within the list item. Not the best use of space but accessible as a worse case scenario. Or perhaps they could be hidden entirely if non-critical? Or replaced with an “edit” link  that provides functionality on a separate page. Whatever fallback exists is really a question of design and user experience so I can’t say for sure what’s appropriate.</p>
 <h2 id="progressive-viewports">Progressive viewports</h2>
 <p>Hopefully you can see this pattern of <strong>viewport</strong> and content <strong>wrapper</strong> can be used to create a wide variety of interactive interfaces at all sizes. I strongly advice using CSS to transition states otherwise frame rate barely exists in mobile browsers (yes, even Safari).</p>
