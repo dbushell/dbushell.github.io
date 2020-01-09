@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "dependency-overload",
+      "title": "Dependency Overload",
+      "href": "/2014/06/10/dependency-overload/",
+      "body": "I employ an army of command line tools to aid my front-end development.\nTruth be told it’s a bit of an addiction. I’m constantly adding more tools that allow me to do less work. Am I in danger of overloading, of creating a system so convoluted that it evolves into a hindrance and defeats the point of its […]",
+      "date": 1402408825000
+    },
+    {
       "id": "work-as-a-freelancer",
       "title": "Work as a Freelancer",
       "href": "/2014/06/02/work-as-a-freelancer/",
@@ -13,43 +20,36 @@
       "id": "web-fonts-and-progressive-enhancements",
       "title": "Web Fonts & Enhancements",
       "href": "/2014/05/13/web-fonts-and-progressive-enhancements/",
-      "body": "Yesterday I found myself thoroughly impressed with Laura Kalbag’s effort to ensure the Indie Tech Summit website remains well designed.\n\nIn the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of progressive enhancement.\nHad web fonts failed to load I wouldn’t have known otherwise. Of […]",
+      "body": "Yesterday I found myself thoroughly impressed with Laura Kalbag’s effort to ensure the Indie Tech Summit website remains well designed.\n\nIn the screenshot above you can see the page design before and after web fonts have loaded. This is a superb example of progressive enhancement.\nHad web fonts failed to load I wouldn’t have known otherwise. Of course, in comparison the preferred design look […]",
       "date": 1399976189000
     },
     {
       "id": "responsive-design-for-uwe-wittwer",
       "title": "Responsive Design for Uwe Wittwer",
       "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
-      "body": "\nDavid immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.\nKevin Mueller, Studio Manager for Uwe Wittwer\n\n\nAtelier Uwe Wittwer came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I […]",
+      "body": "\nDavid immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.\nKevin Mueller, Studio Manager for Uwe Wittwer\n\n\nAtelier Uwe Wittwer came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I was […]",
       "date": 1399472897000
     },
     {
       "id": "two-week-build",
       "title": "Two Week Build",
       "href": "/2014/04/24/two-week-build/",
-      "body": "From concept to launch the new version of my website clocked just over two weeks of development time. This article documents assorted aspects of that process.\nInitial Concept\n\nWhat you see above is the extent of my ’shopping for the new design. I probably wasted more time setting up those ridiculous guides than I did mocking up […]",
+      "body": "From concept to launch the new version of my website clocked just over two weeks of development time. This article documents assorted aspects of that process.\nInitial Concept\n\nWhat you see above is the extent of my ’shopping for the new design. I probably wasted more time setting up those ridiculous guides than I did mocking up the visual concept. Still, for an […]",
       "date": 1398332871000
     },
     {
       "id": "spring-refresh",
       "title": "Spring Refresh",
       "href": "/2014/04/21/spring-refresh/",
-      "body": "Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since I started freelancing.\n\nNo More Logo\nI’ve ditched my logo. It was large and a little out-dated. I work independently, my name and […]",
+      "body": "Spring means several things to me: Easter, the conclusion of the football league, and the annual tradition of refreshing my personal website design. This year is more pertinent than usual being one year since I started freelancing.\n\nNo More Logo\nI’ve ditched my logo. It was large and a little out-dated. I work independently, my name and face are my brand alongside my design aesthetic, […]",
       "date": 1398087058000
     },
     {
       "id": "gulp-first-impressions",
       "title": "Gulp: First Impressions",
       "href": "/2014/04/04/gulp-first-impressions/",
-      "body": "Grunt has long been my command line companion of choice. It has served me well. I have no complaints but I’ve read many obituaries so this week I sat down to test Gulp, its supposed successor. These are my first impressions.\nMy use case is very particular, see related articles:\n\nAutomation\nThe Flat Build\nThe Flat Build (2)\nOrigin\nUpdates to […]",
+      "body": "Grunt has long been my command line companion of choice. It has served me well. I have no complaints but I’ve read many obituaries so this week I sat down to test Gulp, its supposed successor. These are my first impressions.\nMy use case is very particular, see related articles:\n\nAutomation\nThe Flat Build\nThe Flat Build (2)\nOrigin\nUpdates to Origin\n\nGulp […]",
       "date": 1396607442000
-    },
-    {
-      "id": "tales-update-spanish-translation",
-      "title": "Tales update: Spanish Translation",
-      "href": "/2014/03/31/tales-update-spanish-translation/",
-      "body": "v1.1 of my Tales WordPress theme includes a new Spanish translation.\nMany thanks to Mike Walsh for contributing the translation and adapting my theme for his own website Imaginalgo — looks great!\n\nSee my blog post “Introducing Tales” for more information about the theme.\n",
-      "date": 1396257055000
     }
   ],
   "nextPage": "/blog/page/8/",

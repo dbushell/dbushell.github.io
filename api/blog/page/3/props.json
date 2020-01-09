@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "resolving-javascript-promises-sequentially-without-nesting",
+      "title": "Working with Promises",
+      "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
+      "body": "JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.\nLet’s say you have several functions that return a promise:\nfunction act1() {\n  return new Promise((resolve, reject) => {\n    // do something that might reject...\n    resolve();\n  });\n}\nIt’s easy […]",
+      "date": 1481882400000
+    },
+    {
       "id": "my-thoughts-on-react",
       "title": "My thoughts on React",
       "href": "/2016/12/02/my-thoughts-on-react/",
@@ -43,13 +50,6 @@
       "href": "/2016/03/04/css-only-responsive-tables/",
       "body": "Four years ago I shared an idea to make tabular data responsive. Browser support was experimental and the workarounds were extremely hacky. I revisited the technique this week, cleaned it up, and I am pleased to say all modern browsers work perfectly.\nSee the full demo on CodePen\n\n\n\nHere’s what basic overflow looks like:\n\nAnd if you want […]",
       "date": 1457085600000
-    },
-    {
-      "id": "be-careful-with-your-viewbox",
-      "title": "Be careful with your viewBox",
-      "href": "/2016/03/01/be-careful-with-your-viewbox/",
-      "body": "In Sara Soueidan’s article: SVG Style Inheritance and the ‘Flash of Unstyled SVG’, Sara explains the importance of having width, height, and viewBox attributes on SVG elements. This reminded me of two issues I ran into last week building my new design.\nI have an SVG sprite for social icons:\n\n  \n  .svg-icon  { […]",
-      "date": 1456826400000
     }
   ],
   "nextPage": "/blog/page/4/",

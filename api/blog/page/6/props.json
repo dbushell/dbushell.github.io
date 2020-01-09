@@ -3,53 +3,53 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "i-dont-do-angular-is-that-ok",
+      "title": "I don’t do Angular, is that OK?",
+      "href": "/2015/02/04/i-dont-do-angular-is-that-ok/",
+      "body": "I’ve never been one to care for job titles. One or two words can’t adequately explain the extent of our roles. I try to avoid giving myself a strict title on this website.\nOn my homepage:\n\n“I design, build &amp; write all things web”\n\nThen I list:\n\nResponsive Design\nFront-end Development\nProcess &amp; Strategy\n\nThese pages are a delicate balance of an intelligent, […]",
+      "date": 1423057945000
+    },
+    {
       "id": "use-svg-part-2",
       "title": "Use SVG (part 2)",
       "href": "/2015/01/30/use-svg-part-2/",
-      "body": "On Monday I wrote about using SVG for content images. Aside from minor workarounds for a peculiar Internet Explorer bug, it’s a relatively straight forward task.\nI was planning to follow up with a technical overview of SVG sprites, but really, I can’t write anything better than Sara Soueidan’s comprehensive guide: “An Overview of SVG Sprite […]",
+      "body": "On Monday I wrote about using SVG for content images. Aside from minor workarounds for a peculiar Internet Explorer bug, it’s a relatively straight forward task.\nI was planning to follow up with a technical overview of SVG sprites, but really, I can’t write anything better than Sara Soueidan’s comprehensive guide: “An Overview of SVG Sprite Creation Techniques”.\nRead that […]",
       "date": 1422612058000
     },
     {
       "id": "use-svg-part-1",
       "title": "Use SVG (part 1)",
       "href": "/2015/01/26/use-svg-part-1/",
-      "body": "As you know I’m a big fan of using SVG whenever possible.\nSee my articles ‘Resolution Independence With SVG’ (Jan 2012) and ‘A Primer to Front-end SVG Hacking’ (Feb 2013) for a retrospective.\nI’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how […]",
+      "body": "As you know I’m a big fan of using SVG whenever possible.\nSee my articles ‘Resolution Independence With SVG’ (Jan 2012) and ‘A Primer to Front-end SVG Hacking’ (Feb 2013) for a retrospective.\nI’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how you look at […]",
       "date": 1422279504000
     },
     {
       "id": "happy-new-year-2",
       "title": "Happy New Year!",
       "href": "/2015/01/12/happy-new-year-2/",
-      "body": "I’m back in the office and feeling positive about this year’s work.\nGive me a shout if you require my web design / front-end skills. I’ve been thinking long and hard about the type of work I’d like to take on, and really, I find a variety most rewarding. It’s nice to alternate between design and […]",
+      "body": "I’m back in the office and feeling positive about this year’s work.\nGive me a shout if you require my web design / front-end skills. I’ve been thinking long and hard about the type of work I’d like to take on, and really, I find a variety most rewarding. It’s nice to alternate between design and dev.\nFor the […]",
       "date": 1421064732000
     },
     {
       "id": "whats-up",
       "title": "What’s up?",
       "href": "/2014/11/24/whats-up/",
-      "body": "Before I ramble on, a quick note to say I’m taking a break over December. Once I’ve completed active projects I’ll be offline for the most part! That means no emails. I’m not a fan of “out of office” auto responders, so please don’t be offended if you don’t receive a reply until January. At […]",
+      "body": "Before I ramble on, a quick note to say I’m taking a break over December. Once I’ve completed active projects I’ll be offline for the most part! That means no emails. I’m not a fan of “out of office” auto responders, so please don’t be offended if you don’t receive a reply until January. At which time […]",
       "date": 1416844586000
     },
     {
       "id": "how-i-built-a-static-site-generator",
       "title": "How I built a Static Site Generator",
       "href": "/2014/07/09/how-i-built-a-static-site-generator/",
-      "body": "I used to build websites with nothing but a text editor.\nNow I have an army of tools at my finger tips. When I began to establish my Grunt tasks I wanted something basic for HTML. My biggest gripe was repetition. The simple concept of “includes” was all I wanted.\nAt the time static site generators and […]",
+      "body": "I used to build websites with nothing but a text editor.\nNow I have an army of tools at my finger tips. When I began to establish my Grunt tasks I wanted something basic for HTML. My biggest gripe was repetition. The simple concept of “includes” was all I wanted.\nAt the time static site generators and templating scared me (still does, in fact). […]",
       "date": 1404907422000
     },
     {
       "id": "elbows-and-office-chairs",
       "title": "Elbows and Office Chairs",
       "href": "/2014/06/18/elbows-and-office-chairs/",
-      "body": "It’s funny what you get used to.\nI migrated from an iPhone to a larger Android device many years back. Nowadays, squinting at a smaller mobile screen makes me feel a bit dizzy.\nWhen I started freelancing last year I moved in the opposite direction. At my old workplace I dual-wielded 24” monitors. Since then I’ve adapted […]",
+      "body": "It’s funny what you get used to.\nI migrated from an iPhone to a larger Android device many years back. Nowadays, squinting at a smaller mobile screen makes me feel a bit dizzy.\nWhen I started freelancing last year I moved in the opposite direction. At my old workplace I dual-wielded 24” monitors. Since then I’ve adapted to a single 13” MacBook […]",
       "date": 1403080210000
-    },
-    {
-      "id": "dependency-overload",
-      "title": "Dependency Overload",
-      "href": "/2014/06/10/dependency-overload/",
-      "body": "I employ an army of command line tools to aid my front-end development.\nTruth be told it’s a bit of an addiction. I’m constantly adding more tools that allow me to do less work. Am I in danger of overloading, of creating a system so convoluted that it evolves into a hindrance and defeats the point […]",
-      "date": 1402408825000
     }
   ],
   "nextPage": "/blog/page/7/",

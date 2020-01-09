@@ -3,31 +3,38 @@
   "pageHeading": "Blog (page 28)",
   "excerpts": [
     {
+      "id": "three-months-in",
+      "title": "Three Months In",
+      "href": "/2011/03/28/three-months-in/",
+      "body": "I find it hard to believe we’re already (ok, almost) in April.\n2011 in web design for me has kicked off with a BOOM! If I do say so myself. I’m no longer interested in just designing websites for clients and clients’ clients. I’m doing all that, and I’m pushing it further; looking for opportunities to use […]",
+      "date": 1301343043000
+    },
+    {
       "id": "designing-mylifelisted",
       "title": "Designing MyLifeListed",
       "href": "/2011/03/14/designing-mylifelisted/",
-      "body": "Today I’m excited to see MyLifeListed launch!\nWe’ve been very busy at Base Creative designing &amp; developing the site. We’re glad to be part of such an exciting project. See for yourself:\n\n\nI’m going to write a more in-depth article on the design process of MyLifeListed but since this is probably my favourite design project to date, […]",
+      "body": "Today I’m excited to see MyLifeListed launch!\nWe’ve been very busy at Base Creative designing &amp; developing the site. We’re glad to be part of such an exciting project. See for yourself:\n\n\nI’m going to write a more in-depth article on the design process of MyLifeListed but since this is probably my favourite design project to date, here’s a […]",
       "date": 1300139030000
     },
     {
       "id": "what-does-design-mean-to-you",
       "title": "What does Design mean to you?",
       "href": "/2011/03/13/what-does-design-mean-to-you/",
-      "body": "I write a lot about my experiences as a professional Web Designer. Writing helps shape my understanding. Sometimes I’ll start writing on a topic only to realise I know less than I thought I did.\nWhat fascinates me more though is reading what other designers have to say. For that reason I’m planning to launch a […]",
+      "body": "I write a lot about my experiences as a professional Web Designer. Writing helps shape my understanding. Sometimes I’ll start writing on a topic only to realise I know less than I thought I did.\nWhat fascinates me more though is reading what other designers have to say. For that reason I’m planning to launch a new blog […]",
       "date": 1300027027000
     },
     {
       "id": "inspire-me-now",
       "title": "Inspire me now!",
       "href": "/2011/03/09/inspire-me-now/",
-      "body": "There are many things that inspire me – some I’d be embarrassed to admit! – but a combination of graphics, typography and a great quotation is certain to be a winner.\nI’ve never really been a quote type of person though, because my memory isn’t geared to remembering that sort of stuff.  I even set […]",
+      "body": "There are many things that inspire me – some I’d be embarrassed to admit! – but a combination of graphics, typography and a great quotation is certain to be a winner.\nI’ve never really been a quote type of person though, because my memory isn’t geared to remembering that sort of stuff.  I even set up a […]",
       "date": 1299674997000
     },
     {
       "id": "in-search-of-the-perfect-captcha",
       "title": "In Search of the Perfect CAPTCHA",
       "href": "/2011/03/04/in-search-of-the-perfect-captcha/",
-      "body": "I’ve been on quite the journey over the last few weeks…\n…searching for the perfect CAPTCHA!\nYou can read my findings over at Smashing Magazine – big thanks to the team for their support and guidance in writing this article – I’m still immensly honoured! It’s also been quite an eye-opener to the issues of accessibility. That’s […]",
+      "body": "I’ve been on quite the journey over the last few weeks…\n…searching for the perfect CAPTCHA!\nYou can read my findings over at Smashing Magazine – big thanks to the team for their support and guidance in writing this article – I’m still immensly honoured! It’s also been quite an eye-opener to the issues of accessibility. That’s something I’m […]",
       "date": 1299243520000
     },
     {
@@ -41,15 +48,8 @@
       "id": "website-design-without-lorem-ipsum",
       "title": "Design without Lorem Ipsum",
       "href": "/2011/02/17/website-design-without-lorem-ipsum/",
-      "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of Pi, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from […]",
+      "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of Pi, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from 2009, […]",
       "date": 1297947201000
-    },
-    {
-      "id": "gday-mate",
-      "title": "G’Day Mate!",
-      "href": "/2011/02/10/gday-mate/",
-      "body": "A wonderful package arrived on my desk this morning!\nIt contained the CSS Awwwards book from The CSS Awards* honouring the best CSS Websites of 2010 - that’s a lot of CSS!\nI’m Mr July 9. It makes me happy but humbled, especially sat next to The Mid-Century Modernist - a site far more worthy of such […]",
-      "date": 1297342166000
     }
   ],
   "nextPage": "/blog/page/29/",

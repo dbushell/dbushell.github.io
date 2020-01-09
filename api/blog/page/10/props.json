@@ -3,31 +3,38 @@
   "pageHeading": "Blog (page 10)",
   "excerpts": [
     {
+      "id": "open-responsibility",
+      "title": "Open Responsibility",
+      "href": "/2013/07/08/open-responsibility/",
+      "body": "I like to be very “open”. I write about my ideas and experiences and I share code projects on GitHub. There are many reasons for this. High on that list are the improvements I gain as a professional in this industry.\nSharing Code\nSome of my projects like Pikaday are very mature. I’m keen to see them adopted and still have […]",
+      "date": 1373281933000
+    },
+    {
       "id": "automated-accessibility-colour-contrast",
       "title": "Automated Accessibility: Colour Contrast",
       "href": "/2013/06/24/automated-accessibility-colour-contrast/",
-      "body": "In my quest to automate my entire job I’ve moved into the realms of testing and accessibility checks. The W3C guidelines on accessibility contain a wealth of advice. Much of it would appear to be common sense. It should be a cornerstone of web design but unfortunately it’s often ignored with the focus on surface […]",
+      "body": "In my quest to automate my entire job I’ve moved into the realms of testing and accessibility checks. The W3C guidelines on accessibility contain a wealth of advice. Much of it would appear to be common sense. It should be a cornerstone of web design but unfortunately it’s often ignored with the focus on surface aesthetic and […]",
       "date": 1372089389000
     },
     {
       "id": "update-from-june-3rd",
       "title": "Update from June 3rd",
       "href": "/2013/06/20/update-from-june-3rd/",
-      "body": "I received a shout-out in the “hot drama” section of Shop Talk Show (E073) — bucket list checked, I love those guys — however my point was somewhat missed I feel.\nOn June 3rd I wrote an article entitled The Raster Image Paradox which prompted a response from Tim Kadlec on Why We Need Responsive Images […]",
+      "body": "I received a shout-out in the “hot drama” section of Shop Talk Show (E073) — bucket list checked, I love those guys — however my point was somewhat missed I feel.\nOn June 3rd I wrote an article entitled The Raster Image Paradox which prompted a response from Tim Kadlec on Why We Need Responsive Images — which I agree with […]",
       "date": 1371715773000
     },
     {
       "id": "updates-to-origin",
       "title": "Updates to Origin",
       "href": "/2013/06/10/updates-to-origin/",
-      "body": "Back in April I published my front-end starting point on GitHub. It includes basic HTML &amp; CSS and many Grunt tasks to automate compilation, minification, optimisation, and rasterisation.\nWhat’s new\nMy custom SVG rasterisation task was poorly written. It brought my laptop to a standstill while churning through as many phantom.js processes as there were SVG files. […]",
+      "body": "Back in April I published my front-end starting point on GitHub. It includes basic HTML &amp; CSS and many Grunt tasks to automate compilation, minification, optimisation, and rasterisation.\nWhat’s new\nMy custom SVG rasterisation task was poorly written. It brought my laptop to a standstill while churning through as many phantom.js processes as there were SVG files. I’ve […]",
       "date": 1370870989000
     },
     {
       "id": "the-raster-image-paradox",
       "title": "The Raster Image Paradox",
       "href": "/2013/06/03/the-raster-image-paradox/",
-      "body": "The recent Clown Car Technique is a clever use of SVG but as with all “adaptive image” solutions for responsive web design it’s not something I’d be comfortable using.\nOne image to rule them all\nWhen I build web pages I generally come to the conclusion that using a single image is a sensible bet. Nothing fancy, […]",
+      "body": "The recent Clown Car Technique is a clever use of SVG but as with all “adaptive image” solutions for responsive web design it’s not something I’d be comfortable using.\nOne image to rule them all\nWhen I build web pages I generally come to the conclusion that using a single image is a sensible bet. Nothing fancy, just a […]",
       "date": 1370274214000
     },
     {
@@ -41,15 +48,8 @@
       "id": "freelance-life",
       "title": "Freelance Life",
       "href": "/2013/05/09/freelance-life/",
-      "body": "May is my 4th month working self-employed. When I set out in February I didn’t have many goals other than to escape London and enjoy things a lot more.\nHalf Marathon\nAt the end of May I’m attempting the Edinburgh half marathon — 21 kilometres of pain! For whatever reason I was fed up last August and […]",
+      "body": "May is my 4th month working self-employed. When I set out in February I didn’t have many goals other than to escape London and enjoy things a lot more.\nHalf Marathon\nAt the end of May I’m attempting the Edinburgh half marathon — 21 kilometres of pain! For whatever reason I was fed up last August and figured […]",
       "date": 1368098492000
-    },
-    {
-      "id": "origin",
-      "title": "Origin",
-      "href": "/2013/04/30/origin/",
-      "body": "I’ve written loads about my flat build process, automation, browser support — in fact, if you follow me on Twitter you’ll know I can’t shut up about the Web. What I’ve been lacking is a canonical resource for my work beyond theoretical writing and live production examples. Despite web standards being open they aren’t always […]",
-      "date": 1367334428000
     }
   ],
   "nextPage": "/blog/page/11/",

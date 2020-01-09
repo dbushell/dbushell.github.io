@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 17 Aug 2018 09:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 11:21:20 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Blogging in 2020]]></title>
+  <description><![CDATA[<p>Hey, I went a whole year without blogging!
+I guess the streak is officially over. The lack of content here has weighed on me heavily considering how integral this blog has been to my career. Really, it was my true portfolio. It demonstrated much more than the glossy screenshots on other pages ever did. And now […]</p>]]></description>
+  <link>https://dbushell.com/2020/01/10/blogging-in-2020/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/01/10/blogging-in-2020/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 10 Jan 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Availability - September 2018]]></title>
   <description><![CDATA[<p>Hi there!
@@ -215,21 +224,6 @@ The only real downside of plentiful client work is the lack of time for my own p
   <guid isPermaLink="true">https://dbushell.com/2016/07/12/new-origins/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Tue, 12 Jul 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[CSS only Responsive Tables]]></title>
-  <description><![CDATA[<p>Four years ago I shared an idea to make tabular data responsive. Browser support was experimental and the workarounds were extremely hacky. I revisited the technique this week, cleaned it up, and I am pleased to say all modern browsers work perfectly.
-See the full demo on CodePen
-
-
-
-Here’s what basic overflow looks like:
-
-And if you want […]</p>]]></description>
-  <link>https://dbushell.com/2016/03/04/css-only-responsive-tables/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/03/04/css-only-responsive-tables/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Fri, 04 Mar 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

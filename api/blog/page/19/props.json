@@ -3,53 +3,53 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "notes-from-user-testing",
+      "title": "Notes From User Testing",
+      "href": "/2012/04/30/notes-from-user-testing/",
+      "body": "Last week Browser hosted a UAT session for our latest website development (launching soon!)\nMost website designs — or any design for that matter — do not go through this sort of testing but it’s well worth the effort when done right. It’s exciting and a bit scary to be sat there with your clients while […]",
+      "date": 1335770434000
+    },
+    {
       "id": "modularity-and-style-guides",
       "title": "Modularity and Style Guides",
       "href": "/2012/04/23/modularity-and-style-guides/",
-      "body": "Last week I wrote about scoping typographic styles to introduce the concept of modularity in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a .text class to be applied to any block of text-based content. This technique gives us […]",
+      "body": "Last week I wrote about scoping typographic styles to introduce the concept of modularity in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a .text class to be applied to any block of text-based content. This technique gives us more control […]",
       "date": 1335174328000
     },
     {
       "id": "scoping-typography-css",
       "title": "Scoping Typography CSS",
       "href": "/2012/04/18/scoping-typography-css/",
-      "body": "I’m writing a very long article on front-end dev builds, this is a quick prelude to that!\nIt’s common practice to define global typography style early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, type selectors like:\nh1 { […]",
+      "body": "I’m writing a very long article on front-end dev builds, this is a quick prelude to that!\nIt’s common practice to define global typography style early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, type selectors like:\nh1 { font-weight: bold; }\np { […]",
       "date": 1334748564000
     },
     {
       "id": "terms-of-service-tldr",
       "title": "Terms of Service TL;DR",
       "href": "/2012/04/15/terms-of-service-tldr/",
-      "body": "This week saw an echo of praise around the tech community for photography website 500px’s approach to its Terms of Service page.\nThe basic idea being that the left column contains the verbose legal terms while the right column holds a brief layman’s translation. What I find worry is the vast number of web professionals who […]",
+      "body": "This week saw an echo of praise around the tech community for photography website 500px’s approach to its Terms of Service page.\nThe basic idea being that the left column contains the verbose legal terms while the right column holds a brief layman’s translation. What I find worry is the vast number of web professionals who think this is a […]",
       "date": 1334488626000
     },
     {
       "id": "spotify-play-button-and-socialite-js",
       "title": "Spotify & Socialite.js",
       "href": "/2012/04/11/spotify-play-button-and-socialite-js/",
-      "body": "Spotify have just released their Spotify Play Button allowing you to embed any song or playlist on your website or blog. It’s awesome, but it also comes at a cost.\nThe whole include (which uses an iframe) weights in at close to 500kb and uses upwards of 30 http requests alone. Chunky! Chunkier than many web […]",
+      "body": "Spotify have just released their Spotify Play Button allowing you to embed any song or playlist on your website or blog. It’s awesome, but it also comes at a cost.\nThe whole include (which uses an iframe) weights in at close to 500kb and uses upwards of 30 http requests alone. Chunky! Chunkier than many web pages.\nUsing this embedded play button […]",
       "date": 1334150615000
     },
     {
       "id": "svg-use-it-already",
       "title": "SVG, Use it Already",
       "href": "/2012/04/03/svg-use-it-already/",
-      "body": "Here’s the deal: there’s no reasonable excuse to avoid using SVG for vector graphics on the Web (with a PNG fallback, primarily for IE &lt; 9 and older Android).\nWhile there are legitimate design problems when using one single file with icons at multiple sizes, this is not unique to SVG and in the land of […]",
+      "body": "Here’s the deal: there’s no reasonable excuse to avoid using SVG for vector graphics on the Web (with a PNG fallback, primarily for IE &lt; 9 and older Android).\nWhile there are legitimate design problems when using one single file with icons at multiple sizes, this is not unique to SVG and in the land of — for all […]",
       "date": 1333458611000
     },
     {
       "id": "dropping-ie-support",
       "title": "Dropping IE Support",
       "href": "/2012/04/02/dropping-ie-support/",
-      "body": "Yesterday TechCrunch reported on the start-up 4ormat and their decision to drop support for Internet Explorer entirely. Their logic behind this seems simple enough; developing for IE users did not equate to profit.\n\nSupporting variants of IE can easily increase design work by 30% to 100%, but complex features can easily double (or even triple) development […]",
+      "body": "Yesterday TechCrunch reported on the start-up 4ormat and their decision to drop support for Internet Explorer entirely. Their logic behind this seems simple enough; developing for IE users did not equate to profit.\n\nSupporting variants of IE can easily increase design work by 30% to 100%, but complex features can easily double (or even triple) development time. It […]",
       "date": 1333373071000
-    },
-    {
-      "id": "introducing-shiro",
-      "title": "Introducing Shiro",
-      "href": "/2012/03/27/introducing-shiro/",
-      "body": "Update — March 19th, 2013: please read this article for updates!\nI’ve always taken a very liberal/aggressive approach to progressive enhancement. Older browsers get accessible content but layout is limited and aesthetic styles are better lost completely than hacked on with nasty techniques.\nEvery website is different of course. When I redesigned my personal website I had […]",
-      "date": 1332836102000
     }
   ],
   "nextPage": "/blog/page/20/",

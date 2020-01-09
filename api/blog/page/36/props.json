@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 36)",
   "excerpts": [
     {
+      "id": "happy-new-year",
+      "title": "Happy New Year!",
+      "href": "/2009/12/20/happy-new-year/",
+      "body": "I know, I’m a few weeks early with the cheer (but this blog will have more legs).\nI’ve spent the weekend wrapping Xmas gifts for the family. As a “creative” person I’ve always felt slightly guilty about my poor wrapping skills. Last year I stepped it up a notch and use a large black marker to […]",
+      "date": 1261335516000
+    },
+    {
       "id": "dieter-rams-design",
       "title": "Dieter Rams Design (and Apple)",
       "href": "/2009/12/05/dieter-rams-design/",
@@ -43,13 +50,6 @@
       "href": "/2009/10/18/search-design-heroes/",
       "body": "If you visit Design Heroes you’ll notice an extra tab in the top menu called “Extras”. This page will include new and experimental features that are added as the site grows.\nThe latest feature is a keyword search. Design Heroes is normally browsed by selecting the tags (listed on the left-hand side) but I think a […]",
       "date": 1255881037000
-    },
-    {
-      "id": "inspiration-archives",
-      "title": "Inspiration Archives",
-      "href": "/2009/10/13/inspiration-archives/",
-      "body": "If you’re a designer, photographer, or any kind of artist you’ve probably been asked the question - where do you get your ideas from?\nIt’s often said that it takes a certain kind of person to become an artist. I believe creative people become interested in design at a very young age and because of that […]",
-      "date": 1255436518000
     }
   ],
   "nextPage": "/blog/page/37/",

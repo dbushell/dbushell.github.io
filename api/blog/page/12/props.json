@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "on-responsive-layout-and-grids",
+      "title": "On Responsive Layout and Grids",
+      "href": "/2013/03/19/on-responsive-layout-and-grids/",
+      "body": "I often get asked which responsive grid system I use. This is a very frustrating question because it implies a requirement where I have none. With the myriad solutions presented I can’t blame people for thinking they have a choice to make.\nThis article is my response to that question.\nAnatomy of a grid system\nResponsive grid systems […]",
+      "date": 1363692826000
+    },
+    {
       "id": "the-flat-build",
       "title": "The Flat Build",
       "href": "/2013/03/18/the-flat-build/",
@@ -13,43 +20,36 @@
       "id": "automation",
       "title": "Automation",
       "href": "/2013/03/12/automation/",
-      "body": "I used to believe hand-crafting every line of code was a necessity. I u-turned on that opinion and adopted CSS preprocessors with much gusto last year.\nIt wasn’t so much the syntactical learning curve that initially put me off — they’re familiar if you’ve done any kind of programming — it was the perceived “added complexity” […]",
+      "body": "I used to believe hand-crafting every line of code was a necessity. I u-turned on that opinion and adopted CSS preprocessors with much gusto last year.\nIt wasn’t so much the syntactical learning curve that initially put me off — they’re familiar if you’ve done any kind of programming — it was the perceived “added complexity” they […]",
       "date": 1363112796000
     },
     {
       "id": "a-responsive-day-out",
       "title": "A Responsive Day Out",
       "href": "/2013/03/03/a-responsive-day-out/",
-      "body": "\nMe on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by Laura Kalbag and Marc Thiele.\nOn Friday 1st March, I spoke at Responsive Day Out in Brighton. Videos at Besquare, Audio of all talks is available and you can click along to my slides too.\nWhat a wonderful day! When Jeremy asked me to […]",
+      "body": "\nMe on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by Laura Kalbag and Marc Thiele.\nOn Friday 1st March, I spoke at Responsive Day Out in Brighton. Videos at Besquare, Audio of all talks is available and you can click along to my slides too.\nWhat a wonderful day! When Jeremy asked me to speak last year, March seemed eons away. I’ve never spoken […]",
       "date": 1362319748000
     },
     {
       "id": "bring-back-the-sitemap",
       "title": "Bring Back the Sitemap?",
       "href": "/2013/02/21/bring-back-the-sitemap/",
-      "body": "I’m doing a small segment on navigation at Responsive Day Out (1st March). It’s an area of responsive design I enjoy experimenting with.\nYou’re probably familiar with responsive patterns that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before […]",
+      "body": "I’m doing a small segment on navigation at Responsive Day Out (1st March). It’s an area of responsive design I enjoy experimenting with.\nYou’re probably familiar with responsive patterns that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before attacking code again.\nTable of contents\nFor small viewports […]",
       "date": 1361455114000
     },
     {
       "id": "captchas-just-say-no",
       "title": "CAPTCHAs: Just Say No",
       "href": "/2013/02/18/captchas-just-say-no/",
-      "body": "A couple of years ago I wrote In Search Of The Perfect CAPTCHA for Smashing Magazine. It was always a wild goose chase (but I knew that).\nI still get asked regularly how to deal with spam. It isn’t easy.\nI keep seeing new solutions pop up touted as an alterative to CAPTCHAs. Here’s the deal: replacing […]",
+      "body": "A couple of years ago I wrote In Search Of The Perfect CAPTCHA for Smashing Magazine. It was always a wild goose chase (but I knew that).\nI still get asked regularly how to deal with spam. It isn’t easy.\nI keep seeing new solutions pop up touted as an alterative to CAPTCHAs. Here’s the deal: replacing character […]",
       "date": 1361217588000
     },
     {
       "id": "performance-varnish-cache-wordpress",
       "title": "Performance, Varnish Cache, WordPress",
       "href": "/2013/02/15/performance-varnish-cache-wordpress/",
-      "body": "When it comes to website performance there’s a lot we can do.\nAs designers it means finding a style that suits the Web as a medium; taking advantage of CSS, avoiding heavy raster graphics, etc etc. As front-end developers, well, Harry Roberts’ has a great round-up of techniques.\nThere’s only so much we can do client-side. It’s […]",
+      "body": "When it comes to website performance there’s a lot we can do.\nAs designers it means finding a style that suits the Web as a medium; taking advantage of CSS, avoiding heavy raster graphics, etc etc. As front-end developers, well, Harry Roberts’ has a great round-up of techniques.\nThere’s only so much we can do client-side. It’s always […]",
       "date": 1360946898000
-    },
-    {
-      "id": "podcasts",
-      "title": "Podcasts",
-      "href": "/2013/02/14/podcasts/",
-      "body": "I can’t get enough podcasts right now.\nI still love the written word but after a full day of design and code my eyes need a rest (and probably a new test, now that I think about it).\nFearing I’d been overlooking a few I asked Twitter — thanks for the replies! Below is a compilation of […]",
-      "date": 1360854381000
     }
   ],
   "nextPage": "/blog/page/13/",

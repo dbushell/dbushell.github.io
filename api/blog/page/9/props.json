@@ -3,17 +3,24 @@
   "pageHeading": "Blog (page 9)",
   "excerpts": [
     {
+      "id": "form-label-design",
+      "title": "Form Label Design",
+      "href": "/2013/11/08/form-label-design/",
+      "body": "Web forms are often a tedious experience. There’s a lot to be said for keeping questions to a minimum. Do I really need to enter my name across three fields, can’t you just call me “Dave”?\nTo save space and reduce visual noise it’s become quite common to repurpose HTML placeholders. But as we should all know: Placeholder […]",
+      "date": 1383909303000
+    },
+    {
       "id": "browser-support-again",
       "title": "Browser Support, Again",
       "href": "/2013/11/06/browser-support-again/",
-      "body": "With a high-profile portfolio of websites like Google Apps dropping support for IE9 the question of browser support inevitably resurfaces. Many will see this news as justification for their own abandonment of a legacy browser.\nAs I’ve said time and time again, external decisions and aggregated statistics are irrelevant if you have specific numbers for a […]",
+      "body": "With a high-profile portfolio of websites like Google Apps dropping support for IE9 the question of browser support inevitably resurfaces. Many will see this news as justification for their own abandonment of a legacy browser.\nAs I’ve said time and time again, external decisions and aggregated statistics are irrelevant if you have specific numbers for a domain. If […]",
       "date": 1383736927000
     },
     {
       "id": "front-end-style-guides",
       "title": "Front-end Style Guides",
       "href": "/2013/11/05/front-end-style-guides/",
-      "body": "I’ve just read Front-end Style Guides written by Anna Debenham, published by Five Simple Steps. As a thorough overview of all that the title suggests the book sets a practical mindset for utilising style guides with many examples (and at £2.40; an absolute steal).\nStyle guides are critical to how I make websites.\nMy design &amp; build […]",
+      "body": "I’ve just read Front-end Style Guides written by Anna Debenham, published by Five Simple Steps. As a thorough overview of all that the title suggests the book sets a practical mindset for utilising style guides with many examples (and at £2.40; an absolute steal).\nStyle guides are critical to how I make websites.\nMy design &amp; build process naturally results in a front-end […]",
       "date": 1383666952000
     },
     {
@@ -27,29 +34,22 @@
       "id": "reacting-to-the-resize",
       "title": "Reacting to the Resize",
       "href": "/2013/08/29/reacting-to-the-resize/",
-      "body": "I’m building a client’s website design that is more aware of the viewport than usual. Page headers — think large typography with a background image — cover 100% of the initial view. So too does the navigation; five items presented overlaying the entire screen.\nFirst but not final\nWhen a page loads the first render — at […]",
+      "body": "I’m building a client’s website design that is more aware of the viewport than usual. Page headers — think large typography with a background image — cover 100% of the initial view. So too does the navigation; five items presented overlaying the entire screen.\nFirst but not final\nWhen a page loads the first render — at whatever size the […]",
       "date": 1377785694000
     },
     {
       "id": "responsive-design-for-kings-transfer",
       "title": "Responsive Design for King’s Transfer",
       "href": "/2013/08/09/responsive-design-for-kings-transfer/",
-      "body": "The new King’s Transfer website has gone live. I worked on design and front-end development while Peter Mitchell took care of all things back-end.\nThis is my third in-depth responsive design case study and my first as a freelancer. I feel it’s my best work to-date and that’s due to a great client and a real […]",
+      "body": "The new King’s Transfer website has gone live. I worked on design and front-end development while Peter Mitchell took care of all things back-end.\nThis is my third in-depth responsive design case study and my first as a freelancer. I feel it’s my best work to-date and that’s due to a great client and a real focus on the design process. […]",
       "date": 1376035715000
     },
     {
       "id": "progressive-viewports",
       "title": "Progressive Viewports",
       "href": "/2013/07/25/progressive-viewports/",
-      "body": "Implementing off-canvas navigation requires a fair amount of effort in the realms of front-end performance and “viewport management” but the general principles are simple. Once you’ve cracked them you can create some brilliant responsive and interactive interfaces.\nViewport set-up\nI’ve decided to write a mostly high-level introduction here without getting bogged down in code. My Smashing Magazine […]",
+      "body": "Implementing off-canvas navigation requires a fair amount of effort in the realms of front-end performance and “viewport management” but the general principles are simple. Once you’ve cracked them you can create some brilliant responsive and interactive interfaces.\nViewport set-up\nI’ve decided to write a mostly high-level introduction here without getting bogged down in code. My Smashing Magazine article sets a good foundation […]",
       "date": 1374764334000
-    },
-    {
-      "id": "open-responsibility",
-      "title": "Open Responsibility",
-      "href": "/2013/07/08/open-responsibility/",
-      "body": "I like to be very “open”. I write about my ideas and experiences and I share code projects on GitHub. There are many reasons for this. High on that list are the improvements I gain as a professional in this industry.\nSharing Code\nSome of my projects like Pikaday are very mature. I’m keen to see them […]",
-      "date": 1373281933000
     }
   ],
   "nextPage": "/blog/page/10/",

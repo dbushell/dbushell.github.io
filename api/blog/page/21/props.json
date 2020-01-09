@@ -3,17 +3,24 @@
   "pageHeading": "Blog (page 21)",
   "excerpts": [
     {
+      "id": "user-experience-and-privacy-the-fickle-web",
+      "title": "UX and Privacy",
+      "href": "/2012/03/05/user-experience-and-privacy-the-fickle-web/",
+      "body": "I bought a Samsung Galaxy Nexus — running Google’s Android 4.0, ICS — several months ago. I ditched the iPhone 4 just past half way through my contract, and you know what? This is the best user experience I’ve had on a phone to date.\nBut this blog post isn’t about a phone. It’s about Google, […]",
+      "date": 1330991356000
+    },
+    {
       "id": "forget-about-browser-support",
       "title": "Browser Support? Forget It!",
       "href": "/2012/03/03/forget-about-browser-support/",
-      "body": "What is meant by “browser support” when creating a website? Ensuring it is accessible by a browser is what I like to think of. Others may dream of pixel-perfection. Whatever “support” entails, browsers that don’t make the cut are universally ignored with much delight and little chance of being usable.\nIt’s common practice to maintain a […]",
+      "body": "What is meant by “browser support” when creating a website? Ensuring it is accessible by a browser is what I like to think of. Others may dream of pixel-perfection. Whatever “support” entails, browsers that don’t make the cut are universally ignored with much delight and little chance of being usable.\nIt’s common practice to maintain a list […]",
       "date": 1330799094000
     },
     {
       "id": "spring-cleaning-redesigning-dbushell-com",
       "title": "Spring Cleaning",
       "href": "/2012/02/27/spring-cleaning-redesigning-dbushell-com/",
-      "body": "May 2011 — I redesigned my website (this website) with the primary goal of making it responsive. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little […]",
+      "body": "May 2011 — I redesigned my website (this website) with the primary goal of making it responsive. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little turned into […]",
       "date": 1330348374000
     },
     {
@@ -27,14 +34,14 @@
       "id": "are-you-sure-the-user-experience-of-confirmation-dialogs",
       "title": "Are You Sure? The UX of Confirmations",
       "href": "/2012/02/13/are-you-sure-the-user-experience-of-confirmation-dialogs/",
-      "body": "Imagine for a minute your web app has a “Delete” action. In HTML it takes this form:\n&lt;a class=\"delete\" href=\"#\">Delete Item&lt;/a>\nThe anchor is styled up with sexy CSS3 and functionality is implemented with an asynchronous JavaScript API call. Because we all care about accessibility (and standards) we provide a “no-JS” fallback:\n&lt;a class=\"delete\" href=\"/item/delete/1/\">Delete Item&lt;/a>\nLovely! It’s great […]",
+      "body": "Imagine for a minute your web app has a “Delete” action. In HTML it takes this form:\n&lt;a class=\"delete\" href=\"#\">Delete Item&lt;/a>\nThe anchor is styled up with sexy CSS3 and functionality is implemented with an asynchronous JavaScript API call. Because we all care about accessibility (and standards) we provide a “no-JS” fallback:\n&lt;a class=\"delete\" href=\"/item/delete/1/\">Delete Item&lt;/a>\nLovely! It’s great to build […]",
       "date": 1329158792000
     },
     {
       "id": "resolution-independence",
       "title": "Resolution Independence!",
       "href": "/2012/01/16/resolution-independence/",
-      "body": "One of my thoughts for Web Design: 2012 and Beyond concerned the issues of screen resolution and the necessity for scalable graphics on the web. As part of that thinking I’ve written a piece for Smashing Magazine entitled Resolution Independence with SVG:\n\nWhen we look at the breadth of Web-enabled devices, responsive design is sure to […]",
+      "body": "One of my thoughts for Web Design: 2012 and Beyond concerned the issues of screen resolution and the necessity for scalable graphics on the web. As part of that thinking I’ve written a piece for Smashing Magazine entitled Resolution Independence with SVG:\n\nWhen we look at the breadth of Web-enabled devices, responsive design is sure to provide a better […]",
       "date": 1326741891000
     },
     {
@@ -43,13 +50,6 @@
       "href": "/2012/01/11/device-optimisation/",
       "body": "Device optimisation is about accessing a website on one set up and fine-tuning the experience. It could be Internet Explorer 7 on a mediocre PC, the iPhone 4000, a generic and underpowered Android tablet, or a web-enabled HD 3D TV. Whatever the set up, ask: how can I make this one experience better?\nThe idea is […]",
       "date": 1326242026000
-    },
-    {
-      "id": "responsive-tables-2",
-      "title": "Responsive Tables (2)",
-      "href": "/2012/01/05/responsive-tables-2/",
-      "body": "\nNEW: CSS only Responsive Tables\nSee the link above for more recent developments.\n\n\nMy last article on responsive tables was very popular so I’ve only gone and implemented the idea that I was alluding to with horizontal scrolling!\n\nSee Responsive Tables Demo (2) — in a modern browser! Webkit browsers handle both tables perfectly. Firefox &amp; Opera handle […]",
-      "date": 1325793182000
     }
   ],
   "nextPage": "/blog/page/22/",
