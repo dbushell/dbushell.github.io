@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "netlify-first-impressions",
+      "title": "Netlify: First Impressions",
+      "href": "/2020/01/15/netlify-first-impressions/",
+      "body": "Netlify is hot right now. It’s been hot for a while. It’s on my list of tech I pretend to know when people ask. I assume it handles static site hosting and deployment.\n\nJAMstack is a popular/confusing term covering static sites and the new tech surrounding them. I’ve long adhered to such a philosophy for personal […]",
+      "date": 1579082400000
+    },
+    {
       "id": "blogging-in-2020",
       "title": "Blogging in 2020",
       "href": "/2020/01/10/blogging-in-2020/",
@@ -43,13 +50,6 @@
       "href": "/2018/01/11/hello-2018/",
       "body": "In 2018 I’ll be celebrating 10 years as a professional.\nI graduated in 2008. I hopped on a train to London and spent five years with two agencies. In 2013 I dusted off my return ticket and headed back up North. I’ve been freelancing ever since. My first office was the window end of my parent’s […]",
       "date": 1515664800000
-    },
-    {
-      "id": "raspberry-pi-epaper",
-      "title": "Raspberry Pi + e-Paper module + Node.js",
-      "href": "/2017/09/20/raspberry-pi-epaper/",
-      "body": "A few weeks ago I was digging through storage and I found an original Raspberry Pi. When I’d bought it years ago interest was lost rather quickly. I wasn’t as comfortable with a Unix command line as I am today.\nThe Raspberry Pi / Arduino / single-board computer ecosystem has exploded since then. Maybe I can […]",
-      "date": 1505901600000
     }
   ],
   "nextPage": "/blog/page/2/",

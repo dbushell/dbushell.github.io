@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 36)",
   "excerpts": [
     {
+      "id": "tweets-and-tweaks",
+      "title": "Tweets and Tweaks",
+      "href": "/2009/12/31/tweets-and-tweaks/",
+      "body": "The most depressing thing about being a web designer/developer is that you spend all day making websites for other people. Your own little corner of the Internet gets neglected and all spider-webby. The web is rapidly developing with new tricks, techniques and opportunities. Rather than redesigning my whole website (which you should rarely, if ever […]",
+      "date": 1262267270000
+    },
+    {
       "id": "happy-new-year",
       "title": "Happy New Year!",
       "href": "/2009/12/20/happy-new-year/",
@@ -43,13 +50,6 @@
       "href": "/2009/10/20/typotheque-offer-web-licenses/",
       "body": "Good news everybody!\nThe Typotheque font foundry are now offering web licenses with a hosted service similar to Typekit (read my review on Typekit.)\n\n“The Typotheque Web Font Service enables you to use custom fonts in your website using the @font-face rule in CSS. Just add a line of code to your page and get it working […]",
       "date": 1256068254000
-    },
-    {
-      "id": "search-design-heroes",
-      "title": "Search Design Heroes",
-      "href": "/2009/10/18/search-design-heroes/",
-      "body": "If you visit Design Heroes you’ll notice an extra tab in the top menu called “Extras”. This page will include new and experimental features that are added as the site grows.\nThe latest feature is a keyword search. Design Heroes is normally browsed by selecting the tags (listed on the left-hand side) but I think a […]",
-      "date": 1255881037000
     }
   ],
   "nextPage": "/blog/page/37/",

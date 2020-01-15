@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Thu, 09 Jan 2020 11:21:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 09:30:19 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Netlify: First Impressions]]></title>
+  <description><![CDATA[<p>Netlify is hot right now. It’s been hot for a while. It’s on my list of tech I pretend to know when people ask. I assume it handles static site hosting and deployment.
+
+JAMstack is a popular/confusing term covering static sites and the new tech surrounding them. I’ve long adhered to such a philosophy for personal […]</p>]]></description>
+  <link>https://dbushell.com/2020/01/15/netlify-first-impressions/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/01/15/netlify-first-impressions/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Wed, 15 Jan 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Blogging in 2020]]></title>
   <description><![CDATA[<p>Hey, I went a whole year without blogging!
@@ -215,15 +225,6 @@ In this review I’ll showcase a few of the defining techniques and challenges t
   <guid isPermaLink="true">https://dbushell.com/2016/07/14/building-a-wordpress-theme/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 14 Jul 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[New Origins]]></title>
-  <description><![CDATA[<p>Greetings! It’s been a while, hasn’t it? The last few months were busy for me. That’s a good thing I suppose, I certainly need to earn a living.
-The only real downside of plentiful client work is the lack of time for my own projects. One of those, codename: “Origin”, is my personal front-end starter kit. […]</p>]]></description>
-  <link>https://dbushell.com/2016/07/12/new-origins/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/07/12/new-origins/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Tue, 12 Jul 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

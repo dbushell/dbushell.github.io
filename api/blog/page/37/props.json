@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 37)",
   "excerpts": [
     {
+      "id": "search-design-heroes",
+      "title": "Search Design Heroes",
+      "href": "/2009/10/18/search-design-heroes/",
+      "body": "If you visit Design Heroes you’ll notice an extra tab in the top menu called “Extras”. This page will include new and experimental features that are added as the site grows.\nThe latest feature is a keyword search. Design Heroes is normally browsed by selecting the tags (listed on the left-hand side) but I think a […]",
+      "date": 1255881037000
+    },
+    {
       "id": "inspiration-archives",
       "title": "Inspiration Archives",
       "href": "/2009/10/13/inspiration-archives/",
@@ -43,13 +50,6 @@
       "href": "/2009/09/19/typekit/",
       "body": "Typekit is an innovative subscription service that gives web designers access to a large collection of embeddable fonts.\nI was lucky enough to be invited to try out Typekit which is pretty cool because it’s still “invitation only”. A subscription to Typekit gives you access to their growing font library for use on your websites. Fonts […]",
       "date": 1253383302000
-    },
-    {
-      "id": "verdana-is-so-hot-right-now",
-      "title": "Verdana is so hot right now",
-      "href": "/2009/09/08/verdana-is-so-hot-right-now/",
-      "body": "Two of the “core fonts for the web” are to be updated! What impact will this have on website design?\nAfter the earthshattering announcement last month that IKEA will use Verdana both on the web and in print (I spat coffee out reading that), today we hear that Verdana and Georgia are getting a face lift.\nAnnounced […]",
-      "date": 1252411962000
     }
   ],
   "nextPage": "/blog/page/38/",

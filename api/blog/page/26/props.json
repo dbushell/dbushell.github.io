@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "design-it-build-it-dibi",
+      "title": "Design it. Build it.",
+      "href": "/2011/06/09/design-it-build-it-dibi/",
+      "body": "Location: The Sage, Gateshead.\nEvent: Design It. Build It. The two-track web conference.\n\nThis is my third conference of the year and I’m getting exceedingly good at it!\nA trip up to DIBI meant a late evening train from Kings Cross, a late night arrival to the pre-party (a bit of catching up to do) and an early-ish […]",
+      "date": 1307620181000
+    },
+    {
       "id": "hey-i-was-reading-that",
       "title": "Hey, I was reading that…",
       "href": "/2011/06/05/hey-i-was-reading-that/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/17/fowd-day-one-review/",
       "body": "This is my first year at Future of Web Design so I was unsure what to expect but secretly I knew it’d be pretty awesome. What a learning experience.\nBelow is a bit of a brain dump so I don’t forget, but I think everyone can benefit from these notes – the ideas were so strong they […]",
       "date": 1305657566000
-    },
-    {
-      "id": "attending-fowd-2011",
-      "title": "Attending FOWD 2011",
-      "href": "/2011/05/15/attending-fowd-2011/",
-      "body": "Only two days before this year’s Future of Web Design! I’m excited, thanks to the fine folks at Smashing Magazine I’ll be attending both seminar days. Say hello!\nI’m not a fan of the two track structure as I’ll have to miss some talks live (though I’ll be able to catch them online later). I’m going to skip […]",
-      "date": 1305480240000
     }
   ],
   "nextPage": "/blog/page/27/",

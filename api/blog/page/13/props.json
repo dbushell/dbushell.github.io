@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "performance-varnish-cache-wordpress",
+      "title": "Performance, Varnish Cache, WordPress",
+      "href": "/2013/02/15/performance-varnish-cache-wordpress/",
+      "body": "When it comes to website performance there’s a lot we can do.\nAs designers it means finding a style that suits the Web as a medium; taking advantage of CSS, avoiding heavy raster graphics, etc etc. As front-end developers, well, Harry Roberts’ has a great round-up of techniques.\nThere’s only so much we can do client-side. It’s always […]",
+      "date": 1360946898000
+    },
+    {
       "id": "podcasts",
       "title": "Podcasts",
       "href": "/2013/02/14/podcasts/",
@@ -43,13 +50,6 @@
       "href": "/2013/01/27/multiple-accounts-and-ssh-keys/",
       "body": "Now that I’m officially a self-employed freelancer I plan to blog more frequently. In the past I’ve rarely written very technical articles, but I imagine there are many designer/front-end developer types like me who struggle with this stuff. Tomorrow I’ll post a big responsive design case study, I promise.\nToday I moved my private code repositories onto Bitbucket […]",
       "date": 1359313041000
-    },
-    {
-      "id": "re-jquery-animation-vs-css",
-      "title": "Re: jQuery Animation vs CSS",
-      "href": "/2013/01/15/re-jquery-animation-vs-css/",
-      "body": "In response to my Smashing Magazine article on implementing off-canvas navigation I received a great comment by Michael Benin:\n\nhttps://github.com/benbarnett/jQuery-Animate-Enhanced\nhttps://github.com/gnarf37/jquery-requestAnimationFrame\nDropping in these two plugins should achieve what is accomplished in this article using CSS, and furthermore will utilize RAF. It would be interesting for you to run the same tests against JS/jQuery with these jQuery plugins.\n\nI agreed that these […]",
-      "date": 1358289461000
     }
   ],
   "nextPage": "/blog/page/14/",

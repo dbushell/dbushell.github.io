@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "pikaday-javascript-datepicker",
+      "title": "Pikaday: JavaScript datepicker",
+      "href": "/2012/10/09/pikaday-javascript-datepicker/",
+      "body": "Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with modular CSS. It’s in ‘developer preview mode’ but already looking great:\n\nWhy now?\nBecause as much as we like open standards, the HTML5 input types lack browser support and are poorly implemented in places; see Chrome (22 as of writing) below:\n\nThis leaves us with a tricky […]",
+      "date": 1349769790000
+    },
+    {
       "id": "groundhog-day",
       "title": "Groundhog Day",
       "href": "/2012/09/30/groundhog-day/",
@@ -43,13 +50,6 @@
       "href": "/2012/07/20/re-social-media-buttons/",
       "body": ".net magazine recently published the Big question: should we drop social media buttons with opinions and anecdotes from various professionals.\nTwo common arguments against them are:\nPage load\nSocial widgets are massive. They’re effectively additional websites sandboxed within tiny iframes and most are poorly optimised. Facebook’s “like” button is appalling. This problem cannot be understated and I developed Socialite.js for exactly that […]",
       "date": 1342787589000
-    },
-    {
-      "id": "vector-graphics-retina-and-you",
-      "title": "Vector graphics, Retina, and You",
-      "href": "/2012/07/13/vector-graphics-retina-and-you/",
-      "body": "It’s Friday 13th. It’s been a long and productive week, I’ll try to keep this light-hearted :)\nI’m going to use this post to combine two rants. One on the use of the word “Retina”, another on live conference tweeting. I saw this retweeted the other day:\n\n“I think CSS is our best vector-based drawing tool in […]",
-      "date": 1342178920000
     }
   ],
   "nextPage": "/blog/page/17/",

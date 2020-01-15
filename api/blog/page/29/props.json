@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "website-design-without-lorem-ipsum",
+      "title": "Design without Lorem Ipsum",
+      "href": "/2011/02/17/website-design-without-lorem-ipsum/",
+      "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of Pi, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from 2009, […]",
+      "date": 1297947201000
+    },
+    {
       "id": "gday-mate",
       "title": "G’Day Mate!",
       "href": "/2011/02/10/gday-mate/",
@@ -43,13 +50,6 @@
       "href": "/2011/01/09/happy-new-ye-oh/",
       "body": "Ah, it’s the 9th already?\nI don’t do New Year’s resolutions, but I do like to look forward every now and then to consider all the amazing opportunities out there. 2011 is going to be all about pushing boundaries in life and work.\n(Not sure what that means in reality but I’ve plenty of time to find […]",
       "date": 1294616151000
-    },
-    {
-      "id": "2010-in-design",
-      "title": "2010 in Design",
-      "href": "/2010/12/14/2010-in-design/",
-      "body": "Funny how things never turn out how you expect them to.\nRewind a year and I find myself planning a big twenty-ten. After completing a very solid year in my pro web design career, 2010 was suppose to be all about exploring past passions in art and crafts. Replacing the mouse with a paint brush and […]",
-      "date": 1292365598000
     }
   ],
   "nextPage": "/blog/page/30/",

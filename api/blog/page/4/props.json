@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 4)",
   "excerpts": [
     {
+      "id": "css-only-responsive-tables",
+      "title": "CSS only Responsive Tables",
+      "href": "/2016/03/04/css-only-responsive-tables/",
+      "body": "Four years ago I shared an idea to make tabular data responsive. Browser support was experimental and the workarounds were extremely hacky. I revisited the technique this week, cleaned it up, and I am pleased to say all modern browsers work perfectly.\nSee the full demo on CodePen\n\n\n\nHere’s what basic overflow looks like:\n\nAnd if you want […]",
+      "date": 1457085600000
+    },
+    {
       "id": "be-careful-with-your-viewbox",
       "title": "Be careful with your viewBox",
       "href": "/2016/03/01/be-careful-with-your-viewbox/",
@@ -43,13 +50,6 @@
       "href": "/2015/10/20/accelerated-mobile-pages/",
       "body": "The AMP Project is an initiative by Google to improve the “mobile web”.\nAccelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:\n\nThe BBC News website has implemented AMP, screenshotted […]",
       "date": 1445335200000
-    },
-    {
-      "id": "september-update",
-      "title": "September Update",
-      "href": "/2015/09/07/september-update/",
-      "body": "Good afternoon! So it’s been a while since I last blogged. Turns out buying a home takes longer than I imagined!\nWhen I left London in 2012, I moved back in with my parents  (temporarily) to embark upon a freelance career. Work has been steady, not easy, but rewarding and I’m much happier out of […]",
-      "date": 1441620000000
     }
   ],
   "nextPage": "/blog/page/5/",

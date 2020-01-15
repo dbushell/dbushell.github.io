@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 15)",
   "excerpts": [
     {
+      "id": "a-responsive-off-canvas-menu-with-css-transforms-and-transitions",
+      "title": "A Responsive Off-Canvas Menu",
+      "href": "/2012/12/22/a-responsive-off-canvas-menu-with-css-transforms-and-transitions/",
+      "body": "Have a play with my responsive off-canvas menu. I hadn’t intended this to go viral (I’m well aware of the issues!) but since it has I decided to write a proper introduction.\n\nA couple of things to note — this was purely a technical demo to see the performance of CSS transforms &amp; transitions (I’ve built experimental monstrosities in the past […]",
+      "date": 1356212688000
+    },
+    {
       "id": "the-state-of-web-design-2013",
       "title": "The State of Web Design, 2013",
       "href": "/2012/12/10/the-state-of-web-design-2013/",
@@ -43,13 +50,6 @@
       "href": "/2012/10/23/the-real-cost-of-retina/",
       "body": "When the new iPad went on sale earlier this year the interest in high-resolution website design skyrocketed. We saw an influx of half-baked “Retina“ solutions.\nAlongside this the bigger picture — so to speak — of responsive images produced lengthy debate. We’re starting to see the fruits of that labour with a new picture element proposal. This is a good […]",
       "date": 1350997494000
-    },
-    {
-      "id": "pikaday-javascript-datepicker",
-      "title": "Pikaday: JavaScript datepicker",
-      "href": "/2012/10/09/pikaday-javascript-datepicker/",
-      "body": "Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with modular CSS. It’s in ‘developer preview mode’ but already looking great:\n\nWhy now?\nBecause as much as we like open standards, the HTML5 input types lack browser support and are poorly implemented in places; see Chrome (22 as of writing) below:\n\nThis leaves us with a tricky […]",
-      "date": 1349769790000
     }
   ],
   "nextPage": "/blog/page/16/",

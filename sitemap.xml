@@ -1562,7 +1562,7 @@
 </url>
 <url>
   <loc>https://dbushell.com/2014/07/09/how-i-built-a-static-site-generator/</loc>
-  <lastmod>2018-11-08T20:16:17.421Z</lastmod>
+  <lastmod>2020-01-15T08:48:33.413Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -1616,7 +1616,7 @@
 </url>
 <url>
   <loc>https://dbushell.com/2015/05/11/wordpress-to-metalsmith/</loc>
-  <lastmod>2018-11-08T20:16:17.422Z</lastmod>
+  <lastmod>2020-01-15T08:47:13.474Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -1803,6 +1803,12 @@
 <url>
   <loc>https://dbushell.com/2020/01/10/blogging-in-2020/</loc>
   <lastmod>2020-01-09T11:21:16.005Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/01/15/netlify-first-impressions/</loc>
+  <lastmod>2020-01-15T09:28:52.243Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
