@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 15 Jan 2020 09:30:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2020 08:08:45 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[A Morning with Vue.js]]></title>
+  <description><![CDATA[<p>I’m a React person but I’m not devoted to it. Honest! Earlier this week I found a morning to flirt with Vue.js.
+
+My intention was to pen an article comparing the two frameworks. Upon reflection it feels somewhat pointless. Like React, Vue is primarily “focused on the view layer”. And like React, Vue does a pretty […]</p>]]></description>
+  <link>https://dbushell.com/2020/01/23/a-morning-with-vuejs/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/01/23/a-morning-with-vuejs/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 23 Jan 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Netlify: First Impressions]]></title>
   <description><![CDATA[<p>Netlify is hot right now. It’s been hot for a while. It’s on my list of tech I pretend to know when people ask. I assume it handles static site hosting and deployment.
@@ -215,16 +225,6 @@ If you’re familiar with my workflow it will be no surprised that I first trans
   <guid isPermaLink="true">https://dbushell.com/2016/09/01/colour-accessibility/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 01 Sep 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Building a WordPress Theme]]></title>
-  <description><![CDATA[<p>I was delighted when Base Creative asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.
-
-In this review I’ll showcase a few of the defining techniques and challenges that made this […]</p>]]></description>
-  <link>https://dbushell.com/2016/07/14/building-a-wordpress-theme/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/07/14/building-a-wordpress-theme/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Thu, 14 Jul 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

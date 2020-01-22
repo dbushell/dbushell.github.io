@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "a-morning-with-vuejs",
+      "title": "A Morning with Vue.js",
+      "href": "/2020/01/23/a-morning-with-vuejs/",
+      "body": "I’m a React person but I’m not devoted to it. Honest! Earlier this week I found a morning to flirt with Vue.js.\n\nMy intention was to pen an article comparing the two frameworks. Upon reflection it feels somewhat pointless. Like React, Vue is primarily “focused on the view layer”. And like React, Vue does a pretty […]",
+      "date": 1579773600000
+    },
+    {
       "id": "netlify-first-impressions",
       "title": "Netlify: First Impressions",
       "href": "/2020/01/15/netlify-first-impressions/",
@@ -43,13 +50,6 @@
       "href": "/2018/02/21/codepen-snippets/",
       "body": "I’ve started a new Code Snippets collection on CodePen. It will be populated with the little and sometimes peculiar CSS techniques I’ve used. Mostly CSS but with occasional JavaScript sprinkles. Progressively enhanced, of course.\nStuff like this styled range input:\n\n  See the Pen Styled input range (slider/progress) by David Bushell (@dbushell) on CodePen.\n\n\nWho would have […]",
       "date": 1519207200000
-    },
-    {
-      "id": "hello-2018",
-      "title": "Hello Twenty Eighteen",
-      "href": "/2018/01/11/hello-2018/",
-      "body": "In 2018 I’ll be celebrating 10 years as a professional.\nI graduated in 2008. I hopped on a train to London and spent five years with two agencies. In 2013 I dusted off my return ticket and headed back up North. I’ve been freelancing ever since. My first office was the window end of my parent’s […]",
-      "date": 1515664800000
     }
   ],
   "nextPage": "/blog/page/2/",

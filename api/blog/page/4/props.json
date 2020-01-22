@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 4)",
   "excerpts": [
     {
+      "id": "new-origins",
+      "title": "New Origins",
+      "href": "/2016/07/12/new-origins/",
+      "body": "Greetings! It’s been a while, hasn’t it? The last few months were busy for me. That’s a good thing I suppose, I certainly need to earn a living.\nThe only real downside of plentiful client work is the lack of time for my own projects. One of those, codename: “Origin”, is my personal front-end starter kit. […]",
+      "date": 1468317600000
+    },
+    {
       "id": "css-only-responsive-tables",
       "title": "CSS only Responsive Tables",
       "href": "/2016/03/04/css-only-responsive-tables/",
@@ -43,13 +50,6 @@
       "href": "/2015/11/12/tales-wordpress-theme-now-free/",
       "body": "Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.\n\nFor the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]",
       "date": 1447322400000
-    },
-    {
-      "id": "accelerated-mobile-pages",
-      "title": "Accelerated Mobile Pages",
-      "href": "/2015/10/20/accelerated-mobile-pages/",
-      "body": "The AMP Project is an initiative by Google to improve the “mobile web”.\nAccelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:\n\nThe BBC News website has implemented AMP, screenshotted […]",
-      "date": 1445335200000
     }
   ],
   "nextPage": "/blog/page/5/",

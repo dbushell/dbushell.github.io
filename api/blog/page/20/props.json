@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 20)",
   "excerpts": [
     {
+      "id": "svg-use-it-already",
+      "title": "SVG, Use it Already",
+      "href": "/2012/04/03/svg-use-it-already/",
+      "body": "Here’s the deal: there’s no reasonable excuse to avoid using SVG for vector graphics on the Web (with a PNG fallback, primarily for IE &lt; 9 and older Android).\nWhile there are legitimate design problems when using one single file with icons at multiple sizes, this is not unique to SVG and in the land of — for all […]",
+      "date": 1333458611000
+    },
+    {
       "id": "dropping-ie-support",
       "title": "Dropping IE Support",
       "href": "/2012/04/02/dropping-ie-support/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/16/ideas-of-march/",
       "body": "If you haven’t read an Ideas of March post yet they all start by explaining what an Ideas of March post is. I’m just going to link to Chris Shiflett’s 2012 update.\nI believe I’m suppose to write about writing. When I started this blog in 2008 post-graduation it began as a tiny link hidden away in the […]",
       "date": 1331935405000
-    },
-    {
-      "id": "svg-all-fun-and-games",
-      "title": "SVG, all fun and games!",
-      "href": "/2012/03/11/svg-all-fun-and-games/",
-      "body": "When I wrote Resolution Independence for Smashing Magazine I focused almost exclusively on SVG (Scalable Vector Graphics) to save our souls from high-resolution hell.\nSVG is more than just a vector graphic format. I’m here to tell you why it’s better than sliced bread and highlight some of the problems you’ll encounter in everyday front-end usage.\nFeatures / Support\nAs […]",
-      "date": 1331429092000
     }
   ],
   "nextPage": "/blog/page/21/",

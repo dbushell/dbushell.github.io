@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 38)",
   "excerpts": [
     {
+      "id": "typekit",
+      "title": "Playing around with Typekit",
+      "href": "/2009/09/19/typekit/",
+      "body": "Typekit is an innovative subscription service that gives web designers access to a large collection of embeddable fonts.\nI was lucky enough to be invited to try out Typekit which is pretty cool because it’s still “invitation only”. A subscription to Typekit gives you access to their growing font library for use on your websites. Fonts […]",
+      "date": 1253383302000
+    },
+    {
       "id": "verdana-is-so-hot-right-now",
       "title": "Verdana is so hot right now",
       "href": "/2009/09/08/verdana-is-so-hot-right-now/",
@@ -43,13 +50,6 @@
       "href": "/2009/07/18/new-designers-2009/",
       "body": "New Designers is an intriguing exhibition that incorporates a wide array of design practices over the two weeks it runs at the Business Design Centre, London.\n\nNowhere else is it possible to see such creativity across every major design discipline from architecture to animation, furniture to fashion, graphics to glass.\n\nIt takes place in the building I […]",
       "date": 1247911364000
-    },
-    {
-      "id": "the-art-of-nadeem-chughtai",
-      "title": "The Art of Nadeem Chughtai",
-      "href": "/2009/07/02/the-art-of-nadeem-chughtai/",
-      "body": "\nLast Friday I visited the Secret Blisters screen print poster show and I also had the opportunity to pop into Absorb Art Studios who had a summer gallery showing next door. There were several artists that stood out, the first of which I’d like to share on this blog is Nadeem Chughtai.\n\n“The character I use […]",
-      "date": 1246564688000
     }
   ],
   "nextPage": "/blog/page/39/",

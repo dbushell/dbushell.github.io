@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "the-real-cost-of-retina",
+      "title": "The Real Cost of Retina",
+      "href": "/2012/10/23/the-real-cost-of-retina/",
+      "body": "When the new iPad went on sale earlier this year the interest in high-resolution website design skyrocketed. We saw an influx of half-baked “Retina“ solutions.\nAlongside this the bigger picture — so to speak — of responsive images produced lengthy debate. We’re starting to see the fruits of that labour with a new picture element proposal. This is a good […]",
+      "date": 1350997494000
+    },
+    {
       "id": "pikaday-javascript-datepicker",
       "title": "Pikaday: JavaScript datepicker",
       "href": "/2012/10/09/pikaday-javascript-datepicker/",
@@ -43,13 +50,6 @@
       "href": "/2012/08/20/www/",
       "body": "I’ve been semi-offline for quite a while now. I took some weeks off to relax and enjoy the Olympics, so this is a short post to warm up my blogging fingers. (Not to suggest that — by jumping straight back behind the keyboard — I haven’t been inspired by the games, I’ve been running a hell […]",
       "date": 1345487654000
-    },
-    {
-      "id": "re-social-media-buttons",
-      "title": "Re: Social Media Buttons",
-      "href": "/2012/07/20/re-social-media-buttons/",
-      "body": ".net magazine recently published the Big question: should we drop social media buttons with opinions and anecdotes from various professionals.\nTwo common arguments against them are:\nPage load\nSocial widgets are massive. They’re effectively additional websites sandboxed within tiny iframes and most are poorly optimised. Facebook’s “like” button is appalling. This problem cannot be understated and I developed Socialite.js for exactly that […]",
-      "date": 1342787589000
     }
   ],
   "nextPage": "/blog/page/17/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 9)",
   "excerpts": [
     {
+      "id": "thanks-for-a-great-year",
+      "title": "Thanks for a Great Year!",
+      "href": "/2013/12/18/thanks-for-a-great-year/",
+      "body": "2013 has been a fun year, one of the most eventful of my career. Usually I like to round up with a review of my work but with several projects launching in January, I’ll hold off until then. This is a short thank you to my clients and fellow web workers who have supported me throughout […]",
+      "date": 1387382150000
+    },
+    {
       "id": "what-is-wrong-with-this-message",
       "title": "What is wrong with this message?",
       "href": "/2013/11/14/what-is-wrong-with-this-message/",
@@ -43,13 +50,6 @@
       "href": "/2013/08/29/reacting-to-the-resize/",
       "body": "I’m building a client’s website design that is more aware of the viewport than usual. Page headers — think large typography with a background image — cover 100% of the initial view. So too does the navigation; five items presented overlaying the entire screen.\nFirst but not final\nWhen a page loads the first render — at whatever size the […]",
       "date": 1377785694000
-    },
-    {
-      "id": "responsive-design-for-kings-transfer",
-      "title": "Responsive Design for King’s Transfer",
-      "href": "/2013/08/09/responsive-design-for-kings-transfer/",
-      "body": "The new King’s Transfer website has gone live. I worked on design and front-end development while Peter Mitchell took care of all things back-end.\nThis is my third in-depth responsive design case study and my first as a freelancer. I feel it’s my best work to-date and that’s due to a great client and a real focus on the design process. […]",
-      "date": 1376035715000
     }
   ],
   "nextPage": "/blog/page/10/",

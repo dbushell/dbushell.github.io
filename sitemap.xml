@@ -20,7 +20,7 @@
 </url>
 <url>
   <loc>https://dbushell.com/about/</loc>
-  <lastmod>2018-11-08T20:16:17.427Z</lastmod>
+  <lastmod>2020-01-22T07:56:40.890Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -32,13 +32,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/working-with-clients/</loc>
-  <lastmod>2018-11-08T20:16:17.429Z</lastmod>
+  <lastmod>2020-01-21T13:39:17.225Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/wordpress-and-cms-integration/</loc>
-  <lastmod>2018-11-08T20:16:17.428Z</lastmod>
+  <lastmod>2020-01-21T14:26:29.929Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -50,25 +50,25 @@
 </url>
 <url>
   <loc>https://dbushell.com/responsive-design/</loc>
-  <lastmod>2018-11-08T20:16:17.428Z</lastmod>
+  <lastmod>2020-01-22T07:59:43.745Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/front-end-development/</loc>
-  <lastmod>2018-11-08T20:16:17.427Z</lastmod>
+  <lastmod>2020-01-21T14:24:40.668Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/services/</loc>
-  <lastmod>2018-11-08T20:16:17.428Z</lastmod>
+  <lastmod>2020-01-21T13:24:00.906Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://dbushell.com/process-and-strategy/</loc>
-  <lastmod>2018-11-08T20:16:17.428Z</lastmod>
+  <lastmod>2020-01-21T13:32:58.584Z</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1808,7 +1808,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/01/15/netlify-first-impressions/</loc>
-  <lastmod>2020-01-15T09:28:52.243Z</lastmod>
+  <lastmod>2020-01-21T16:23:17.039Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/01/23/a-morning-with-vuejs/</loc>
+  <lastmod>2020-01-22T08:05:29.587Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

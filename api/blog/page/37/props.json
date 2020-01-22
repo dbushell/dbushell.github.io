@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 37)",
   "excerpts": [
     {
+      "id": "typotheque-offer-web-licenses",
+      "title": "Typotheque offer web licenses",
+      "href": "/2009/10/20/typotheque-offer-web-licenses/",
+      "body": "Good news everybody!\nThe Typotheque font foundry are now offering web licenses with a hosted service similar to Typekit (read my review on Typekit.)\n\n“The Typotheque Web Font Service enables you to use custom fonts in your website using the @font-face rule in CSS. Just add a line of code to your page and get it working […]",
+      "date": 1256068254000
+    },
+    {
       "id": "search-design-heroes",
       "title": "Search Design Heroes",
       "href": "/2009/10/18/search-design-heroes/",
@@ -43,13 +50,6 @@
       "href": "/2009/09/23/its-a-ui-thing/",
       "body": "If you were to stakeout my desk you will hear me shout out expletives 4 or 5 times a day. And if something has really thrown me, I’ll tweet about it.\nI am (of course) refering to bad user interface design.\nI’m an avid subscriber to the blog Adobe UI Gripes because it makes me feel slighty […]",
       "date": 1253708328000
-    },
-    {
-      "id": "typekit",
-      "title": "Playing around with Typekit",
-      "href": "/2009/09/19/typekit/",
-      "body": "Typekit is an innovative subscription service that gives web designers access to a large collection of embeddable fonts.\nI was lucky enough to be invited to try out Typekit which is pretty cool because it’s still “invitation only”. A subscription to Typekit gives you access to their growing font library for use on your websites. Fonts […]",
-      "date": 1253383302000
     }
   ],
   "nextPage": "/blog/page/38/",

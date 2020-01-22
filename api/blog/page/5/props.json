@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "accelerated-mobile-pages",
+      "title": "Accelerated Mobile Pages",
+      "href": "/2015/10/20/accelerated-mobile-pages/",
+      "body": "The AMP Project is an initiative by Google to improve the “mobile web”.\nAccelerated Mobile Pages are an alternate version of their corresponding, canonical web page. They’re still HTML but limited — check the spec. The best way to understand Accelerated Mobile Pages is to see them in action:\n\nThe BBC News website has implemented AMP, screenshotted […]",
+      "date": 1445335200000
+    },
+    {
       "id": "september-update",
       "title": "September Update",
       "href": "/2015/09/07/september-update/",
@@ -43,13 +50,6 @@
       "href": "/2015/03/18/responsive-design-for-houden/",
       "body": "Houden is an e-ccomerce store, soon to launch with stylish bags and accessories for laptops, tablets, and cameras.\nI was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at Shopify. Below is a preview of the design and code I’ve been working […]",
       "date": 1426675859000
-    },
-    {
-      "id": "critical-css-and-performance",
-      "title": "Critical CSS and Performance",
-      "href": "/2015/02/19/critical-css-and-performance/",
-      "body": "I built my website last year with a strong focus on front-end performance.\nThis week inspired by Scott Jehl’s article “How we make RWD sites load fast as heck” and Callum Hart’s “Non-blocking UI’s with interface previews” I decided to revisit my code and give it another boost. The trick to getting content on screen faster is removing render-blocking CSS. When the […]",
-      "date": 1424365085000
     }
   ],
   "nextPage": "/blog/page/6/",
