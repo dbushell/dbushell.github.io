@@ -50,8 +50,8 @@
 
   var unpkgEnv = app.isDev ? 'development' : 'production.min';
   var dependencies = [
-    'https://unpkg.com/react@16.3.2/umd/react.' + unpkgEnv + '.js',
-    'https://unpkg.com/react-dom@16.3.2/umd/react-dom.' + unpkgEnv + '.js',
+    'https://unpkg.com/react@16.12.0/umd/react.' + unpkgEnv + '.js',
+    'https://unpkg.com/react-dom@16.12.0/umd/react-dom.' + unpkgEnv + '.js',
     '/assets/js/app' + (app.isDev ? '' : '.min') + '.js?v=' + app.ver
   ];
 

@@ -1,158 +1,97 @@
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js'
-);
+importScripts('sw-precache.js');
 
-workbox.setConfig({
-  debug: false
-});
-
-const cacheNameParts = {
-  prefix: 'dbushell',
-  suffix: 'v6'
-};
-
-const getCacheName = name =>
-  `${cacheNameParts.prefix}-${name}-${cacheNameParts.suffix}`;
-
-workbox.core.setCacheNameDetails({
-  prefix: cacheNameParts.prefix,
-  suffix: cacheNameParts.suffix,
-  precache: 'precache',
-  runtime: 'runtime'
-});
-
-const daySeconds = days => days * 24 * 60 * 60;
-const rVer = '\\?v=([\\d]+\\.[\\d]+\\.[\\d]+)';
-const rName = new RegExp(getCacheName('[a-z]*?'));
-
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches
-      .keys()
-      .then(cacheNames =>
-        Promise.all(
-          cacheNames
-            .filter(name => !rName.test(name))
-            .map(name => caches.delete(name))
-        )
-      )
-  );
-});
-
-workbox.precaching.precache([
-  '/assets/img/offline.svg',
-  '/api/props.json',
-  '/api/about/props.json',
-  '/api/blog/props.json',
-  '/api/contact/props.json',
-  '/api/services/props.json',
-  '/api/showcase/props.json'
-]);
-
-const matchPreCache = url =>
-  caches.match(url, {
-    cacheName: getCacheName('precache')
-  });
+const prefix = workbox.core.cacheNames.prefix;
 
 workbox.routing.registerRoute(
-  new RegExp('/(Pikaday|Nestable).*$'),
-  workbox.strategies.networkOnly()
+  /\/(Pikaday|Nestable).*$/,
+  new workbox.strategies.NetworkOnly(),
+  'GET'
 );
 
 workbox.routing.registerRoute(
-  new RegExp(`.js(${rVer})?$`),
-  workbox.strategies.staleWhileRevalidate({
-    cacheName: getCacheName('js'),
+  /.js(\?v=([\d]+\.[\d]+\.[\d]+))?$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: `${prefix}-js`,
     plugins: [
       new workbox.expiration.Plugin({
-        maxAgeSeconds: daySeconds(7),
+        purgeOnQuotaError: true,
+        maxAgeSeconds: 604800,
         maxEntries: 10
       })
     ]
-  })
-);
-
-const htmlStrategy = workbox.strategies.staleWhileRevalidate({
-  cacheName: getCacheName('html'),
-  plugins: [
-    new workbox.expiration.Plugin({
-      maxAgeSeconds: daySeconds(7),
-      maxEntries: 30
-    })
-  ]
-});
-
-workbox.routing.registerRoute(/\/([\w_-]+\/)*$/, context =>
-  htmlStrategy.handle(context).catch(err => matchPreCache(context.url))
-);
-
-const jsonStrategy = workbox.strategies.staleWhileRevalidate({
-  cacheName: getCacheName('json'),
-  plugins: [
-    new workbox.expiration.Plugin({
-      maxAgeSeconds: daySeconds(7),
-      maxEntries: 30
-    })
-  ]
-});
-
-workbox.routing.registerRoute(new RegExp(`.json$`), context =>
-  jsonStrategy.handle(context).catch(err => matchPreCache(context.url))
-);
-
-const imageStrategy = workbox.strategies.cacheFirst({
-  cacheName: getCacheName('images'),
-  plugins: [
-    new workbox.expiration.Plugin({
-      maxAgeSeconds: daySeconds(30),
-      maxEntries: 30
-    })
-  ]
-});
-
-workbox.routing.registerRoute(
-  new RegExp(`\.(?:gif|jpeg|jpg|png|svg)(${rVer})?$`),
-  context =>
-    imageStrategy.handle(context).catch(err =>
-      matchPreCache('/assets/img/offline.svg').then(response =>
-        response.text().then(
-          text =>
-            new Response(text, {
-              headers: {
-                'Content-Type': 'image/svg+xml',
-                'Cache-Control': 'no-store'
-              }
-            })
-        )
-      )
-    )
+  }),
+  'GET'
 );
 
 workbox.routing.registerRoute(
-  new RegExp('https://(.*?).(googleapis|gstatic).com/(.*)'),
-  workbox.strategies.cacheFirst({
-    cacheName: getCacheName('googleapis'),
+  /\/([\w_-]+\/)*$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: `${prefix}-html`,
     plugins: [
       new workbox.expiration.Plugin({
-        maxAgeSeconds: daySeconds(30),
-        maxEntries: 30
+        purgeOnQuotaError: true,
+        maxAgeSeconds: 604800,
+        maxEntries: 20
       })
     ]
-  })
+  }),
+  'GET'
 );
 
 workbox.routing.registerRoute(
-  new RegExp('https://unpkg.com/(.*)'),
-  workbox.strategies.cacheFirst({
-    cacheName: getCacheName('unpkg'),
+  /.json$/,
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: `${prefix}-json`,
     plugins: [
-      new workbox.cacheableResponse.Plugin({
-        statuses: [0, 200]
-      }),
       new workbox.expiration.Plugin({
-        maxAgeSeconds: daySeconds(30),
-        maxEntries: 5
+        purgeOnQuotaError: true,
+        maxAgeSeconds: 604800,
+        maxEntries: 20
       })
     ]
-  })
+  }),
+  'GET'
 );
+
+workbox.routing.registerRoute(
+  /.(?:gif|jpeg|jpg|png|svg)(\?v=([\d]+\.[\d]+\.[\d]+))?$/,
+  new workbox.strategies.CacheFirst({
+    cacheName: `${prefix}-img`,
+    plugins: [
+      new workbox.expiration.Plugin({
+        purgeOnQuotaError: true,
+        maxAgeSeconds: 2592000,
+        maxEntries: 20
+      })
+    ]
+  }),
+  'GET'
+);
+
+workbox.routing.registerRoute(
+  /https:\/\/(.*?).?(googleapis|gstatic|unpkg).com\/(.*)/,
+  new workbox.strategies.CacheFirst({
+    cacheName: `${prefix}-cdn`,
+    plugins: [
+      new workbox.cacheableResponse.Plugin({statuses: [0, 200]}),
+      new workbox.expiration.Plugin({
+        purgeOnQuotaError: true,
+        maxAgeSeconds: 2592000,
+        maxEntries: 10
+      })
+    ]
+  }),
+  'GET'
+);
+
+workbox.routing.setCatchHandler(({event}) => {
+  switch (event.request.destination) {
+    case 'image':
+      return caches.match(
+        workbox.precaching.getCacheKeyForURL('assets/img/offline.svg')
+      );
+      break;
+    default:
+      return Response.error();
+  }
+});
