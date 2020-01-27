@@ -43,7 +43,7 @@ self.__precacheManifest = [
   },
   {
     "url": "services/index.html",
-    "revision": "a977b2b2cbf1ca6067c229e2d30ba92e"
+    "revision": "4776d3100c611f71978f9e38a3763b55"
   },
   {
     "url": "showcase/index.html",
@@ -67,7 +67,7 @@ self.__precacheManifest = [
   },
   {
     "url": "api/services/props.json",
-    "revision": "df61d67ab338437dcf71329a2f9244d3"
+    "revision": "7f61b3c9af6ef2ee5200aa3bb4c72ca5"
   },
   {
     "url": "api/showcase/props.json",
