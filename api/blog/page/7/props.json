@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "whats-up",
+      "title": "What’s up?",
+      "href": "/2014/11/24/whats-up/",
+      "body": "Before I ramble on, a quick note to say I’m taking a break over December. Once I’ve completed active projects I’ll be offline for the most part! That means no emails. I’m not a fan of “out of office” auto responders, so please don’t be offended if you don’t receive a reply until January. At which time […]",
+      "date": 1416844586000
+    },
+    {
       "id": "how-i-built-a-static-site-generator",
       "title": "How I built a Static Site Generator",
       "href": "/2014/07/09/how-i-built-a-static-site-generator/",
@@ -43,13 +50,6 @@
       "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
       "body": "\nDavid immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.\nKevin Mueller, Studio Manager for Uwe Wittwer\n\n\nAtelier Uwe Wittwer came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I was […]",
       "date": 1399472897000
-    },
-    {
-      "id": "two-week-build",
-      "title": "Two Week Build",
-      "href": "/2014/04/24/two-week-build/",
-      "body": "From concept to launch the new version of my website clocked just over two weeks of development time. This article documents assorted aspects of that process.\nInitial Concept\n\nWhat you see above is the extent of my ’shopping for the new design. I probably wasted more time setting up those ridiculous guides than I did mocking up the visual concept. Still, for an […]",
-      "date": 1398332871000
     }
   ],
   "nextPage": "/blog/page/8/",

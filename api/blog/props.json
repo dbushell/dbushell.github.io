@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "building-a-pwa-with-netlify-functions",
+      "title": "Building a PWA with Netlify Functions",
+      "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
+      "body": "A couple of weeks ago I took Netlify for a spin. I found the platform to be much easier to use than I’d anticipated. I was keen to test more features.\nNetlify Functions provide back-end functionality through API endpoints. They’re powered by AWS Lambda. I’m using AWS for my contact form. It took me forever to […]",
+      "date": 1580119200000
+    },
+    {
       "id": "a-morning-with-vuejs",
       "title": "A Morning with Vue.js",
       "href": "/2020/01/23/a-morning-with-vuejs/",
@@ -43,13 +50,6 @@
       "href": "/2018/04/05/react-redux-internationalisation/",
       "body": "Internationalisation, i18n, localisation – whatever you prefer – can be tricky if your code does not support the ability to translate user interface text.\nWhen writing React it’s easy to hard-code UI text right into the JavaScript. This is not good if your website or app needs to support multiple languages. Even if you only support […]",
       "date": 1522922400000
-    },
-    {
-      "id": "codepen-snippets",
-      "title": "CodePen Snippets",
-      "href": "/2018/02/21/codepen-snippets/",
-      "body": "I’ve started a new Code Snippets collection on CodePen. It will be populated with the little and sometimes peculiar CSS techniques I’ve used. Mostly CSS but with occasional JavaScript sprinkles. Progressively enhanced, of course.\nStuff like this styled range input:\n\n  See the Pen Styled input range (slider/progress) by David Bushell (@dbushell) on CodePen.\n\n\nWho would have […]",
-      "date": 1519207200000
     }
   ],
   "nextPage": "/blog/page/2/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "design-books-for-sale",
+      "title": "Design Books for Sale",
+      "href": "/2012/10/29/design-books-for-sale/",
+      "body": "Based in the UK? Like design, books, design books, book design?\nI’ve got just what you need. I’m selling a few of my design books. These are all top notch and have served me well (some since the uni days). Today I’m all digital and sadly have no room for a physical book collection. I want to see […]",
+      "date": 1351547745000
+    },
+    {
       "id": "the-real-cost-of-retina",
       "title": "The Real Cost of Retina",
       "href": "/2012/10/23/the-real-cost-of-retina/",
@@ -43,13 +50,6 @@
       "href": "/2012/08/27/im-bored-with-code/",
       "body": "The state of the browser defines our freedom as website makers. Browsers are a constant source of frustration. For every step forward they take so does the horizon. New possibilities emerge; expectations are raised. What is seen as “modern” is always just beyond our ability. It has always been my desire to deliver websites at […]",
       "date": 1346101891000
-    },
-    {
-      "id": "www",
-      "title": "WWW",
-      "href": "/2012/08/20/www/",
-      "body": "I’ve been semi-offline for quite a while now. I took some weeks off to relax and enjoy the Olympics, so this is a short post to warm up my blogging fingers. (Not to suggest that — by jumping straight back behind the keyboard — I haven’t been inspired by the games, I’ve been running a hell […]",
-      "date": 1345487654000
     }
   ],
   "nextPage": "/blog/page/17/",

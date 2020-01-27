@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 24)",
   "excerpts": [
     {
+      "id": "reaction-time",
+      "title": "Reaction Time",
+      "href": "/2011/10/25/reaction-time/",
+      "body": "Last week I wrote about device optimisation which adds a much needed bit of pragmatism to the holy grail of timeless, device-agnostic website design.\nI touched on a technique that I’ll expand here because it can be used more generically. If you’re going for a responsive layout with interactive elements this makes a massive difference to UX.\nRelative […]",
+      "date": 1319568205000
+    },
+    {
       "id": "the-thoughtful-touches",
       "title": "The Thoughtful Touches",
       "href": "/2011/10/18/the-thoughtful-touches/",
@@ -43,13 +50,6 @@
       "href": "/2011/10/01/building-for-future-design/",
       "body": "2011 is vanishing fast!\nI’ve been busy working hard at my new home (Browser) refining my front-end coding skills.\nMy focus has been on honing the semantic and accessible nature of the websites we build. That is the underlying requirement I need to fulfil my mandate of designing superb user experiences. It’s really all about pushing website design forward. […]",
       "date": 1317474186000
-    },
-    {
-      "id": "what-is-mobile",
-      "title": "What is mobile?",
-      "href": "/2011/09/14/what-is-mobile/",
-      "body": "Have you ever seen someone walk down the street with a tower strapped to their back and a 24” flatscreen perched on one arm tweeting away? We can assert that anyone “mobile” is more than likely “small-screen” but there is still a strong distinction between the two. “Mobile” suggests either:\n\nuse of a specific handheld device — […]",
-      "date": 1316006024000
     }
   ],
   "nextPage": "/blog/page/25/",

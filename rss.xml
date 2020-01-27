@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 24 Jan 2020 12:27:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 16:35:40 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Building a PWA with Netlify Functions]]></title>
+  <description><![CDATA[<p>A couple of weeks ago I took Netlify for a spin. I found the platform to be much easier to use than I’d anticipated. I was keen to test more features.
+Netlify Functions provide back-end functionality through API endpoints. They’re powered by AWS Lambda. I’m using AWS for my contact form. It took me forever to […]</p>]]></description>
+  <link>https://dbushell.com/2020/01/27/building-a-pwa-with-netlify-functions/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/01/27/building-a-pwa-with-netlify-functions/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Mon, 27 Jan 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[A Morning with Vue.js]]></title>
   <description><![CDATA[<p>I’m a React person but I’m not devoted to it. Honest! Earlier this week I found a morning to flirt with Vue.js.
@@ -216,15 +225,6 @@ If you’re familiar with my workflow it will be no surprised that I first trans
   <guid isPermaLink="true">https://dbushell.com/2016/10/10/building-a-shopify-theme/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 10 Oct 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Colour Accessibility]]></title>
-  <description><![CDATA[<p>“Accessiblity” isn’t a scary word but many web folks shy away from it. Perhaps because the W3C guidelines are a little scary. The reality is website accessibility affects us all. Not just those of us who cross the threshold into a medically diagnosed condition.
-“I want to see like the colour blind” is a Chrome plugin […]</p>]]></description>
-  <link>https://dbushell.com/2016/09/01/colour-accessibility/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/09/01/colour-accessibility/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Thu, 01 Sep 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

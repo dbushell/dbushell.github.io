@@ -1,0 +1,10 @@
+{
+  "dateUnix": 1580119200000,
+  "dateFormatted": "Monday 27 Jan 2020",
+  "pageHeading": "Building Eavesdrop with Netlify Functions",
+  "pagePath": "/2020/01/27/building-eavesdrop-with-netlify-functions/",
+  "innerHTML": "<p>A couple of weeks ago <a href=\"/2020/01/15/netlify-first-impressions/\">I took Netlify for a spin</a>. I found it to be much easier than I’d anticipated which left me eager to test more features.</p>\n<p class=\"b-post__image\"><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==\" data-lazy=\"false\" data-src=\"/images/blog/2020/eavesdrop.gif\" alt=\"Eavesdrop.app\"></p>\n",
+  "pageExcerpt": "A couple of weeks ago I took Netlify for a spin. I found it to be much easier than I’d anticipated which left me eager to test more features.\n\n",
+  "pageDesc": "The one where I build a progressive web app to learn Netlify functions.",
+  "pageTitle": "Building Eavesdrop with Netlify Functions – David Bushell – Web Design (UK)"
+}

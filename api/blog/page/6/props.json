@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "responsive-design-for-houden",
+      "title": "Responsive Design for Houden",
+      "href": "/2015/03/18/responsive-design-for-houden/",
+      "body": "Houden is an e-ccomerce store, soon to launch with stylish bags and accessories for laptops, tablets, and cameras.\nI was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at Shopify. Below is a preview of the design and code I’ve been working […]",
+      "date": 1426675859000
+    },
+    {
       "id": "critical-css-and-performance",
       "title": "Critical CSS and Performance",
       "href": "/2015/02/19/critical-css-and-performance/",
@@ -43,13 +50,6 @@
       "href": "/2015/01/12/happy-new-year-2/",
       "body": "I’m back in the office and feeling positive about this year’s work.\nGive me a shout if you require my web design / front-end skills. I’ve been thinking long and hard about the type of work I’d like to take on, and really, I find a variety most rewarding. It’s nice to alternate between design and dev.\nFor the […]",
       "date": 1421064732000
-    },
-    {
-      "id": "whats-up",
-      "title": "What’s up?",
-      "href": "/2014/11/24/whats-up/",
-      "body": "Before I ramble on, a quick note to say I’m taking a break over December. Once I’ve completed active projects I’ll be offline for the most part! That means no emails. I’m not a fan of “out of office” auto responders, so please don’t be offended if you don’t receive a reply until January. At which time […]",
-      "date": 1416844586000
     }
   ],
   "nextPage": "/blog/page/7/",

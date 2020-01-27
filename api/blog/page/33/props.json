@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 33)",
   "excerpts": [
     {
+      "id": "do-you-need-a-javascript-library",
+      "title": "Do you need a JavaScript library?",
+      "href": "/2010/06/29/do-you-need-a-javascript-library/",
+      "body": "Over the last few years JavaScript has gone through a renaissance.\nFrom a buggy unpredictable add-on, to a mature superfast piece of kit, JavaScript is an integral component to any website. To prove this I’d present libraries like jQuery, Modernizr and Raphaël (to name a few of my favourites).\nBut the question of the day is: do you actually need […]",
+      "date": 1277844775000
+    },
+    {
       "id": "finding-the-right-style",
       "title": "Finding the right style",
       "href": "/2010/06/28/finding-the-right-style/",
@@ -43,13 +50,6 @@
       "href": "/2010/05/22/minimalist-html/",
       "body": "As part of the ongoing Design Heroes project we’ve started to include longer reviews with juicier content! The latest feature is on web designer and strategist Giuseppe Scappaticcio and his glorious website (and it’s source!). Read the review on Design Heroes, see a snippet below:\n\n“Really conserve your HTML as if it’s a non-renewable source. Give […]",
       "date": 1274522211000
-    },
-    {
-      "id": "7-things-i-hate-about-website-design",
-      "title": "7 things I hate about…",
-      "href": "/2010/05/09/7-things-i-hate-about-website-design/",
-      "body": "Website Design and Development!\nI started writing a blog about all the cool things being a web designer has to offer, i.e. ever changing technologies (slicker browsers, screens with pixels pushed closer together, HTML5, CSS3 with shadows and rounded corners everywhere etc). But then I figured people have already done a better job than I could […]",
-      "date": 1273422270000
     }
   ],
   "nextPage": "/blog/page/34/",

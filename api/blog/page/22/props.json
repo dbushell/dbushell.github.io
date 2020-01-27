@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 22)",
   "excerpts": [
     {
+      "id": "are-you-sure-the-user-experience-of-confirmation-dialogs",
+      "title": "Are You Sure? The UX of Confirmations",
+      "href": "/2012/02/13/are-you-sure-the-user-experience-of-confirmation-dialogs/",
+      "body": "Imagine for a minute your web app has a “Delete” action. In HTML it takes this form:\n&lt;a class=\"delete\" href=\"#\">Delete Item&lt;/a>\nThe anchor is styled up with sexy CSS3 and functionality is implemented with an asynchronous JavaScript API call. Because we all care about accessibility (and standards) we provide a “no-JS” fallback:\n&lt;a class=\"delete\" href=\"/item/delete/1/\">Delete Item&lt;/a>\nLovely! It’s great to build […]",
+      "date": 1329158792000
+    },
+    {
       "id": "resolution-independence",
       "title": "Resolution Independence!",
       "href": "/2012/01/16/resolution-independence/",
@@ -43,13 +50,6 @@
       "href": "/2011/12/08/socialite-js-preview/",
       "body": "You’ve all seen social sharing buttons. Twitter’s “tweet”, Facebook’s “like” etc.\nHere’s a screenshot from a popular blog to refresh your memory:\n\nThey have their place on a website if used intelligently — that’s a big if! They’re difficult to design around and a nightmare for front-end development.\nThe copy-and-paste code for each button includes a default element and […]",
       "date": 1323350068000
-    },
-    {
-      "id": "window-resize-in-javascript",
-      "title": "Window Resize in JS",
-      "href": "/2011/11/24/window-resize-in-javascript/",
-      "body": "I will write a full article on responsive website design &amp; JavaScript soon, but for now here’s a quick snippet! (With a little help from jQuery, naturally.)\nvar resizeTimeout, win = $(window);\nwin.bind('resize', function()\n{\n    if (resizeTimeout) clearTimeout(resizeTimeout);\n    resizeTimeout = setTimeout(function()\n    {\n        […]",
-      "date": 1322174153000
     }
   ],
   "nextPage": "/blog/page/23/",

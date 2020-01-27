@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "featured-in-javascript-weekly",
+      "title": "Featured",
+      "href": "/2012/06/08/featured-in-javascript-weekly/",
+      "body": "If you’re a website developer, subscriptions to the JavaScript Weekly and HTML5 Weekly newsletters are mandatory. Even in the days of Twitter they’re a goldmine of knowledge.\nAs it happens, my Socialite.js project makes an appearance in Issue #82! My praise of these newsletters is in no way disingenuous; it really is an honour (albeit a very geeky one). I’m […]",
+      "date": 1339159514000
+    },
+    {
       "id": "search-responsive-design",
       "title": "Search & Responsive Design",
       "href": "/2012/06/06/search-responsive-design/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/15/were-hiring/",
       "body": "\nWe’re hiring at Browser. If you like making stuff for the Web you’ll fit right in. The roles that need filling are a Junior Digital Designer/Developer (1 year’s experience needed) and an Intern Digital Designer (no experience, but lots of skills and ambition).\nHit the website for more info and contact details.\nRecruitment agencies, try: +44 (0) 8705 244622.\n",
       "date": 1337065744000
-    },
-    {
-      "id": "paydirt-youre-doing-it-wrong",
-      "title": "Paydirt: You’re Doing It Wrong",
-      "href": "/2012/05/08/paydirt-youre-doing-it-wrong/",
-      "body": "\nWe don’t spend hours debugging obscure IE bugs…\n\nNeither do I, yet my websites work just fine in Internet Explorer.\nJust over a month after the last “we’re dropping IE support” publicity stunt, another tech start-up has successfully hit pay dirt with the exact same bullshit (read: actively blocking IE).\nI realise that by sharing this link bait I’m feeding the trolls, […]",
-      "date": 1336511221000
     }
   ],
   "nextPage": "/blog/page/19/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 34)",
   "excerpts": [
     {
+      "id": "7-things-i-hate-about-website-design",
+      "title": "7 things I hate about…",
+      "href": "/2010/05/09/7-things-i-hate-about-website-design/",
+      "body": "Website Design and Development!\nI started writing a blog about all the cool things being a web designer has to offer, i.e. ever changing technologies (slicker browsers, screens with pixels pushed closer together, HTML5, CSS3 with shadows and rounded corners everywhere etc). But then I figured people have already done a better job than I could […]",
+      "date": 1273422270000
+    },
+    {
       "id": "design-heroes-2",
       "title": "Design Heroes 2",
       "href": "/2010/04/29/design-heroes-2/",
@@ -43,13 +50,6 @@
       "href": "/2010/02/14/olympus-e-p1/",
       "body": "Ever since I started the daily photo project I’ve been looking to buy a digital camera. The iPhone’s camera has been surprisingly good but it doesn’t hold up to serious goat photography (scroll down).\n[photo was lost to time…]\nMy choice came down to a toss up between the Olympus E-P1 (above) and the Panasonic Lumix GF1. […]",
       "date": 1266164566000
-    },
-    {
-      "id": "in-search-of-atlantis",
-      "title": "In search of Atlantis",
-      "href": "/2010/02/07/in-search-of-atlantis/",
-      "body": "Every get that feeling you’re out of the loop? People know something you don’t?\nI’ve been in London for closer to 2 years now, so it was starting to get slightly embarrassing that the nearest arts superstore I could recommend was over 200 miles away. Thankfully I’d heard rumours that the east-end housed my answer (evidence […]",
-      "date": 1265558354000
     }
   ],
   "nextPage": "/blog/page/35/",

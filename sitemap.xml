@@ -1808,13 +1808,19 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/01/15/netlify-first-impressions/</loc>
-  <lastmod>2020-01-21T16:23:17.039Z</lastmod>
+  <lastmod>2020-01-24T16:33:15.823Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://dbushell.com/2020/01/23/a-morning-with-vuejs/</loc>
   <lastmod>2020-01-22T08:05:29.587Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/01/27/building-a-pwa-with-netlify-functions/</loc>
+  <lastmod>2020-01-24T16:35:35.163Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
