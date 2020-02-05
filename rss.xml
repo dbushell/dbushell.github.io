@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 24 Jan 2020 16:35:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 14:03:08 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Docker, WordPress, and Portless Localhost Domains]]></title>
+  <description><![CDATA[<p>The Docker life chooses you. I bet a lot of developers have had a similar introduction. You’re brought onto a project and it’s like; “Hey we’re using Docker, just run ‘docker-compose up’.“ they say, “Sure, I know Docker,“ you shrug. Then you spend the better part of the week debugging.
+I’ve worked on maybe two dozen […]</p>]]></description>
+  <link>https://dbushell.com/2020/02/07/docker-wordpress-portless-localhost-domains/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/02/07/docker-wordpress-portless-localhost-domains/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 07 Feb 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Building a PWA with Netlify Functions]]></title>
   <description><![CDATA[<p>A couple of weeks ago I took Netlify for a spin. I found the platform to be much easier to use than I’d anticipated. I was keen to test more features.
@@ -214,17 +223,6 @@ Unlike other libraries something about React just clicked with me. Back in Octob
   <guid isPermaLink="true">https://dbushell.com/2016/12/02/my-thoughts-on-react/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 02 Dec 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Building a Shopify Theme]]></title>
-  <description><![CDATA[<p>Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.
-
-Getting started
-If you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp;amp; CSS […]</p>]]></description>
-  <link>https://dbushell.com/2016/10/10/building-a-shopify-theme/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/10/10/building-a-shopify-theme/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 10 Oct 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 22)",
   "excerpts": [
     {
+      "id": "designing-operating-systems",
+      "title": "Designing OS’s",
+      "href": "/2012/02/19/designing-operating-systems/",
+      "body": "Earlier this week Apple announced OS X Mountain Lion which brings closer unity between itself and iOS for mobile. Both in user experience and—sadly—user interface.\nI can’t say I’m particularly excited about upgrading to OS X 10.8. The heavily stylised and textured design already looks tired on mobile apps, now we have the pleasure of it […]",
+      "date": 1329651353000
+    },
+    {
       "id": "are-you-sure-the-user-experience-of-confirmation-dialogs",
       "title": "Are You Sure? The UX of Confirmations",
       "href": "/2012/02/13/are-you-sure-the-user-experience-of-confirmation-dialogs/",
@@ -43,13 +50,6 @@
       "href": "/2011/12/15/web-design-2012-and-beyond/",
       "body": "The year is ending, I guess it’s time to look forward?\n2011 has been the best year of my career so far. I left my previous job to join Browser, an unexpected but excellent move! I’ve been refining my front-end development skills and design process. Next year we’ll have big websites to launch that I plan to showcase here. […]",
       "date": 1323907873000
-    },
-    {
-      "id": "socialite-js-preview",
-      "title": "Socialite.js Preview",
-      "href": "/2011/12/08/socialite-js-preview/",
-      "body": "You’ve all seen social sharing buttons. Twitter’s “tweet”, Facebook’s “like” etc.\nHere’s a screenshot from a popular blog to refresh your memory:\n\nThey have their place on a website if used intelligently — that’s a big if! They’re difficult to design around and a nightmare for front-end development.\nThe copy-and-paste code for each button includes a default element and […]",
-      "date": 1323350068000
     }
   ],
   "nextPage": "/blog/page/23/",

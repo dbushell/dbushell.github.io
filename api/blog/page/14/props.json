@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 14)",
   "excerpts": [
     {
+      "id": "a-new-home",
+      "title": "A New Home",
+      "href": "/2013/02/04/a-new-home/",
+      "body": "Welcome to my new website. I haven’t rebranded entirely — what you see bears many similarities to updates past — but I am launching a new stage in my career.\n2013 is the year I go freelance.\nThis site now represents my web design and front-end development services. It’s heavily content-centric in design. And responsive, of course! It has a newfound simplicity. That’s not […]",
+      "date": 1359948357000
+    },
+    {
       "id": "gloople-responsive-design-review",
       "title": "Gloople: Responsive Design Review",
       "href": "/2013/01/28/gloople-responsive-design-review/",
@@ -43,13 +50,6 @@
       "href": "/2013/01/06/a-mini-series-of-responsive-mistakes/",
       "body": "Last week I shared some front-end experience with 5 tips for responsive builds. It received positive feedback so I thought it’d be fun to continue with a new mini-series. This month I’ll be focusing on the mistakes we make. Without further ado, let’s start with the biggest:\nSmart Phone, Tablet, Desktop\nAs a composition to highlight the benefits of responsive […]",
       "date": 1357486067000
-    },
-    {
-      "id": "five-tips-for-responsive-builds",
-      "title": "5 Tips for Responsive Builds",
-      "href": "/2013/01/01/five-tips-for-responsive-builds/",
-      "body": "If design and content strategy stops when the build phase starts it’s time to rethink your process. The role of a modern front-end developer goes beyond following pre-defined blueprints. An iterative, agile-like approach is vital to account for responsive design challenges that inevitably arise as a website takes shape.\nWith that in mind here are my 5 […]",
-      "date": 1357082499000
     }
   ],
   "nextPage": "/blog/page/15/",

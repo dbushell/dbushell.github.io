@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "the-magic-of-service-workers",
+      "title": "The Magic of Service Workers",
+      "href": "/2017/04/06/the-magic-of-service-workers/",
+      "body": "They’re a thing. Google describes them as a “technical foundation”.\nWhat I’ve learnt is that a service worker is a JavaScript file. It runs in it’s own little world behind a website. That means it can’t access the DOM. What it can do is proxy network requests and access a storage cache.\nI’m sure they can do […]",
+      "date": 1491472800000
+    },
+    {
       "id": "i-watched-iron-fist-and-coded-css",
       "title": "I watched Iron Fist and coded CSS 👈",
       "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/",
@@ -43,13 +50,6 @@
       "href": "/2016/10/10/building-a-shopify-theme/",
       "body": "Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.\n\nGetting started\nIf you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp; CSS […]",
       "date": 1476093600000
-    },
-    {
-      "id": "colour-accessibility",
-      "title": "Colour Accessibility",
-      "href": "/2016/09/01/colour-accessibility/",
-      "body": "“Accessiblity” isn’t a scary word but many web folks shy away from it. Perhaps because the W3C guidelines are a little scary. The reality is website accessibility affects us all. Not just those of us who cross the threshold into a medically diagnosed condition.\n“I want to see like the colour blind” is a Chrome plugin […]",
-      "date": 1472724000000
     }
   ],
   "nextPage": "/blog/page/4/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "docker-wordpress-portless-localhost-domains",
+      "title": "Docker, WordPress, and Portless Localhost Domains",
+      "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
+      "body": "The Docker life chooses you. I bet a lot of developers have had a similar introduction. You’re brought onto a project and it’s like; “Hey we’re using Docker, just run ‘docker-compose up’.“ they say, “Sure, I know Docker,“ you shrug. Then you spend the better part of the week debugging.\nI’ve worked on maybe two dozen […]",
+      "date": 1581069600000
+    },
+    {
       "id": "building-a-pwa-with-netlify-functions",
       "title": "Building a PWA with Netlify Functions",
       "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
@@ -43,13 +50,6 @@
       "href": "/2018/05/21/pwa-progressive-web-apps/",
       "body": "This website – dbushell.com – or dbushell.app if you like redirects – is now a progressive web app!\nWhat does that mean? Don’t let the fancy initialism deceive you. PWAs are websites first and foremost. But they can be installed like an app. What is meant by “app” depends on where it’s installed. As of writing […]",
       "date": 1526896800000
-    },
-    {
-      "id": "react-redux-internationalisation",
-      "title": "React & Redux - Internationalisation",
-      "href": "/2018/04/05/react-redux-internationalisation/",
-      "body": "Internationalisation, i18n, localisation – whatever you prefer – can be tricky if your code does not support the ability to translate user interface text.\nWhen writing React it’s easy to hard-code UI text right into the JavaScript. This is not good if your website or app needs to support multiple languages. Even if you only support […]",
-      "date": 1522922400000
     }
   ],
   "nextPage": "/blog/page/2/",

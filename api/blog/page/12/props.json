@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "prototyping",
+      "title": "Prototyping",
+      "href": "/2013/04/18/prototyping/",
+      "body": "A couple of weeks ago I embarked upon a new side quest: make a list app and use as much JavaScript in the stack as possible. Fighting adversity, I’ve made progress:\n\nTwitter Bootstrap is a great UI toolkit for prototypes. Don’t let it seduce you, my underlying code ain’t pretty!\nLearning Curve\nAfter the excitement of last weekend’s test driven […]",
+      "date": 1366314337000
+    },
+    {
       "id": "test-driven-development",
       "title": "Test Driven Development",
       "href": "/2013/04/14/test-driven-development/",
@@ -43,13 +50,6 @@
       "href": "/2013/03/12/automation/",
       "body": "I used to believe hand-crafting every line of code was a necessity. I u-turned on that opinion and adopted CSS preprocessors with much gusto last year.\nIt wasn’t so much the syntactical learning curve that initially put me off — they’re familiar if you’ve done any kind of programming — it was the perceived “added complexity” they […]",
       "date": 1363112796000
-    },
-    {
-      "id": "a-responsive-day-out",
-      "title": "A Responsive Day Out",
-      "href": "/2013/03/03/a-responsive-day-out/",
-      "body": "\nMe on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by Laura Kalbag and Marc Thiele.\nOn Friday 1st March, I spoke at Responsive Day Out in Brighton. Videos at Besquare, Audio of all talks is available and you can click along to my slides too.\nWhat a wonderful day! When Jeremy asked me to speak last year, March seemed eons away. I’ve never spoken […]",
-      "date": 1362319748000
     }
   ],
   "nextPage": "/blog/page/13/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "were-hiring",
+      "title": "We’re Hiring!",
+      "href": "/2012/05/15/were-hiring/",
+      "body": "\nWe’re hiring at Browser. If you like making stuff for the Web you’ll fit right in. The roles that need filling are a Junior Digital Designer/Developer (1 year’s experience needed) and an Intern Digital Designer (no experience, but lots of skills and ambition).\nHit the website for more info and contact details.\nRecruitment agencies, try: +44 (0) 8705 244622.\n",
+      "date": 1337065744000
+    },
+    {
       "id": "paydirt-youre-doing-it-wrong",
       "title": "Paydirt: You’re Doing It Wrong",
       "href": "/2012/05/08/paydirt-youre-doing-it-wrong/",
@@ -43,13 +50,6 @@
       "href": "/2012/04/18/scoping-typography-css/",
       "body": "I’m writing a very long article on front-end dev builds, this is a quick prelude to that!\nIt’s common practice to define global typography style early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, type selectors like:\nh1 { font-weight: bold; }\np { […]",
       "date": 1334748564000
-    },
-    {
-      "id": "terms-of-service-tldr",
-      "title": "Terms of Service TL;DR",
-      "href": "/2012/04/15/terms-of-service-tldr/",
-      "body": "This week saw an echo of praise around the tech community for photography website 500px’s approach to its Terms of Service page.\nThe basic idea being that the left column contains the verbose legal terms while the right column holds a brief layman’s translation. What I find worry is the vast number of web professionals who think this is a […]",
-      "date": 1334488626000
     }
   ],
   "nextPage": "/blog/page/20/",
