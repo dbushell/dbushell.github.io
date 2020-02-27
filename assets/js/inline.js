@@ -48,14 +48,6 @@
     '/assets/js/app' + (app.isDev ? '' : '.min') + '.js?v=' + app.ver
   ];
 
-  try {
-    if (!document.createElement('link').relList.supports('preload')) {
-      throw new Error();
-    }
-  } catch (err) {
-    dependencies.unshift('/assets/js/vendor/cssrelpreload.js');
-  }
-
   if (app.isDev) {
     dependencies.unshift(
       'https://unpkg.com/react/umd/react.development.js',
