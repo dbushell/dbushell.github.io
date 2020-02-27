@@ -1,4 +1,4 @@
-const ver = `10.5.0`;
+const ver = `10.5.1`;
 const cacheName = `dbushell-${ver}`;
 
 const precache = [
