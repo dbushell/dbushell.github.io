@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 17)",
   "excerpts": [
     {
+      "id": "agile-website-design-and-development",
+      "title": "Agile Website Design",
+      "href": "/2012/09/17/agile-website-design-and-development/",
+      "body": "At Browser we’ve been transitioning into an Agile development process.\nIf you know nothing about Agile, it involves breaking down a project into individual requirements and delivering them within an iterative release cycle. This not only allows for a feedback loop involving client and agency alike, but it also gives an evolving indication of time and […]",
+      "date": 1347912776000
+    },
+    {
       "id": "im-bored-with-code",
       "title": "I’m bored with code",
       "href": "/2012/08/27/im-bored-with-code/",
@@ -43,13 +50,6 @@
       "href": "/2012/06/29/jquery-2-0-goodbye-old-ie/",
       "body": "jQuery 2.0, expected release “early 2013”, will drop support for Internet Explorer 6–8.\n\njQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move […]",
       "date": 1340957971000
-    },
-    {
-      "id": "passenger-focus-responsive-web-design-case-study",
-      "title": "A Responsive Design Case Study",
-      "href": "/2012/06/17/passenger-focus-responsive-web-design-case-study/",
-      "body": "The many-device Web we use today has unearthed new design methodologies.\nDesigning one website for 3.5”–30” screens and everything between and beyond is a tricky challenge. The Web is like any other medium; it has limitations. You wouldn’t try to print a super thin font or full-colour photography on uncoated newspaper stock and expect high fidelity. The […]",
-      "date": 1339958569000
     }
   ],
   "nextPage": "/blog/page/18/",

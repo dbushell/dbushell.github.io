@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "http-security-headers-and-inline-resources",
+      "title": "HTTP Security Headers and Inline Resources",
+      "href": "/2020/02/28/http-security-headers-and-inline-resources/",
+      "body": "As it turns out, HTTPS is not the end-all to securing a website.\nMozilla Observatory and Security Headers both scan HTTP headers and report back on adherence to, or lack thereof, best practices.\nIn my case dbushell.com gets a big fat “F”. I’m hosting on GitHub Pages so there is not much I can do except use […]",
+      "date": 1582884000000
+    },
+    {
       "id": "docker-wordpress-portless-localhost-domains",
       "title": "Docker, WordPress, and Portless Localhost Domains",
       "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
@@ -43,13 +50,6 @@
       "href": "/2018/08/14/availability-september/",
       "body": "Hi there!\nDo you need an experienced front-end dev person who can also consult, design, and figure out back-end integration with minimal Slack gifs? Well good news! I have a surplus of time in September and I can build (almost) anything.\nYou can contact me to discuss projects, requirements, costs, the weather.\n",
       "date": 1534240800000
-    },
-    {
-      "id": "pwa-progressive-web-apps",
-      "title": "PWA: Progressive Web Apps",
-      "href": "/2018/05/21/pwa-progressive-web-apps/",
-      "body": "This website – dbushell.com – or dbushell.app if you like redirects – is now a progressive web app!\nWhat does that mean? Don’t let the fancy initialism deceive you. PWAs are websites first and foremost. But they can be installed like an app. What is meant by “app” depends on where it’s installed. As of writing […]",
-      "date": 1526896800000
     }
   ],
   "nextPage": "/blog/page/2/",

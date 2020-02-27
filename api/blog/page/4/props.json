@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 4)",
   "excerpts": [
     {
+      "id": "building-a-shopify-theme",
+      "title": "Building a Shopify Theme",
+      "href": "/2016/10/10/building-a-shopify-theme/",
+      "body": "Shopify is an ecommerce platform that offers themeable store fronts online. I worked alongside the wonderful folks at Studio Tangerine to develop a Shopify theme. I’ve documented interesting aspects of the process below.\n\nGetting started\nIf you’re familiar with my workflow it will be no surprised that I first translated the design into static HTML &amp; CSS […]",
+      "date": 1476093600000
+    },
+    {
       "id": "colour-accessibility",
       "title": "Colour Accessibility",
       "href": "/2016/09/01/colour-accessibility/",
@@ -43,13 +50,6 @@
       "href": "/2016/02/29/a-bit-of-a-new-look/",
       "body": "I redesigned my website!\nThis iteration has taken longer than usual because the visual changes are much more dramatic. I’m really pleased with the results:\n\nIt’s been two years since I last updated the design. That is a record because it’s usually an annual tradition. Past updates include: 2014, 2013, 2012, and 2011. Last year I improved […]",
       "date": 1456740000000
-    },
-    {
-      "id": "css-framework-for-partsgiant",
-      "title": "CSS Framework for PartsGiant",
-      "href": "/2016/01/04/css-framework-for-partsgiant/",
-      "body": "PartsGiant is a soon to launch e-commerce store based in Michigan, USA.\nI was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.\nI’ve always championed the idea of maintainable, future-proof coding […]",
-      "date": 1451901600000
     }
   ],
   "nextPage": "/blog/page/5/",

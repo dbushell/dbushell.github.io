@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 33)",
   "excerpts": [
     {
+      "id": "the-balance-of-web-design",
+      "title": "The Balance of Web Design",
+      "href": "/2010/07/04/the-balance-of-web-design/",
+      "body": "Before I present another awesome feature of my own website, I’d like to briefly discuss the theory behind website design:\nWhen we speak about “website design” our initial thoughts centre around the aesthetic style. In reality the secret to good website design is content layout on the individual pages, and the content structure of the whole website.\nDelivering content correctly is […]",
+      "date": 1278255184000
+    },
+    {
       "id": "using-svg-logos",
       "title": "Using SVG Logos",
       "href": "/2010/06/30/using-svg-logos/",
@@ -43,13 +50,6 @@
       "href": "/2010/06/13/from-mays-edition/",
       "body": "If you aren’t following my other blog (Design Heroes) you missed out on all these awesome links:\nUsable Efficiency\n\nUsable Efficiency is a new video blog with the aim of helping you improve websites with very practical and knowledgeable tips. Definitely one for the RSS reader.\nPEN Giant\n\nOne of the more superficial reasons I bought my Olympus PEN […]",
       "date": 1276427926000
-    },
-    {
-      "id": "pentagram-marks",
-      "title": "Pentagram Marks",
-      "href": "/2010/05/30/pentagram-marks/",
-      "body": "I just so happened to feature the book Pentagram Marks on Design Heroes a few weeks ago. Now that I’ve recieved a copy (birthday present) I though it deserved a full review! Click above, or read below:\nMy review of Pentagram Marks *\n\nPentagram Marks arrived in the post this week!\nThe book is delightfully smallish in stature […]",
-      "date": 1275216537000
     }
   ],
   "nextPage": "/blog/page/34/",

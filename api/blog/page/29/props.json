@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "what-does-design-mean-to-you",
+      "title": "What does Design mean to you?",
+      "href": "/2011/03/13/what-does-design-mean-to-you/",
+      "body": "I write a lot about my experiences as a professional Web Designer. Writing helps shape my understanding. Sometimes I’ll start writing on a topic only to realise I know less than I thought I did.\nWhat fascinates me more though is reading what other designers have to say. For that reason I’m planning to launch a new blog […]",
+      "date": 1300027027000
+    },
+    {
       "id": "inspire-me-now",
       "title": "Inspire me now!",
       "href": "/2011/03/09/inspire-me-now/",
@@ -43,13 +50,6 @@
       "href": "/2011/02/06/a-month-of-interests/",
       "body": "If you don’t follow my Design Heroes blog these are the links that I’ve found inspiring, useful or just plain funny over the last month!\nFoundation\nI watch and listen to a lot of podcasts but Foundation by Kevin Rose is one of the more exciting ones to appear recently. It’s all about web start-ups and innovation online. […]",
       "date": 1297028970000
-    },
-    {
-      "id": "on-doing-what-you-do-best",
-      "title": "On doing what you do best",
-      "href": "/2011/02/03/on-doing-what-you-do-best/",
-      "body": "Today I’m exceedingly happy :-D\nMy article Bringing Interactivity To Your Website With Web Standards has just been published on Smashing Magazine, the biggest web design blog there is. I’m also half way through writing my second article. (Despite being immensely tired from slogging out up to 14 hours of work daily over the last fortnight – ouch!)\nI […]",
-      "date": 1296762806000
     }
   ],
   "nextPage": "/blog/page/30/",

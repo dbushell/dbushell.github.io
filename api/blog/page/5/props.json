@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "css-framework-for-partsgiant",
+      "title": "CSS Framework for PartsGiant",
+      "href": "/2016/01/04/css-framework-for-partsgiant/",
+      "body": "PartsGiant is a soon to launch e-commerce store based in Michigan, USA.\nI was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.\nI’ve always championed the idea of maintainable, future-proof coding […]",
+      "date": 1451901600000
+    },
+    {
       "id": "2015-in-review",
       "title": "My Year in Review",
       "href": "/2015/12/30/2015-in-review/",
@@ -43,13 +50,6 @@
       "href": "/2015/06/26/social-profiles/",
       "body": "My website navigation now links to my GitHub and CodePen profiles, alongside Twitter. A long overdue change. It was embarrassing to be rocking the Google+ link. I never used Google+, I don’t even use Facebook, but it was useful to get my face alongside search results. That feature disappeared some time ago and thus the […]",
       "date": 1435312800000
-    },
-    {
-      "id": "order-html-vs-css",
-      "title": "Order: HTML vs CSS",
-      "href": "/2015/06/01/order-html-vs-css/",
-      "body": "Content should follow a logical top-to-bottom order within HTML. CSS is used to change the visual presentation of this content across different viewports.\nOn small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout […]",
-      "date": 1433152800000
     }
   ],
   "nextPage": "/blog/page/6/",

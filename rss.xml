@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 05 Feb 2020 14:07:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 13:51:08 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[HTTP Security Headers and Inline Resources]]></title>
+  <description><![CDATA[<p>As it turns out, HTTPS is not the end-all to securing a website.
+Mozilla Observatory and Security Headers both scan HTTP headers and report back on adherence to, or lack thereof, best practices.
+In my case dbushell.com gets a big fat “F”. I’m hosting on GitHub Pages so there is not much I can do except use […]</p>]]></description>
+  <link>https://dbushell.com/2020/02/28/http-security-headers-and-inline-resources/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/02/28/http-security-headers-and-inline-resources/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 28 Feb 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Docker, WordPress, and Portless Localhost Domains]]></title>
   <description><![CDATA[<p>The Docker life chooses you. I bet a lot of developers have had a similar introduction. You’re brought onto a project and it’s like; “Hey we’re using Docker, just run ‘docker-compose up’.“ they say, “Sure, I know Docker,“ you shrug. Then you spend the better part of the week debugging.
@@ -211,18 +221,6 @@ It’s easy […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 16 Dec 2016 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[My thoughts on React]]></title>
-  <description><![CDATA[<p>I’ve been playing with React for some time now. React is:
-
-“A JavaScript library for building user interfaces”.
-
-Unlike other libraries something about React just clicked with me. Back in October a client project came along that presented a golden opportunity to develop a web app. I decided to use React, and I now consider myself comfortable […]</p>]]></description>
-  <link>https://dbushell.com/2016/12/02/my-thoughts-on-react/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/12/02/my-thoughts-on-react/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Fri, 02 Dec 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

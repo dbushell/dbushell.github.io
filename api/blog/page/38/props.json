@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 38)",
   "excerpts": [
     {
+      "id": "most-amazing-top-2",
+      "title": "Most Amazing Top 2",
+      "href": "/2009/10/07/most-amazing-top-2/",
+      "body": "I’m subscribed to ~50-60 RSS feeds in Google Reader, most of them are design related. I also follow hundreds of design related people (and 1 meerkat) on Twitter. I like being up-to-date. I recently started the website Design Heroes so I could bookmark the best of the best. The rules for Design Heroes are decidedly […]",
+      "date": 1254922134000
+    },
+    {
       "id": "introducing-design-heroes",
       "title": "Introducing Design Heroes",
       "href": "/2009/10/01/introducing-design-heroes/",
@@ -43,13 +50,6 @@
       "href": "/2009/09/01/creative-packaging/",
       "body": "Creative Review unleashes some experimental packaging for their latest magazine. More exciting than a brown envelope.\n\n“CR subscribers will notice something unusual about their CR package this month when it arrives on their doormats”\n\nI certainly did, it arrived in several pieces on my doormat.\nApparently this is Creative Review’s attempt to provide a filing system for their […]",
       "date": 1251812644000
-    },
-    {
-      "id": "designing-with-placeholder-text",
-      "title": "Designing with Placeholder Text",
-      "href": "/2009/08/31/designing-with-placeholder-text/",
-      "body": "Lorem Ipsum has been traditionally used as placeholder text in graphic design. It’s a series of random words similar to Latin. Is it better to design websites with this, or relevant English?\nThe Big Advantage\nI’ve been designing with Lorem Ipsum for most of my graphics career but lately I’ve been wondering if I’m doing the right […]",
-      "date": 1251723191000
     }
   ],
   "nextPage": "/blog/page/39/",

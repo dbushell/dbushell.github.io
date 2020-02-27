@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 22)",
   "excerpts": [
     {
+      "id": "spring-cleaning-redesigning-dbushell-com",
+      "title": "Spring Cleaning",
+      "href": "/2012/02/27/spring-cleaning-redesigning-dbushell-com/",
+      "body": "May 2011 — I redesigned my website (this website) with the primary goal of making it responsive. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little turned into […]",
+      "date": 1330348374000
+    },
+    {
       "id": "designing-operating-systems",
       "title": "Designing OS’s",
       "href": "/2012/02/19/designing-operating-systems/",
@@ -43,13 +50,6 @@
       "href": "/2012/01/04/responsive-calendar-demo/",
       "body": "Update see more responsive tables progress (5th Jan).\nA real short post for future reference! I’m experimenting with a responsive calendar design and build. See my very rough responsive calendar demo.\nI’ve found through trial, error, and much pondering that the idea of a responsive calendar is actually not that complex. My demo needs more considered breakpoints and design tweaks but […]",
       "date": 1325721511000
-    },
-    {
-      "id": "web-design-2012-and-beyond",
-      "title": "Web Design: 2012 and Beyond",
-      "href": "/2011/12/15/web-design-2012-and-beyond/",
-      "body": "The year is ending, I guess it’s time to look forward?\n2011 has been the best year of my career so far. I left my previous job to join Browser, an unexpected but excellent move! I’ve been refining my front-end development skills and design process. Next year we’ll have big websites to launch that I plan to showcase here. […]",
-      "date": 1323907873000
     }
   ],
   "nextPage": "/blog/page/23/",

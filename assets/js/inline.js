@@ -40,14 +40,6 @@
     $head.appendChild(script);
   };
 
-  window.WebFontConfig = {
-    google: {
-      families: ['Noto+Sans:400,400i,700', 'Raleway:700']
-    }
-  };
-
-  app.load('https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
-
   var unpkgEnv = app.isDev ? 'development' : 'production.min';
   var dependencies = [
     'https://unpkg.com/react@16.12.0/umd/react.' + unpkgEnv + '.js',
