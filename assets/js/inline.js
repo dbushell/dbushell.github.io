@@ -1,29 +1,32 @@
 (function(window, document) {
-  // cut the mustard
-  if (!'querySelector' in document) return;
+  var $html = document.documentElement;
+  var $head = document.querySelector('head');
 
-  // setup global
+  $html.classList.remove('no-js');
+  $html.classList.add('js');
+
+  // Cut the mustard
+  if (!'querySelector' in document) {
+    return;
+  }
+
+  // Setup global
   var app = {
     ver: '{{siteVer}}',
-    isDev: !/dbushell\.com/.test(window.location.hostname),
+    isDev: !/dbushell/.test(window.location.hostname),
     isReact: 'fetch' in window,
     isLazy: 'IntersectionObserver' in window,
-    isWorker: 'serviceWorker' in navigator,
-    isFF: /firefox/i.test(navigator.userAgent),
-    isIE: Boolean(window.ActiveXObject || window.navigator.msPointerEnabled)
+    isWorker: 'serviceWorker' in navigator
   };
 
-  // load service worker
+  // Load service worker
   if (app.isWorker) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/sw.js');
     });
   }
 
-  // selectors
-  var $html = document.documentElement;
-  var $head = document.querySelector('head');
-
+  // Async load script with callback
   app.load = function(src, callback) {
     var script = document.createElement('script');
     script.src = src;
@@ -40,47 +43,49 @@
     $head.appendChild(script);
   };
 
-  var unpkgEnv = app.isDev ? 'development' : 'production.min';
+  // Setup dependencies to load in order
   var dependencies = [
-    'https://unpkg.com/react@16.12.0/umd/react.' + unpkgEnv + '.js',
-    'https://unpkg.com/react-dom@16.12.0/umd/react-dom.' + unpkgEnv + '.js',
     '/assets/js/app' + (app.isDev ? '' : '.min') + '.js?v=' + app.ver
   ];
+  if (app.isDev) {
+    dependencies.unshift(
+      'https://unpkg.com/react/umd/react.development.js',
+      'https://unpkg.com/react-dom/umd/react-dom.development.js'
+    );
+  }
 
-  window.addEventListener('DOMContentLoaded', function() {
-    if (app.isReact) {
-      if (app.isLoaded) {
+  // Load dependencies
+  function loadDependency() {
+    if (dependencies.length) {
+      app.load(dependencies.shift(), loadDependency);
+    } else {
+      if (app.isReady) {
         window.dbushell.boot();
       } else {
-        app.isReady = true;
+        app.isLoaded = true;
       }
-    } else {
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Load lazy images and quit
+    if (!app.isReact) {
       var images = [].slice.call(
         document.querySelectorAll('img[data-lazy="false"]')
       );
       for (var i = 0; i < images.length; i++) {
         images[i].src = images[i].dataset.src;
       }
+      return;
     }
-    if (app.isIE) {
-      app.load('/assets/js/vendor/svgxuse.min.js?v=' + app.ver);
+    // Load dependencies and boot universal app
+    loadDependency();
+    if (app.isLoaded) {
+      window.dbushell.boot();
+    } else {
+      app.isReady = true;
     }
   });
-
-  if (app.isReact) {
-    function loadDependency() {
-      if (dependencies.length) {
-        app.load(dependencies.shift(), loadDependency);
-      } else {
-        if (app.isReady) {
-          window.dbushell.boot();
-        } else {
-          app.isLoaded = true;
-        }
-      }
-    }
-    loadDependency();
-  }
 
   window.dbushell = app;
 })(window, document);

@@ -1,97 +1,103 @@
-importScripts('sw-precache.js');
+const ver = `10.5.0`;
+const cacheName = `dbushell-${ver}`;
 
-const prefix = workbox.core.cacheNames.prefix;
+const precache = [
+  '/',
+  '/about/',
+  '/blog/',
+  '/contact/',
+  '/services/',
+  '/showcase/',
+  '/offline/',
+  'api/props.json',
+  'api/about/props.json',
+  'api/blog/props.json',
+  'api/contact/props.json',
+  'api/services/props.json',
+  'api/showcase/props.json',
+  `assets/js/app.min.js?v=${ver}`,
+  'assets/img/offline.svg',
+  'assets/img/loading.svg'
+];
 
-workbox.routing.registerRoute(
-  /\/(Pikaday|Nestable).*$/,
-  new workbox.strategies.NetworkOnly(),
-  'GET'
-);
+self.addEventListener('install', ev => {
+  console.log(`install`);
+  self.skipWaiting();
+  ev.waitUntil(caches.open(cacheName).then(cache => cache.addAll(precache)));
+});
 
-workbox.routing.registerRoute(
-  /.js(\?v=([\d]+\.[\d]+\.[\d]+))?$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: `${prefix}-js`,
-    plugins: [
-      new workbox.expiration.Plugin({
-        purgeOnQuotaError: true,
-        maxAgeSeconds: 604800,
-        maxEntries: 10
-      })
-    ]
-  }),
-  'GET'
-);
+self.addEventListener('activate', ev => {
+  console.log(`activate`);
+  ev.waitUntil(self.clients.claim());
+  ev.waitUntil(
+    caches.keys().then(keyList =>
+      Promise.all(
+        keyList.map(key => {
+          if (key !== cacheName) {
+            return caches.delete(key);
+          }
+        })
+      )
+    )
+  );
+});
 
-workbox.routing.registerRoute(
-  /\/([\w_-]+\/)*$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: `${prefix}-html`,
-    plugins: [
-      new workbox.expiration.Plugin({
-        purgeOnQuotaError: true,
-        maxAgeSeconds: 604800,
-        maxEntries: 20
-      })
-    ]
-  }),
-  'GET'
-);
+const fromCache = request =>
+  caches.open(cacheName).then(cache => cache.match(request));
 
-workbox.routing.registerRoute(
-  /.json$/,
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: `${prefix}-json`,
-    plugins: [
-      new workbox.expiration.Plugin({
-        purgeOnQuotaError: true,
-        maxAgeSeconds: 604800,
-        maxEntries: 20
-      })
-    ]
-  }),
-  'GET'
-);
+const updateCache = (request, response) =>
+  caches.open(cacheName).then(cache => cache.put(request, response));
 
-workbox.routing.registerRoute(
-  /.(?:gif|jpeg|jpg|png|svg)(\?v=([\d]+\.[\d]+\.[\d]+))?$/,
-  new workbox.strategies.CacheFirst({
-    cacheName: `${prefix}-img`,
-    plugins: [
-      new workbox.expiration.Plugin({
-        purgeOnQuotaError: true,
-        maxAgeSeconds: 2592000,
-        maxEntries: 20
-      })
-    ]
-  }),
-  'GET'
-);
+const fetchAndCache = ev =>
+  fetch(ev.request)
+    .then(response => {
+      if (!response || response.status !== 200 || response.type !== 'basic') {
+        return response;
+      }
+      ev.waitUntil(updateCache(ev.request, response.clone()));
+      return response;
+    })
+    .catch(err => {
+      const url = new URL(ev.request.url);
+      if (/^\/[/\w_-]+\/$/.test(url.pathname)) {
+        console.log(url);
+        return fromCache('/offline/').then(response => {
+          return new Response(response.body, {
+            headers: {
+              'Cache-Control': 'no-store'
+            }
+          });
+        });
+      }
+      if (/\.(jpeg|jpg|png|svg)$/.test(url.pathname)) {
+        return fromCache('assets/img/offline.svg').then(response => {
+          return new Response(response.body, {
+            headers: {
+              'Content-Type': 'image/svg+xml',
+              'Cache-Control': 'no-store'
+            }
+          });
+        });
+      }
+    });
 
-workbox.routing.registerRoute(
-  /https:\/\/(.*?).?(googleapis|gstatic|unpkg).com\/(.*)/,
-  new workbox.strategies.CacheFirst({
-    cacheName: `${prefix}-cdn`,
-    plugins: [
-      new workbox.cacheableResponse.Plugin({statuses: [0, 200]}),
-      new workbox.expiration.Plugin({
-        purgeOnQuotaError: true,
-        maxAgeSeconds: 2592000,
-        maxEntries: 10
-      })
-    ]
-  }),
-  'GET'
-);
-
-workbox.routing.setCatchHandler(({event}) => {
-  switch (event.request.destination) {
-    case 'image':
-      return caches.match(
-        workbox.precaching.getCacheKeyForURL('assets/img/offline.svg')
-      );
-      break;
-    default:
-      return Response.error();
+self.addEventListener('fetch', ev => {
+  if (ev.request.method !== 'GET') {
+    return;
   }
+  const url = new URL(ev.request.url);
+  if (/^\/(Pikaday|Nestable)/.test(url.pathname)) {
+    return;
+  }
+  ev.respondWith(
+    fromCache(ev.request).then(response => {
+      if (response) {
+        console.log(`from cache: ${url.pathname}`);
+        ev.waitUntil(fetchAndCache(ev));
+        return response;
+      }
+      console.log(`from fetch: ${url.pathname}`);
+      return fetchAndCache(ev);
+    })
+  );
 });
