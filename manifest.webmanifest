@@ -1,7 +1,6 @@
 {
-  "display": "minimal-ui",
   "name": "dbushell.com",
-  "short_name": "dbushell.com",
+  "short_name": "dbushell",
   "icons": [
     {
       "src": "/assets/ico/android-chrome-192x192.png",
@@ -16,5 +15,6 @@
   ],
   "theme_color": "#ff6680",
   "background_color": "#a1e5cf",
+  "display": "minimal-ui",
   "start_url": "/"
 }
