@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "social-profiles",
+      "title": "Social Profiles",
+      "href": "/2015/06/26/social-profiles/",
+      "body": "My website navigation now links to my GitHub and CodePen profiles, alongside Twitter. A long overdue change. It was embarrassing to be rocking the Google+ link. I never used Google+, I don’t even use Facebook, but it was useful to get my face alongside search results. That feature disappeared some time ago and thus the […]",
+      "date": 1435312800000
+    },
+    {
       "id": "order-html-vs-css",
       "title": "Order: HTML vs CSS",
       "href": "/2015/06/01/order-html-vs-css/",
@@ -43,13 +50,6 @@
       "href": "/2015/02/04/i-dont-do-angular-is-that-ok/",
       "body": "I’ve never been one to care for job titles. One or two words can’t adequately explain the extent of our roles. I try to avoid giving myself a strict title on this website.\nOn my homepage:\n\n“I design, build &amp; write all things web”\n\nThen I list:\n\nResponsive Design\nFront-end Development\nProcess &amp; Strategy\n\nThese pages are a delicate balance of an intelligent, […]",
       "date": 1423057945000
-    },
-    {
-      "id": "use-svg-part-2",
-      "title": "Use SVG (part 2)",
-      "href": "/2015/01/30/use-svg-part-2/",
-      "body": "On Monday I wrote about using SVG for content images. Aside from minor workarounds for a peculiar Internet Explorer bug, it’s a relatively straight forward task.\nI was planning to follow up with a technical overview of SVG sprites, but really, I can’t write anything better than Sara Soueidan’s comprehensive guide: “An Overview of SVG Sprite Creation Techniques”.\nRead that […]",
-      "date": 1422612058000
     }
   ],
   "nextPage": "/blog/page/7/",

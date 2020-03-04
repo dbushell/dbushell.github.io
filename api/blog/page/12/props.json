@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "on-browser-support",
+      "title": "On Browser Support",
+      "href": "/2013/04/26/on-browser-support/",
+      "body": "The recently launched jQuery 2.0 leaves behind support for IE6–8. This has lead to some interesting opinions on what browsers we should be supporting. Here’s my take:\nDefining support\nSupporting a browser to me does not mean that a website will be identical in form and function. That is a fool’s errand leading to an unmanageable mess of polyfills […]",
+      "date": 1366979829000
+    },
+    {
       "id": "ember-data-and-mongodb",
       "title": "Ember Data and MongoDB",
       "href": "/2013/04/25/ember-data-and-mongodb/",
@@ -43,13 +50,6 @@
       "href": "/2013/03/19/on-responsive-layout-and-grids/",
       "body": "I often get asked which responsive grid system I use. This is a very frustrating question because it implies a requirement where I have none. With the myriad solutions presented I can’t blame people for thinking they have a choice to make.\nThis article is my response to that question.\nAnatomy of a grid system\nResponsive grid systems […]",
       "date": 1363692826000
-    },
-    {
-      "id": "the-flat-build",
-      "title": "The Flat Build",
-      "href": "/2013/03/18/the-flat-build/",
-      "body": "The flat build is the process of coding a static website in HTML &amp; CSS without worrying about complete functionality or CMS integration. UI prototypes, responsive design layouts, or even the initial stages of final front-end development.\nIt’s becoming increasingly apparent that merging the design and dev process in an iterative workflow is key to a […]",
-      "date": 1363603561000
     }
   ],
   "nextPage": "/blog/page/13/",

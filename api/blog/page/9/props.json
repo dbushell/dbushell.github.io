@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 9)",
   "excerpts": [
     {
+      "id": "introducing-tales",
+      "title": "Introducing Tales",
+      "href": "/2014/02/17/introducing-tales/",
+      "body": "For the last few weeks I’ve been working on a little project that I’m excited to announce. That project is called Tales and it’s available today.\n\nTales is a responsive WordPress theme tailored for a beautiful reading experience. Its strength and design principle can be summed up in one word; simplicity. Visit the Tales Demo website to see […]",
+      "date": 1392627469000
+    },
+    {
       "id": "simple-grids-with-css-multi-column-layout",
       "title": "Simple Grids with CSS Multi-Column Layout",
       "href": "/2014/02/03/simple-grids-with-css-multi-column-layout/",
@@ -43,13 +50,6 @@
       "href": "/2013/11/08/form-label-design/",
       "body": "Web forms are often a tedious experience. There’s a lot to be said for keeping questions to a minimum. Do I really need to enter my name across three fields, can’t you just call me “Dave”?\nTo save space and reduce visual noise it’s become quite common to repurpose HTML placeholders. But as we should all know: Placeholder […]",
       "date": 1383909303000
-    },
-    {
-      "id": "browser-support-again",
-      "title": "Browser Support, Again",
-      "href": "/2013/11/06/browser-support-again/",
-      "body": "With a high-profile portfolio of websites like Google Apps dropping support for IE9 the question of browser support inevitably resurfaces. Many will see this news as justification for their own abandonment of a legacy browser.\nAs I’ve said time and time again, external decisions and aggregated statistics are irrelevant if you have specific numbers for a domain. If […]",
-      "date": 1383736927000
     }
   ],
   "nextPage": "/blog/page/10/",

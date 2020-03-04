@@ -1,6 +1,7 @@
-dbushell.com
-============
+# dbushell.com
 
-Static build of [dbushell.com](http://dbushell.com/) hosted with GitHub Pages.
+Static build of [dbushell.com](https://dbushell.com/) hosted with GitHub Pages.
 
-Copyright © [David Bushell](http://dbushell.com) | [@dbushell](http://twitter.com/dbushell)
+* * *
+
+Copyright © [David Bushell](https://dbushell.com/) | [@dbushell](https://twitter.com/dbushell)

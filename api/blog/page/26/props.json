@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "the-social-designer-google-authorship",
+      "title": "The Social Designer",
+      "href": "/2011/07/14/the-social-designer-google-authorship/",
+      "body": "Earlier this month I wrote an article about self promotion online as a designer (read Speak to Me over at xheight). I summed it up to this sentiment:\n\nSelf promotion is not about pushing an ego onto others, it’s simply about making yourself visible and accessible.\n\nOne thing I realised quickly in my career is the importance of […]",
+      "date": 1310645305000
+    },
+    {
       "id": "solving-a-problem-like-change",
       "title": "Solving a Problem like Change",
       "href": "/2011/07/12/solving-a-problem-like-change/",
@@ -43,13 +50,6 @@
       "href": "/2011/06/05/hey-i-was-reading-that/",
       "body": "I’m a huge fan of web typography, but we’ll have to wait a bit longer to catch up with print.\nTwitter surged last week with the news of Futura’s arrival at Typekit.\n\nFutura PT’s classic design — tall ascenders, near perfect geometric shapes — make it both instantly recognizable and irrepressibly modern.\n\nIndeed, and browser rendering makes it entirely unrecognisable. […]",
       "date": 1307298695000
-    },
-    {
-      "id": "dont-tell-me-where-to-click",
-      "title": "Don’t tell me where to click",
-      "href": "/2011/05/30/dont-tell-me-where-to-click/",
-      "body": "\n“click here“, “read more“, “next“ – a bad habit that just won’t go away, and I’m to blame as much as the next designer (at least the “more” end of the spectrum, if that will save integrity).\nWhy is “click here” so bad?\n\nGood link text should not be overly general; don’t use “click here.” Not only is […]",
-      "date": 1306756902000
     }
   ],
   "nextPage": "/blog/page/27/",

@@ -5,11 +5,25 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Thu, 27 Feb 2020 13:29:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2020 07:42:04 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Bundle a PWA as an Android App]]></title>
+  <description><![CDATA[<p>A Progressive Web App (PWA) is a website with a few extra pieces.
+PWAs can be installed or bookmarked from the browser using “Add to Home Screen”. On Android 9 doing this via Firefox (v68, left) and Chrome (v80, right) gives two different results on my Samsung S8:
+
+  
+
+
+The Firefox icon isn’t desirable. Although the […]</p>]]></description>
+  <link>https://dbushell.com/2020/03/05/bundle-a-pwa-as-an-android-app/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/03/05/bundle-a-pwa-as-an-android-app/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 05 Mar 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[HTTP Security Headers and Inline Resources]]></title>
   <description><![CDATA[<p>As it turns out, HTTPS is not the end-all to securing a website.
@@ -205,22 +219,6 @@ Abstract: rebuild my website using React as the template engine for a bespoke st
   <guid isPermaLink="true">https://dbushell.com/2017/02/13/react-as-a-static-site-generator/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 13 Feb 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Working with Promises]]></title>
-  <description><![CDATA[<p>JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.
-Let’s say you have several functions that return a promise:
-function act1() {
-  return new Promise((resolve, reject) &#x3D;&gt; {
-    // do something that might reject...
-    resolve();
-  });
-}
-It’s easy […]</p>]]></description>
-  <link>https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</link>
-  <guid isPermaLink="true">https://dbushell.com/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Fri, 16 Dec 2016 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

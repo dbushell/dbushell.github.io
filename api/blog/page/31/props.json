@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 31)",
   "excerpts": [
     {
+      "id": "the-visual-hierarchy",
+      "title": "The Visual Hierarchy",
+      "href": "/2010/11/22/the-visual-hierarchy/",
+      "body": "I’ve written a little web design article for Base Creative.\nHere’s a snippet:\n\nThere is more to design than making things look attractive and truth be told that’s the easy part. In regards to web design the actual aesthetics of a website have very little bearing on its success. Style is superficial and becomes more subjective the heavier […]",
+      "date": 1290456967000
+    },
+    {
       "id": "when-free-fonts-arent-free",
       "title": "When Free Fonts Aren’t Free",
       "href": "/2010/11/18/when-free-fonts-arent-free/",
@@ -43,13 +50,6 @@
       "href": "/2010/09/06/think-different/",
       "body": "I stumbled across one of Apple’s classic ad campaigns. Watch Jobs pitch it below:\nFound this via Young Guns vs. Old Ones.\nInspiring, and a masterpiece of advertisement.\nMakes me wonder how differently Apple were thinking when they announced Ping their new social network for music.\nDespite championing HTML5 it would seem Apple have now decided a web browser […]",
       "date": 1283784836000
-    },
-    {
-      "id": "do-you-love-design",
-      "title": "Do you Love Design?",
-      "href": "/2010/09/02/do-you-love-design/",
-      "body": "Before I get into the meaty part of this post I’d like to share this by Kyle Steed:\n\nHomer’s “Iliad” and “Odyssey” are epic. Beowulf is epic. The design you saw last night on Dribbble is not epic.\n\nFunny and true. I’m guilty of this myself, despite vowing a very long time ago never to write a blog titled […]",
-      "date": 1283417680000
     }
   ],
   "nextPage": "/blog/page/32/",
