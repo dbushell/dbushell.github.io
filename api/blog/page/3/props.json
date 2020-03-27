@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "tifu-by-deleting-my-work",
+      "title": "#TIFU by deleting my work",
+      "href": "/2017/08/15/tifu-by-deleting-my-work/",
+      "body": "Ever get that feeling you’ve lost something?\n\nI’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. CodePen Projects is a newish addition. It provides a more complete development environment.\nA mini-project came along for a client that gave me the perfect excuse to try CodePen Projects.\nDevelopment […]",
+      "date": 1502791200000
+    },
+    {
       "id": "ssh-passphrases-in-macos-sierra",
       "title": "SSH Passphrases in MacOS Sierra (and learning Vim)",
       "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/",
@@ -43,13 +50,6 @@
       "href": "/2017/02/13/react-as-a-static-site-generator/",
       "body": "Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.\nTime for a new project!\nAbstract: rebuild my website using React as the template engine for a bespoke static […]",
       "date": 1486980000000
-    },
-    {
-      "id": "resolving-javascript-promises-sequentially-without-nesting",
-      "title": "Working with Promises",
-      "href": "/2016/12/16/resolving-javascript-promises-sequentially-without-nesting/",
-      "body": "JavaScript promises are a handy way to write asynchronous code. It’s common to have multiple promises resolve in parallel or series.\nLet’s say you have several functions that return a promise:\nfunction act1() {\n  return new Promise((resolve, reject) => {\n    // do something that might reject...\n    resolve();\n  });\n}\nIt’s easy […]",
-      "date": 1481882400000
     }
   ],
   "nextPage": "/blog/page/4/",

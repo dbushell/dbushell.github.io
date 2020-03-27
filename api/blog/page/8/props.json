@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 8)",
   "excerpts": [
     {
+      "id": "dependency-overload",
+      "title": "Dependency Overload",
+      "href": "/2014/06/10/dependency-overload/",
+      "body": "I employ an army of command line tools to aid my front-end development.\nTruth be told it’s a bit of an addiction. I’m constantly adding more tools that allow me to do less work. Am I in danger of overloading, of creating a system so convoluted that it evolves into a hindrance and defeats the point of its […]",
+      "date": 1402408825000
+    },
+    {
       "id": "work-as-a-freelancer",
       "title": "Work as a Freelancer",
       "href": "/2014/06/02/work-as-a-freelancer/",
@@ -43,13 +50,6 @@
       "href": "/2014/04/04/gulp-first-impressions/",
       "body": "Grunt has long been my command line companion of choice. It has served me well. I have no complaints but I’ve read many obituaries so this week I sat down to test Gulp, its supposed successor. These are my first impressions.\nMy use case is very particular, see related articles:\n\nAutomation\nThe Flat Build\nThe Flat Build (2)\nOrigin\nUpdates to Origin\n\nGulp […]",
       "date": 1396607442000
-    },
-    {
-      "id": "tales-update-spanish-translation",
-      "title": "Tales update: Spanish Translation",
-      "href": "/2014/03/31/tales-update-spanish-translation/",
-      "body": "v1.1 of my Tales WordPress theme includes a new Spanish translation.\nMany thanks to Mike Walsh for contributing the translation and adapting my theme for his own website Imaginalgo — looks great!\n\nSee my blog post “Introducing Tales” for more information about the theme.\n",
-      "date": 1396257055000
     }
   ],
   "nextPage": "/blog/page/9/",

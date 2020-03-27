@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 10)",
   "excerpts": [
     {
+      "id": "form-label-design",
+      "title": "Form Label Design",
+      "href": "/2013/11/08/form-label-design/",
+      "body": "Web forms are often a tedious experience. There’s a lot to be said for keeping questions to a minimum. Do I really need to enter my name across three fields, can’t you just call me “Dave”?\nTo save space and reduce visual noise it’s become quite common to repurpose HTML placeholders. But as we should all know: Placeholder […]",
+      "date": 1383909303000
+    },
+    {
       "id": "browser-support-again",
       "title": "Browser Support, Again",
       "href": "/2013/11/06/browser-support-again/",
@@ -43,13 +50,6 @@
       "href": "/2013/07/25/progressive-viewports/",
       "body": "Implementing off-canvas navigation requires a fair amount of effort in the realms of front-end performance and “viewport management” but the general principles are simple. Once you’ve cracked them you can create some brilliant responsive and interactive interfaces.\nViewport set-up\nI’ve decided to write a mostly high-level introduction here without getting bogged down in code. My Smashing Magazine article sets a good foundation […]",
       "date": 1374764334000
-    },
-    {
-      "id": "open-responsibility",
-      "title": "Open Responsibility",
-      "href": "/2013/07/08/open-responsibility/",
-      "body": "I like to be very “open”. I write about my ideas and experiences and I share code projects on GitHub. There are many reasons for this. High on that list are the improvements I gain as a professional in this industry.\nSharing Code\nSome of my projects like Pikaday are very mature. I’m keen to see them adopted and still have […]",
-      "date": 1373281933000
     }
   ],
   "nextPage": "/blog/page/11/",

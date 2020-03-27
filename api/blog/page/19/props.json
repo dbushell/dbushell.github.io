@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "the-restriction-of-type",
+      "title": "The Restriction of Type",
+      "href": "/2012/05/26/the-restriction-of-type/",
+      "body": "Responsive website design is incredibly difficult to get right. It’s often said that designing for content is the key to success.\nIn the screenshots below you can see the websites of Elliot Jay Stocks, Jeffrey Zeldman, and Information Architects, all of which have had a redesign/realign this year with content as their priority and thus typography as their paintbrush.\n\nThere are […]",
+      "date": 1338023028000
+    },
+    {
       "id": "javascript-bookmarklets",
       "title": "JavaScript Bookmarklets",
       "href": "/2012/05/22/javascript-bookmarklets/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/03/hacking-it-right/",
       "body": "Developing with open web standards that are to be interpreted by literally hundreds of variations in device and browser can be tricky, but the biggest problem is often not the browser interpreting the code, but the developer writing it. Many so called “bugs” are the product of bad code and wrong expectations; don’t blame the machine.\nA […]",
       "date": 1336082878000
-    },
-    {
-      "id": "notes-from-user-testing",
-      "title": "Notes From User Testing",
-      "href": "/2012/04/30/notes-from-user-testing/",
-      "body": "Last week Browser hosted a UAT session for our latest website development (launching soon!)\nMost website designs — or any design for that matter — do not go through this sort of testing but it’s well worth the effort when done right. It’s exciting and a bit scary to be sat there with your clients while […]",
-      "date": 1335770434000
     }
   ],
   "nextPage": "/blog/page/20/",

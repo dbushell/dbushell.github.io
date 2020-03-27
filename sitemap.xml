@@ -1842,4 +1842,10 @@
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
+<url>
+  <loc>https://dbushell.com/2020/03/27/debugging-a-todo-app/</loc>
+  <lastmod>2020-03-27T12:17:55.748Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
 </urlset>

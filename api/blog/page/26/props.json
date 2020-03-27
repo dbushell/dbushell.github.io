@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "adobe-edge-preview",
+      "title": "Adobe Edge Preview",
+      "href": "/2011/08/01/adobe-edge-preview/",
+      "body": "My first foray into programming was Flash ActionScript and thus I’ve always had a place in my heart for the damned software. (With the release of ActionScript 3 I even learnt a bit about real programming.) Even now — despite my flag waving for web standards — I do still secretly love Flash, regardless of how deprecated it […]",
+      "date": 1312230129000
+    },
+    {
       "id": "the-social-designer-google-authorship",
       "title": "The Social Designer",
       "href": "/2011/07/14/the-social-designer-google-authorship/",
@@ -43,13 +50,6 @@
       "href": "/2011/06/09/design-it-build-it-dibi/",
       "body": "Location: The Sage, Gateshead.\nEvent: Design It. Build It. The two-track web conference.\n\nThis is my third conference of the year and I’m getting exceedingly good at it!\nA trip up to DIBI meant a late evening train from Kings Cross, a late night arrival to the pre-party (a bit of catching up to do) and an early-ish […]",
       "date": 1307620181000
-    },
-    {
-      "id": "hey-i-was-reading-that",
-      "title": "Hey, I was reading that…",
-      "href": "/2011/06/05/hey-i-was-reading-that/",
-      "body": "I’m a huge fan of web typography, but we’ll have to wait a bit longer to catch up with print.\nTwitter surged last week with the news of Futura’s arrival at Typekit.\n\nFutura PT’s classic design — tall ascenders, near perfect geometric shapes — make it both instantly recognizable and irrepressibly modern.\n\nIndeed, and browser rendering makes it entirely unrecognisable. […]",
-      "date": 1307298695000
     }
   ],
   "nextPage": "/blog/page/27/",

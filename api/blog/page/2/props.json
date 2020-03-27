@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 2)",
   "excerpts": [
     {
+      "id": "blogging-in-2020",
+      "title": "Blogging in 2020",
+      "href": "/2020/01/10/blogging-in-2020/",
+      "body": "Hey, I went a whole year without blogging!\nI guess the streak is officially over. The lack of content here has weighed on me heavily considering how integral this blog has been to my career. Really, it was my true portfolio. It demonstrated much more than the glossy screenshots on other pages ever did. And now […]",
+      "date": 1578650400000
+    },
+    {
       "id": "availability-september",
       "title": "Availability - September 2018",
       "href": "/2018/08/14/availability-september/",
@@ -43,13 +50,6 @@
       "href": "/2017/09/20/raspberry-pi-epaper/",
       "body": "A few weeks ago I was digging through storage and I found an original Raspberry Pi. When I’d bought it years ago interest was lost rather quickly. I wasn’t as comfortable with a Unix command line as I am today.\nThe Raspberry Pi / Arduino / single-board computer ecosystem has exploded since then. Maybe I can […]",
       "date": 1505901600000
-    },
-    {
-      "id": "tifu-by-deleting-my-work",
-      "title": "#TIFU by deleting my work",
-      "href": "/2017/08/15/tifu-by-deleting-my-work/",
-      "body": "Ever get that feeling you’ve lost something?\n\nI’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. CodePen Projects is a newish addition. It provides a more complete development environment.\nA mini-project came along for a client that gave me the perfect excuse to try CodePen Projects.\nDevelopment […]",
-      "date": 1502791200000
     }
   ],
   "nextPage": "/blog/page/3/",

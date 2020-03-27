@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 25)",
   "excerpts": [
     {
+      "id": "the-user-and-the-public",
+      "title": "The User / The Public",
+      "href": "/2011/10/16/the-user-and-the-public/",
+      "body": "I’ll start by recommending the book that has influenced this article:\nPublic Parts: How Sharing in the Digital Age Improves the Way We Work and Live. Author Jeff Jarvis is an interesting guy. He’s an old school journalist who is well versed in the web and what is has to offer the future. If you want to understand “privacy” […]",
+      "date": 1318723003000
+    },
+    {
       "id": "web-apps-and-ios5",
       "title": "Web Apps and iOS5",
       "href": "/2011/10/13/web-apps-and-ios5/",
@@ -43,13 +50,6 @@
       "href": "/2011/08/10/moving-on/",
       "body": "I’ve been the Senior Web Designer (and front-end dev) at Base Creative, London for the last three years. I’ve worked on great projects with amazing clients, making the Web that little bit better.\nBut sadly nothing can stay the same forever, and despite fond memories, I’ve decided to move on.\nNext Monday I’ll be joining Browser Creative, continuing with […]",
       "date": 1312996208000
-    },
-    {
-      "id": "adobe-edge-preview",
-      "title": "Adobe Edge Preview",
-      "href": "/2011/08/01/adobe-edge-preview/",
-      "body": "My first foray into programming was Flash ActionScript and thus I’ve always had a place in my heart for the damned software. (With the release of ActionScript 3 I even learnt a bit about real programming.) Even now — despite my flag waving for web standards — I do still secretly love Flash, regardless of how deprecated it […]",
-      "date": 1312230129000
     }
   ],
   "nextPage": "/blog/page/26/",

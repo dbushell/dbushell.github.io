@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "origin",
+      "title": "Origin",
+      "href": "/2013/04/30/origin/",
+      "body": "I’ve written loads about my flat build process, automation, browser support — in fact, if you follow me on Twitter you’ll know I can’t shut up about the Web. What I’ve been lacking is a canonical resource for my work beyond theoretical writing and live production examples. Despite web standards being open they aren’t always easy to reverse engineer.\nWhat […]",
+      "date": 1367334428000
+    },
+    {
       "id": "on-browser-support",
       "title": "On Browser Support",
       "href": "/2013/04/26/on-browser-support/",
@@ -43,13 +50,6 @@
       "href": "/2013/04/05/the-flat-build-2/",
       "body": "My article The Flat Build was a slow burner but it has picked up steam recently and for the first time in like, forever, I’m building a pre-designed* website without having design influence. This has proven to be a good opportunity to refine and expand upon my flat build workflow (again).\nI’m aware I’m reinventing more than […]",
       "date": 1365157578000
-    },
-    {
-      "id": "on-responsive-layout-and-grids",
-      "title": "On Responsive Layout and Grids",
-      "href": "/2013/03/19/on-responsive-layout-and-grids/",
-      "body": "I often get asked which responsive grid system I use. This is a very frustrating question because it implies a requirement where I have none. With the myriad solutions presented I can’t blame people for thinking they have a choice to make.\nThis article is my response to that question.\nAnatomy of a grid system\nResponsive grid systems […]",
-      "date": 1363692826000
     }
   ],
   "nextPage": "/blog/page/13/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "smashing-book-5",
+      "title": "Real-Life Responsive Web Design",
+      "href": "/2015/07/27/smashing-book-5/",
+      "body": "Last week I had the opportunity to read “Real-Life Responsive Web Design”, the fifth book in the Smashing Book series.\n\nUsually with books like this I will skip to the chapters that immediately catch my eye. This time was different, they all sounded fascinating — and they were! I read the book cover to cover in […]",
+      "date": 1437991200000
+    },
+    {
       "id": "social-profiles",
       "title": "Social Profiles",
       "href": "/2015/06/26/social-profiles/",
@@ -43,13 +50,6 @@
       "href": "/2015/02/06/when-can-a-website-be-over-1mb/",
       "body": "When a new website is released for a popular or high profile brand there are two stages of reaction. The first is praise: “it’s responsive!”, “it’s gorgeous!”. The second is criticism: “don’t work in IE9!”, “it’s over 1MB!”. As is internet traditional, opinion must be bipolar and unconditional.\nInitial reaction to the new Majora’s Mask 3DS website has been no different.\n\nGranted, it’s rather chunky. […]",
       "date": 1423222268000
-    },
-    {
-      "id": "i-dont-do-angular-is-that-ok",
-      "title": "I don’t do Angular, is that OK?",
-      "href": "/2015/02/04/i-dont-do-angular-is-that-ok/",
-      "body": "I’ve never been one to care for job titles. One or two words can’t adequately explain the extent of our roles. I try to avoid giving myself a strict title on this website.\nOn my homepage:\n\n“I design, build &amp; write all things web”\n\nThen I list:\n\nResponsive Design\nFront-end Development\nProcess &amp; Strategy\n\nThese pages are a delicate balance of an intelligent, […]",
-      "date": 1423057945000
     }
   ],
   "nextPage": "/blog/page/7/",

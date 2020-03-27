@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 23)",
   "excerpts": [
     {
+      "id": "responsive-tables-2",
+      "title": "Responsive Tables (2)",
+      "href": "/2012/01/05/responsive-tables-2/",
+      "body": "\nNEW: CSS only Responsive Tables\nSee the link above for more recent developments.\n\n\nMy last article on responsive tables was very popular so I’ve only gone and implemented the idea that I was alluding to with horizontal scrolling!\n\nSee Responsive Tables Demo (2) — in a modern browser! Webkit browsers handle both tables perfectly. Firefox &amp; Opera handle the […]",
+      "date": 1325793182000
+    },
+    {
       "id": "responsive-calendar-demo",
       "title": "Responsive Tables (and a calendar demo)",
       "href": "/2012/01/04/responsive-calendar-demo/",
@@ -43,13 +50,6 @@
       "href": "/2011/11/16/looking-forward/",
       "body": "Watch this TEDxSantaCruz talk by Roger McNamee published in July. He made five very compelling hypothesis around the future of the internet and the web.\n\n\n\nPlease ignore the irony of the above video if it happens to embed with Flash! YouTube promises HTML5 video in the future through the wonders of this iframe…\nWatch all 16 minutes, it’s well […]",
       "date": 1321403061000
-    },
-    {
-      "id": "in-favour-of-semantics",
-      "title": "In Favour of Semantics",
-      "href": "/2011/11/11/in-favour-of-semantics/",
-      "body": "The true value of a website is its content.\nData — until semantics and presentation turn it into information. If that value is true we can therefore infer that semantics reign supreme in front-end website production.\nThe thing is, not all content is created equally. There needs to be a pragmatic interpretation of how content is represented. For […]",
-      "date": 1321053927000
     }
   ],
   "nextPage": "/blog/page/24/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "the-state-of-web-design-2013",
+      "title": "The State of Web Design, 2013",
+      "href": "/2012/12/10/the-state-of-web-design-2013/",
+      "body": "To wrap up 2011 I wrote a few thoughts on web design looking forward. Because I found it so helpful to remain focused with this personal reference, I’m doing it again this year.\nI encourage you to do the same!\nThis all stemmed from a tweet back in October. It’s fine to observe and copy trends, but it’s […]",
+      "date": 1355177254000
+    },
+    {
       "id": "responsive-day-out",
       "title": "Responsive Day Out",
       "href": "/2012/12/07/responsive-day-out/",
@@ -43,13 +50,6 @@
       "href": "/2012/10/09/pikaday-javascript-datepicker/",
       "body": "Pikaday is a JavaScript datepicker with a light footprint and easy style-ability with modular CSS. It’s in ‘developer preview mode’ but already looking great:\n\nWhy now?\nBecause as much as we like open standards, the HTML5 input types lack browser support and are poorly implemented in places; see Chrome (22 as of writing) below:\n\nThis leaves us with a tricky […]",
       "date": 1349769790000
-    },
-    {
-      "id": "groundhog-day",
-      "title": "Groundhog Day",
-      "href": "/2012/09/30/groundhog-day/",
-      "body": "“ahhhhhh!”\n— is what I tweeted on this fine Sunday evening. (And some people choose not to follow me?) What provoked this dramatic outburst was every designers’ worst nightmare; a sudden urge to “redesign” their website.\nJune 2009, August 2009, June 2010, May 2011, February 2012. At this point the cycle is hardly a surprise and I guess I should […]",
-      "date": 1349042155000
     }
   ],
   "nextPage": "/blog/page/17/",

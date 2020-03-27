@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 14)",
   "excerpts": [
     {
+      "id": "podcasts",
+      "title": "Podcasts",
+      "href": "/2013/02/14/podcasts/",
+      "body": "I can’t get enough podcasts right now.\nI still love the written word but after a full day of design and code my eyes need a rest (and probably a new test, now that I think about it).\nFearing I’d been overlooking a few I asked Twitter — thanks for the replies! Below is a compilation of my favourite […]",
+      "date": 1360854381000
+    },
+    {
       "id": "on-responsive-navigation-and-rendering",
       "title": "On Responsive Navigation and Rendering",
       "href": "/2013/02/07/on-responsive-navigation-and-rendering/",
@@ -43,13 +50,6 @@
       "href": "/2013/01/15/re-jquery-animation-vs-css/",
       "body": "In response to my Smashing Magazine article on implementing off-canvas navigation I received a great comment by Michael Benin:\n\nhttps://github.com/benbarnett/jQuery-Animate-Enhanced\nhttps://github.com/gnarf37/jquery-requestAnimationFrame\nDropping in these two plugins should achieve what is accomplished in this article using CSS, and furthermore will utilize RAF. It would be interesting for you to run the same tests against JS/jQuery with these jQuery plugins.\n\nI agreed that these […]",
       "date": 1358289461000
-    },
-    {
-      "id": "as-seen-on-smashing-magazine",
-      "title": "As Seen on Smashing Magazine",
-      "href": "/2013/01/15/as-seen-on-smashing-magazine/",
-      "body": "\nYou may have caught my recent experiment — well I’ve gone and written a very thorough examination for Smashing Magazine. Read my latest article: “Implementing Off-Canvas Navigation For A Responsive Website”.\nI do enjoy writing for @smashingmag. They’re genuinely some of the nicest people ever to email me. As I leave London this year I plan to dedicate more time to long […]",
-      "date": 1358272214000
     }
   ],
   "nextPage": "/blog/page/15/",

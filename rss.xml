@@ -5,11 +5,20 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 04 Mar 2020 07:42:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 12:19:58 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Debugging a Todo App]]></title>
+  <description><![CDATA[<p>So lately I’ve been boasting about how easy it is to build Progressive Web Apps. I’ve been dogfooding my glorified todo app Mute Swan for weeks thinking it was perfect (bug-free) and quite possibly a game changer, if I dare say.
+As it turns out these things are not so easy to test. This week I […]</p>]]></description>
+  <link>https://dbushell.com/2020/03/27/debugging-a-todo-app/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/03/27/debugging-a-todo-app/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 27 Mar 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Bundle a PWA as an Android App]]></title>
   <description><![CDATA[<p>A Progressive Web App (PWA) is a website with a few extra pieces.
@@ -209,16 +218,6 @@ I listened to an episode of […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2017/02/17/web-security-and-cloudflare/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Fri, 17 Feb 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[React as a Static Site Generator]]></title>
-  <description><![CDATA[<p>Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.
-Time for a new project!
-Abstract: rebuild my website using React as the template engine for a bespoke static […]</p>]]></description>
-  <link>https://dbushell.com/2017/02/13/react-as-a-static-site-generator/</link>
-  <guid isPermaLink="true">https://dbushell.com/2017/02/13/react-as-a-static-site-generator/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 13 Feb 2017 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

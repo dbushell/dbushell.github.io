@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 11)",
   "excerpts": [
     {
+      "id": "open-responsibility",
+      "title": "Open Responsibility",
+      "href": "/2013/07/08/open-responsibility/",
+      "body": "I like to be very “open”. I write about my ideas and experiences and I share code projects on GitHub. There are many reasons for this. High on that list are the improvements I gain as a professional in this industry.\nSharing Code\nSome of my projects like Pikaday are very mature. I’m keen to see them adopted and still have […]",
+      "date": 1373281933000
+    },
+    {
       "id": "automated-accessibility-colour-contrast",
       "title": "Automated Accessibility: Colour Contrast",
       "href": "/2013/06/24/automated-accessibility-colour-contrast/",
@@ -43,13 +50,6 @@
       "href": "/2013/05/09/freelance-life/",
       "body": "May is my 4th month working self-employed. When I set out in February I didn’t have many goals other than to escape London and enjoy things a lot more.\nHalf Marathon\nAt the end of May I’m attempting the Edinburgh half marathon — 21 kilometres of pain! For whatever reason I was fed up last August and figured […]",
       "date": 1368098492000
-    },
-    {
-      "id": "origin",
-      "title": "Origin",
-      "href": "/2013/04/30/origin/",
-      "body": "I’ve written loads about my flat build process, automation, browser support — in fact, if you follow me on Twitter you’ll know I can’t shut up about the Web. What I’ve been lacking is a canonical resource for my work beyond theoretical writing and live production examples. Despite web standards being open they aren’t always easy to reverse engineer.\nWhat […]",
-      "date": 1367334428000
     }
   ],
   "nextPage": "/blog/page/12/",

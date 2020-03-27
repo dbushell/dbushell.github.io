@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 24)",
   "excerpts": [
     {
+      "id": "in-favour-of-semantics",
+      "title": "In Favour of Semantics",
+      "href": "/2011/11/11/in-favour-of-semantics/",
+      "body": "The true value of a website is its content.\nData — until semantics and presentation turn it into information. If that value is true we can therefore infer that semantics reign supreme in front-end website production.\nThe thing is, not all content is created equally. There needs to be a pragmatic interpretation of how content is represented. For […]",
+      "date": 1321053927000
+    },
+    {
       "id": "the-good-the-bad-and-the-logo",
       "title": "The Good, the Bad, and the Logo",
       "href": "/2011/11/11/the-good-the-bad-and-the-logo/",
@@ -43,13 +50,6 @@
       "href": "/2011/10/16/the-javascript-refresh/",
       "body": "Those of us who care a little about progressive enhancement and accessibility will be well aware of the “JavaScript refresh”. This is when the page initially renders — visible to the user — before deferred JavaScript kicks in. Think jQuery’s $(document).ready() or similar.\nThis problem occurs from very good practices. We have to make sure pages are accessible pre-JavaScript. […]",
       "date": 1318782609000
-    },
-    {
-      "id": "the-user-and-the-public",
-      "title": "The User / The Public",
-      "href": "/2011/10/16/the-user-and-the-public/",
-      "body": "I’ll start by recommending the book that has influenced this article:\nPublic Parts: How Sharing in the Digital Age Improves the Way We Work and Live. Author Jeff Jarvis is an interesting guy. He’s an old school journalist who is well versed in the web and what is has to offer the future. If you want to understand “privacy” […]",
-      "date": 1318723003000
     }
   ],
   "nextPage": "/blog/page/25/",

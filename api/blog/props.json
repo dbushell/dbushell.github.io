@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "debugging-a-todo-app",
+      "title": "Debugging a Todo App",
+      "href": "/2020/03/27/debugging-a-todo-app/",
+      "body": "So lately I’ve been boasting about how easy it is to build Progressive Web Apps. I’ve been dogfooding my glorified todo app Mute Swan for weeks thinking it was perfect (bug-free) and quite possibly a game changer, if I dare say.\nAs it turns out these things are not so easy to test. This week I […]",
+      "date": 1585303200000
+    },
+    {
       "id": "bundle-a-pwa-as-an-android-app",
       "title": "Bundle a PWA as an Android App",
       "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
@@ -43,13 +50,6 @@
       "href": "/2020/01/15/netlify-first-impressions/",
       "body": "Netlify is hot right now. It’s been hot for a while. It’s on my list of tech I pretend to know when people ask. I assume it handles static site hosting and deployment.\n\nJAMstack is a popular/confusing term covering static sites and the new tech surrounding them. I’ve long adhered to such a philosophy for personal […]",
       "date": 1579082400000
-    },
-    {
-      "id": "blogging-in-2020",
-      "title": "Blogging in 2020",
-      "href": "/2020/01/10/blogging-in-2020/",
-      "body": "Hey, I went a whole year without blogging!\nI guess the streak is officially over. The lack of content here has weighed on me heavily considering how integral this blog has been to my career. Really, it was my true portfolio. It demonstrated much more than the glossy screenshots on other pages ever did. And now […]",
-      "date": 1578650400000
     }
   ],
   "nextPage": "/blog/page/2/",

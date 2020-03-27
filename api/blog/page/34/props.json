@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 34)",
   "excerpts": [
     {
+      "id": "designing-obama",
+      "title": "Designing Obama",
+      "href": "/2010/06/16/designing-obama/",
+      "body": "Look what arrived today:\n\nClick here to see and read more!\n",
+      "date": 1276714592000
+    },
+    {
       "id": "from-mays-edition",
       "title": "From May’s Edition",
       "href": "/2010/06/13/from-mays-edition/",
@@ -43,13 +50,6 @@
       "href": "/2010/04/27/photos-from-back-home/",
       "body": "Living in London has its advantages, but the environment and fresh air aren’t on that list.\nI was beginning to forget what the colour green looked like! That’s why it’s nice to return home from time to time. This time I returned home with my new camera which has sadly been in storage more often than […]",
       "date": 1272377039000
-    },
-    {
-      "id": "reading-month",
-      "title": "Reading Month",
-      "href": "/2010/04/12/reading-month/",
-      "body": "It’s been over a month since my last blog post. What’s going on?\nA combination of very busy work and moving flat has meant my iMac and camera have both been boxed up. They now take centre stage on my new desk and it’s about time to rev up the personal project machine once again. But […]",
-      "date": 1271106209000
     }
   ],
   "nextPage": "/blog/page/35/",

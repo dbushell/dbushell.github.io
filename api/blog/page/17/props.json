@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 17)",
   "excerpts": [
     {
+      "id": "groundhog-day",
+      "title": "Groundhog Day",
+      "href": "/2012/09/30/groundhog-day/",
+      "body": "“ahhhhhh!”\n— is what I tweeted on this fine Sunday evening. (And some people choose not to follow me?) What provoked this dramatic outburst was every designers’ worst nightmare; a sudden urge to “redesign” their website.\nJune 2009, August 2009, June 2010, May 2011, February 2012. At this point the cycle is hardly a surprise and I guess I should […]",
+      "date": 1349042155000
+    },
+    {
       "id": "what-is-the-medium",
       "title": "What is the medium?",
       "href": "/2012/09/25/what-is-the-medium/",
@@ -43,13 +50,6 @@
       "href": "/2012/07/13/vector-graphics-retina-and-you/",
       "body": "It’s Friday 13th. It’s been a long and productive week, I’ll try to keep this light-hearted :)\nI’m going to use this post to combine two rants. One on the use of the word “Retina”, another on live conference tweeting. I saw this retweeted the other day:\n\n“I think CSS is our best vector-based drawing tool in […]",
       "date": 1342178920000
-    },
-    {
-      "id": "on-the-tools-of-our-trade",
-      "title": "On the tools of our trade",
-      "href": "/2012/07/11/on-the-tools-of-our-trade/",
-      "body": "This year I’ve been making a conscious effort to change my tune when discussing particular methodologies and tools used in our fine art of website making.\nWhen we launched Passenger Focus at Browser I wrote “A Responsive Design Case Study” and for me it’s the best article I’ve ever written on this blog. I present my design and […]",
-      "date": 1342004458000
     }
   ],
   "nextPage": "/blog/page/18/",

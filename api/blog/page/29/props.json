@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "three-months-in",
+      "title": "Three Months In",
+      "href": "/2011/03/28/three-months-in/",
+      "body": "I find it hard to believe we’re already (ok, almost) in April.\n2011 in web design for me has kicked off with a BOOM! If I do say so myself. I’m no longer interested in just designing websites for clients and clients’ clients. I’m doing all that, and I’m pushing it further; looking for opportunities to use […]",
+      "date": 1301343043000
+    },
+    {
       "id": "designing-mylifelisted",
       "title": "Designing MyLifeListed",
       "href": "/2011/03/14/designing-mylifelisted/",
@@ -43,13 +50,6 @@
       "href": "/2011/02/17/website-design-without-lorem-ipsum/",
       "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of Pi, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from 2009, […]",
       "date": 1297947201000
-    },
-    {
-      "id": "gday-mate",
-      "title": "G’Day Mate!",
-      "href": "/2011/02/10/gday-mate/",
-      "body": "A wonderful package arrived on my desk this morning!\nIt contained the CSS Awwwards book from The CSS Awards* honouring the best CSS Websites of 2010 - that’s a lot of CSS!\nI’m Mr July 9. It makes me happy but humbled, especially sat next to The Mid-Century Modernist - a site far more worthy of such an accolade.\nI […]",
-      "date": 1297342166000
     }
   ],
   "nextPage": "/blog/page/30/",
