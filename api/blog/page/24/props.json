@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 24)",
   "excerpts": [
     {
+      "id": "looking-forward",
+      "title": "Looking Forward",
+      "href": "/2011/11/16/looking-forward/",
+      "body": "Watch this TEDxSantaCruz talk by Roger McNamee published in July. He made five very compelling hypothesis around the future of the internet and the web.\n\n\n\nPlease ignore the irony of the above video if it happens to embed with Flash! YouTube promises HTML5 video in the future through the wonders of this iframe…\nWatch all 16 minutes, it’s well […]",
+      "date": 1321403061000
+    },
+    {
       "id": "in-favour-of-semantics",
       "title": "In Favour of Semantics",
       "href": "/2011/11/11/in-favour-of-semantics/",
@@ -43,13 +50,6 @@
       "href": "/2011/10/18/the-thoughtful-touches/",
       "body": "I just finished building a website!\nI’m afraid it’s not live just yet but there are a few thoughts I’d like to share, so if you can get your imagination running I promise not to waste your time! (No refunds.)\nIt’s different than other websites I’ve built because it’s 90% photography — think fullscreen slideshows. While the […]",
       "date": 1318967962000
-    },
-    {
-      "id": "the-javascript-refresh",
-      "title": "The JavaScript Refresh",
-      "href": "/2011/10/16/the-javascript-refresh/",
-      "body": "Those of us who care a little about progressive enhancement and accessibility will be well aware of the “JavaScript refresh”. This is when the page initially renders — visible to the user — before deferred JavaScript kicks in. Think jQuery’s $(document).ready() or similar.\nThis problem occurs from very good practices. We have to make sure pages are accessible pre-JavaScript. […]",
-      "date": 1318782609000
     }
   ],
   "nextPage": "/blog/page/25/",

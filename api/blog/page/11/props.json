@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 11)",
   "excerpts": [
     {
+      "id": "progressive-viewports",
+      "title": "Progressive Viewports",
+      "href": "/2013/07/25/progressive-viewports/",
+      "body": "Implementing off-canvas navigation requires a fair amount of effort in the realms of front-end performance and “viewport management” but the general principles are simple. Once you’ve cracked them you can create some brilliant responsive and interactive interfaces.\nViewport set-up\nI’ve decided to write a mostly high-level introduction here without getting bogged down in code. My Smashing Magazine article sets a good foundation […]",
+      "date": 1374764334000
+    },
+    {
       "id": "open-responsibility",
       "title": "Open Responsibility",
       "href": "/2013/07/08/open-responsibility/",
@@ -43,13 +50,6 @@
       "href": "/2013/05/15/stifling-web-design/",
       "body": "The only way to truly experience and evaluate a website design is in a web browser. That sounds obvious but it bears repeating. While this fact can’t be denied it is often conceptual design mock-ups that take responsibility for critique and direction. The assumption being that as a more efficient intermediate they’re good enough.\nHigh-fidelity design […]",
       "date": 1368628092000
-    },
-    {
-      "id": "freelance-life",
-      "title": "Freelance Life",
-      "href": "/2013/05/09/freelance-life/",
-      "body": "May is my 4th month working self-employed. When I set out in February I didn’t have many goals other than to escape London and enjoy things a lot more.\nHalf Marathon\nAt the end of May I’m attempting the Edinburgh half marathon — 21 kilometres of pain! For whatever reason I was fed up last August and figured […]",
-      "date": 1368098492000
     }
   ],
   "nextPage": "/blog/page/12/",

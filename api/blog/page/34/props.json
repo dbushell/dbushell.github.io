@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 34)",
   "excerpts": [
     {
+      "id": "dbushell-v4",
+      "title": "dbushell.com v4",
+      "href": "/2010/06/26/dbushell-v4/",
+      "body": "Eagle-eyed viewers may notice that dbushell.com is looking a bit different!\nI haven’t gone for a full overhaul just a little realigning, better typography and a new logo-thingy. My old design has served me very well over the last year - it was featured on quite a few design blogs. But it was looking a bit […]",
+      "date": 1277566252000
+    },
+    {
       "id": "designing-obama",
       "title": "Designing Obama",
       "href": "/2010/06/16/designing-obama/",
@@ -43,13 +50,6 @@
       "href": "/2010/04/29/design-heroes-2/",
       "body": "Last year I started the bookmarking website Design Heroes to share and remember design related links, a kind of “inspiration blog”. It has served me very well in those occasions where I can remember a resource or piece of design I want to reference but have no idea where it is. The old design worked […]",
       "date": 1272535713000
-    },
-    {
-      "id": "photos-from-back-home",
-      "title": "Photos from back home",
-      "href": "/2010/04/27/photos-from-back-home/",
-      "body": "Living in London has its advantages, but the environment and fresh air aren’t on that list.\nI was beginning to forget what the colour green looked like! That’s why it’s nice to return home from time to time. This time I returned home with my new camera which has sadly been in storage more often than […]",
-      "date": 1272377039000
     }
   ],
   "nextPage": "/blog/page/35/",

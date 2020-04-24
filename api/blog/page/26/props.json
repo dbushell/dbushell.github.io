@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "moving-on",
+      "title": "Moving on",
+      "href": "/2011/08/10/moving-on/",
+      "body": "I’ve been the Senior Web Designer (and front-end dev) at Base Creative, London for the last three years. I’ve worked on great projects with amazing clients, making the Web that little bit better.\nBut sadly nothing can stay the same forever, and despite fond memories, I’ve decided to move on.\nNext Monday I’ll be joining Browser Creative, continuing with […]",
+      "date": 1312996208000
+    },
+    {
       "id": "adobe-edge-preview",
       "title": "Adobe Edge Preview",
       "href": "/2011/08/01/adobe-edge-preview/",
@@ -43,13 +50,6 @@
       "href": "/2011/06/14/dont-copy-that-floppy/",
       "body": "I’ve written a new article for Smashing Magazine entitled Understanding Copyright &amp; Licenses. It’s a primer for web designers and developers. Give it a read, let me know what you think.\n\n\nI do like to tackle the difficult topics. They often require a lot of research and I tend to arrive at the other end knowing a […]",
       "date": 1308065447000
-    },
-    {
-      "id": "design-it-build-it-dibi",
-      "title": "Design it. Build it.",
-      "href": "/2011/06/09/design-it-build-it-dibi/",
-      "body": "Location: The Sage, Gateshead.\nEvent: Design It. Build It. The two-track web conference.\n\nThis is my third conference of the year and I’m getting exceedingly good at it!\nA trip up to DIBI meant a late evening train from Kings Cross, a late night arrival to the pre-party (a bit of catching up to do) and an early-ish […]",
-      "date": 1307620181000
     }
   ],
   "nextPage": "/blog/page/27/",

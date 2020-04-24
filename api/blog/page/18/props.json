@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "vector-graphics-retina-and-you",
+      "title": "Vector graphics, Retina, and You",
+      "href": "/2012/07/13/vector-graphics-retina-and-you/",
+      "body": "It’s Friday 13th. It’s been a long and productive week, I’ll try to keep this light-hearted :)\nI’m going to use this post to combine two rants. One on the use of the word “Retina”, another on live conference tweeting. I saw this retweeted the other day:\n\n“I think CSS is our best vector-based drawing tool in […]",
+      "date": 1342178920000
+    },
+    {
       "id": "on-the-tools-of-our-trade",
       "title": "On the tools of our trade",
       "href": "/2012/07/11/on-the-tools-of-our-trade/",
@@ -43,13 +50,6 @@
       "href": "/2012/06/06/search-responsive-design/",
       "body": "As a Websitemaker the only thing you need to know about search engines (Google) is that they rank quality and relevance. Not the density of keywords, not the number of inbound links, certainly not the colour of your hat.\nApplying an “SEO” perspective to your website is one more obfuscated step between you and your users. […]",
       "date": 1339015294000
-    },
-    {
-      "id": "socialite-2-preview",
-      "title": "Socialite 2 Preview",
-      "href": "/2012/05/29/socialite-2-preview/",
-      "body": "I’ve just uploaded a developer preview of Socialite v2.0 over at GitHub.\nSocialite allows you to delay the loading of social sharing buttons (which aren’t very popular at the moment [1] [2]). This speeds up the load of important content dramatically. It also means you can initialise new buttons for dynamically loaded content at any time. Version 2 […]",
-      "date": 1338328923000
     }
   ],
   "nextPage": "/blog/page/19/",

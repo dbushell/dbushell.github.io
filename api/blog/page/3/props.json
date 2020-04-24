@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "raspberry-pi-epaper",
+      "title": "Raspberry Pi + e-Paper module + Node.js",
+      "href": "/2017/09/20/raspberry-pi-epaper/",
+      "body": "A few weeks ago I was digging through storage and I found an original Raspberry Pi. When I’d bought it years ago interest was lost rather quickly. I wasn’t as comfortable with a Unix command line as I am today.\nThe Raspberry Pi / Arduino / single-board computer ecosystem has exploded since then. Maybe I can […]",
+      "date": 1505901600000
+    },
+    {
       "id": "tifu-by-deleting-my-work",
       "title": "#TIFU by deleting my work",
       "href": "/2017/08/15/tifu-by-deleting-my-work/",
@@ -43,13 +50,6 @@
       "href": "/2017/02/17/web-security-and-cloudflare/",
       "body": "I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.\n\nI listened to an episode of […]",
       "date": 1487325600000
-    },
-    {
-      "id": "react-as-a-static-site-generator",
-      "title": "React as a Static Site Generator",
-      "href": "/2017/02/13/react-as-a-static-site-generator/",
-      "body": "Two years ago I converted my website from WordPress to a static build process. It has served me well but the final process was rather messy. Hacks and plumbing to get Metalsmith plugins working my way didn’t helped.\nTime for a new project!\nAbstract: rebuild my website using React as the template engine for a bespoke static […]",
-      "date": 1486980000000
     }
   ],
   "nextPage": "/blog/page/4/",

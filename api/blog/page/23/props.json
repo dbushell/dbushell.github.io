@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 23)",
   "excerpts": [
     {
+      "id": "device-optimisation",
+      "title": "Device Optimisation",
+      "href": "/2012/01/11/device-optimisation/",
+      "body": "Device optimisation is about accessing a website on one set up and fine-tuning the experience. It could be Internet Explorer 7 on a mediocre PC, the iPhone 4000, a generic and underpowered Android tablet, or a web-enabled HD 3D TV. Whatever the set up, ask: how can I make this one experience better?\nThe idea is […]",
+      "date": 1326242026000
+    },
+    {
       "id": "responsive-tables-2",
       "title": "Responsive Tables (2)",
       "href": "/2012/01/05/responsive-tables-2/",
@@ -43,13 +50,6 @@
       "href": "/2011/11/16/reaction-time-2/",
       "body": "A few weeks ago I wrote Reaction Time explaining the art of relative interactivity.\nToday I found another perfect example!\nI’m using a technique based on Ariel Flesler’s excellent jQuery scrollTo plugin. The plugin scrolls the document until a specific element is in view. The set up: I have several tabs on my page that update content below […]",
       "date": 1321470806000
-    },
-    {
-      "id": "looking-forward",
-      "title": "Looking Forward",
-      "href": "/2011/11/16/looking-forward/",
-      "body": "Watch this TEDxSantaCruz talk by Roger McNamee published in July. He made five very compelling hypothesis around the future of the internet and the web.\n\n\n\nPlease ignore the irony of the above video if it happens to embed with Flash! YouTube promises HTML5 video in the future through the wonders of this iframe…\nWatch all 16 minutes, it’s well […]",
-      "date": 1321403061000
     }
   ],
   "nextPage": "/blog/page/24/",

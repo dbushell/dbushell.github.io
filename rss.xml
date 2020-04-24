@@ -5,11 +5,21 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 27 Mar 2020 12:19:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 10:40:48 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[WordPress Gutenberg: React &amp; Advanced Custom Fields (ACF)]]></title>
+  <description><![CDATA[<p>The new WordPress Gutenberg editor has been in release for over a year now. Post content is composed of “blocks”. Everything is a block. From the humble paragraph to the more advanced gallery and video embed — all blocks.
+There are two common methods to create Gutenberg blocks.
+The first is to follow the offical handbook. Blocks […]</p>]]></description>
+  <link>https://dbushell.com/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 24 Apr 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[Debugging a Todo App]]></title>
   <description><![CDATA[<p>So lately I’ve been boasting about how easy it is to build Progressive Web Apps. I’ve been dogfooding my glorified todo app Mute Swan for weeks thinking it was perfect (bug-free) and quite possibly a game changer, if I dare say.
@@ -208,16 +218,6 @@ Iron Fist is ‘aight I guess. I’m 7 episodes deep and I’m still awake which
   <guid isPermaLink="true">https://dbushell.com/2017/04/03/i-watched-iron-fist-and-coded-css/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Mon, 03 Apr 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[Web Security and Cloudflare]]></title>
-  <description><![CDATA[<p>I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.
-
-I listened to an episode of […]</p>]]></description>
-  <link>https://dbushell.com/2017/02/17/web-security-and-cloudflare/</link>
-  <guid isPermaLink="true">https://dbushell.com/2017/02/17/web-security-and-cloudflare/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Fri, 17 Feb 2017 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

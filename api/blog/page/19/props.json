@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "socialite-2-preview",
+      "title": "Socialite 2 Preview",
+      "href": "/2012/05/29/socialite-2-preview/",
+      "body": "I’ve just uploaded a developer preview of Socialite v2.0 over at GitHub.\nSocialite allows you to delay the loading of social sharing buttons (which aren’t very popular at the moment [1] [2]). This speeds up the load of important content dramatically. It also means you can initialise new buttons for dynamically loaded content at any time. Version 2 […]",
+      "date": 1338328923000
+    },
+    {
       "id": "the-restriction-of-type",
       "title": "The Restriction of Type",
       "href": "/2012/05/26/the-restriction-of-type/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/07/smashing-book-3/",
       "body": "As an occasional writer for Smashing Magazine — that’s a disclaimer (and an honour!) — I’ve had the pleasure of reading the latest publication, Smashing Book #3 - Redesign The Web.\nHere’s my honest opinion on why this book is worth buying:\nOn Business\nBook #3 opens with wise words from Paul Boag on the reality of web design as […]",
       "date": 1336398706000
-    },
-    {
-      "id": "hacking-it-right",
-      "title": "Hacking it Right",
-      "href": "/2012/05/03/hacking-it-right/",
-      "body": "Developing with open web standards that are to be interpreted by literally hundreds of variations in device and browser can be tricky, but the biggest problem is often not the browser interpreting the code, but the developer writing it. Many so called “bugs” are the product of bad code and wrong expectations; don’t blame the machine.\nA […]",
-      "date": 1336082878000
     }
   ],
   "nextPage": "/blog/page/20/",

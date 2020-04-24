@@ -1844,7 +1844,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/03/27/debugging-a-todo-app/</loc>
-  <lastmod>2020-03-27T12:17:55.748Z</lastmod>
+  <lastmod>2020-03-30T07:05:47.633Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/</loc>
+  <lastmod>2020-04-24T10:40:47.974Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

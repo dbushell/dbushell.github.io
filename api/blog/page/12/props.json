@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "freelance-life",
+      "title": "Freelance Life",
+      "href": "/2013/05/09/freelance-life/",
+      "body": "May is my 4th month working self-employed. When I set out in February I didn’t have many goals other than to escape London and enjoy things a lot more.\nHalf Marathon\nAt the end of May I’m attempting the Edinburgh half marathon — 21 kilometres of pain! For whatever reason I was fed up last August and figured […]",
+      "date": 1368098492000
+    },
+    {
       "id": "origin",
       "title": "Origin",
       "href": "/2013/04/30/origin/",
@@ -43,13 +50,6 @@
       "href": "/2013/04/07/macaque-a-new-project/",
       "body": "Today I started a new project. Macaque will be a personal to-do or list app. Sounds simple, right? Unlike my other side projects I’m coding and designing in public from day one.\nThis project exists because:\n\nI want to learn more Node and Ember\nI’ve failed to find a list app I like (oh lord, please don’t suggest one)\nI’d like to […]",
       "date": 1365370539000
-    },
-    {
-      "id": "the-flat-build-2",
-      "title": "The Flat Build (2)",
-      "href": "/2013/04/05/the-flat-build-2/",
-      "body": "My article The Flat Build was a slow burner but it has picked up steam recently and for the first time in like, forever, I’m building a pre-designed* website without having design influence. This has proven to be a good opportunity to refine and expand upon my flat build workflow (again).\nI’m aware I’m reinventing more than […]",
-      "date": 1365157578000
     }
   ],
   "nextPage": "/blog/page/13/",

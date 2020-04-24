@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 25)",
   "excerpts": [
     {
+      "id": "the-javascript-refresh",
+      "title": "The JavaScript Refresh",
+      "href": "/2011/10/16/the-javascript-refresh/",
+      "body": "Those of us who care a little about progressive enhancement and accessibility will be well aware of the “JavaScript refresh”. This is when the page initially renders — visible to the user — before deferred JavaScript kicks in. Think jQuery’s $(document).ready() or similar.\nThis problem occurs from very good practices. We have to make sure pages are accessible pre-JavaScript. […]",
+      "date": 1318782609000
+    },
+    {
       "id": "the-user-and-the-public",
       "title": "The User / The Public",
       "href": "/2011/10/16/the-user-and-the-public/",
@@ -43,13 +50,6 @@
       "href": "/2011/09/04/save-the-planet-with-css/",
       "body": "I’ve been quiet lately (big updates on the horizon) so a quick one for this evening:\nMy pre-launch checklist for website builds has always include “create print.css”. Most of the time I forget (or ignore it). It seems like the default thing to do though. Until you think about it.\nWho prints web pages?\nI do sometimes. Invoices, receipts, […]",
       "date": 1315159739000
-    },
-    {
-      "id": "moving-on",
-      "title": "Moving on",
-      "href": "/2011/08/10/moving-on/",
-      "body": "I’ve been the Senior Web Designer (and front-end dev) at Base Creative, London for the last three years. I’ve worked on great projects with amazing clients, making the Web that little bit better.\nBut sadly nothing can stay the same forever, and despite fond memories, I’ve decided to move on.\nNext Monday I’ll be joining Browser Creative, continuing with […]",
-      "date": 1312996208000
     }
   ],
   "nextPage": "/blog/page/26/",

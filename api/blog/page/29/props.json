@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "launching-xheight",
+      "title": "Launching xheight",
+      "href": "/2011/04/10/launching-xheight/",
+      "body": "As most people know I don’t do things by half and taking on ambitious projects is generally how I role these days. (Not Sunday though, I refused to take things serious on Sunday.)\nLast week I launched xheight.dbushell.com as a blog for many more designers than just myself to discuss the theory of design from experience […]",
+      "date": 1302434964000
+    },
+    {
       "id": "three-months-in",
       "title": "Three Months In",
       "href": "/2011/03/28/three-months-in/",
@@ -43,13 +50,6 @@
       "href": "/2011/02/24/is-it-time-to-realign/",
       "body": "Every so often I get the designers itch,\nObviously, I’m referring to the need to redesign my whole website and personal identity.\nAfter realising how much time that would take (a lot) and how much time I have (none) I opt for a realign to fix some short comings of the old version. It also allows me […]",
       "date": 1298582919000
-    },
-    {
-      "id": "website-design-without-lorem-ipsum",
-      "title": "Design without Lorem Ipsum",
-      "href": "/2011/02/17/website-design-without-lorem-ipsum/",
-      "body": "Back in August 2009 I made a vow never to use Lorem Ipsum again!\nPartly because I could recite more words of Lorem Ipsum than I could numbers of Pi, but mainly because I noticed it encouraged bad design habits and impeded feedback and discussion in client meetings.\nI don’t agree with some of my thoughts from 2009, […]",
-      "date": 1297947201000
     }
   ],
   "nextPage": "/blog/page/30/",

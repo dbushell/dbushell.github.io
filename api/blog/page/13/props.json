@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "the-flat-build-2",
+      "title": "The Flat Build (2)",
+      "href": "/2013/04/05/the-flat-build-2/",
+      "body": "My article The Flat Build was a slow burner but it has picked up steam recently and for the first time in like, forever, I’m building a pre-designed* website without having design influence. This has proven to be a good opportunity to refine and expand upon my flat build workflow (again).\nI’m aware I’m reinventing more than […]",
+      "date": 1365157578000
+    },
+    {
       "id": "on-responsive-layout-and-grids",
       "title": "On Responsive Layout and Grids",
       "href": "/2013/03/19/on-responsive-layout-and-grids/",
@@ -43,13 +50,6 @@
       "href": "/2013/02/18/captchas-just-say-no/",
       "body": "A couple of years ago I wrote In Search Of The Perfect CAPTCHA for Smashing Magazine. It was always a wild goose chase (but I knew that).\nI still get asked regularly how to deal with spam. It isn’t easy.\nI keep seeing new solutions pop up touted as an alterative to CAPTCHAs. Here’s the deal: replacing character […]",
       "date": 1361217588000
-    },
-    {
-      "id": "performance-varnish-cache-wordpress",
-      "title": "Performance, Varnish Cache, WordPress",
-      "href": "/2013/02/15/performance-varnish-cache-wordpress/",
-      "body": "When it comes to website performance there’s a lot we can do.\nAs designers it means finding a style that suits the Web as a medium; taking advantage of CSS, avoiding heavy raster graphics, etc etc. As front-end developers, well, Harry Roberts’ has a great round-up of techniques.\nThere’s only so much we can do client-side. It’s always […]",
-      "date": 1360946898000
     }
   ],
   "nextPage": "/blog/page/14/",
