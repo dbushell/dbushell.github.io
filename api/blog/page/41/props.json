@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 41)",
   "excerpts": [
     {
+      "id": "readable-type",
+      "title": "Readable Type",
+      "href": "/2009/06/07/readable-type/",
+      "body": "Readability and Legibility are words often interchanged in general conversation, however they both have a significant difference when thinking about the text we use on websites (and in all digital and printed work).\nThis article was written for a presentation at Base Creative.\nReadability\nIf we are providing a piece of textual information readability can be defined as […]",
+      "date": 1244407342000
+    },
+    {
       "id": "website-update",
       "title": "Website Update",
       "href": "/2009/06/06/website-update/",

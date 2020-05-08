@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 23)",
   "excerpts": [
     {
+      "id": "resolution-independence",
+      "title": "Resolution Independence!",
+      "href": "/2012/01/16/resolution-independence/",
+      "body": "One of my thoughts for Web Design: 2012 and Beyond concerned the issues of screen resolution and the necessity for scalable graphics on the web. As part of that thinking I’ve written a piece for Smashing Magazine entitled Resolution Independence with SVG:\n\nWhen we look at the breadth of Web-enabled devices, responsive design is sure to provide a better […]",
+      "date": 1326741891000
+    },
+    {
       "id": "device-optimisation",
       "title": "Device Optimisation",
       "href": "/2012/01/11/device-optimisation/",
@@ -43,13 +50,6 @@
       "href": "/2011/11/24/window-resize-in-javascript/",
       "body": "I will write a full article on responsive website design &amp; JavaScript soon, but for now here’s a quick snippet! (With a little help from jQuery, naturally.)\nvar resizeTimeout, win = $(window);\nwin.bind('resize', function()\n{\n    if (resizeTimeout) clearTimeout(resizeTimeout);\n    resizeTimeout = setTimeout(function()\n    {\n        […]",
       "date": 1322174153000
-    },
-    {
-      "id": "reaction-time-2",
-      "title": "Reaction Time (2)",
-      "href": "/2011/11/16/reaction-time-2/",
-      "body": "A few weeks ago I wrote Reaction Time explaining the art of relative interactivity.\nToday I found another perfect example!\nI’m using a technique based on Ariel Flesler’s excellent jQuery scrollTo plugin. The plugin scrolls the document until a specific element is in view. The set up: I have several tabs on my page that update content below […]",
-      "date": 1321470806000
     }
   ],
   "nextPage": "/blog/page/24/",

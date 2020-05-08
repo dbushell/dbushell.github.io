@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 29)",
   "excerpts": [
     {
+      "id": "seo-is-killing-website-design",
+      "title": "SEO is Killing Website Design",
+      "href": "/2011/04/12/seo-is-killing-website-design/",
+      "body": "Misguided “Search Engine Optimisation” is the harbinger of a website disaster, and after the ‘sensationalist’ headline above, I’ll do my best to explain why.\nThe Logic of a Good Search Result\nWebsites should be optimised for search engines but you have to remember one important fact. Search engines care about delivering good results to their users. Users can very quickly […]",
+      "date": 1302636693000
+    },
+    {
       "id": "launching-xheight",
       "title": "Launching xheight",
       "href": "/2011/04/10/launching-xheight/",
@@ -43,13 +50,6 @@
       "href": "/2011/03/04/in-search-of-the-perfect-captcha/",
       "body": "I’ve been on quite the journey over the last few weeks…\n…searching for the perfect CAPTCHA!\nYou can read my findings over at Smashing Magazine – big thanks to the team for their support and guidance in writing this article – I’m still immensly honoured! It’s also been quite an eye-opener to the issues of accessibility. That’s something I’m […]",
       "date": 1299243520000
-    },
-    {
-      "id": "is-it-time-to-realign",
-      "title": "Is it Time to Realign?",
-      "href": "/2011/02/24/is-it-time-to-realign/",
-      "body": "Every so often I get the designers itch,\nObviously, I’m referring to the need to redesign my whole website and personal identity.\nAfter realising how much time that would take (a lot) and how much time I have (none) I opt for a realign to fix some short comings of the old version. It also allows me […]",
-      "date": 1298582919000
     }
   ],
   "nextPage": "/blog/page/30/",

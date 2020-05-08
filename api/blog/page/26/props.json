@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "save-the-planet-with-css",
+      "title": "Save the planet with CSS!",
+      "href": "/2011/09/04/save-the-planet-with-css/",
+      "body": "I’ve been quiet lately (big updates on the horizon) so a quick one for this evening:\nMy pre-launch checklist for website builds has always include “create print.css”. Most of the time I forget (or ignore it). It seems like the default thing to do though. Until you think about it.\nWho prints web pages?\nI do sometimes. Invoices, receipts, […]",
+      "date": 1315159739000
+    },
+    {
       "id": "moving-on",
       "title": "Moving on",
       "href": "/2011/08/10/moving-on/",
@@ -43,13 +50,6 @@
       "href": "/2011/06/18/ampersand-conference-ampconf/",
       "body": "Yesterday I braved the “adverse weather conditions” to attend Ampersand, the web typography conference in Brighton. My expectations were undecided.\nI knew I didn’t want to see a show &amp; tell, nor basic print typography knowledge presented as a new web-revelation (neither is it new, nor new to the web). Thankfully I was rewarded with an […]",
       "date": 1308400740000
-    },
-    {
-      "id": "dont-copy-that-floppy",
-      "title": "Don’t copy that floppy!",
-      "href": "/2011/06/14/dont-copy-that-floppy/",
-      "body": "I’ve written a new article for Smashing Magazine entitled Understanding Copyright &amp; Licenses. It’s a primer for web designers and developers. Give it a read, let me know what you think.\n\n\nI do like to tackle the difficult topics. They often require a lot of research and I tend to arrive at the other end knowing a […]",
-      "date": 1308065447000
     }
   ],
   "nextPage": "/blog/page/27/",

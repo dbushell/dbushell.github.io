@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "wordpress-gutenberg-react-acf-example-blocks",
+      "title": "WordPress Gutenberg Example Blocks",
+      "href": "/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/",
+      "body": "Following my last article I’ve published a new GitHub repo:\nWordPress Gutenberg Example Blocks\nIn there I’ve coded examples of Gutenberg block development wrapped up in a tidy WordPress plugin you can try out.\nI start with the most basic block possible. I follow with iterations of more advanced functionality. I’ve kept the boilerplate and dependencies to a […]",
+      "date": 1588932000000
+    },
+    {
       "id": "wordpress-gutenberg-react-and-advanced-custom-fields",
       "title": "WordPress Gutenberg: React & Advanced Custom Fields (ACF)",
       "href": "/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/",
@@ -43,13 +50,6 @@
       "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
       "body": "A couple of weeks ago I took Netlify for a spin. I found the platform to be much easier to use than I’d anticipated. I was keen to test more features.\nNetlify Functions provide back-end functionality through API endpoints. They’re powered by AWS Lambda. I’m using AWS for my contact form. It took me forever to […]",
       "date": 1580119200000
-    },
-    {
-      "id": "a-morning-with-vuejs",
-      "title": "A Morning with Vue.js",
-      "href": "/2020/01/23/a-morning-with-vuejs/",
-      "body": "I’m a React person but I’m not devoted to it. Honest! Earlier this week I found a morning to flirt with Vue.js.\n\nMy intention was to pen an article comparing the two frameworks. Upon reflection it feels somewhat pointless. Like React, Vue is primarily “focused on the view layer”. And like React, Vue does a pretty […]",
-      "date": 1579773600000
     }
   ],
   "nextPage": "/blog/page/2/",

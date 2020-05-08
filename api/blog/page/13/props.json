@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "macaque-a-new-project",
+      "title": "Macaque: A New Project",
+      "href": "/2013/04/07/macaque-a-new-project/",
+      "body": "Today I started a new project. Macaque will be a personal to-do or list app. Sounds simple, right? Unlike my other side projects I’m coding and designing in public from day one.\nThis project exists because:\n\nI want to learn more Node and Ember\nI’ve failed to find a list app I like (oh lord, please don’t suggest one)\nI’d like to […]",
+      "date": 1365370539000
+    },
+    {
       "id": "the-flat-build-2",
       "title": "The Flat Build (2)",
       "href": "/2013/04/05/the-flat-build-2/",
@@ -43,13 +50,6 @@
       "href": "/2013/02/21/bring-back-the-sitemap/",
       "body": "I’m doing a small segment on navigation at Responsive Day Out (1st March). It’s an area of responsive design I enjoy experimenting with.\nYou’re probably familiar with responsive patterns that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before attacking code again.\nTable of contents\nFor small viewports […]",
       "date": 1361455114000
-    },
-    {
-      "id": "captchas-just-say-no",
-      "title": "CAPTCHAs: Just Say No",
-      "href": "/2013/02/18/captchas-just-say-no/",
-      "body": "A couple of years ago I wrote In Search Of The Perfect CAPTCHA for Smashing Magazine. It was always a wild goose chase (but I knew that).\nI still get asked regularly how to deal with spam. It isn’t easy.\nI keep seeing new solutions pop up touted as an alterative to CAPTCHAs. Here’s the deal: replacing character […]",
-      "date": 1361217588000
     }
   ],
   "nextPage": "/blog/page/14/",

@@ -5,16 +5,32 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 24 Apr 2020 10:40:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2020 09:30:48 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
 <item>
+  <title><![CDATA[WordPress Gutenberg Example Blocks]]></title>
+  <description><![CDATA[<p>Following my last article I’ve published a new GitHub repo:
+WordPress Gutenberg Example Blocks
+I’ve provided examples for Gutenberg block development in a tidy WordPress plugin. I start with the most basic block possible, then move on to iterations of more advanced functionality.
+01 - Basic
+
+  
+
+
+The first example is the most basic of Gutenberg blocks created […]</p>]]></description>
+  <link>https://dbushell.com/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 08 May 2020 10:00:00 GMT</pubDate>
+</item>
+<item>
   <title><![CDATA[WordPress Gutenberg: React &amp; Advanced Custom Fields (ACF)]]></title>
-  <description><![CDATA[<p>The new WordPress Gutenberg editor has been in release for over a year now. Post content is composed of “blocks”. Everything is a block. From the humble paragraph to the more advanced gallery and video embed — all blocks.
+  <description><![CDATA[<p>The new WordPress Gutenberg editor has been in release for over a year. Post content is composed of “blocks”. Everything is a block. From the humble paragraph to the more advanced gallery and video embed — all blocks.
 There are two common methods to create Gutenberg blocks.
-The first is to follow the offical handbook. Blocks […]</p>]]></description>
+The first is to follow the offical handbook. Blocks and […]</p>]]></description>
   <link>https://dbushell.com/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/</link>
   <guid isPermaLink="true">https://dbushell.com/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
@@ -208,16 +224,6 @@ I’m sure they can do […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2017/04/06/the-magic-of-service-workers/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Thu, 06 Apr 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[I watched Iron Fist and coded CSS 👈]]></title>
-  <description><![CDATA[<p>They have nothing in common.
-Well, aside from entertaining my weekend. I’m just bad at blog titles and I’m fed up of writing nonsense like “CSS modularity; theory and practice”. My draft title, which let’s face it, nobody is clicking.
-Iron Fist is ‘aight I guess. I’m 7 episodes deep and I’m still awake which is an […]</p>]]></description>
-  <link>https://dbushell.com/2017/04/03/i-watched-iron-fist-and-coded-css/</link>
-  <guid isPermaLink="true">https://dbushell.com/2017/04/03/i-watched-iron-fist-and-coded-css/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Mon, 03 Apr 2017 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

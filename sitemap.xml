@@ -1850,7 +1850,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/04/24/wordpress-gutenberg-react-and-advanced-custom-fields/</loc>
-  <lastmod>2020-04-24T10:40:47.974Z</lastmod>
+  <lastmod>2020-05-07T08:55:38.024Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/</loc>
+  <lastmod>2020-05-07T09:30:40.519Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

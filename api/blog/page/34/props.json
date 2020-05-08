@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 34)",
   "excerpts": [
     {
+      "id": "finding-the-right-style",
+      "title": "Finding the right style",
+      "href": "/2010/06/28/finding-the-right-style/",
+      "body": "At Base Creative we’re doing a series of blog posts and video blogs (“vlogs” - I’m not sure that’ll catch on) about our website design strategy. That’s the process we go through with our clients and especially the initial meetings. In my latest post I discuss a specific technique we use in the strategy meeting:\n\nOne way which […]",
+      "date": 1277725107000
+    },
+    {
       "id": "dbushell-v4",
       "title": "dbushell.com v4",
       "href": "/2010/06/26/dbushell-v4/",
@@ -43,13 +50,6 @@
       "href": "/2010/05/09/7-things-i-hate-about-website-design/",
       "body": "Website Design and Development!\nI started writing a blog about all the cool things being a web designer has to offer, i.e. ever changing technologies (slicker browsers, screens with pixels pushed closer together, HTML5, CSS3 with shadows and rounded corners everywhere etc). But then I figured people have already done a better job than I could […]",
       "date": 1273422270000
-    },
-    {
-      "id": "design-heroes-2",
-      "title": "Design Heroes 2",
-      "href": "/2010/04/29/design-heroes-2/",
-      "body": "Last year I started the bookmarking website Design Heroes to share and remember design related links, a kind of “inspiration blog”. It has served me very well in those occasions where I can remember a resource or piece of design I want to reference but have no idea where it is. The old design worked […]",
-      "date": 1272535713000
     }
   ],
   "nextPage": "/blog/page/35/",

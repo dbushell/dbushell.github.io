@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 4)",
   "excerpts": [
     {
+      "id": "web-security-and-cloudflare",
+      "title": "Web Security and Cloudflare",
+      "href": "/2017/02/17/web-security-and-cloudflare/",
+      "body": "I’ve never had to deal with SSL certificates before. That’s always been someone else’s responsibility. Being ignorant of the technical details, the idea of setting up SSL/TLS wrong scares me. The idea of my visitors seeing those browser warnings scares me even more. And they’re getting scarier by the year.\n\nI listened to an episode of […]",
+      "date": 1487325600000
+    },
+    {
       "id": "react-as-a-static-site-generator",
       "title": "React as a Static Site Generator",
       "href": "/2017/02/13/react-as-a-static-site-generator/",
@@ -43,13 +50,6 @@
       "href": "/2016/07/14/building-a-wordpress-theme/",
       "body": "I was delighted when Base Creative asked me to help build a beautifully designed website on WordPress. It’s always a joy to work with Base Creative knowing that my role is made easier by the care and attention they deliver.\n\nIn this review I’ll showcase a few of the defining techniques and challenges that made this […]",
       "date": 1468490400000
-    },
-    {
-      "id": "new-origins",
-      "title": "New Origins",
-      "href": "/2016/07/12/new-origins/",
-      "body": "Greetings! It’s been a while, hasn’t it? The last few months were busy for me. That’s a good thing I suppose, I certainly need to earn a living.\nThe only real downside of plentiful client work is the lack of time for my own projects. One of those, codename: “Origin”, is my personal front-end starter kit. […]",
-      "date": 1468317600000
     }
   ],
   "nextPage": "/blog/page/5/",

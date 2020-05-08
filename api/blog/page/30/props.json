@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 30)",
   "excerpts": [
     {
+      "id": "is-it-time-to-realign",
+      "title": "Is it Time to Realign?",
+      "href": "/2011/02/24/is-it-time-to-realign/",
+      "body": "Every so often I get the _designers itch_,\nObviously, I’m referring to the need to redesign my whole website and personal identity.\nAfter realising how much time that would take (a lot) and how much time I have (none) I opt for a realign to fix some short comings of the old version. It also allows me […]",
+      "date": 1298582919000
+    },
+    {
       "id": "website-design-without-lorem-ipsum",
       "title": "Design without Lorem Ipsum",
       "href": "/2011/02/17/website-design-without-lorem-ipsum/",
@@ -43,13 +50,6 @@
       "href": "/2011/01/15/transitioning-as-a-web-designer/",
       "body": "“Web Designer” is one of the most exciting job titles in the design category. That’s because — and bear with me here — what was once an acceptable website design in a particular year may no longer be acceptable to produce the next.\nFor the last couple of years at Base Creative I’ve been designing fixed-width […]",
       "date": 1295128664000
-    },
-    {
-      "id": "happy-new-ye-oh",
-      "title": "Happy New Ye…oh",
-      "href": "/2011/01/09/happy-new-ye-oh/",
-      "body": "Ah, it’s the 9th already?\nI don’t do New Year’s resolutions, but I do like to look forward every now and then to consider all the amazing opportunities out there. 2011 is going to be all about pushing boundaries in life and work.\n(Not sure what that means in reality but I’ve plenty of time to find […]",
-      "date": 1294616151000
     }
   ],
   "nextPage": "/blog/page/31/",

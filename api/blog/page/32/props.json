@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 32)",
   "excerpts": [
     {
+      "id": "design-is-not-doomed",
+      "title": "Design is not doomed",
+      "href": "/2010/10/14/design-is-not-doomed/",
+      "body": "I’ve been suspiciously silent on this blog lately.\nNot sure what’s wrong with me! I’m still blogging daily at designheroes.co.uk. That’s where I post all my inspiration, interests and opinions on the latest design news &amp; events. I’ve also been rapidly developing LoveDsgn which has gone from a small to monumentally massive project in the space of […]",
+      "date": 1287079537000
+    },
+    {
       "id": "a-future-of-engineered-design",
       "title": "A Future of Engineered Design?",
       "href": "/2010/09/21/a-future-of-engineered-design/",
@@ -43,13 +50,6 @@
       "href": "/2010/07/29/using-photoshop-like-a-real-web-design/",
       "body": "There has been a lot of debate recently in the web design social networks about whether a web designer should be able to code. I didn’t contribute much to the question because the answer is obviously yes, but I did think long and hard about my own practices.\nToday Smashing Magazine published a great article by […]",
       "date": 1280403884000
-    },
-    {
-      "id": "stop-being-a-designer-from-hell",
-      "title": "Stop being a Designer from Hell",
-      "href": "/2010/07/17/stop-being-a-designer-from-hell/",
-      "body": "There’s more to being a professional designer than pushing around pixels. I realise the truth behind this more and more every day. I’d estimate I spend somewhere between 10–25% of my week interacting with clients. This relationship dictates everything I do in my job. If I want to enjoy it and produce design to be […]",
-      "date": 1279368508000
     }
   ],
   "nextPage": "/blog/page/33/",

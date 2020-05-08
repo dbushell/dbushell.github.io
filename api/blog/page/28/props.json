@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 28)",
   "excerpts": [
     {
+      "id": "fowd-day-one-review",
+      "title": "#FOWD Day One Review",
+      "href": "/2011/05/17/fowd-day-one-review/",
+      "body": "This is my first year at Future of Web Design so I was unsure what to expect but secretly I knew it’d be pretty awesome. What a learning experience.\nBelow is a bit of a brain dump so I don’t forget, but I think everyone can benefit from these notes – the ideas were so strong they […]",
+      "date": 1305657566000
+    },
+    {
       "id": "attending-fowd-2011",
       "title": "Attending FOWD 2011",
       "href": "/2011/05/15/attending-fowd-2011/",
@@ -43,13 +50,6 @@
       "href": "/2011/04/18/simplicity-and-sexy-buttons-in-web-design/",
       "body": "I’ve mentioned simplicity a few times before but I thought I’d expand on this concept within web design as it’s such a fundamental part of my process.\nSimplicity in Aesthetics\nAlthough aesthetics are perhaps the least important aspect of website design they are initially the most noticeable, at least for demonstration purposes.\nLet’s consider four submit buttons:\n\n\nThe first is […]",
       "date": 1303157548000
-    },
-    {
-      "id": "seo-is-killing-website-design",
-      "title": "SEO is Killing Website Design",
-      "href": "/2011/04/12/seo-is-killing-website-design/",
-      "body": "Misguided “Search Engine Optimisation” is the harbinger of a website disaster, and after the ‘sensationalist’ headline above, I’ll do my best to explain why.\nThe Logic of a Good Search Result\nWebsites should be optimised for search engines but you have to remember one important fact. Search engines care about delivering good results to their users. Users can very quickly […]",
-      "date": 1302636693000
     }
   ],
   "nextPage": "/blog/page/29/",
