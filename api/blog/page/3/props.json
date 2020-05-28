@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "codepen-snippets",
+      "title": "CodePen Snippets",
+      "href": "/2018/02/21/codepen-snippets/",
+      "body": "I’ve started a new Code Snippets collection on CodePen. It will be populated with the little and sometimes peculiar CSS techniques I’ve used. Mostly CSS but with occasional JavaScript sprinkles. Progressively enhanced, of course.\nStuff like this styled range input:\n\n  See the Pen Styled input range (slider/progress) by David Bushell (@dbushell) on CodePen.\n\n\nWho would have […]",
+      "date": 1519207200000
+    },
+    {
       "id": "hello-2018",
       "title": "Hello Twenty Eighteen",
       "href": "/2018/01/11/hello-2018/",
@@ -43,13 +50,6 @@
       "href": "/2017/04/06/the-magic-of-service-workers/",
       "body": "They’re a thing. Google describes them as a “technical foundation”.\nWhat I’ve learnt is that a service worker is a JavaScript file. It runs in it’s own little world behind a website. That means it can’t access the DOM. What it can do is proxy network requests and access a storage cache.\nI’m sure they can do […]",
       "date": 1491472800000
-    },
-    {
-      "id": "i-watched-iron-fist-and-coded-css",
-      "title": "I watched Iron Fist and coded CSS 👈",
-      "href": "/2017/04/03/i-watched-iron-fist-and-coded-css/",
-      "body": "They have nothing in common.\nWell, aside from entertaining my weekend. I’m just bad at blog titles and I’m fed up of writing nonsense like “CSS modularity; theory and practice”. My draft title, which let’s face it, nobody is clicking.\nIron Fist is ‘aight I guess. I’m 7 episodes deep and I’m still awake which is an […]",
-      "date": 1491213600000
     }
   ],
   "nextPage": "/blog/page/4/",

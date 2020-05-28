@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 10)",
   "excerpts": [
     {
+      "id": "building-for-perch-cms",
+      "title": "Building for Perch CMS",
+      "href": "/2014/01/10/building-for-perch-cms/",
+      "body": "Perch CMS has been on my radar for a few years now and given the praise I continue to see I figured it was time to learn the ins and outs of Perch development.\n\nPerch is a very good CMS for both development ease and content editing. After spending a week with Perch I feel confident it […]",
+      "date": 1389343076000
+    },
+    {
       "id": "thanks-for-a-great-year",
       "title": "Thanks for a Great Year!",
       "href": "/2013/12/18/thanks-for-a-great-year/",
@@ -43,13 +50,6 @@
       "href": "/2013/09/10/css-fixed-positioning-and-mobile-zoom/",
       "body": "The follow demo is a quick experiment! I’m not sharing code because it’s horrible and I don’t want emails asking if I’ve got it working on a Blackberry.\nMobile web browsers, unless otherwise informed, will assume a website has been designed for larger screens. They’ll render on a large canvas and zoom out. Responsive websites use […]",
       "date": 1378803681000
-    },
-    {
-      "id": "reacting-to-the-resize",
-      "title": "Reacting to the Resize",
-      "href": "/2013/08/29/reacting-to-the-resize/",
-      "body": "I’m building a client’s website design that is more aware of the viewport than usual. Page headers — think large typography with a background image — cover 100% of the initial view. So too does the navigation; five items presented overlaying the entire screen.\nFirst but not final\nWhen a page loads the first render — at whatever size the […]",
-      "date": 1377785694000
     }
   ],
   "nextPage": "/blog/page/11/",

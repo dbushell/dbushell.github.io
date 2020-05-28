@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 27)",
   "excerpts": [
     {
+      "id": "ampersand-conference-ampconf",
+      "title": "Ampersand Conference",
+      "href": "/2011/06/18/ampersand-conference-ampconf/",
+      "body": "Yesterday I braved the “adverse weather conditions” to attend Ampersand, the web typography conference in Brighton. My expectations were undecided.\nI knew I didn’t want to see a show &amp; tell, nor basic print typography knowledge presented as a new web-revelation (neither is it new, nor new to the web). Thankfully I was rewarded with an […]",
+      "date": 1308400740000
+    },
+    {
       "id": "dont-copy-that-floppy",
       "title": "Don’t copy that floppy!",
       "href": "/2011/06/14/dont-copy-that-floppy/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/25/designing-a-new-me/",
       "body": "I often say that aesthetics are the least important part of a website design.\nContent and functionality are miles ahead of anything else. It’s obvious really, why would people visit unless you have some substance? They’re so important that design should focus on layout and architecture and only then should aesthetics be considered.\nIt’s refreshing!\nI’ve had dbushell.com online […]",
       "date": 1306318189000
-    },
-    {
-      "id": "fowd-day-two-review",
-      "title": "#FOWD Day Two Review",
-      "href": "/2011/05/18/fowd-day-two-review/",
-      "body": "I was a few minutes late today (apparently I didn’t have time for a tactical Maccy D’s bacon roll) which almost cost me dearly!\nA change in schedule meant Ethan Marcotte was up first with:\nResponsive Web Design\nThis was suppose to be the headline act. I think a lot of people who missed this morning (a lot […]",
-      "date": 1305737155000
     }
   ],
   "nextPage": "/blog/page/28/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 18)",
   "excerpts": [
     {
+      "id": "www",
+      "title": "WWW",
+      "href": "/2012/08/20/www/",
+      "body": "I’ve been semi-offline for quite a while now. I took some weeks off to relax and enjoy the Olympics, so this is a short post to warm up my blogging fingers. (Not to suggest that — by jumping straight back behind the keyboard — I haven’t been inspired by the games, I’ve been running a hell […]",
+      "date": 1345487654000
+    },
+    {
       "id": "re-social-media-buttons",
       "title": "Re: Social Media Buttons",
       "href": "/2012/07/20/re-social-media-buttons/",
@@ -43,13 +50,6 @@
       "href": "/2012/06/17/nestable-jquery-plugin/",
       "body": "I’ve started writing a jQuery plugin called Nestable — try it out.\nNestable is an interactive hierarchical list. You can drag and drop to rearrange the order. It even works well on touch-screens. If you’re familiar with the way WordPress allows the user to manage menus, this will be used for a similar UI.\n\nThe only similar […]",
       "date": 1339936744000
-    },
-    {
-      "id": "featured-in-javascript-weekly",
-      "title": "Featured",
-      "href": "/2012/06/08/featured-in-javascript-weekly/",
-      "body": "If you’re a website developer, subscriptions to the JavaScript Weekly and HTML5 Weekly newsletters are mandatory. Even in the days of Twitter they’re a goldmine of knowledge.\nAs it happens, my Socialite.js project makes an appearance in Issue #82! My praise of these newsletters is in no way disingenuous; it really is an honour (albeit a very geeky one). I’m […]",
-      "date": 1339159514000
     }
   ],
   "nextPage": "/blog/page/19/",

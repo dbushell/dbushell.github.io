@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 31)",
   "excerpts": [
     {
+      "id": "transitioning-as-a-web-designer",
+      "title": "Transitioning as a Web Designer",
+      "href": "/2011/01/15/transitioning-as-a-web-designer/",
+      "body": "“Web Designer” is one of the most exciting job titles in the design category. That’s because — and bear with me here — what was once an acceptable website design in a particular year may no longer be acceptable to produce the next.\nFor the last couple of years at Base Creative I’ve been designing fixed-width […]",
+      "date": 1295128664000
+    },
+    {
       "id": "happy-new-ye-oh",
       "title": "Happy New Ye…oh",
       "href": "/2011/01/09/happy-new-ye-oh/",
@@ -43,13 +50,6 @@
       "href": "/2010/11/07/the-typographic-gauntlet/",
       "body": "I love typography!\nTo celebrate my love I have set myself a new challenge: design 6 fonts in 12 months.\nMy last “creative challenge” was to fold 1000 origami cranes before the end of 2010. I think I’ve done about 100 so far (having folded nothing since March). Some may say I set the bar too high on that […]",
       "date": 1289173153000
-    },
-    {
-      "id": "book-review-just-my-type",
-      "title": "Book Review: Just My Type",
-      "href": "/2010/10/25/book-review-just-my-type/",
-      "body": "If you’ve been following my Design Heroes blog you’ll know I’ve recently been impressed with two (1, 2) different excerpts from Simon Garfield’s new book Just My Type.\nSo much so that I purchased and read it as fast as humanly possible.\nThe book starts with a chapter on Comic Sans, illustrating the significant impact a font can have. It […]",
-      "date": 1288039937000
     }
   ],
   "nextPage": "/blog/page/32/",

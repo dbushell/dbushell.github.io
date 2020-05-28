@@ -5,22 +5,28 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Thu, 07 May 2020 09:30:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 07:09:06 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
 <item>
+  <title><![CDATA[Bubblewrap Apps in Android Studio]]></title>
+  <description><![CDATA[<p>Bubblewrap is a convenient tool to generate an Android app from a Progressive Web App (https://developers.google.com/web/android/trusted-web-activity/)). I used it to bundle my PWA recently.
+From the command line you run:
+bubblewrap init --manifest &quot;https://muteswan.app/manifest.webmanifest&quot;
+Bubblewrap generates the build config and assets for the app. Continuing with bubblewrap build results in an .apk if you’ve installed the Android build […]</p>]]></description>
+  <link>https://dbushell.com/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Mon, 01 Jun 2020 10:00:00 GMT</pubDate>
+</item>
+<item>
   <title><![CDATA[WordPress Gutenberg Example Blocks]]></title>
   <description><![CDATA[<p>Following my last article I’ve published a new GitHub repo:
 WordPress Gutenberg Example Blocks
-I’ve provided examples for Gutenberg block development in a tidy WordPress plugin. I start with the most basic block possible, then move on to iterations of more advanced functionality.
-01 - Basic
-
-  
-
-
-The first example is the most basic of Gutenberg blocks created […]</p>]]></description>
+In there I’ve coded examples of Gutenberg block development wrapped up in a tidy WordPress plugin you can try out.
+I start with the most basic block possible. I follow with iterations of more advanced functionality. I’ve kept the boilerplate and dependencies to a […]</p>]]></description>
   <link>https://dbushell.com/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/</link>
   <guid isPermaLink="true">https://dbushell.com/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
@@ -214,16 +220,6 @@ PropTypes […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2017/04/19/typescript-instead-of-react-proptypes/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Wed, 19 Apr 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[The Magic of Service Workers]]></title>
-  <description><![CDATA[<p>They’re a thing. Google describes them as a “technical foundation”.
-What I’ve learnt is that a service worker is a JavaScript file. It runs in it’s own little world behind a website. That means it can’t access the DOM. What it can do is proxy network requests and access a storage cache.
-I’m sure they can do […]</p>]]></description>
-  <link>https://dbushell.com/2017/04/06/the-magic-of-service-workers/</link>
-  <guid isPermaLink="true">https://dbushell.com/2017/04/06/the-magic-of-service-workers/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Thu, 06 Apr 2017 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

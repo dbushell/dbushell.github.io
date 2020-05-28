@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 21)",
   "excerpts": [
     {
+      "id": "spotify-play-button-and-socialite-js",
+      "title": "Spotify & Socialite.js",
+      "href": "/2012/04/11/spotify-play-button-and-socialite-js/",
+      "body": "Spotify have just released their Spotify Play Button allowing you to embed any song or playlist on your website or blog. It’s awesome, but it also comes at a cost.\nThe whole include (which uses an iframe) weights in at close to 500kb and uses upwards of 30 http requests alone. Chunky! Chunkier than many web pages.\nUsing this embedded play button […]",
+      "date": 1334150615000
+    },
+    {
       "id": "svg-use-it-already",
       "title": "SVG, Use it Already",
       "href": "/2012/04/03/svg-use-it-already/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/18/the-lovedsgn-story/",
       "body": "Zero to 200,000 page views and 1000 members in less than 30 days. A brand new domain, no advertising.\nThat’s the sort of website launch our clients convince themselves of but never see. Nobody is talking about a website they’ve never heard of, nobody is searching for something they didn’t know existed. And yet I sat […]",
       "date": 1332082842000
-    },
-    {
-      "id": "ideas-of-march",
-      "title": "Ideas of March",
-      "href": "/2012/03/16/ideas-of-march/",
-      "body": "If you haven’t read an Ideas of March post yet they all start by explaining what an Ideas of March post is. I’m just going to link to Chris Shiflett’s 2012 update.\nI believe I’m suppose to write about writing. When I started this blog in 2008 post-graduation it began as a tiny link hidden away in the […]",
-      "date": 1331935405000
     }
   ],
   "nextPage": "/blog/page/22/",

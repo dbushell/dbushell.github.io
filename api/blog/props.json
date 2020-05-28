@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "bubblewrap-twa-pwa-apps-android-studio",
+      "title": "Bubblewrap Apps in Android Studio",
+      "href": "/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/",
+      "body": "Bubblewrap is a convenient tool to generate an Android app from a Progressive Web App. I used it to bundle my PWA recently.\nIt’s run from the command line:\nbubblewrap init --manifest \"https://muteswan.app/manifest.webmanifest\"\nBubblewrap generates the build config and assets for the app. Continuing with bubblewrap build results in an .apk if you’ve installed the Android build tools.\nI […]",
+      "date": 1591005600000
+    },
+    {
       "id": "wordpress-gutenberg-react-acf-example-blocks",
       "title": "WordPress Gutenberg Example Blocks",
       "href": "/2020/05/08/wordpress-gutenberg-react-acf-example-blocks/",
@@ -43,13 +50,6 @@
       "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
       "body": "The Docker life chooses you. I bet a lot of developers have had a similar introduction. You’re brought onto a project and it’s like; “Hey we’re using Docker, just run ‘docker-compose up’.“ they say, “Sure, I know Docker,“ you shrug. Then you spend the better part of the week debugging.\nI’ve worked on maybe two dozen […]",
       "date": 1581069600000
-    },
-    {
-      "id": "building-a-pwa-with-netlify-functions",
-      "title": "Building a PWA with Netlify Functions",
-      "href": "/2020/01/27/building-a-pwa-with-netlify-functions/",
-      "body": "A couple of weeks ago I took Netlify for a spin. I found the platform to be much easier to use than I’d anticipated. I was keen to test more features.\nNetlify Functions provide back-end functionality through API endpoints. They’re powered by AWS Lambda. I’m using AWS for my contact form. It took me forever to […]",
-      "date": 1580119200000
     }
   ],
   "nextPage": "/blog/page/2/",

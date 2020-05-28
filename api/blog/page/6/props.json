@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "tales-wordpress-theme-now-free",
+      "title": "Tales WordPress theme is now free",
+      "href": "/2015/11/12/tales-wordpress-theme-now-free/",
+      "body": "Tales is a WordPress theme I developed early last year to show that responsive design and legacy browser support are not mutually exclusive.\n\nFor the few months that I sold Tales it provided a small but welcome side income (considering my lack of advertising). Today I’m happy to announce that Tales is now free to download […]",
+      "date": 1447322400000
+    },
+    {
       "id": "accelerated-mobile-pages",
       "title": "Accelerated Mobile Pages",
       "href": "/2015/10/20/accelerated-mobile-pages/",
@@ -43,13 +50,6 @@
       "href": "/2015/05/11/wordpress-to-metalsmith/",
       "body": "\n  NEW: React as a Static Site Generator\n  I now used React instead of Metalsmith. See my new approach above!\n\n\nIt’s a busy work schedule that is usually to blame for my lack of written output on this blog. That was not the case last month!\nDowntime\nAs you may have noticed, my website has been […]",
       "date": 1431338400000
-    },
-    {
-      "id": "responsive-design-for-houden",
-      "title": "Responsive Design for Houden",
-      "href": "/2015/03/18/responsive-design-for-houden/",
-      "body": "Houden is an e-ccomerce store, soon to launch with stylish bags and accessories for laptops, tablets, and cameras.\nI was hired to improve aspects of the design and user experience with the help of new brand guidelines and a base template already under development at Shopify. Below is a preview of the design and code I’ve been working […]",
-      "date": 1426675859000
     }
   ],
   "nextPage": "/blog/page/7/",

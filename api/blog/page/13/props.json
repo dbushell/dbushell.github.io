@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 13)",
   "excerpts": [
     {
+      "id": "test-driven-development",
+      "title": "Test Driven Development",
+      "href": "/2013/04/14/test-driven-development/",
+      "body": "I’ve been hacking away at my side project Macaque today. It’s quickly becoming the world’s most over-engineered to-do app. At the moment it’s categorising primates:\n\nIsn’t it beautiful?\nAs you can see, my big ideas for Macaque focus on design but I am building it end-to-end. For the supporting back-end I’ve spent the weekend writing and testing an API. I could have […]",
+      "date": 1365968197000
+    },
+    {
       "id": "macaque-a-new-project",
       "title": "Macaque: A New Project",
       "href": "/2013/04/07/macaque-a-new-project/",
@@ -43,13 +50,6 @@
       "href": "/2013/03/03/a-responsive-day-out/",
       "body": "\nMe on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by Laura Kalbag and Marc Thiele.\nOn Friday 1st March, I spoke at Responsive Day Out in Brighton. Videos at Besquare, Audio of all talks is available and you can click along to my slides too.\nWhat a wonderful day! When Jeremy asked me to speak last year, March seemed eons away. I’ve never spoken […]",
       "date": 1362319748000
-    },
-    {
-      "id": "bring-back-the-sitemap",
-      "title": "Bring Back the Sitemap?",
-      "href": "/2013/02/21/bring-back-the-sitemap/",
-      "body": "I’m doing a small segment on navigation at Responsive Day Out (1st March). It’s an area of responsive design I enjoy experimenting with.\nYou’re probably familiar with responsive patterns that transform a traditional menu into something mobile-friendly. Combinations thereof cover most scenarios. If nothing suffices it might be more apt to focus on information architecture before attacking code again.\nTable of contents\nFor small viewports […]",
-      "date": 1361455114000
     }
   ],
   "nextPage": "/blog/page/14/",
