@@ -99,9 +99,20 @@ console<span class="token punctuation">.</span><span class="token function">log<
     /images/blog/2020/ms-auto-sign-in@1x.png,
     /images/blog/2020/ms-auto-sign-in@2x.png 2x"
     src="/images/blog/2020/ms-auto-sign-in@1x.png"
-    alt="Mute Swan v7 auto sign-in"
+    alt="Mute Swan v7 auto sign-in (Chrome)"
     width="478"
     height="160">
+</p>
+
+<p>On Chrome Android the sign-in notification pops up below. The random sky blue is an interesting choice. I’d prefer if it would use the manifest theme colour.</p>
+<p class="b-post__image">
+  <img loading="lazy" srcset="
+    /images/blog/2020/ms-auto-sign-in-android@1x.png,
+    /images/blog/2020/ms-auto-sign-in-android@2x.png 2x"
+    src="/images/blog/2020/ms-auto-sign-in-android@1x.png"
+    alt="Mute Swan v7 auto sign-in (Android)"
+    width="360"
+    height="300">
 </p>
 
 <p>Passwords can be stored programmatically:</p>
@@ -112,7 +123,7 @@ window<span class="token punctuation">.</span>navigator<span class="token punctu
   password<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
   mediation<span class="token operator">:</span> <span class="token string">'optional'</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p>Works in Chrome-like browsers. Fails in elsewhere. If the password cannot be retrieved via the method above, or is incorrect, I fall back to a sign-in form.</p>
+<p>Works in Chrome-like browsers. Fails elsewhere. If the password cannot be retrieved via the method above, or is incorrect, I fall back to a sign-in form.</p>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>
   <span class="token attr-name">required</span>
   <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>current-password<span class="token punctuation">"</span></span>
@@ -146,7 +157,7 @@ window<span class="token punctuation">.</span>navigator<span class="token punctu
 
 <p>This feels very hacky but it works in Firefox.</p>
 <h3 id="fallback">Fallback</h3>
-<p>Finally, if neither auto sign-in method works, or no password is saved, the form must be submitted manually by the user.</p>
+<p>Finally, if neither auto sign-in method works, or no password was saved, the form must be submitted manually by the user.</p>
 <p class="b-post__image">
   <img loading="lazy" srcset="
     /images/blog/2020/ms-sign-in-form@1x.png,
