@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 35)",
   "excerpts": [
     {
+      "id": "minimalist-html",
+      "title": "Minimalist HTML?",
+      "href": "/2010/05/22/minimalist-html/",
+      "body": "As part of the ongoing Design Heroes project we’ve started to include longer reviews with juicier content! The latest feature is on web designer and strategist Giuseppe Scappaticcio and his glorious website (and it’s source!). Read the review on Design Heroes, see a snippet below:\n\n“Really conserve your HTML as if it’s a non-renewable source. Give […]",
+      "date": 1274522211000
+    },
+    {
       "id": "7-things-i-hate-about-website-design",
       "title": "7 things I hate about…",
       "href": "/2010/05/09/7-things-i-hate-about-website-design/",
@@ -43,13 +50,6 @@
       "href": "/2010/02/18/1000-cranes/",
       "body": "A new project!\nThe other week I was indirectly reminded (via twitter, obviously) about a previous obsession with Origami. To satisfy a sudden resurging demand to fold everything in half I picked up a few sheets of origami paper - and that was that.\nWell today a package arrived from Hong Kong along with a horrifying flash-back […]",
       "date": 1266521182000
-    },
-    {
-      "id": "olympus-e-p1",
-      "title": "Olympus E-P1",
-      "href": "/2010/02/14/olympus-e-p1/",
-      "body": "Ever since I started the daily photo project I’ve been looking to buy a digital camera. The iPhone’s camera has been surprisingly good but it doesn’t hold up to serious goat photography (scroll down).\n[photo was lost to time…]\nMy choice came down to a toss up between the Olympus E-P1 (above) and the Panasonic Lumix GF1. […]",
-      "date": 1266164566000
     }
   ],
   "nextPage": "/blog/page/36/",

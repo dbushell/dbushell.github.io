@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 6)",
   "excerpts": [
     {
+      "id": "2015-in-review",
+      "title": "My Year in Review",
+      "href": "/2015/12/30/2015-in-review/",
+      "body": "All considered, 2015 has been a good year!\nMy highlight for sure was moving into my new flat. The whole searching, buying, and decorating process took way longer than I imagined. Because of this I didn’t take on as many large projects, but I did manage to find enough freelance work to keep me going.\nJanuary\nWhat better […]",
+      "date": 1451469600000
+    },
+    {
       "id": "tales-wordpress-theme-now-free",
       "title": "Tales WordPress theme is now free",
       "href": "/2015/11/12/tales-wordpress-theme-now-free/",
@@ -43,13 +50,6 @@
       "href": "/2015/06/01/order-html-vs-css/",
       "body": "Content should follow a logical top-to-bottom order within HTML. CSS is used to change the visual presentation of this content across different viewports.\nOn small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout […]",
       "date": 1433152800000
-    },
-    {
-      "id": "wordpress-to-metalsmith",
-      "title": "WordPress to Metalsmith",
-      "href": "/2015/05/11/wordpress-to-metalsmith/",
-      "body": "\n  NEW: React as a Static Site Generator\n  I now used React instead of Metalsmith. See my new approach above!\n\n\nIt’s a busy work schedule that is usually to blame for my lack of written output on this blog. That was not the case last month!\nDowntime\nAs you may have noticed, my website has been […]",
-      "date": 1431338400000
     }
   ],
   "nextPage": "/blog/page/7/",

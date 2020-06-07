@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 24)",
   "excerpts": [
     {
+      "id": "socialite-js-preview",
+      "title": "Socialite.js Preview",
+      "href": "/2011/12/08/socialite-js-preview/",
+      "body": "You’ve all seen social sharing buttons. Twitter’s “tweet”, Facebook’s “like” etc.\nHere’s a screenshot from a popular blog to refresh your memory:\n\nThey have their place on a website if used intelligently — that’s a big if! They’re difficult to design around and a nightmare for front-end development.\nThe copy-and-paste code for each button includes a default element and […]",
+      "date": 1323350068000
+    },
+    {
       "id": "window-resize-in-javascript",
       "title": "Window Resize in JS",
       "href": "/2011/11/24/window-resize-in-javascript/",
@@ -43,13 +50,6 @@
       "href": "/2011/11/08/hats/",
       "body": "Some days I wear my perfectionist hat, other days I wear my pragmatist hat.\nI would much prefer to wear a MailChimp chimp hat but that’s neither here nor there. *\nWeb standards are not perfect as this month’s hilariously geeky &lt;time&gt; element debacle has reminded us. The practice and adoption of standards from both browsers and developers […]",
       "date": 1320796307000
-    },
-    {
-      "id": "learning-from-the-crazy-ones",
-      "title": "Learning from the crazy ones",
-      "href": "/2011/10/30/learning-from-the-crazy-ones/",
-      "body": "I’ve been reading the Steve Jobs biography and a quote in the Jony Ive chapter (half way through the book) from Jobs really stood out:\n\n“In most people’s vocabularies, design means veneer, but to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up expressing […]",
-      "date": 1319972978000
     }
   ],
   "nextPage": "/blog/page/25/",

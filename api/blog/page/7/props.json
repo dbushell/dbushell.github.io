@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "wordpress-to-metalsmith",
+      "title": "WordPress to Metalsmith",
+      "href": "/2015/05/11/wordpress-to-metalsmith/",
+      "body": "\n  NEW: React as a Static Site Generator\n  I now used React instead of Metalsmith. See my new approach above!\n\n\nIt’s a busy work schedule that is usually to blame for my lack of written output on this blog. That was not the case last month!\nDowntime\nAs you may have noticed, my website has been […]",
+      "date": 1431338400000
+    },
+    {
       "id": "responsive-design-for-houden",
       "title": "Responsive Design for Houden",
       "href": "/2015/03/18/responsive-design-for-houden/",
@@ -43,13 +50,6 @@
       "href": "/2015/01/26/use-svg-part-1/",
       "body": "As you know I’m a big fan of using SVG whenever possible.\nSee my articles ‘Resolution Independence With SVG’ (Jan 2012) and ‘A Primer to Front-end SVG Hacking’ (Feb 2013) for a retrospective.\nI’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how you look at […]",
       "date": 1422279504000
-    },
-    {
-      "id": "happy-new-year-2",
-      "title": "Happy New Year!",
-      "href": "/2015/01/12/happy-new-year-2/",
-      "body": "I’m back in the office and feeling positive about this year’s work.\nGive me a shout if you require my web design / front-end skills. I’ve been thinking long and hard about the type of work I’d like to take on, and really, I find a variety most rewarding. It’s nice to alternate between design and dev.\nFor the […]",
-      "date": 1421064732000
     }
   ],
   "nextPage": "/blog/page/8/",

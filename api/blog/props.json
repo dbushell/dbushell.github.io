@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "pwa-web-crypto-encryption-auto-sign-in-redux-persist",
+      "title": "PWA Encryption and Auto Sign-in",
+      "href": "/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/",
+      "body": "Mute Swan is a progressive web app I’ve been coding for my own amusement. It’s a playground for me to mess around with experimental web standards. Also to remind myself to buy milk.\n\n  \n\n\nI’ve recently implemented hidden Dropbox backup and sync functionality. With that in place I decided that my grocery list was of […]",
+      "date": 1591610400000
+    },
+    {
       "id": "bubblewrap-twa-pwa-apps-android-studio",
       "title": "Bubblewrap Apps in Android Studio",
       "href": "/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/",
@@ -43,13 +50,6 @@
       "href": "/2020/02/28/http-security-headers-and-inline-resources/",
       "body": "As it turns out, HTTPS is not the end-all to securing a website.\nMozilla Observatory and Security Headers both scan HTTP headers and report back on adherence to, or lack thereof, best practices.\nIn my case dbushell.com gets a big fat “F”. I’m hosting on GitHub Pages so there is not much I can do except use […]",
       "date": 1582884000000
-    },
-    {
-      "id": "docker-wordpress-portless-localhost-domains",
-      "title": "Docker, WordPress, and Portless Localhost Domains",
-      "href": "/2020/02/07/docker-wordpress-portless-localhost-domains/",
-      "body": "The Docker life chooses you. I bet a lot of developers have had a similar introduction. You’re brought onto a project and it’s like; “Hey we’re using Docker, just run ‘docker-compose up’.“ they say, “Sure, I know Docker,“ you shrug. Then you spend the better part of the week debugging.\nI’ve worked on maybe two dozen […]",
-      "date": 1581069600000
     }
   ],
   "nextPage": "/blog/page/2/",

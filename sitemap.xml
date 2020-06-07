@@ -1772,7 +1772,7 @@
 </url>
 <url>
   <loc>https://dbushell.com/2018/01/11/hello-2018/</loc>
-  <lastmod>2018-11-08T20:16:17.426Z</lastmod>
+  <lastmod>2020-06-07T06:35:38.075Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -1838,13 +1838,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/03/05/bundle-a-pwa-as-an-android-app/</loc>
-  <lastmod>2020-03-04T07:40:50.400Z</lastmod>
+  <lastmod>2020-06-07T06:19:38.232Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>https://dbushell.com/2020/03/27/debugging-a-todo-app/</loc>
-  <lastmod>2020-03-30T07:05:47.633Z</lastmod>
+  <lastmod>2020-06-07T06:19:38.233Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
@@ -1862,7 +1862,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/06/01/bubblewrap-twa-pwa-apps-android-studio/</loc>
-  <lastmod>2020-05-28T07:08:48.022Z</lastmod>
+  <lastmod>2020-06-07T06:19:38.234Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/</loc>
+  <lastmod>2020-06-07T06:55:22.405Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 9)",
   "excerpts": [
     {
+      "id": "responsive-design-for-uwe-wittwer",
+      "title": "Responsive Design for Uwe Wittwer",
+      "href": "/2014/05/07/responsive-design-for-uwe-wittwer/",
+      "body": "\nDavid immediately grasped our taste in design and our technical requirements for a modern, responsive design after only a short brief by mail and phone.\nKevin Mueller, Studio Manager for Uwe Wittwer\n\n\nAtelier Uwe Wittwer came to me in late 2013 requesting a new responsive design. With an ideal brief and a small but workable budget, I was […]",
+      "date": 1399472897000
+    },
+    {
       "id": "two-week-build",
       "title": "Two Week Build",
       "href": "/2014/04/24/two-week-build/",
@@ -43,13 +50,6 @@
       "href": "/2014/02/03/simple-grids-with-css-multi-column-layout/",
       "body": "Last week I began researching CSS layout — what’s achievable with the various spec modules — and grid systems (the myriad of solutions from 960gs to Zen Grids). My notes have quickly grown to thesis-level — I do eventually plan to publish something — but for now here’s a nice example demonstrating what is sure to […]",
       "date": 1391433532000
-    },
-    {
-      "id": "a-year-for-clients-and-side-projects",
-      "title": "A Year for Clients and Side Projects",
-      "href": "/2014/01/30/a-year-for-clients-and-side-projects/",
-      "body": "It’s been a slow start to the year — my internet access is peaking at 15kb/s for the time being — so if you’re reading this, I’ve got through!\nWorking freelance for most of last year was very rewarding and I’m glad I made the jump. I want 2014 to be a year for both perfect […]",
-      "date": 1391070071000
     }
   ],
   "nextPage": "/blog/page/10/",

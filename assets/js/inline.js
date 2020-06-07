@@ -1,4 +1,4 @@
-(function(window, document) {
+(function (window, document) {
   var $html = document.documentElement;
   var $head = document.querySelector('head');
 
@@ -13,7 +13,7 @@
   // Setup global
   var app = {
     ver: '{{siteVer}}',
-    isDev: !/dbushell/.test(window.location.hostname),
+    isDev: /localhost/.test(window.location.hostname),
     isReact: 'fetch' in window,
     isLazy: 'IntersectionObserver' in window,
     isWorker: 'serviceWorker' in navigator
@@ -21,19 +21,19 @@
 
   // Load service worker
   if (app.isWorker) {
-    window.addEventListener('load', function() {
+    window.addEventListener('load', function () {
       navigator.serviceWorker.register('/sw.js');
     });
   }
 
   // Async load script with callback
-  app.load = function(src, callback) {
+  app.load = function (src, callback, type) {
     var script = document.createElement('script');
     script.src = src;
-    script.type = 'text/javascript';
+    script.type = type || 'module';
     script.async = true;
     if (callback) {
-      script.onload = script.onreadystatechange = function() {
+      script.onload = script.onreadystatechange = function () {
         if (/^($|loaded|complete)/.test(script.readyState || '')) {
           script.onload = script.onreadystatechange = null;
           callback(src);
@@ -68,7 +68,7 @@
     }
   }
 
-  window.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener('DOMContentLoaded', function () {
     // Load lazy images and quit
     if (!app.isReact) {
       var images = [].slice.call(

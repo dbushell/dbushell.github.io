@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "colour-accessibility",
+      "title": "Colour Accessibility",
+      "href": "/2016/09/01/colour-accessibility/",
+      "body": "“Accessiblity” isn’t a scary word but many web folks shy away from it. Perhaps because the W3C guidelines are a little scary. The reality is website accessibility affects us all. Not just those of us who cross the threshold into a medically diagnosed condition.\n“I want to see like the colour blind” is a Chrome plugin […]",
+      "date": 1472724000000
+    },
+    {
       "id": "building-a-wordpress-theme",
       "title": "Building a WordPress Theme",
       "href": "/2016/07/14/building-a-wordpress-theme/",
@@ -43,13 +50,6 @@
       "href": "/2016/01/04/css-framework-for-partsgiant/",
       "body": "PartsGiant is a soon to launch e-commerce store based in Michigan, USA.\nI was hired to build the PartsGiant front-end CSS framework and HTML templates. The work would be done in stages throughout the year. This required flexibility on my part and scalability in the codebase I developed.\nI’ve always championed the idea of maintainable, future-proof coding […]",
       "date": 1451901600000
-    },
-    {
-      "id": "2015-in-review",
-      "title": "My Year in Review",
-      "href": "/2015/12/30/2015-in-review/",
-      "body": "All considered, 2015 has been a good year!\nMy highlight for sure was moving into my new flat. The whole searching, buying, and decorating process took way longer than I imagined. Because of this I didn’t take on as many large projects, but I did manage to find enough freelance work to keep me going.\nJanuary\nWhat better […]",
-      "date": 1451469600000
     }
   ],
   "nextPage": "/blog/page/6/",

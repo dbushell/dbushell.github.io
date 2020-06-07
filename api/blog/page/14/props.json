@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 14)",
   "excerpts": [
     {
+      "id": "a-responsive-day-out",
+      "title": "A Responsive Day Out",
+      "href": "/2013/03/03/a-responsive-day-out/",
+      "body": "\nMe on stage with Jeremy Keith, Tom Maslen, and Sarah Parmenter. Photos by Laura Kalbag and Marc Thiele.\nOn Friday 1st March, I spoke at Responsive Day Out in Brighton. Videos at Besquare, Audio of all talks is available and you can click along to my slides too.\nWhat a wonderful day! When Jeremy asked me to speak last year, March seemed eons away. I’ve never spoken […]",
+      "date": 1362319748000
+    },
+    {
       "id": "bring-back-the-sitemap",
       "title": "Bring Back the Sitemap?",
       "href": "/2013/02/21/bring-back-the-sitemap/",
@@ -43,13 +50,6 @@
       "href": "/2013/02/04/a-primer-to-front-end-svg-hacking/",
       "body": "Using SVG (Scalable Vector Graphics) on websites is a lot safer than many front-end developers think. Authoring aside — I wouldn’t suggest trying to hand-code an illustration more complex than a triangle* — the standard is well supported in browsers today and perfect for resolution independence when CSS and icon fonts aren’t suitable.\n* Quick fire question: […]",
       "date": 1360011944000
-    },
-    {
-      "id": "a-new-home",
-      "title": "A New Home",
-      "href": "/2013/02/04/a-new-home/",
-      "body": "Welcome to my new website. I haven’t rebranded entirely — what you see bears many similarities to updates past — but I am launching a new stage in my career.\n2013 is the year I go freelance.\nThis site now represents my web design and front-end development services. It’s heavily content-centric in design. And responsive, of course! It has a newfound simplicity. That’s not […]",
-      "date": 1359948357000
     }
   ],
   "nextPage": "/blog/page/15/",

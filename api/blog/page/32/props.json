@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 32)",
   "excerpts": [
     {
+      "id": "the-typographic-gauntlet",
+      "title": "The Typographic Gauntlet",
+      "href": "/2010/11/07/the-typographic-gauntlet/",
+      "body": "I love typography!\nTo celebrate my love I have set myself a new challenge: design 6 fonts in 12 months.\nMy last “creative challenge” was to fold 1000 origami cranes before the end of 2010. I think I’ve done about 100 so far (having folded nothing since March). Some may say I set the bar too high on that […]",
+      "date": 1289173153000
+    },
+    {
       "id": "book-review-just-my-type",
       "title": "Book Review: Just My Type",
       "href": "/2010/10/25/book-review-just-my-type/",
@@ -43,13 +50,6 @@
       "href": "/2010/08/19/web-fonts-just-got-interesting/",
       "body": "Around this time last year I was blogging about the then-new Typekit service and the news of Typotheque offering web licenses. I enquired as to when (or whether) the big font foundries would embrace the new world of web fonts. Or if they would sit back and watch the licensing nightmare unfold.\nWell, this month has answered a few of […]",
       "date": 1282221600000
-    },
-    {
-      "id": "summer-of-design-heroes",
-      "title": "Summer of Design Heroes",
-      "href": "/2010/08/12/summer-of-design-heroes/",
-      "body": "The trouble with writing for two design blogs is that all the positive stuff tends to drift towards one of them (especially when it’s called Design Heroes).\nSo in an effort to balance the love I present a run down of all the brilliant creativity I’ve been blogging about over the last few months.\nFavourites of June\nHayaku: A Time Lapse […]",
-      "date": 1281647277000
     }
   ],
   "nextPage": "/blog/page/33/",

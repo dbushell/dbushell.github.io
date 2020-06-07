@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 26)",
   "excerpts": [
     {
+      "id": "building-for-future-design",
+      "title": "Building for Future Design",
+      "href": "/2011/10/01/building-for-future-design/",
+      "body": "2011 is vanishing fast!\nI’ve been busy working hard at my new home (Browser) refining my front-end coding skills.\nMy focus has been on honing the semantic and accessible nature of the websites we build. That is the underlying requirement I need to fulfil my mandate of designing superb user experiences. It’s really all about pushing website design forward. […]",
+      "date": 1317474186000
+    },
+    {
       "id": "what-is-mobile",
       "title": "What is mobile?",
       "href": "/2011/09/14/what-is-mobile/",
@@ -43,13 +50,6 @@
       "href": "/2011/07/12/solving-a-problem-like-change/",
       "body": "A while back the Gawkernetwork redesigned their line-up and the Internet revolted. It was bad, very _very _bad. The design, the usability, the technical implementation—it had people scratching their heads.\nYesterday TechCrunchlaunched a redesign and, well, it’s not quite ‘a Gawker’.\n\n\nWe used AOL Paint, which comes free on the AOL CD and has this sweet UltraLogoMatic2000 feature.\n\nTo […]",
       "date": 1310471846000
-    },
-    {
-      "id": "circle-me-google-plus",
-      "title": "Circle me (Google+)",
-      "href": "/2011/07/01/circle-me-google-plus/",
-      "body": "Have you seen Google+?\n\nAside from making the name of their “like button” (Google+1) suddenly make a lot more sense, Google+ seems to be a very intuitive mix between Twitter &amp; Facebook. And I really like it (or +1 it, I guess).\nFor me Twitter is a broadcast and promotional tool, real conversation is very difficult. Facebook is just […]",
-      "date": 1309520752000
     }
   ],
   "nextPage": "/blog/page/27/",

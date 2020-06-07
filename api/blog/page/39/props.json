@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 39)",
   "excerpts": [
     {
+      "id": "introducing-design-heroes",
+      "title": "Introducing Design Heroes",
+      "href": "/2009/10/01/introducing-design-heroes/",
+      "body": "Hero - he-ro [heer-oh] - noun, a man of distinguished courage or ability, admired for his brave deeds and noble qualities.\nI may be using the word loosely here - it’s certainly not just for men.\nI’ve created a new website called Design Heroes. For three reasons:\n\nI had the domain and wasn’t doing anything with it.\nI need somewhere […]",
+      "date": 1254400790000
+    },
+    {
       "id": "its-a-ui-thing",
       "title": "It’s a UI thing",
       "href": "/2009/09/23/its-a-ui-thing/",
@@ -43,13 +50,6 @@
       "href": "/2009/08/31/designing-with-placeholder-text/",
       "body": "Lorem Ipsum has been traditionally used as placeholder text in graphic design. It’s a series of random words similar to Latin. Is it better to design websites with this, or relevant English?\nThe Big Advantage\nI’ve been designing with Lorem Ipsum for most of my graphics career but lately I’ve been wondering if I’m doing the right […]",
       "date": 1251723191000
-    },
-    {
-      "id": "redesign-or-realign",
-      "title": "Redesign or Realign?",
-      "href": "/2009/08/26/redesign-or-realign/",
-      "body": "Over the past few years I’ve been continually developing my own “brand” - a consistent look and feel for my portfolio, CV, letterhead (never sent one), business cards (499 gathering dust), websites, mugs, t-shirts…\nUpdate 30th August 09 - New blog design online!\nFrom the beginning I’ve gone for the whole minimalist green/silver style. I think it […]",
-      "date": 1251303084000
     }
   ],
   "nextPage": "/blog/page/40/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 17)",
   "excerpts": [
     {
+      "id": "responsive-bases-vertical-spaces",
+      "title": "Responsive Bases & Vertical Spaces",
+      "href": "/2012/11/19/responsive-bases-vertical-spaces/",
+      "body": "Build a responsive design and you’ll find yourself knee deep in relative units and percentage widths. Media queries are the weapon of choice to adjust CSS on viewport change. Almost every example I’ve seen (and made) are based exclusively on the viewport width.\nWhat about height?\nThe Baseline Grid\nAs an exercise in ‘perfection’ when I last updated my […]",
+      "date": 1353347128000
+    },
+    {
       "id": "design-books-for-sale",
       "title": "Design Books for Sale",
       "href": "/2012/10/29/design-books-for-sale/",
@@ -43,13 +50,6 @@
       "href": "/2012/09/17/agile-website-design-and-development/",
       "body": "At Browser we’ve been transitioning into an Agile development process.\nIf you know nothing about Agile, it involves breaking down a project into individual requirements and delivering them within an iterative release cycle. This not only allows for a feedback loop involving client and agency alike, but it also gives an evolving indication of time and […]",
       "date": 1347912776000
-    },
-    {
-      "id": "im-bored-with-code",
-      "title": "I’m bored with code",
-      "href": "/2012/08/27/im-bored-with-code/",
-      "body": "The state of the browser defines our freedom as website makers. Browsers are a constant source of frustration. For every step forward they take so does the horizon. New possibilities emerge; expectations are raised. What is seen as “modern” is always just beyond our ability. It has always been my desire to deliver websites at […]",
-      "date": 1346101891000
     }
   ],
   "nextPage": "/blog/page/18/",

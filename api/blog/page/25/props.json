@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 25)",
   "excerpts": [
     {
+      "id": "learning-from-the-crazy-ones",
+      "title": "Learning from the crazy ones",
+      "href": "/2011/10/30/learning-from-the-crazy-ones/",
+      "body": "I’ve been reading the Steve Jobs biography and a quote in the Jony Ive chapter (half way through the book) from Jobs really stood out:\n\n“In most people’s vocabularies, design means veneer, but to me, nothing could be further from the meaning of design. Design is the fundamental soul of a man-made creation that ends up expressing […]",
+      "date": 1319972978000
+    },
+    {
       "id": "reaction-time",
       "title": "Reaction Time",
       "href": "/2011/10/25/reaction-time/",
@@ -43,13 +50,6 @@
       "href": "/2011/10/05/beyond-superficial-with-css3/",
       "body": "Last week I wrote Building for Future Design — the notion: to advance web design we must build on solid foundations. Never forget accessibility.\nSix Revisions published the very timely article Are You Using CSS3 Appropriately? by Delwin Campbell this week in which he reaches similar conclusions to me; usability, accessibility and user experience are our main objectives.\nIt’s a very […]",
       "date": 1317855405000
-    },
-    {
-      "id": "building-for-future-design",
-      "title": "Building for Future Design",
-      "href": "/2011/10/01/building-for-future-design/",
-      "body": "2011 is vanishing fast!\nI’ve been busy working hard at my new home (Browser) refining my front-end coding skills.\nMy focus has been on honing the semantic and accessible nature of the websites we build. That is the underlying requirement I need to fulfil my mandate of designing superb user experiences. It’s really all about pushing website design forward. […]",
-      "date": 1317474186000
     }
   ],
   "nextPage": "/blog/page/26/",
