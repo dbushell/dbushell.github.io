@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 20)",
   "excerpts": [
     {
+      "id": "pageshift-removing-the-refresh",
+      "title": "Pageshift",
+      "href": "/2012/05/15/pageshift-removing-the-refresh/",
+      "body": "It’s 2012, why are we still seeing websites assemble like Optimus Prime?\nIn January I wrote Web Design: 2012 and Beyond to highlight points of interest for the coming year. On interactivity I asked, “Is the page reload a thing of the past?”. ‘Web apps’ are all the rage, and while we shouldn’t be trying to copy native […]",
+      "date": 1337119848000
+    },
+    {
       "id": "were-hiring",
       "title": "We’re Hiring!",
       "href": "/2012/05/15/were-hiring/",
@@ -43,13 +50,6 @@
       "href": "/2012/04/23/modularity-and-style-guides/",
       "body": "Last week I wrote about scoping typographic styles to introduce the concept of modularity in CSS. In that example, I removed the common globally defined text styles — for paragraphs, headings and lists etc — and scoped them with a .text class to be applied to any block of text-based content. This technique gives us more control […]",
       "date": 1335174328000
-    },
-    {
-      "id": "scoping-typography-css",
-      "title": "Scoping Typography CSS",
-      "href": "/2012/04/18/scoping-typography-css/",
-      "body": "I’m writing a very long article on front-end dev builds, this is a quick prelude to that!\nIt’s common practice to define global typography style early in a stylesheet. This makes a lot of sense. After all, a good design has consistent typography with a clear hierarchy throughout. When writing this CSS, type selectors like:\nh1 { font-weight: bold; }\np { […]",
-      "date": 1334748564000
     }
   ],
   "nextPage": "/blog/page/21/",

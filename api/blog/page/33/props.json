@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 33)",
   "excerpts": [
     {
+      "id": "web-fonts-just-got-interesting",
+      "title": "Web Fonts just got interesting",
+      "href": "/2010/08/19/web-fonts-just-got-interesting/",
+      "body": "Around this time last year I was blogging about the then-new Typekit service and the news of Typotheque offering web licenses. I enquired as to when (or whether) the big font foundries would embrace the new world of web fonts. Or if they would sit back and watch the licensing nightmare unfold.\nWell, this month has answered a few of […]",
+      "date": 1282221600000
+    },
+    {
       "id": "summer-of-design-heroes",
       "title": "Summer of Design Heroes",
       "href": "/2010/08/12/summer-of-design-heroes/",
@@ -43,13 +50,6 @@
       "href": "/2010/07/07/html5-for-web-designers/",
       "body": "The latest addition to my design book library (well, shelf) is the much anticipated HTML5 for Web Designers by Jeremy Keith, published by A Book Apart.\n\nThe HTML5 spec is 900 pages and hard to read. HTML5 for Web Designers is 85 pages and fun to read. Easy choice.\n\nI’ve been very excited to read this book […]",
       "date": 1278523348000
-    },
-    {
-      "id": "the-balance-of-web-design",
-      "title": "The Balance of Web Design",
-      "href": "/2010/07/04/the-balance-of-web-design/",
-      "body": "Before I present another awesome feature of my own website, I’d like to briefly discuss the theory behind website design:\nWhen we speak about “website design” our initial thoughts centre around the aesthetic style. In reality the secret to good website design is content layout on the individual pages, and the content structure of the whole website.\nDelivering content correctly is […]",
-      "date": 1278255184000
     }
   ],
   "nextPage": "/blog/page/34/",

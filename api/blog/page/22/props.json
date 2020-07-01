@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 22)",
   "excerpts": [
     {
+      "id": "preserving-the-web",
+      "title": "Preserving the Web",
+      "href": "/2012/03/20/preserving-the-web/",
+      "body": "Before I ramble on, if you haven’t seen Jeremy Keith’s talk on time, networks and history, may I point you to his article: Of Time And The Network. You can also watch his talk from Webstock ‘12 on Vimeo.\nIn regards to our content he says:\n\nPublish it. Publish it on the network. Put it out there, using standardised […]",
+      "date": 1332277791000
+    },
+    {
       "id": "the-lovedsgn-story",
       "title": "The LoveDsgn Story",
       "href": "/2012/03/18/the-lovedsgn-story/",
@@ -43,13 +50,6 @@
       "href": "/2012/03/03/forget-about-browser-support/",
       "body": "What is meant by “browser support” when creating a website? Ensuring it is accessible by a browser is what I like to think of. Others may dream of pixel-perfection. Whatever “support” entails, browsers that don’t make the cut are universally ignored with much delight and little chance of being usable.\nIt’s common practice to maintain a list […]",
       "date": 1330799094000
-    },
-    {
-      "id": "spring-cleaning-redesigning-dbushell-com",
-      "title": "Spring Cleaning",
-      "href": "/2012/02/27/spring-cleaning-redesigning-dbushell-com/",
-      "body": "May 2011 — I redesigned my website (this website) with the primary goal of making it responsive. I was happy with the result and it has served me well, but it also lacked some of the finesse of previous iterations. Never being satisfied, I deciding to partake in a little spring cleaning. Well, a little turned into […]",
-      "date": 1330348374000
     }
   ],
   "nextPage": "/blog/page/23/",

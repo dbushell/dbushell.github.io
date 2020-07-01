@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 16)",
   "excerpts": [
     {
+      "id": "a-mini-series-of-responsive-mistakes",
+      "title": "Responsive Mistakes (a mini-series)",
+      "href": "/2013/01/06/a-mini-series-of-responsive-mistakes/",
+      "body": "Last week I shared some front-end experience with 5 tips for responsive builds. It received positive feedback so I thought it’d be fun to continue with a new mini-series. This month I’ll be focusing on the mistakes we make. Without further ado, let’s start with the biggest:\nSmart Phone, Tablet, Desktop\nAs a composition to highlight the benefits of responsive […]",
+      "date": 1357486067000
+    },
+    {
       "id": "five-tips-for-responsive-builds",
       "title": "5 Tips for Responsive Builds",
       "href": "/2013/01/01/five-tips-for-responsive-builds/",
@@ -43,13 +50,6 @@
       "href": "/2012/12/07/responsive-day-out/",
       "body": "I’ll be speaking at the Responsive Day Out conference in Brighton, 1st March 2013. Grab a ticket now because at £50+VAT they’ll be sold out very soon! And they’re gone!\n\nJeremy Keith explains more on his blog.\n\nIt’s a kind of conference, I guess, but I think of it as more like a gathering of like-minded people getting together to share […]",
       "date": 1354870355000
-    },
-    {
-      "id": "the-mobile-book",
-      "title": "The Mobile Book",
-      "href": "/2012/12/05/the-mobile-book/",
-      "body": "Smashing Magazine’s The Mobile Book is due for dispatch soon. Having had the opportunity to read it I’ll cut to the chase for those deliberating a purchase: it’s well worth the cover price. The e-book edition is a steal!\n\nLet it be known that this book goes beyond designing for the Web. The core themes are mobile […]",
-      "date": 1354711297000
     }
   ],
   "nextPage": "/blog/page/17/",

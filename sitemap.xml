@@ -74,7 +74,7 @@
 </url>
 <url>
   <loc>https://dbushell.com/showcase/</loc>
-  <lastmod>2018-11-08T20:16:17.385Z</lastmod>
+  <lastmod>2020-06-30T11:32:31.601Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
@@ -1868,7 +1868,13 @@
 </url>
 <url>
   <loc>https://dbushell.com/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/</loc>
-  <lastmod>2020-06-07T10:31:12.825Z</lastmod>
+  <lastmod>2020-06-07T12:43:51.843Z</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://dbushell.com/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/</loc>
+  <lastmod>2020-06-30T15:50:59.390Z</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>

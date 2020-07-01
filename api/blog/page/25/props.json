@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 25)",
   "excerpts": [
     {
+      "id": "hats",
+      "title": "Hats",
+      "href": "/2011/11/08/hats/",
+      "body": "Some days I wear my perfectionist hat, other days I wear my pragmatist hat.\nI would much prefer to wear a MailChimp chimp hat but that’s neither here nor there. *\nWeb standards are not perfect as this month’s hilariously geeky &lt;time&gt; element debacle has reminded us. The practice and adoption of standards from both browsers and developers […]",
+      "date": 1320796307000
+    },
+    {
       "id": "learning-from-the-crazy-ones",
       "title": "Learning from the crazy ones",
       "href": "/2011/10/30/learning-from-the-crazy-ones/",
@@ -43,13 +50,6 @@
       "href": "/2011/10/13/web-apps-and-ios5/",
       "body": "One less advertised feature of iOS5 is Mobile Safari CSS support for position:fixed. Much overdue, and very useful for creating “web apps” where navigation bars are fixed to the viewport’s edge (top or bottom), allowing content to scroll naturally underneath.\nSome mobile bowsers already support this (see Mobile HTML5 and When can I use…) and all modern desktop browsers […]",
       "date": 1318539515000
-    },
-    {
-      "id": "beyond-superficial-with-css3",
-      "title": "Beyond superficial with CSS3",
-      "href": "/2011/10/05/beyond-superficial-with-css3/",
-      "body": "Last week I wrote Building for Future Design — the notion: to advance web design we must build on solid foundations. Never forget accessibility.\nSix Revisions published the very timely article Are You Using CSS3 Appropriately? by Delwin Campbell this week in which he reaches similar conclusions to me; usability, accessibility and user experience are our main objectives.\nIt’s a very […]",
-      "date": 1317855405000
     }
   ],
   "nextPage": "/blog/page/26/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 27)",
   "excerpts": [
     {
+      "id": "solving-a-problem-like-change",
+      "title": "Solving a Problem like Change",
+      "href": "/2011/07/12/solving-a-problem-like-change/",
+      "body": "A while back the Gawkernetwork redesigned their line-up and the Internet revolted. It was bad, very _very _bad. The design, the usability, the technical implementation—it had people scratching their heads.\nYesterday TechCrunchlaunched a redesign and, well, it’s not quite ‘a Gawker’.\n\n\nWe used AOL Paint, which comes free on the AOL CD and has this sweet UltraLogoMatic2000 feature.\n\nTo […]",
+      "date": 1310471846000
+    },
+    {
       "id": "circle-me-google-plus",
       "title": "Circle me (Google+)",
       "href": "/2011/07/01/circle-me-google-plus/",
@@ -43,13 +50,6 @@
       "href": "/2011/05/30/dont-tell-me-where-to-click/",
       "body": "\n“click here*”, “read more*”, “next“ – a bad habit that just won’t go away, and I’m to blame as much as the next designer (at least the “more” end of the spectrum, if that will save integrity).\nWhy is “click here” so bad?\n\nGood link text should not be overly general; don’t use “click here.” Not only is […]",
       "date": 1306756902000
-    },
-    {
-      "id": "simplicity-in-ui-design-ia-writer-for-mac",
-      "title": "Simplicity in UI - IA Writer for Mac",
-      "href": "/2011/05/28/simplicity-in-ui-design-ia-writer-for-mac/",
-      "body": "IA Writer for Mac looks like the sort of product I’d download immediately, and I did!\nIt has all the designer’s preferred aesthetics. It’s minimalist, typography focused and beautifully simple.\nDesigners often get a lot of heat for their style-orientated tastes but in reality most of us understand how important user interface design is; it’s far more […]",
-      "date": 1306588863000
     }
   ],
   "nextPage": "/blog/page/28/",

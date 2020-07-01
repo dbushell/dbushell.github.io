@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 7)",
   "excerpts": [
     {
+      "id": "order-html-vs-css",
+      "title": "Order: HTML vs CSS",
+      "href": "/2015/06/01/order-html-vs-css/",
+      "body": "Content should follow a logical top-to-bottom order within HTML. CSS is used to change the visual presentation of this content across different viewports.\nOn small viewports — mobile phones for example — a vertical layout that mimics the HTML order is generally a safe default. For wider viewports it is common to introduce more complex layout […]",
+      "date": 1433152800000
+    },
+    {
       "id": "wordpress-to-metalsmith",
       "title": "WordPress to Metalsmith",
       "href": "/2015/05/11/wordpress-to-metalsmith/",
@@ -43,13 +50,6 @@
       "href": "/2015/01/30/use-svg-part-2/",
       "body": "On Monday I wrote about using SVG for content images. Aside from minor workarounds for a peculiar Internet Explorer bug, it’s a relatively straight forward task.\nI was planning to follow up with a technical overview of SVG sprites, but really, I can’t write anything better than Sara Soueidan’s comprehensive guide: “An Overview of SVG Sprite Creation Techniques”.\nRead that […]",
       "date": 1422612058000
-    },
-    {
-      "id": "use-svg-part-1",
-      "title": "Use SVG (part 1)",
-      "href": "/2015/01/26/use-svg-part-1/",
-      "body": "As you know I’m a big fan of using SVG whenever possible.\nSee my articles ‘Resolution Independence With SVG’ (Jan 2012) and ‘A Primer to Front-end SVG Hacking’ (Feb 2013) for a retrospective.\nI’m always looking for the most viable technique; browser support is always changing and content management is an oft-forgotten requirement (or ‘restriction’, depending how you look at […]",
-      "date": 1422279504000
     }
   ],
   "nextPage": "/blog/page/8/",

@@ -5,11 +5,25 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Sun, 07 Jun 2020 10:46:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 14:35:24 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
+<item>
+  <title><![CDATA[Hardware and Self Hosting]]></title>
+  <description><![CDATA[<p>Today my main computer is a Mac Mini 2018. Quite likely the last Mac I’ll buy for work. I’d like it to last a little longer than previous ones. Following Apple’s ARM chip announcement I have my doubts about future support.
+Here’s my office setup:
+
+  
+
+
+I was a dual-monitor person for years. That changed when […]</p>]]></description>
+  <link>https://dbushell.com/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Thu, 02 Jul 2020 10:00:00 GMT</pubDate>
+</item>
 <item>
   <title><![CDATA[PWA Encryption and Auto Sign-in]]></title>
   <description><![CDATA[<p>Mute Swan is a progressive web app I’ve been coding for my own amusement. It’s a playground for me to mess around with experimental web standards. Also to remind myself to buy milk.
@@ -208,20 +222,6 @@ Development […]</p>]]></description>
   <guid isPermaLink="true">https://dbushell.com/2017/08/15/tifu-by-deleting-my-work/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Tue, 15 Aug 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[SSH Passphrases in MacOS Sierra (and learning Vim)]]></title>
-  <description><![CDATA[<p>Managing SSH keys for remote repositories ain’t easy to grok. “Multiple Accounts and SSH
-Keys” is to no
-suprise one of my most popular articles. It’s
-still relevant and I have to refer to it myself at least once a year.
-Recently MacOS began requesting my passphrase with every Git push and pull. That
-is not productive.
-The solution is two […]</p>]]></description>
-  <link>https://dbushell.com/2017/05/18/ssh-passphrases-in-macos-sierra/</link>
-  <guid isPermaLink="true">https://dbushell.com/2017/05/18/ssh-passphrases-in-macos-sierra/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Thu, 18 May 2017 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

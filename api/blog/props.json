@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "hardware-home-servers-self-hosted-raspberry-pi",
+      "title": "Hardware and Self Hosting",
+      "href": "/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/",
+      "body": "Today my main computer is a Mac Mini 2018. Quite likely the last Mac I’ll buy for day-to-day work. I’d like it to last a little longer than previous ones. Following Apple’s ARM chip announcement I have my doubts about future support.\nHere’s my office setup:\n\n  \n\n\nI was a dual-monitor person for years. That changed […]",
+      "date": 1593684000000
+    },
+    {
       "id": "pwa-web-crypto-encryption-auto-sign-in-redux-persist",
       "title": "PWA Encryption and Auto Sign-in",
       "href": "/2020/06/08/pwa-web-crypto-encryption-auto-sign-in-redux-persist/",
@@ -43,13 +50,6 @@
       "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
       "body": "A Progressive Web App (PWA) is a website with a few extra pieces.\nPWAs can be installed or bookmarked from the browser using “Add to Home Screen”. On Android 9 doing this via Firefox (v68, left) and Chrome (v80, right) gives two different results on my Samsung S8:\n\n  \n\n\nThe Firefox icon isn’t desirable. Although the […]",
       "date": 1583402400000
-    },
-    {
-      "id": "http-security-headers-and-inline-resources",
-      "title": "HTTP Security Headers and Inline Resources",
-      "href": "/2020/02/28/http-security-headers-and-inline-resources/",
-      "body": "As it turns out, HTTPS is not the end-all to securing a website.\nMozilla Observatory and Security Headers both scan HTTP headers and report back on adherence to, or lack thereof, best practices.\nIn my case dbushell.com gets a big fat “F”. I’m hosting on GitHub Pages so there is not much I can do except use […]",
-      "date": 1582884000000
     }
   ],
   "nextPage": "/blog/page/2/",
