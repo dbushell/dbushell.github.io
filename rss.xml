@@ -5,7 +5,7 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Fri, 03 Jul 2020 07:53:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 09:28:38 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
@@ -16,7 +16,8 @@
 
 The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content …
 
-Fewer ads are nice, but tracking and malware blocking at the DNS level on my LAN is the killer feature. Pi-hole is the first install […]</p>]]></description>
+Fewer ads are nice, but tracker and malware blocking at the LAN DNS level is nicer. Pi-hole is the first install of my self-hosted adventure.
+The […]</p>]]></description>
   <link>https://dbushell.com/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/</link>
   <guid isPermaLink="true">https://dbushell.com/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
