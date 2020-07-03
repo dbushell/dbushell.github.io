@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 2)",
   "excerpts": [
     {
+      "id": "bundle-a-pwa-as-an-android-app",
+      "title": "Bundle a PWA as an Android App",
+      "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
+      "body": "A Progressive Web App (PWA) is a website with a few extra pieces.\nPWAs can be installed or bookmarked from the browser using “Add to Home Screen”. On Android 9 doing this via Firefox (v68, left) and Chrome (v80, right) gives two different results on my Samsung S8:\n\n  \n\n\nThe Firefox icon isn’t desirable. Although the […]",
+      "date": 1583402400000
+    },
+    {
       "id": "http-security-headers-and-inline-resources",
       "title": "HTTP Security Headers and Inline Resources",
       "href": "/2020/02/28/http-security-headers-and-inline-resources/",
@@ -43,13 +50,6 @@
       "href": "/2020/01/10/blogging-in-2020/",
       "body": "Hey, I went a whole year without blogging!\nI guess the streak is officially over. The lack of content here has weighed on me heavily considering how integral this blog has been to my career. Really, it was my true portfolio. It demonstrated much more than the glossy screenshots on other pages ever did. And now […]",
       "date": 1578650400000
-    },
-    {
-      "id": "availability-september",
-      "title": "Availability - September 2018",
-      "href": "/2018/08/14/availability-september/",
-      "body": "Hi there!\nDo you need an experienced front-end dev person who can also consult, design, and figure out back-end integration with minimal Slack gifs? Well good news! I have a surplus of time in September and I can build (almost) anything.\nYou can contact me to discuss projects, requirements, costs, the weather.\n",
-      "date": 1534240800000
     }
   ],
   "nextPage": "/blog/page/3/",

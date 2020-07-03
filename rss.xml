@@ -5,20 +5,32 @@
     <description><![CDATA[David Bushell’s Web Design & Front-end Development Blog]]></description>
     <link>https://dbushell.com</link>
     <generator>dbushell.com</generator>
-    <lastBuildDate>Wed, 01 Jul 2020 14:35:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 07:53:42 GMT</lastBuildDate>
     <atom:link href="https://dbushell.com/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[David Bushell]]></author>
     <language><![CDATA[en]]></language>
     <webMaster><![CDATA[hi@dbushell.com (David Bushell)]]></webMaster>
 <item>
+  <title><![CDATA[Turn the Pi-hole Admin Dashboard into a Progressive Web App]]></title>
+  <description><![CDATA[<p>Pi-hole describes itself as “A black hole for Internet advertisements”. I think the GitHub description is more apt:
+
+The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content …
+
+Fewer ads are nice, but tracking and malware blocking at the DNS level on my LAN is the killer feature. Pi-hole is the first install […]</p>]]></description>
+  <link>https://dbushell.com/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/</link>
+  <guid isPermaLink="true">https://dbushell.com/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/</guid>
+  <dc:creator><![CDATA[David Bushell]]></dc:creator>
+  <pubDate>Fri, 03 Jul 2020 10:00:00 GMT</pubDate>
+</item>
+<item>
   <title><![CDATA[Hardware and Self Hosting]]></title>
-  <description><![CDATA[<p>Today my main computer is a Mac Mini 2018. Quite likely the last Mac I’ll buy for work. I’d like it to last a little longer than previous ones. Following Apple’s ARM chip announcement I have my doubts about future support.
+  <description><![CDATA[<p>Today my main computer is a Mac Mini 2018. Quite likely the last Mac I’ll buy for day-to-day work. I’d like it to last a little longer than previous ones. Following Apple’s ARM chip announcement I have my doubts about future support.
 Here’s my office setup:
 
   
 
 
-I was a dual-monitor person for years. That changed when […]</p>]]></description>
+I was a dual-monitor person for years. That changed […]</p>]]></description>
   <link>https://dbushell.com/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/</link>
   <guid isPermaLink="true">https://dbushell.com/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
@@ -210,18 +222,6 @@ The Raspberry Pi / Arduino / single-board computer ecosystem has exploded since 
   <guid isPermaLink="true">https://dbushell.com/2017/09/20/raspberry-pi-epaper/</guid>
   <dc:creator><![CDATA[David Bushell]]></dc:creator>
   <pubDate>Wed, 20 Sep 2017 10:00:00 GMT</pubDate>
-</item>
-<item>
-  <title><![CDATA[#TIFU by deleting my work]]></title>
-  <description><![CDATA[<p>Ever get that feeling you’ve lost something?
-
-I’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. CodePen Projects is a newish addition. It provides a more complete development environment.
-A mini-project came along for a client that gave me the perfect excuse to try CodePen Projects.
-Development […]</p>]]></description>
-  <link>https://dbushell.com/2017/08/15/tifu-by-deleting-my-work/</link>
-  <guid isPermaLink="true">https://dbushell.com/2017/08/15/tifu-by-deleting-my-work/</guid>
-  <dc:creator><![CDATA[David Bushell]]></dc:creator>
-  <pubDate>Tue, 15 Aug 2017 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

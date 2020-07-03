@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 19)",
   "excerpts": [
     {
+      "id": "jquery-2-0-goodbye-old-ie",
+      "title": "jQuery 2.0, “Goodbye Old IE”",
+      "href": "/2012/06/29/jquery-2-0-goodbye-old-ie/",
+      "body": "jQuery 2.0, expected release “early 2013”, will drop support for Internet Explorer 6–8.\n\njQuery was conceived specifically to address the differences in browsers, so we’re not going to abandon the essence of our philosophy and simply disregard the millions of active Internet users who (for whatever reasons) still use oldIE. Yet we also want to move […]",
+      "date": 1340957971000
+    },
+    {
       "id": "passenger-focus-responsive-web-design-case-study",
       "title": "A Responsive Design Case Study",
       "href": "/2012/06/17/passenger-focus-responsive-web-design-case-study/",
@@ -43,13 +50,6 @@
       "href": "/2012/05/26/the-restriction-of-type/",
       "body": "Responsive website design is incredibly difficult to get right. It’s often said that designing for content is the key to success.\nIn the screenshots below you can see the websites of Elliot Jay Stocks, Jeffrey Zeldman, and Information Architects, all of which have had a redesign/realign this year with content as their priority and thus typography as their paintbrush.\n\nThere are […]",
       "date": 1338023028000
-    },
-    {
-      "id": "javascript-bookmarklets",
-      "title": "JavaScript Bookmarklets",
-      "href": "/2012/05/22/javascript-bookmarklets/",
-      "body": "I love a good JavaScript bookmarklet.\nThey’re fun to play with and a great way to hack around on a live website with new code without affecting anyone else’s experience. They can also become part of your service; think Readability’s ‘Read Now’ or Pinterest’s ‘Pin it!’.\nA bookmarklet begins with the following shell:\njavascript:(function(){\n    // code...\n}());\nHere we’re enclosing […]",
-      "date": 1337674216000
     }
   ],
   "nextPage": "/blog/page/20/",

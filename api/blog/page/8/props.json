@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 8)",
   "excerpts": [
     {
+      "id": "use-svg-part-2",
+      "title": "Use SVG (part 2)",
+      "href": "/2015/01/30/use-svg-part-2/",
+      "body": "On Monday I wrote about using SVG for content images. Aside from minor workarounds for a peculiar Internet Explorer bug, it’s a relatively straight forward task.\nI was planning to follow up with a technical overview of SVG sprites, but really, I can’t write anything better than Sara Soueidan’s comprehensive guide: “An Overview of SVG Sprite Creation Techniques”.\nRead that […]",
+      "date": 1422612058000
+    },
+    {
       "id": "use-svg-part-1",
       "title": "Use SVG (part 1)",
       "href": "/2015/01/26/use-svg-part-1/",
@@ -43,13 +50,6 @@
       "href": "/2014/06/10/dependency-overload/",
       "body": "I employ an army of command line tools to aid my front-end development.\nTruth be told it’s a bit of an addiction. I’m constantly adding more tools that allow me to do less work. Am I in danger of overloading, of creating a system so convoluted that it evolves into a hindrance and defeats the point of its […]",
       "date": 1402408825000
-    },
-    {
-      "id": "work-as-a-freelancer",
-      "title": "Work as a Freelancer",
-      "href": "/2014/06/02/work-as-a-freelancer/",
-      "body": "It’s been over a year since I started freelancing and time has flown by in the most enjoyable of fashions. Work has been good and financially I hit my 12 month target — nothing specific or special; enough to get by. I didn’t expect to match my London salary nor have I but all balanced […]",
-      "date": 1401726579000
     }
   ],
   "nextPage": "/blog/page/9/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 23)",
   "excerpts": [
     {
+      "id": "forget-about-browser-support",
+      "title": "Browser Support? Forget It!",
+      "href": "/2012/03/03/forget-about-browser-support/",
+      "body": "What is meant by “browser support” when creating a website? Ensuring it is accessible by a browser is what I like to think of. Others may dream of pixel-perfection. Whatever “support” entails, browsers that don’t make the cut are universally ignored with much delight and little chance of being usable.\nIt’s common practice to maintain a list […]",
+      "date": 1330799094000
+    },
+    {
       "id": "spring-cleaning-redesigning-dbushell-com",
       "title": "Spring Cleaning",
       "href": "/2012/02/27/spring-cleaning-redesigning-dbushell-com/",
@@ -43,13 +50,6 @@
       "href": "/2012/01/05/responsive-tables-2/",
       "body": "\nNEW: CSS only Responsive Tables\nSee the link above for more recent developments.\n\n\nMy last article on responsive tables was very popular so I’ve only gone and implemented the idea that I was alluding to with horizontal scrolling!\n\nSee Responsive Tables Demo (2) — in a modern browser! Webkit browsers handle both tables perfectly. Firefox &amp; Opera handle the […]",
       "date": 1325793182000
-    },
-    {
-      "id": "responsive-calendar-demo",
-      "title": "Responsive Tables (and a calendar demo)",
-      "href": "/2012/01/04/responsive-calendar-demo/",
-      "body": "Update see more responsive tables progress (5th Jan).\nA real short post for future reference! I’m experimenting with a responsive calendar design and build. See my very rough responsive calendar demo.\nI’ve found through trial, error, and much pondering that the idea of a responsive calendar is actually not that complex. My demo needs more considered breakpoints and design tweaks but […]",
-      "date": 1325721511000
     }
   ],
   "nextPage": "/blog/page/24/",

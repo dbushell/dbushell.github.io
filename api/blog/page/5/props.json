@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 5)",
   "excerpts": [
     {
+      "id": "my-thoughts-on-react",
+      "title": "My thoughts on React",
+      "href": "/2016/12/02/my-thoughts-on-react/",
+      "body": "I’ve been playing with React for some time now. React is:\n\n“A JavaScript library for building user interfaces”.\n\nUnlike other libraries something about React just clicked with me. Back in October a client project came along that presented a golden opportunity to develop a web app. I decided to use React, and I now consider myself comfortable […]",
+      "date": 1480672800000
+    },
+    {
       "id": "building-a-shopify-theme",
       "title": "Building a Shopify Theme",
       "href": "/2016/10/10/building-a-shopify-theme/",
@@ -43,13 +50,6 @@
       "href": "/2016/03/01/be-careful-with-your-viewbox/",
       "body": "In Sara Soueidan’s article: SVG Style Inheritance and the ‘Flash of Unstyled SVG’, Sara explains the importance of having width, height, and viewBox attributes on SVG elements. This reminded me of two issues I ran into last week building my new design.\nI have an SVG sprite for social icons:\n\n  \n  .svg-icon  { […]",
       "date": 1456826400000
-    },
-    {
-      "id": "a-bit-of-a-new-look",
-      "title": "A Bit of a New Look",
-      "href": "/2016/02/29/a-bit-of-a-new-look/",
-      "body": "I redesigned my website!\nThis iteration has taken longer than usual because the visual changes are much more dramatic. I’m really pleased with the results:\n\nIt’s been two years since I last updated the design. That is a record because it’s usually an annual tradition. Past updates include: 2014, 2013, 2012, and 2011. Last year I improved […]",
-      "date": 1456740000000
     }
   ],
   "nextPage": "/blog/page/6/",

@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 3)",
   "excerpts": [
     {
+      "id": "availability-september",
+      "title": "Availability - September 2018",
+      "href": "/2018/08/14/availability-september/",
+      "body": "Hi there!\nDo you need an experienced front-end dev person who can also consult, design, and figure out back-end integration with minimal Slack gifs? Well good news! I have a surplus of time in September and I can build (almost) anything.\nYou can contact me to discuss projects, requirements, costs, the weather.\n",
+      "date": 1534240800000
+    },
+    {
       "id": "pwa-progressive-web-apps",
       "title": "PWA: Progressive Web Apps",
       "href": "/2018/05/21/pwa-progressive-web-apps/",
@@ -43,13 +50,6 @@
       "href": "/2017/08/15/tifu-by-deleting-my-work/",
       "body": "Ever get that feeling you’ve lost something?\n\nI’ve long been a paying user of CodePen. It’s nice for sharing snippets, quick mock-ups, or messing around with code. CodePen Projects is a newish addition. It provides a more complete development environment.\nA mini-project came along for a client that gave me the perfect excuse to try CodePen Projects.\nDevelopment […]",
       "date": 1502791200000
-    },
-    {
-      "id": "ssh-passphrases-in-macos-sierra",
-      "title": "SSH Passphrases in MacOS Sierra (and learning Vim)",
-      "href": "/2017/05/18/ssh-passphrases-in-macos-sierra/",
-      "body": "Managing SSH keys for remote repositories ain’t easy to grok. “Multiple Accounts and SSH\nKeys” is to no\nsuprise one of my most popular articles. It’s\nstill relevant and I have to refer to it myself at least once a year.\nRecently MacOS began requesting my passphrase with every Git push and pull. That\nis not productive.\nThe solution is two […]",
-      "date": 1495101600000
     }
   ],
   "nextPage": "/blog/page/4/",

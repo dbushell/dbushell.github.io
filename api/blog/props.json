@@ -3,6 +3,13 @@
   "pageHeading": "Blog",
   "excerpts": [
     {
+      "id": "turn-the-pi-hole-admin-ui-into-a-pwa",
+      "title": "Turn the Pi-hole Admin Dashboard into a Progressive Web App",
+      "href": "/2020/07/03/turn-the-pi-hole-admin-ui-into-a-pwa/",
+      "body": "Pi-hole describes itself as “A black hole for Internet advertisements”. I think the GitHub description is more apt:\n\nThe Pi-hole® is a DNS sinkhole that protects your devices from unwanted content …\n\nFewer ads are nice, but tracker and malware blocking at the LAN DNS level is nicer. Pi-hole is the first install of my self-hosted adventure.\nThe […]",
+      "date": 1593770400000
+    },
+    {
       "id": "hardware-home-servers-self-hosted-raspberry-pi",
       "title": "Hardware and Self Hosting",
       "href": "/2020/07/02/hardware-home-servers-self-hosted-raspberry-pi/",
@@ -43,13 +50,6 @@
       "href": "/2020/03/27/debugging-a-todo-app/",
       "body": "So lately I’ve been boasting about how easy it is to build Progressive Web Apps. I’ve been dogfooding my glorified todo app Mute Swan for weeks thinking it was perfect (bug-free) and quite possibly a game changer, if I dare say.\nAs it turns out these things are not so easy to test. This week I […]",
       "date": 1585303200000
-    },
-    {
-      "id": "bundle-a-pwa-as-an-android-app",
-      "title": "Bundle a PWA as an Android App",
-      "href": "/2020/03/05/bundle-a-pwa-as-an-android-app/",
-      "body": "A Progressive Web App (PWA) is a website with a few extra pieces.\nPWAs can be installed or bookmarked from the browser using “Add to Home Screen”. On Android 9 doing this via Firefox (v68, left) and Chrome (v80, right) gives two different results on my Samsung S8:\n\n  \n\n\nThe Firefox icon isn’t desirable. Although the […]",
-      "date": 1583402400000
     }
   ],
   "nextPage": "/blog/page/2/",

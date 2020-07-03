@@ -3,6 +3,13 @@
   "pageHeading": "Blog (page 12)",
   "excerpts": [
     {
+      "id": "automated-accessibility-colour-contrast",
+      "title": "Automated Accessibility: Colour Contrast",
+      "href": "/2013/06/24/automated-accessibility-colour-contrast/",
+      "body": "In my quest to automate my entire job I’ve moved into the realms of testing and accessibility checks. The W3C guidelines on accessibility contain a wealth of advice. Much of it would appear to be common sense. It should be a cornerstone of web design but unfortunately it’s often ignored with the focus on surface aesthetic and […]",
+      "date": 1372089389000
+    },
+    {
       "id": "update-from-june-3rd",
       "title": "Update from June 3rd",
       "href": "/2013/06/20/update-from-june-3rd/",
@@ -43,13 +50,6 @@
       "href": "/2013/04/30/origin/",
       "body": "I’ve written loads about my flat build process, automation, browser support — in fact, if you follow me on Twitter you’ll know I can’t shut up about the Web. What I’ve been lacking is a canonical resource for my work beyond theoretical writing and live production examples. Despite web standards being open they aren’t always easy to reverse engineer.\nWhat […]",
       "date": 1367334428000
-    },
-    {
-      "id": "on-browser-support",
-      "title": "On Browser Support",
-      "href": "/2013/04/26/on-browser-support/",
-      "body": "The recently launched jQuery 2.0 leaves behind support for IE6–8. This has lead to some interesting opinions on what browsers we should be supporting. Here’s my take:\nDefining support\nSupporting a browser to me does not mean that a website will be identical in form and function. That is a fool’s errand leading to an unmanageable mess of polyfills […]",
-      "date": 1366979829000
     }
   ],
   "nextPage": "/blog/page/13/",
