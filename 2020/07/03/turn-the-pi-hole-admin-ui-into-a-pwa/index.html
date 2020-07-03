@@ -67,7 +67,7 @@
 <pre><code>/var/www/html/admin/img/favicons/manifest.json</code></pre>
 <p>Ensure the <code>start_url</code> property is set:</p>
 <pre><code class="language-json"><span class="token property">"start_url"</span><span class="token operator">:</span> <span class="token string">"/admin/"</span></code></pre>
-<p><strong>The third and final thing</strong> – a <a rel="noopener noreferrer" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a>. This is a JavaScript file that can do a lot or a little depending on what’s desired. For Pi-hole I’ve erred on the side of caution and written a minimum viable service worker.</p>
+<p><strong>The third and final thing</strong> – a <a rel="noopener noreferrer" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker</a>. This is a JavaScript file that can do a lot or a little depending on what’s desired. For Pi-hole I’ve erred on the side of caution and added a minimum viable service worker.</p>
 <p>The location:</p>
 <pre><code>/var/www/html/admin/sw.js</code></pre>
 <p>The JavaScript contents:</p>
@@ -139,7 +139,7 @@ self<span class="token punctuation">.</span><span class="token function">addEven
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>The service worker only intercepts and caches binary assets (images, fonts, etc). Even those requests are still sent to the server in the background. This offers minor performance benefits whilst avoiding breaking any Pi-hole functionality. Worst case scenario is that I  may have to reload the page for an asset to refresh.</p>
 <p>More importantly, it’s enough to meet the PWA requirements.</p>
-<p>Now that I’ve done this, I wonder if any empty JavaScript file would have been enough? <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/dbushell">Write in and tell me</a> if you test this before I do!</p>
+<p>Now that I’ve done this, I wonder if an empty JavaScript file would have been enough? <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/dbushell">Write in and tell me</a> if you test this before I do!</p>
 <p>Finally, to ensure the service worker is installed I’ve added a <code>&lt;script&gt;</code> to the bottom of <code>footer.php</code> before the closing tags:</p>
 <pre><code>/var/www/html/admin/scripts/pi-hole/php/footer.php</code></pre>
 <pre><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
