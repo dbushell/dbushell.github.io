@@ -1,6 +1,8 @@
 # dbushell.com
 
-Static build of [dbushell.com](https://dbushell.com/) hosted with GitHub Pages.
+This is my old website.
+
+[Visit this repo](https://github.com/dbushell/dbushell-2k20) for my new website.
 
 * * *
 
